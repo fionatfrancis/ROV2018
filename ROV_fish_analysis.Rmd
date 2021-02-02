@@ -2,7 +2,9 @@
 title: "ROV fish densities"
 author: "Fiona Francis"
 date: "2/2/2021"
-output: github_document
+output: 
+html_document:
+  keep_md: yes
 ---
 
 ```{r setup, include=FALSE}
