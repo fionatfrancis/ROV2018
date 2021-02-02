@@ -1,0 +1,1814 @@
+SurveyID,Segment_num,Video_time,GPS_time,PISCES_time,Species,Depth_m,Count,Segment_sum,MicroSub1,MicroSub2,Biocover1,Biocover2,Relief,Complexity,Hab_descrip,Species_Comments,SpeciesID,View Pass
+Explore1,10,0:04:34,12:48:44,12:47:58,Yelloweye rockfish,52,1,FALSE,R,M,bare,bare,,3,,This is where I had to eat my shorts,5558,1
+Explore1,17,0:08:07,12:52:17,12:51:31,Quillback rockfish,50,1,FALSE,R,M,bare,bare,,2,,,5559,1
+Explore1,57,0:28:16,13:12:26,13:11:40,Quillback rockfish,50,1,FALSE,R,M,bare,bare,,3,,,5560,1
+Explore2,18,0:09:16,13:34:34,13:33:49,Quillback rockfish,56,1,FALSE,R,M,bare,bare,,3,,,5561,1
+Explore2,20,0:10:21,13:35:39,13:34:54,Quillback rockfish,55,1,FALSE,R,M,bare,bare,,3,,,5562,1
+Explore2,25,0:12:53,13:38:11,13:37:26,Quillback rockfish,53,1,FALSE,R,M,bare,bare,,3,,,5563,1
+Explore2,31,0:15:45,13:41:03,13:40:18,Quillback rockfish,48,1,FALSE,R,M,bare,bare,,2,,,5564,1
+Explore2,36,0:18:25,13:43:43,13:42:58,Quillback rockfish,49,1,FALSE,R,M,bare,bare,,2,,pollock bites quillback?,5566,1
+Explore2,36,0:18:29,13:43:47,13:43:02,Quillback rockfish,50,1,FALSE,R,M,bare,bare,,3,,,5568,1
+Explore2,44,0:22:29,13:47:47,13:47:02,Rockfish uniden.,55,1,FALSE,R,M,bare,bare,,3,,possible QB,7168,3
+Explore2,48,0:24:15,13:49:33,13:48:48,Quillback rockfish,54,1,FALSE,R,M,bare,bare,,3,,,5569,1
+Explore3,29,0:14:57,14:46:04,14:45:19,Quillback rockfish,51,1,FALSE,R,M,bare,bare,,1,,,5570,1
+Explore3,31,0:15:58,14:47:05,14:46:20,Quillback rockfish,48,1,FALSE,R,M,bare,bare,,2,,,5571,1
+Explore3,41,0:20:31,14:51:38,14:50:53,Quillback rockfish,51,1,FALSE,R,M,bare,bare,,2,,,5572,1
+Explore3,41,0:20:52,14:51:59,14:51:14,Quillback rockfish,52,1,FALSE,R,R,bare,bare,,3,,,5573,1
+Explore3,42,0:21:00,14:52:07,14:51:22,Quillback rockfish,52,1,FALSE,R,M,bare,bare,,3,,,5575,1
+Explore3,42,0:21:01,14:52:08,14:51:23,Quillback rockfish,52,1,FALSE,R,B,bare,bare,,4,,goes under boulder,5576,1
+Explore4,9,0:04:09,15:15:38,15:14:52,Greenstriped rockfish,46,1,FALSE,M,M,bare,bare,,1,,,5577,1
+Explore4,13,0:06:29,15:17:58,15:17:12,Quillback rockfish,44,1,FALSE,R,M,bare,bare,,1,,,5578,1
+Explore4,14,0:06:59,15:18:28,15:17:42,Lingcod,44,1,FALSE,R,M,bare,bare,,2,,,5579,1
+Explore4,15,0:07:06,15:18:35,15:17:49,Quillback rockfish,44,1,FALSE,B,M,bare,bare,,1,,,5580,1
+Explore4,15,0:07:25,15:18:54,15:18:08,Quillback rockfish,44,1,FALSE,C,B,bare,bare,,2,,,5581,1
+Explore4,16,0:07:58,15:19:27,15:18:41,Quillback rockfish,44,1,FALSE,P,B,bare,bare,,1,,,5582,1
+Explore4,17,0:08:04,15:19:33,15:18:47,Quillback rockfish,44,1,FALSE,P,B,bare,bare,,2,,,5583,1
+Explore4,17,0:08:18,15:19:47,15:19:01,Greenstriped rockfish,44,1,FALSE,R,M,bare,bare,,2,,,5584,1
+Explore4,21,0:10:00,15:21:29,15:20:43,Lingcod,42,1,FALSE,P,P,bare,bare,,1,,,5585,1
+Explore4,32,0:15:33,15:27:02,15:26:16,Quillback rockfish,39,2,FALSE,C,C,bare,encrusting organism complex,,1,Added during habitat review IDC,,5744,3
+Explore4,34,0:16:56,15:28:25,15:27:39,Quillback rockfish,33,13,FALSE,R,R,bare,bare,,2,,,5586,1
+Explore4,34,0:16:59,15:28:28,15:27:42,Quillback rockfish,33,3,FALSE,R,R,bare,bare,,1,,,5587,1
+Explore4,36,0:17:56,15:29:25,15:28:39,Quillback rockfish,28,1,FALSE,R,R,bare,bare,,2,,,5588,1
+Explore4,37,0:18:02,15:29:31,15:28:45,Quillback rockfish,27,1,FALSE,R,R,bare,bare,,2,,,5589,1
+Explore4,37,0:18:05,15:29:34,15:28:48,Quillback rockfish,27,1,FALSE,R,R,bare,bare,,2,,,5590,1
+Explore4,37,0:18:12,15:29:41,15:28:55,Quillback rockfish,26,7,FALSE,R,R,bare,bare,,2,,,5591,1
+Explore4,37,0:18:17,15:29:46,15:29:00,Quillback rockfish,27,2,FALSE,R,B,bare,bare,,3,,,5592,1
+Explore4,38,0:18:31,15:30:00,15:29:14,Quillback rockfish,28,6,FALSE,R,R,bare,bare,,2,,,5594,1
+Explore4,38,0:18:36,15:30:05,15:29:19,Yelloweye rockfish,28,1,FALSE,R,R,bare,bare,,4,,,5595,1
+Explore4,38,0:18:40,15:30:09,15:29:23,Quillback rockfish,28,1,FALSE,R,R,bare,bare,,4,,,5596,1
+Explore4,38,0:18:43,15:30:12,15:29:26,Puget Sound rockfish,29,2,FALSE,R,R,bare,bare,,4,,,5597,1
+Explore4,38,0:18:53,15:30:22,15:29:36,Quillback rockfish,29,1,FALSE,R,B,bare,bare,,4,,,5598,1
+Explore4,39,0:19:00,15:30:29,15:29:43,Quillback rockfish,29,1,FALSE,R,R,bare,bare,,3,,,5600,1
+Explore4,39,0:19:06,15:30:35,15:29:49,Quillback rockfish,30,1,FALSE,R,R,bare,bare,,3,,,5601,1
+Explore4,39,0:19:11,15:30:40,15:29:54,Quillback rockfish,30,2,FALSE,B,B,bare,bare,,2,,,5602,1
+Explore4,39,0:19:11,15:30:40,15:29:54,Lingcod,30,1,FALSE,B,B,bare,bare,,2,,ARH: checked,5603,1
+Explore4,39,0:19:14,15:30:43,15:29:57,Quillback rockfish,30,2,FALSE,R,B,bare,bare,,2,,,5604,1
+Explore4,39,0:19:29,15:30:58,15:30:12,Quillback rockfish,31,1,FALSE,R,B,bare,bare,,2,,,5605,1
+Explore4,40,0:19:45,15:31:14,15:30:28,Kelp greenling,31,1,FALSE,R,R,bare,bare,,2,,,5606,1
+Explore4,40,0:19:53,15:31:22,15:30:36,Quillback rockfish,31,1,FALSE,B,R,bare,bare,,2,,,5607,1
+Explore4,40,0:19:32,15:31:01,15:30:15,Quillback rockfish,31,1,FALSE,B,R,bare,bare,,2,,,5745,3
+Explore4,41,0:20:01,15:31:30,15:30:44,Quillback rockfish,31,3,FALSE,R,R,bare,bare,,1,,,5609,1
+Explore4,41,0:20:05,15:31:34,15:30:48,Quillback rockfish,31,3,FALSE,R,R,bare,bare,,2,,,5610,1
+Explore4,41,0:20:11,15:31:40,15:30:54,Quillback rockfish,32,4,FALSE,R,R,bare,bare,,1,,,5611,1
+Explore4,41,0:20:18,15:31:47,15:31:01,Quillback rockfish,32,3,FALSE,R,R,bare,bare,,2,,,5612,1
+Explore4,41,0:20:18,15:31:47,15:31:01,Lingcod,32,1,FALSE,R,R,bare,bare,,2,,ARH: checked,5613,1
+Explore4,41,0:20:25,15:31:54,15:31:08,Quillback rockfish,32,4,FALSE,R,R,bare,bare,,2,,,5614,1
+Explore4,41,0:20:26,15:31:55,15:31:09,Quillback rockfish,32,1,FALSE,R,R,bare,bare,,1,,,5615,1
+Explore4,42,0:20:31,15:32:00,15:31:14,Quillback rockfish,32,2,FALSE,R,H,bare,bare,,2,,,5616,1
+Explore4,42,0:20:38,15:32:07,15:31:21,Quillback rockfish,32,23,FALSE,R,B,bare,bare,,3,Hash component,IDC VP3 inncreased number from 15 to 23 QB,5617,1
+Explore4,43,0:21:12,15:32:41,15:31:55,Quillback rockfish,32,15,FALSE,R,B,bare,bare,,3,,likely duplicates but can't tell since vehicle touched down for a while; IDC VP3 increased number from 5 to 15 QB,5618,1
+Explore4,43,0:21:12,15:32:41,15:31:55,Tiger rockfish,32,1,FALSE,R,B,bare,bare,,3,,,5619,1
+Explore4,43,0:21:12,15:32:41,15:31:55,Yelloweye rockfish,32,1,FALSE,R,B,bare,bare,,3,,,5620,1
+Explore4,43,0:21:17,15:32:46,15:32:00,Quillback rockfish,32,7,FALSE,B,H,bare,bare,,3,,IDC VP3 increased number from 4 to 7,5621,1
+Explore4,43,0:21:28,15:32:57,15:32:11,Quillback rockfish,33,1,FALSE,B,R,bare,bare,,3,,,5622,1
+Explore4,44,0:21:40,15:33:09,15:32:23,Quillback rockfish,33,2,FALSE,R,B,bare,bare,,2,,,5623,1
+Explore4,44,0:21:49,15:33:18,15:32:32,Quillback rockfish,33,4,FALSE,B,B,bare,bare,,2,,,5624,1
+Explore4,44,0:21:51,15:33:20,15:32:34,Quillback rockfish,33,1,FALSE,B,B,bare,bare,,2,,possible duplicate,5625,1
+Explore4,45,0:22:14,15:33:43,15:32:57,Kelp greenling,32,1,FALSE,R,B,bare,bare,,2,,,5626,1
+Explore4,47,0:23:16,15:34:45,15:33:59,Lingcod,33,1,FALSE,R,R,bare,bare,,1,Sponge Component,,5627,1
+Explore4,48,0:23:41,15:35:10,15:34:24,Quillback rockfish,33,1,FALSE,R,H,bare,bare,,1,,,5628,1
+Explore4,49,0:24:00,15:35:29,15:34:43,Lingcod,34,1,FALSE,R,R,bare,bare,,2,,,5630,1
+Explore4,49,0:24:02,15:35:31,15:34:45,Quillback rockfish,34,1,FALSE,R,R,bare,bare,,2,,,5631,1
+Explore4,49,0:24:13,15:35:42,15:34:56,Tiger rockfish,35,1,FALSE,R,B,bare,bare,,2,,,5632,1
+Explore4,49,0:24:16,15:35:45,15:34:59,Quillback rockfish,35,1,FALSE,R,B,bare,bare,,2,,,5633,1
+Explore4,50,0:24:38,15:36:07,15:35:21,Quillback rockfish,35,1,FALSE,R,R,bare,bare,,2,,,5634,1
+Explore4,50,0:24:52,15:36:21,15:35:35,Quillback rockfish,35,1,FALSE,R,R,bare,bare,,1,,,5635,1
+Explore4,51,0:25:11,15:36:40,15:35:54,Quillback rockfish,36,1,FALSE,R,R,bare,bare,,1,,,5636,1
+Explore4,52,0:25:30,15:36:59,15:36:13,Quillback rockfish,35,2,FALSE,R,R,bare,bare,,1,,,5637,1
+Explore4,52,0:25:35,15:37:04,15:36:18,Quillback rockfish,36,1,FALSE,R,R,bare,bare,,2,,,5638,1
+Explore4,52,0:25:42,15:37:11,15:36:25,Quillback rockfish,36,1,FALSE,R,R,bare,sponge,,1,,,5639,1
+Explore4,52,0:25:49,15:37:18,15:36:32,Quillback rockfish,36,3,FALSE,R,B,bare,bare,,2,,,5640,1
+Explore4,52,0:25:50,15:37:19,15:36:33,Quillback rockfish,36,1,FALSE,R,R,bare,bare,,1,,,5746,3
+Explore4,53,0:26:11,15:37:40,15:36:54,Quillback rockfish,35,1,FALSE,R,H,bare,bare,,2,,,5641,1
+Explore4,53,0:26:26,15:37:55,15:37:09,Quillback rockfish,35,2,FALSE,R,H,bare,bare,,2,,,5642,1
+Explore4,53,0:26:30,15:37:59,15:37:13,Quillback rockfish,35,1,FALSE,R,R,bare,bare,,2,,,5643,1
+Explore4,54,0:26:54,15:38:23,15:37:37,Quillback rockfish,32,2,FALSE,B,B,bare,bare,,2,,,5645,1
+Explore4,55,0:27:27,15:38:56,15:38:10,Quillback rockfish,31,1,FALSE,R,R,bare,anemone,,3,,,5646,1
+Explore4,56,0:27:40,15:39:09,15:38:23,Kelp greenling,30,1,FALSE,R,R,encrusting organism complex,encrusting organism complex,,1,,,5647,1
+Explore4,56,0:27:47,15:39:16,15:38:30,Quillback rockfish,31,1,FALSE,R,H,encrusting organism complex,encrusting organism complex,,2,,,5648,1
+Explore4,59,0:29:08,15:40:37,15:39:51,Quillback rockfish,34,1,FALSE,R,M,bare,bare,,2,,,5649,1
+Explore4,60,0:29:34,15:41:03,15:40:17,Yelloweye rockfish,35,2,FALSE,B,P,bare,bare,,3,,ARH: checked,5650,1
+Explore4,61,0:30:09,15:41:38,15:40:52,Lingcod,34,1,FALSE,R,R,bare,bare,,2,,,5651,1
+Explore5,2,0:00:57,15:47:03,15:46:15,Quillback rockfish,33,2,FALSE,R,R,bare,encrusting organism complex,,2,,IDC VP3 increased count from 1 to 2,5652,1
+Explore5,3,0:01:04,15:47:10,15:46:22,Quillback rockfish,32,2,FALSE,R,R,bare,encrusting organism complex,,2,,,5653,1
+Explore5,3,0:01:05,15:47:11,15:46:23,Quillback rockfish,32,2,FALSE,R,R,bare,encrusting organism complex,,2,,,5654,1
+Explore5,3,0:01:07,15:47:13,15:46:25,Quillback rockfish,32,2,FALSE,R,R,bare,encrusting organism complex,,2,,,5655,1
+Explore5,3,0:01:10,15:47:16,15:46:28,Quillback rockfish,33,4,FALSE,R,R,bare,encrusting organism complex,,2,,,5656,1
+Explore5,3,0:01:17,15:47:23,15:46:35,Lingcod,33,1,FALSE,R,R,bare,encrusting organism complex,,1,,,5657,1
+Explore5,3,0:01:19,15:47:25,15:46:37,Quillback rockfish,33,1,FALSE,R,R,encrusting organism complex,bare,,1,,,5658,1
+Explore5,3,0:01:24,15:47:30,15:46:42,Quillback rockfish,34,1,FALSE,R,R,bare,encrusting organism complex,,1,,,5659,1
+Explore5,4,0:01:36,15:47:42,15:46:54,Lingcod,34,1,FALSE,R,M,encrusting organism complex,encrusting organism complex,,1,,,5660,1
+Explore5,6,0:02:57,15:49:03,15:48:15,Kelp greenling,35,1,FALSE,R,M,bare,sponge,,3,,,5661,1
+Explore5,13,0:06:01,15:52:07,15:51:19,Kelp greenling,40,1,FALSE,M,R,bare,sponge,,1,,,5663,1
+Explore5,14,0:06:38,15:52:44,15:51:56,Quillback rockfish,40,1,FALSE,R,R,encrusting organism complex,encrusting organism complex,,2,,,5664,1
+Explore5,14,0:06:48,15:52:54,15:52:06,Quillback rockfish,40,1,FALSE,R,R,bare,bare,,1,,possible/likely duplicate,5665,1
+Explore5,15,0:07:04,15:53:10,15:52:22,Yelloweye rockfish,41,1,FALSE,B,R,bare,encrusting organism complex,,3,,ARH: checked,5666,1
+Explore5,18,0:08:36,15:54:42,15:53:54,Lingcod,43,1,FALSE,M,R,bare,bare,,1,,ARH: checked,5667,1
+Explore5,18,0:08:47,15:54:53,15:54:05,Lingcod,43,1,FALSE,M,M,bare,bare,,1,,,5668,1
+Explore5,20,0:09:47,15:55:53,15:55:05,Lingcod,45,1,FALSE,M,M,bare,bare,,1,,,5669,1
+Explore5,22,0:10:34,15:56:40,15:55:52,Quillback rockfish,46,1,FALSE,M,B,bare,bare,,2,,,5670,1
+Explore5,28,0:13:45,15:59:51,15:59:03,Lingcod,55,1,FALSE,M,M,bare,Rhabdocalyptus spp.,,1,,ARH: checked,5671,1
+Explore5,28,0:13:49,15:59:55,15:59:07,Lingcod,55,1,FALSE,M,M,bare,Rhabdocalyptus spp.,,1,,"half+ of body within capture area, added by IDC",5747,3
+Explore5,31,0:15:22,16:01:28,16:00:40,Lingcod,58,1,FALSE,M,M,bare,Rhabdocalyptus spp.,,1,,,5672,1
+Explore5,32,0:15:36,16:01:42,16:00:54,Lingcod,59,1,FALSE,M,R,bare,Rhabdocalyptus spp.,,1,,,5674,1
+Explore5,33,0:16:25,16:02:31,16:01:43,Lingcod,61,1,FALSE,R,R,bare,Rhabdocalyptus spp.,,1,,possible duplicate fish,5675,1
+Explore5,36,0:17:33,16:03:39,16:02:51,Lingcod,60,1,FALSE,M,B,sponge,bare,,1,,possible duplicate,5677,1
+Explore5,36,0:17:35,16:03:41,16:02:53,Lingcod,61,1,FALSE,M,B,sponge,bare,,1,,,5678,1
+Explore5,36,0:17:46,16:03:52,16:03:04,Rockfish uniden.,61,2,FALSE,M,B,sponge,bare,,1,,ARH: possible greenstriped,5679,1
+Explore5,36,0:17:51,16:03:57,16:03:09,Rockfish uniden.,61,1,FALSE,M,B,sponge,bare,,1,,ARH: possible greenstriped,5680,1
+Explore5,36,0:17:58,16:04:04,16:03:16,Yelloweye rockfish,61,1,FALSE,M,B,sponge,bare,,3,,,5681,1
+Explore5,36,0:17:58,16:04:04,16:03:16,Lingcod,61,1,FALSE,M,B,sponge,bare,,1,,possible duplicate,5682,1
+Explore5,37,0:18:14,16:04:20,16:03:32,Lingcod,61,3,FALSE,M,B,sponge,bare,,1,,two are likely duplicates; ARH: checked,5684,1
+Explore5,37,0:18:26,16:04:32,16:03:44,Lingcod,61,2,FALSE,M,B,sponge,bare,,1,,,5685,1
+Explore5,38,0:18:39,16:04:45,16:03:57,Lingcod,62,1,FALSE,M,B,bare,sponge,,2,,,5686,1
+Explore5,38,0:18:55,16:05:01,16:04:13,Yelloweye rockfish,63,1,FALSE,M,B,bare,sponge,,3,,,5687,1
+Explore5,41,0:20:07,16:06:13,16:05:25,Yelloweye rockfish,61,1,FALSE,R,B,bare,sponge,,3,,IDC: may not have been in capture area (only in capture area when behind biocover),5689,1
+Explore5,43,0:21:02,16:07:08,16:06:20,Quillback rockfish,63,1,FALSE,B,B,bare,sponge,,3,,,5691,1
+Explore5,44,0:21:59,16:08:05,16:07:17,Yelloweye rockfish,61,1,FALSE,B,M,bare,sponge,,3,,,5692,1
+Explore5,46,0:22:35,16:08:41,16:07:53,Quillback rockfish,60,1,FALSE,B,B,bare,sponge,,3,,,5693,1
+Explore5,46,0:22:40,16:08:46,16:07:58,Unidentified fish,60,1,FALSE,B,B,bare,sponge,,2,,IDC: Changed from KG; ARH: possible KG or greenstriped,5694,1
+Explore5,46,0:22:46,16:08:52,16:08:04,Rockfish uniden.,59,1,FALSE,B,R,bare,sponge,,3,,ARH: small RF on left,5695,1
+Explore5,47,0:23:01,16:09:07,16:08:19,Yelloweye rockfish,59,1,FALSE,R,R,bare,sponge,,2,,ARH: checked,5696,1
+Explore5,48,0:23:35,16:09:41,16:08:53,Quillback rockfish,58,1,FALSE,R,R,bare,bare,,2,,,5697,1
+Explore5,51,0:25:26,16:11:32,16:10:44,Lingcod,61,3,FALSE,R,R,bare,bare,,1,,,5698,1
+Explore5,51,0:25:28,16:11:34,16:10:46,Lingcod,62,1,FALSE,R,R,bare,bare,,1,,ARH: checked,5699,1
+Explore5,51,0:25:29,16:11:35,16:10:47,Lingcod,62,1,FALSE,R,R,bare,bare,,1,,,5700,1
+Explore5,53,0:26:07,16:12:13,16:11:25,Lingcod,63,1,FALSE,R,R,bare,bare,,1,,maybe duplicate? Don't think so; ARH: checked,5701,1
+Explore5,53,0:26:21,16:12:27,16:11:39,Lingcod,63,1,FALSE,R,M,bare,bare,,1,,ARH: checked,5702,1
+Explore5,54,0:26:35,16:12:41,16:11:53,Lingcod,63,1,FALSE,R,M,bare,bare,,1,,,5705,1
+Explore5,54,0:26:52,16:12:58,16:12:10,Lingcod,63,1,FALSE,R,M,bare,bare,,1,,,5706,1
+Explore5,55,0:27:10,16:13:16,16:12:28,Quillback rockfish,63,1,FALSE,R,R,bare,bare,,2,,,5713,1
+Explore5,55,0:27:18,16:13:24,16:12:36,Lingcod,63,1,FALSE,R,R,bare,bare,,1,,,5715,1
+Explore5,55,0:27:21,16:13:27,16:12:39,Quillback rockfish,62,1,FALSE,R,R,bare,bare,,1,,,5716,1
+Explore5,55,0:27:24,16:13:30,16:12:42,Quillback rockfish,62,1,FALSE,R,R,bare,bare,,1,,,5717,1
+Explore5,56,0:27:35,16:13:41,16:12:53,Lingcod,62,1,FALSE,R,R,bare,bare,,1,,down below at bottom of screen,5718,1
+Explore5,56,0:27:42,16:13:48,16:13:00,Yelloweye rockfish,61,1,FALSE,R,R,bare,bare,,2,,,5719,1
+Explore5,56,0:27:43,16:13:49,16:13:01,Quillback rockfish,61,1,FALSE,R,R,bare,bare,,2,,,5720,1
+Explore5,56,0:27:56,16:14:02,16:13:14,Quillback rockfish,60,1,FALSE,R,R,bare,bare,,2,,almost certainly duplicate,5721,1
+Explore5,57,0:28:18,16:14:24,16:13:36,Lingcod,58,1,FALSE,R,R,bare,bare,,3,,,5722,1
+Explore5,57,0:28:21,16:14:27,16:13:39,Lingcod,58,1,FALSE,R,R,bare,bare,,3,,,5723,1
+Explore5,58,0:28:29,16:14:35,16:13:47,Lingcod,59,2,FALSE,R,R,bare,bare,,4,,,5724,1
+Explore5,59,0:29:04,16:15:10,16:14:22,Lingcod,55,1,FALSE,R,R,bare,bare,,4,,,5725,1
+Explore5,59,0:29:09,16:15:15,16:14:27,Lingcod,56,1,FALSE,R,R,bare,bare,,4,,ARH: checked,5727,1
+Explore5,59,0:29:16,16:15:22,16:14:34,Lingcod,55,1,FALSE,R,R,bare,bare,,4,,POSSIBLE lingcod under rock flake? ARH: checked,5728,1
+Explore5,60,0:29:42,16:15:48,16:15:00,Lingcod,54,1,FALSE,R,R,bare,bare,,4,,,5729,1
+Explore5,60,0:29:44,16:15:50,16:15:02,Lingcod,54,1,FALSE,R,R,bare,bare,,4,,ARH: checked,5730,1
+Explore5,60,0:29:53,16:15:59,16:15:11,Quillback rockfish,55,1,FALSE,R,R,bare,bare,,4,,,5731,1
+Explore5,60,0:29:59,16:16:05,16:15:17,Lingcod,54,1,FALSE,R,R,bare,bare,,4,,,5732,1
+Explore5,61,0:30:25,16:16:31,16:15:43,Lingcod,51,1,FALSE,R,R,bare,bare,,4,,,5733,1
+Explore5,62,0:30:30,16:16:36,16:15:48,Lingcod,51,1,FALSE,R,R,bare,encrusting organism complex,,4,,,5735,1
+Explore5,62,0:30:46,16:16:52,16:16:04,Yelloweye rockfish,50,2,FALSE,R,R,bare,sponge,,3,,,5736,1
+H010-CA-V,19,0:09:41,13:38:56,13:38:58,Puget Sound rockfish,62,4,FALSE,B,S,bare,scallops,,3,,,4386,1
+H010-CA-V,19,0:09:47,13:39:02,13:39:04,Puget Sound rockfish,63,2,FALSE,B,C,barnacles,bare,,4,,,5738,3
+H010-CA-V,20,0:10:22,13:39:37,13:39:39,Puget Sound rockfish,64,1,FALSE,B,C,bare,barnacles,,4,,,4387,1
+H010-CA-V,21,0:10:41,13:39:56,13:39:58,Puget Sound rockfish,64,1,FALSE,B,C,bare,barnacles,,3,,,4388,1
+H010-CA-V,21,0:10:35,13:39:50,13:39:52,Puget Sound rockfish,64,1,FALSE,B,C,barnacles,bare,,4,,,5739,3
+H010-CA-V,23,0:11:51,13:41:06,13:41:08,Puget Sound rockfish,66,1,FALSE,C,P,bare,barnacles,,3,,,4389,1
+H010-CA-V,24,0:12:07,13:41:22,13:41:24,Puget Sound rockfish,67,1,FALSE,B,C,barnacles,bare,,3,,,4390,1
+H010-CA-V,24,0:12:23,13:41:38,13:41:40,Quillback rockfish,67,1,FALSE,B,C,bare,barnacles,,4,,,4391,1
+H010-CA-V,24,0:12:17,13:41:32,13:41:34,Puget Sound rockfish,67,2,FALSE,B,C,bare,barnacles,,2,,,5740,3
+H010-CA-V,24,0:12:25,13:41:40,13:41:42,Rockfish uniden.,67,1,FALSE,B,C,bare,barnacles,,4,,possible juvenile quillback,5741,3
+H010-CA-V,49,0:24:42,13:53:57,13:53:59,crab/shrimp pot,81,1,FALSE,S,H,bare,bare,,1,,shrimp pot,5742,1
+H011-CA-V,35,0:17:48,15:03:01,15:03:04,Rockfish uniden.,58,1,FALSE,R,R,bare,barnacles,,3,scattered bryozoans,possible PSRF,4392,1
+H011-CA-V,40,0:20:03,15:05:16,15:05:19,Puget Sound rockfish,61,2,FALSE,B,C,encrusting organism complex,bare,,3,,,4395,1
+H011-CA-V,46,0:23:15,15:08:28,15:08:31,Quillback rockfish,59,1,FALSE,B,P,bare,barnacles,,3,large boulders,,4396,1
+H015-CA-P1,1,0:00:50,12:46:36,12:45:51,Quillback rockfish,97,1,FALSE,R,M,bare,barnacles,,1,,,3959,1
+H015-CA-P1,2,0:01:23,12:47:09,12:46:24,Yelloweye rockfish,97,1,FALSE,R,R,bare,barnacles,,1,,,3960,1
+H015-CA-P1,3,0:01:45,12:47:31,12:46:46,Quillback rockfish,97,1,FALSE,R,M,bare,bare,,2,,,3961,1
+H015-CA-P1,3,0:01:48,12:47:34,12:46:49,Quillback rockfish,97,1,FALSE,R,M,bare,bare,,2,,,3962,1
+H015-CA-P1,7,0:03:54,12:49:40,12:48:55,Quillback rockfish,100,1,FALSE,M,R,bare,bare,,1,,,3963,1
+H015-CA-P2,7,0:03:16,12:55:08,12:54:19,Yelloweye rockfish,101,1,FALSE,M,R,bare,bare,,1,,Off to far right,3964,1
+H015-CA-P2,10,0:04:44,12:56:36,12:55:47,Quillback rockfish,96,1,FALSE,M,R,bare,bare,,1,,,3965,1
+H015-CA-P2,13,0:06:26,12:58:18,12:57:29,Yelloweye rockfish,97,1,FALSE,R,M,bare,sponge,,2,,,3966,1
+H015-CA-P2,26,0:12:43,13:04:35,13:03:46,Greenstriped rockfish,100,1,FALSE,M,S,bare,bare,,1,,,5748,3
+H015-CA-P2,32,0:15:58,13:07:50,13:07:01,Quillback rockfish,108,1,FALSE,M,M,bare,bare,,1,,POSSIBLY Greenstripe; off to right,3967,1
+H015-CA-P2,34,0:16:42,13:08:34,13:07:45,Greenstriped rockfish,113,1,FALSE,M,M,bare,bare,,1,,ARH: checked,3968,1
+H015-CA-P2,44,0:21:55,13:13:47,13:12:58,Yelloweye rockfish,115,1,FALSE,R,M,bare,bare,,2,,,3969,1
+H015-CA-P2,45,0:22:19,13:14:11,13:13:22,Rockfish uniden.,115,1,FALSE,R,R,Rhabdocalyptus spp.,Rhabdocalyptus spp.,,2,,,3970,1
+H016-CA-V,4,0:02:19,12:11:52,12:11:03,Greenstriped rockfish,91,1,FALSE,M,M,bare,bare,,1,,,3971,1
+H016-CA-V,8,0:04:13,12:13:46,12:12:57,Quillback rockfish,97,1,FALSE,M,R,Rhabdocalyptus spp.,sponge,,2,,,3972,1
+H016-CA-V,12,0:06:10,12:15:43,12:14:54,Greenstriped rockfish,106,1,FALSE,M,M,bare,bare,,1,,,3973,1
+H016-CA-V,16,0:08:11,12:17:44,12:16:55,Greenstriped rockfish,118,1,FALSE,M,M,bare,bare,,1,,poor ID,3974,1
+H016-CA-V,20,0:10:19,12:19:52,12:19:03,Greenstriped rockfish,130,1,FALSE,M,B,bare,sponge,,1,,,3975,1
+H016-CA-V,22,0:11:23,12:20:56,12:20:07,Greenstriped rockfish,132,1,FALSE,M,M,bare,bare,,1,,poor ID,3976,1
+H016-CA-V,27,0:13:39,12:23:12,12:22:23,Greenstriped rockfish,136,1,FALSE,M,M,bare,bare,,1,,,3977,1
+H016-CA-V,38,0:19:28,12:29:01,12:28:12,Quillback rockfish,123,1,FALSE,R,R,bare,bare,,1,,,3978,1
+H016-CA-V,40,0:20:13,12:29:46,12:28:57,Quillback rockfish,116,1,FALSE,M,M,debris,bare,,1,Dead Sponge,,3979,1
+H016-CA-V,40,0:20:15,12:29:48,12:28:59,Quillback rockfish,114,1,FALSE,R,M,Rhabdocalyptus spp.,bare,,2,,,3980,1
+H016-CA-V,42,0:21:04,12:30:37,12:29:48,Red brotula,102,1,FALSE,R,R,Rhabdocalyptus spp.,Rhabdocalyptus spp.,,2,,in sponge,3981,1
+H016-CA-V,44,0:22:01,12:31:34,12:30:45,Yelloweye rockfish,87,1,FALSE,R,R,bare,sponge,,1,,,3982,1
+H016-CA-V,45,0:22:49,12:32:22,12:31:33,Quillback rockfish,81,1,FALSE,M,R,bare,bare,,1,,,3983,1
+H016-CA-V,57,0:28:58,12:38:31,12:37:42,Yelloweye rockfish,98,1,FALSE,B,M,sponge,bare,,3,,ARH: checked,3984,1
+H016-CA-V,58,0:29:25,12:38:58,12:38:09,Quillback rockfish,96,1,FALSE,R,M,bare,bare,,3,,,3985,1
+H016-CA-V,59,0:29:35,12:39:08,12:38:19,Greenstriped rockfish,95,1,FALSE,M,R,debris,bare,,1,Dead Sponge,,3986,1
+H017-CA-V,2,0:01:21,10:36:42,10:35:54,Quillback rockfish,77,1,FALSE,M,M,bare,bare,,1,,,3987,1
+H017-CA-V,2,0:01:22,10:36:43,10:35:55,Quillback rockfish,77,1,FALSE,M,M,bare,bare,,1,,,3988,1
+H017-CA-V,3,0:01:44,10:37:05,10:36:17,Quillback rockfish,77,1,FALSE,M,M,bare,bare,,1,,,3989,1
+H017-CA-V,7,0:03:47,10:39:08,10:38:20,Greenstriped rockfish,79,1,FALSE,M,M,bare,bare,,1,,ARH: checked,3990,1
+H017-CA-V,11,0:05:33,10:40:54,10:40:06,Lingcod,80,1,FALSE,M,M,bare,bare,,1,,,3991,1
+H017-CA-V,18,0:09:05,10:44:26,10:43:38,Greenstriped rockfish,82,1,FALSE,M,M,bare,bare,,1,,,3992,1
+H017-CA-V,21,0:10:33,10:45:54,10:45:06,Lingcod,82,1,FALSE,M,B,bare,bare,,1,,,3993,1
+H017-CA-V,21,0:10:40,10:46:01,10:45:13,Greenstriped rockfish,81,1,FALSE,M,M,bare,bare,,1,,,3994,1
+H017-CA-V,21,0:10:50,10:46:11,10:45:23,Lingcod,81,1,FALSE,M,B,bare,bare,,2,,,3995,1
+H017-CA-V,22,0:11:20,10:46:41,10:45:53,Greenstriped rockfish,82,1,FALSE,M,M,bare,bare,,1,,ARH: checked,3996,1
+H017-CA-V,22,0:11:21,10:46:42,10:45:54,Greenstriped rockfish,82,1,FALSE,M,B,bare,bare,,1,,,3997,1
+H017-CA-V,26,0:13:27,10:48:48,10:48:00,Quillback rockfish,86,1,FALSE,M,M,bare,bare,,1,,,3998,1
+H017-CA-V,27,0:13:45,10:49:06,10:48:18,Greenstriped rockfish,85,1,FALSE,M,B,bare,bare,,1,,,3999,1
+H017-CA-V,27,0:13:52,10:49:13,10:48:25,Greenstriped rockfish,85,1,FALSE,M,B,bare,bare,,2,,ARH: checked,4000,1
+H017-CA-V,28,0:14:09,10:49:30,10:48:42,Greenstriped rockfish,85,1,FALSE,M,B,bare,bare,,2,,,4001,1
+H017-CA-V,30,0:15:06,10:50:27,10:49:39,Quillback rockfish,85,1,FALSE,M,M,bare,bare,,1,,,4002,1
+H017-CA-V,36,0:18:13,10:53:34,10:52:46,Greenstriped rockfish,92,1,FALSE,M,M,bare,bare,,1,,,4003,1
+H017-CA-V,38,0:19:01,10:54:22,10:53:34,Greenstriped rockfish,93,1,FALSE,M,M,bare,bare,,1,,,5765,1
+H017-CA-V,38,0:19:09,10:54:30,10:53:42,Greenstriped rockfish,93,1,FALSE,M,M,bare,bare,,1,,,5766,1
+H017-CA-V,38,0:19:11,10:54:32,10:53:44,Greenstriped rockfish,92,1,FALSE,M,M,bare,bare,,1,,,5767,1
+H017-CA-V,38,0:19:13,10:54:34,10:53:46,Yelloweye rockfish,92,1,FALSE,M,B,bare,bare,,2,,ARH: checked,5768,1
+H017-CA-V,40,0:20:21,10:55:42,10:54:54,Greenstriped rockfish,93,1,FALSE,M,M,bare,bare,,1,,,5769,1
+H017-CA-V,42,0:21:15,10:56:36,10:55:48,Greenstriped rockfish,84,1,FALSE,M,B,bare,sponge,,2,,,5770,1
+H017-CA-V,42,0:21:23,10:56:44,10:55:56,Quillback rockfish,83,1,FALSE,M,M,bare,bare,,1,,,5771,1
+H017-CA-V,48,0:24:13,10:59:34,10:58:46,Greenstriped rockfish,86,1,FALSE,M,M,bare,Rhabdocalyptus spp.,,1,,,5772,1
+H018-CA-V,2,0:01:25,9:41:37,9:40:48,Greenstriped rockfish,94,1,FALSE,M,R,bare,bare,,1,,,4012,1
+H018-CA-V,3,0:01:43,9:41:55,9:41:06,Greenstriped rockfish,94,1,FALSE,M,P,bare,bare,,1,,,4013,1
+H018-CA-V,4,0:02:06,9:42:18,9:41:29,Quillback rockfish,93,1,FALSE,B,M,bare,bare,,2,,,4014,1
+H018-CA-V,5,0:02:43,9:42:55,9:42:06,Greenstriped rockfish,90,1,FALSE,M,M,bare,bare,,1,,,4015,1
+H018-CA-V,7,0:03:42,9:43:54,9:43:05,Greenstriped rockfish,85,1,FALSE,M,B,bare,bare,,2,,,4016,1
+H018-CA-V,8,0:04:01,9:44:13,9:43:24,Rockfish uniden.,84,1,FALSE,R,M,bare,bare,,1,,IDC: changed from QB to unid. Fish; ARH: possible KG or rockfish,4017,1
+H018-CA-V,8,0:04:25,9:44:37,9:43:48,Greenstriped rockfish,81,1,FALSE,B,M,bare,bare,,2,scattered sponge,,4018,1
+H018-CA-V,9,0:04:47,9:44:59,9:44:10,Greenstriped rockfish,80,1,FALSE,M,M,bare,bare,,1,,,5773,1
+H018-CA-V,12,0:06:13,9:46:25,9:45:36,Greenstriped rockfish,85,1,FALSE,M,M,bare,bare,,1,,,5774,1
+H018-CA-V,14,0:07:09,9:47:21,9:46:32,Quillback rockfish,83,1,FALSE,R,M,bare,sponge,,2,,,5775,1
+H018-CA-V,15,0:07:33,9:47:45,9:46:56,Quillback rockfish,84,1,FALSE,M,M,bare,bare,,2,,,5776,1
+H018-CA-V,15,0:07:41,9:47:53,9:47:04,Quillback rockfish,85,1,FALSE,R,M,bare,sponge,,3,,,5777,1
+H018-CA-V,16,0:08:21,9:48:33,9:47:44,Greenstriped rockfish,85,1,FALSE,M,B,bare,bare,,2,,,5778,1
+H018-CA-V,16,0:08:26,9:48:38,9:47:49,Greenstriped rockfish,86,1,FALSE,M,M,bare,bare,,1,,,6096,3
+H018-CA-V,17,0:08:41,9:48:53,9:48:04,Quillback rockfish,85,1,FALSE,M,B,bare,bare,,2,,,5779,1
+H018-CA-V,17,0:08:44,9:48:56,9:48:07,Quillback rockfish,84,1,FALSE,M,B,bare,bare,,2,,,5780,1
+H018-CA-V,18,0:09:16,9:49:28,9:48:39,Quillback rockfish,82,1,FALSE,R,R,bare,bare,,2,,,5781,1
+H018-CA-V,18,0:09:21,9:49:33,9:48:44,Quillback rockfish,82,1,FALSE,R,R,bare,bare,,2,,,5782,1
+H018-CA-V,18,0:09:29,9:49:41,9:48:52,Yelloweye rockfish,82,1,FALSE,R,R,sponge,bare,,3,,,5783,1
+H018-CA-V,19,0:09:41,9:49:53,9:49:04,Quillback rockfish,81,1,FALSE,R,R,bare,bare,,2,,,5784,1
+H018-CA-V,19,0:09:43,9:49:55,9:49:06,Quillback rockfish,81,1,FALSE,R,M,bare,bare,,4,,IDC: Fixed Timestamp,5785,1
+H018-CA-V,20,0:10:11,9:50:23,9:49:34,Yelloweye rockfish,80,1,FALSE,B,R,bare,bare,,4,,,5786,1
+H018-CA-V,21,0:10:36,9:50:48,9:49:59,Quillback rockfish,80,1,FALSE,R,R,bare,sponge,,3,,,5787,1
+H018-CA-V,42,0:21:06,10:01:18,10:00:29,Greenstriped rockfish,91,1,FALSE,M,M,bare,sponge,,1,,ARH: checked,5788,1
+H018-CA-V,44,0:22:13,10:02:25,10:01:36,Quillback rockfish,91,1,FALSE,M,M,Rhabdocalyptus spp.,bare,,2,,,5789,1
+H018-CA-V,45,0:22:36,10:02:48,10:01:59,Greenstriped rockfish,92,1,FALSE,M,M,bare,bare,,2,,,5790,1
+H018-CA-V,50,0:25:10,10:05:22,10:04:33,Yelloweye rockfish,86,1,FALSE,M,R,bare,sponge,,1,,,5791,1
+H018-CA-V,51,0:25:42,10:05:54,10:05:05,Greenstriped rockfish,81,1,FALSE,M,B,Rhabdocalyptus spp.,bare,,3,,,5792,1
+H018-CA-V,51,0:25:44,10:05:56,10:05:07,Quillback rockfish,81,1,FALSE,B,M,bare,bare,,4,,,5793,1
+H018-CA-V,51,0:25:46,10:05:58,10:05:09,Greenstriped rockfish,81,1,FALSE,M,B,bare,bare,,3,,,5794,1
+H018-CA-V,56,0:28:05,10:08:17,10:07:28,Yelloweye rockfish,72,1,FALSE,M,B,bare,bare,,2,,,5795,1
+H022-CA-V,2,0:01:07,13:50:34,13:49:48,Quillback rockfish,50,1,FALSE,R,R,bare,anemone,,3,,,5505,1
+H022-CA-V,2,0:01:29,13:50:56,13:50:10,Quillback rockfish,50,1,FALSE,M,M,encrusting organism complex,anemone,,2,,,5506,1
+H022-CA-V,3,0:01:41,13:51:08,13:50:22,Kelp greenling,50,1,FALSE,M,R,anemone,bare,,3,,,5507,1
+H022-CA-V,3,0:02:01,13:51:28,13:50:42,Puget Sound rockfish,53,1,FALSE,R,B,anemone,anemone,,4,,,5508,1
+H022-CA-V,3,0:01:49,13:51:16,13:50:30,Quillback rockfish,49,1,FALSE,M,R,anemone,bare,,3,,,6097,1
+H022-CA-V,4,0:02:04,13:51:31,13:50:45,Puget Sound rockfish,53,17,FALSE,B,R,anemone,anemone,,4,,Just a best estimate on numbers,5509,1
+H022-CA-V,4,0:02:05,13:51:32,13:50:46,Quillback rockfish,53,2,FALSE,B,R,anemone,anemone,,4,,,5510,1
+H022-CA-V,4,0:02:09,13:51:36,13:50:50,Puget Sound rockfish,54,2,FALSE,B,R,anemone,anemone,,4,,,5511,1
+H022-CA-V,4,0:02:14,13:51:41,13:50:55,Quillback rockfish,55,1,FALSE,B,R,anemone,anemone,,4,,,5512,1
+H022-CA-V,4,0:02:19,13:51:46,13:51:00,Puget Sound rockfish,55,1,FALSE,B,R,anemone,bare,,3,,,5513,1
+H022-CA-V,4,0:02:26,13:51:53,13:51:07,Puget Sound rockfish,55,2,FALSE,R,B,anemone,bare,,3,,,5514,1
+H022-CA-V,4,0:02:17,13:51:44,13:50:58,Lingcod,55,1,FALSE,B,R,anemone,anemone,,4,,,5515,1
+H022-CA-V,4,0:02:29,13:51:56,13:51:10,Puget Sound rockfish,56,2,FALSE,B,R,anemone,bare,,4,,,5516,1
+H022-CA-V,5,0:02:46,13:52:13,13:51:27,Puget Sound rockfish,57,1,FALSE,R,M,bare,anemone,,3,,,5517,1
+H022-CA-V,8,0:04:03,13:53:30,13:52:44,Kelp greenling,70,1,FALSE,B,M,anemone,bare,,4,,,5798,1
+H022-CA-V,8,0:04:16,13:53:43,13:52:57,Puget Sound rockfish,70,1,FALSE,B,B,anemone,bare,,4,,,5799,1
+H022-CA-V,8,0:04:21,13:53:48,13:53:02,Puget Sound rockfish,70,1,FALSE,B,B,anemone,bare,,3,,,5800,1
+H022-CA-V,8,0:04:24,13:53:51,13:53:05,Puget Sound rockfish,70,1,FALSE,R,M,sponge,bare,,2,,,5801,1
+H022-CA-V,11,0:05:31,13:54:58,13:54:12,Lingcod,68,1,FALSE,M,R,sponge,anemone,,3,,,5522,1
+H022-CA-V,27,0:13:48,14:03:15,14:02:29,Puget Sound rockfish,99,1,FALSE,M,B,scallops,bare,,2,,,5523,1
+H022-CA-V,28,0:14:08,14:03:35,14:02:49,Quillback rockfish,99,1,FALSE,M,M,scallops,bare,,2,,,5524,1
+H022-CA-V,30,0:15:20,14:04:47,14:04:01,Quillback rockfish,99,1,FALSE,R,S,bare,bryozoans,,2,scattered scallops,,5525,1
+H022-CA-V,32,0:16:16,14:05:43,14:04:57,Canary rockfish,99,1,FALSE,M,M,bare,bare,,1,,,5526,1
+H022-CA-V,33,0:16:59,14:06:26,14:05:40,Canary rockfish,97,1,FALSE,M,C,bare,scallops,,2,,,5527,1
+H022-CA-V,34,0:17:01,14:06:28,14:05:42,Canary rockfish,97,1,FALSE,M,C,bare,scallops,,1,,,5528,1
+H022-CA-V,71,0:35:55,14:25:22,14:24:36,Quillback rockfish,71,1,FALSE,R,R,bare,bare,,3,,,5529,1
+H022-CA-V,71,0:35:58,14:25:25,14:24:39,Quillback rockfish,71,1,FALSE,R,R,bare,bare,,3,,,5530,1
+H022-CA-V,72,0:36:00,14:25:27,14:24:41,Quillback rockfish,72,1,FALSE,R,R,bare,sponge,,3,,,5533,1
+H022-CA-V,72,0:36:02,14:25:29,14:24:43,Quillback rockfish,72,1,FALSE,R,R,bare,bare,,3,,,5534,1
+H025-CA-V,8,0:04:03,14:35:23,14:34:37,Puget Sound rockfish,72,1,FALSE,R,R,bare,scallops,,1,,,5535,1
+H025-CA-V,12,0:06:06,14:37:26,14:36:40,Red Irish Lord,61,1,FALSE,R,R,bare,bare,,2,,,5536,1
+H025-CA-V,13,0:06:46,14:38:06,14:37:20,Puget Sound rockfish,58,1,FALSE,R,R,bare,bare,,2,,,5537,1
+H025-CA-V,14,0:07:04,14:38:24,14:37:38,Puget Sound rockfish,59,1,FALSE,R,M,bare,bare,,2,,,5538,1
+H025-CA-V,14,0:07:06,14:38:26,14:37:40,Puget Sound rockfish,59,1,FALSE,R,M,bare,bare,,2,,,5539,1
+H025-CA-V,17,0:08:55,14:40:15,14:39:29,Puget Sound rockfish,62,1,FALSE,R,R,bare,bare,,2,,,5540,1
+H025-CA-V,17,0:08:59,14:40:19,14:39:33,Quillback rockfish,61,1,FALSE,R,R,bare,bare,,3,,,5541,1
+H025-CA-V,18,0:09:11,14:40:31,14:39:45,Quillback rockfish,61,1,FALSE,R,R,bare,bare,,2,,,5542,1
+H025-CA-V,25,0:12:44,14:44:04,14:43:18,Puget Sound rockfish,69,1,FALSE,R,R,bare,bare,,2,,,5543,1
+H025-CA-V,27,0:13:57,14:45:17,14:44:31,Unidentified fish,67,1,FALSE,R,R,bare,bare,,2,,IDC: Changed from Puget to unid. Fish; ARH: checked,5544,1
+H025-CA-V,28,0:14:07,14:45:27,14:44:41,Quillback rockfish,66,1,FALSE,R,R,bare,bare,,3,,,5545,1
+H025-CA-V,28,0:14:13,14:45:33,14:44:47,Rockfish uniden.,66,1,FALSE,R,R,bare,bare,,3,,IDC: Changed from Greenstriped to Rockfish Unid,5546,1
+H025-CA-V,29,0:14:30,14:45:50,14:45:04,Rockfish uniden.,67,1,FALSE,R,H,bare,bare,,2,,,5548,1
+H025-CA-V,29,0:14:35,14:45:55,14:45:09,Quillback rockfish,67,1,FALSE,R,H,bare,bare,,1,,,5549,1
+H025-CA-V,29,0:14:43,14:46:03,14:45:17,Rockfish uniden.,68,1,FALSE,R,H,bare,bare,,1,,,5550,1
+H025-CA-V,29,0:14:47,14:46:07,14:45:21,Canary rockfish,69,1,FALSE,R,H,bare,bare,,2,,"ARH: checked, changed from yelloweye",5551,1
+H025-CA-V,29,0:14:51,14:46:11,14:45:25,Quillback rockfish,69,1,FALSE,R,H,bare,bare,,1,,,5552,1
+H025-CA-V,30,0:15:16,14:46:36,14:45:50,Lingcod,72,1,FALSE,M,H,bare,scallops,,1,,ARH: checked,5553,1
+H025-CA-V,38,0:19:00,14:50:20,14:49:34,Hexagrammid uniden.,72,1,FALSE,M,C,bare,bare,,2,,way off to left; ARH: changed from kelp greenling,5555,1
+H025-CA-V,39,0:19:56,14:51:16,14:50:30,Lingcod,76,1,FALSE,M,R,bare,bare,,2,,ARH: checked,5556,1
+H025-CA-V,41,0:20:51,14:52:11,14:51:25,Quillback rockfish,81,1,FALSE,M,C,bare,bare,,3,,,5557,1
+H028-CA-V,2,0:01:14,16:31:23,16:30:38,Greenstriped rockfish,94,1,FALSE,M,M,bare,bare,,1,,,4397,1
+H028-CA-V,3,0:01:31,16:31:40,16:30:55,Quillback rockfish,93,1,FALSE,M,M,bare,bare,,1,,,4398,1
+H028-CA-V,3,0:01:53,16:32:02,16:31:17,Greenstriped rockfish,92,1,FALSE,M,M,bare,bare,,1,,,4399,1
+H028-CA-V,13,0:06:33,16:36:42,16:35:57,Greenstriped rockfish,83,1,FALSE,M,M,bare,bare,,1,,,4401,1
+H028-CA-V,13,0:06:35,16:36:44,16:35:59,Quillback rockfish,83,1,FALSE,M,R,bare,bare,,2,,,4402,1
+H028-CA-V,13,0:06:38,16:36:47,16:36:02,Greenstriped rockfish,83,1,FALSE,M,R,bare,bare,,2,,,4403,1
+H028-CA-V,15,0:07:31,16:37:40,16:36:55,Quillback rockfish,83,2,FALSE,R,M,bare,bare,,2,,,4404,1
+H028-CA-V,15,0:07:48,16:37:57,16:37:12,Greenstriped rockfish,84,1,FALSE,R,M,bare,bare,,2,,,4405,1
+H028-CA-V,16,0:08:13,16:38:22,16:37:37,Quillback rockfish,85,3,FALSE,R,R,bare,bare,,2,,IDC: First QB at 08:11VT; Second and third 08:13VT,4406,1
+H028-CA-V,16,0:08:21,16:38:30,16:37:45,Quillback rockfish,85,1,FALSE,R,R,bare,bare,,2,,,4407,1
+H028-CA-V,17,0:08:38,16:38:47,16:38:02,Yelloweye rockfish,88,1,FALSE,R,B,bare,bare,,2,,IDC: fixed timestamp; ARH: checked,4408,1
+H028-CA-V,17,0:08:47,16:38:56,16:38:11,Yelloweye rockfish,88,1,FALSE,R,B,bare,bare,,3,,IDC: fixed timestamp; ARH: checked,4409,1
+H028-CA-V,17,0:08:47,16:38:56,16:38:11,Yelloweye rockfish,88,1,FALSE,R,B,bare,bare,,3,,IDC: fixed timestamp; ARH: checked,4410,1
+H028-CA-V,18,0:09:15,16:39:24,16:38:39,Greenstriped rockfish,89,1,FALSE,M,M,bare,bare,,1,,,4411,1
+H028-CA-V,18,0:09:25,16:39:34,16:38:49,Greenstriped rockfish,89,1,FALSE,M,M,bare,bare,,1,,,4412,1
+H028-CA-V,19,0:09:58,16:40:07,16:39:22,Lingcod,90,1,FALSE,M,M,bare,bare,,1,,,4413,1
+H028-CA-V,30,0:15:05,16:45:14,16:44:29,Greenstriped rockfish,89,1,FALSE,M,M,bare,bare,,1,,ARH: checked,4414,1
+H028-CA-V,33,0:16:42,16:46:51,16:46:06,Yelloweye rockfish,91,1,FALSE,M,B,bare,bare,,3,,,4415,1
+H028-CA-V,34,0:17:11,16:47:20,16:46:35,Quillback rockfish,91,1,FALSE,M,M,bare,bare,,1,,,4416,1
+H028-CA-V,34,0:17:13,16:47:22,16:46:37,Quillback rockfish,92,1,FALSE,M,M,bare,bare,,1,,,4417,1
+H028-CA-V,34,0:17:14,16:47:23,16:46:38,Greenstriped rockfish,92,1,FALSE,M,M,bare,bare,,1,,,4418,1
+H028-CA-V,35,0:17:30,16:47:39,16:46:54,Greenstriped rockfish,92,1,FALSE,M,C,bare,bare,,1,,,4419,1
+H028-CA-V,36,0:18:14,16:48:23,16:47:38,crab/shrimp pot,89,1,FALSE,M,M,bare,bare,,1,Crab pot,,5749,1
+H028-CA-V,40,0:20:06,16:50:15,16:49:30,Greenstriped rockfish,84,1,FALSE,M,M,bare,bare,,1,,,4420,1
+H028-CA-V,42,0:21:00,16:51:09,16:50:24,Greenstriped rockfish,82,1,FALSE,M,M,bare,Rhabdocalyptus spp.,,1,,,4421,1
+H028-CA-V,44,0:22:11,16:52:20,16:51:35,Quillback rockfish,81,1,FALSE,B,M,bare,bare,,1,,,4422,1
+H028-CA-V,44,0:22:23,16:52:32,16:51:47,Yelloweye rockfish,80,1,FALSE,B,M,bare,bare,,3,,ARH: checked,4423,1
+H028-CA-V,54,0:27:21,16:57:30,16:56:45,Yelloweye rockfish,78,1,FALSE,R,B,bare,bare,,3,,IDC: Fixed timestamp,4424,1
+H028-CA-V,55,0:27:46,16:57:55,16:57:10,Quillback rockfish,80,1,FALSE,R,R,bare,bare,,2,,,4425,1
+H028-CA-V,56,0:28:18,16:58:27,16:57:42,Yelloweye rockfish,82,2,FALSE,R,R,bare,bare,,3,,,4426,1
+H028-CA-V,56,0:28:26,16:58:35,16:57:50,Yelloweye rockfish,82,1,FALSE,R,R,bare,bare,,3,,IDC: Fixed Timestamp,4427,1
+H028-CA-V,59,0:29:43,16:59:52,16:59:07,Yelloweye rockfish,77,1,FALSE,R,B,bare,bare,,4,,under rock at lower left,4428,1
+H028-CA-V,59,0:29:44,16:59:53,16:59:08,Greenstriped rockfish,77,1,FALSE,B,R,bare,bare,,3,,IDC: Changed Timestamp from 49:44,4429,1
+H028-CA-V,59,0:29:57,17:00:06,16:59:21,Greenstriped rockfish,76,1,FALSE,R,M,bare,bare,,2,,,4430,1
+H028-CA-V,60,0:30:10,17:00:19,16:59:34,Greenstriped rockfish,74,1,FALSE,M,M,bare,bare,,1,,,4431,1
+H028-CA-V,60,0:30:25,17:00:34,16:59:49,Greenstriped rockfish,73,1,FALSE,M,M,bare,bare,,1,Resting on driftwood,,4432,1
+H029-CA-V,10,0:05:10,10:35:03,10:35:08,Yelloweye rockfish,77,1,FALSE,R,R,bare,sponge,,1,,IDC: Fixed timestamp,4531,1
+H029-CA-V,15,0:07:51,10:37:44,10:37:49,Quillback rockfish,71,1,FALSE,R,R,bare,sponge,,1,,,4532,1
+H029-CA-V,31,0:15:31,10:45:24,10:45:29,Yelloweye rockfish,78,1,FALSE,R,R,bare,bare,,3,,IDC: fixed timestamp,4533,1
+H029-CA-V,44,0:22:11,10:52:04,10:52:09,Lingcod,79,1,FALSE,M,M,bare,bare,,1,,,4534,1
+H029-CA-V,44,0:22:27,10:52:20,10:52:25,Lingcod,77,1,FALSE,M,C,bare,bare,,1,,ARH: checked,4535,1
+H030-CA-V,12,0:14:48,15:07:33,15:06:47,Yelloweye rockfish,144,1,FALSE,M,M,bare,debris,,1,Tree Limb,,5751,3
+H030-CA-V,27,0:22:11,15:14:56,15:14:10,Yelloweye rockfish,144,1,FALSE,R,R,bare,sponge,,2,,ARH: checked,4047,1
+H030-CA-V,28,0:22:40,15:15:25,15:14:39,Yelloweye rockfish,139,1,FALSE,R,R,bare,sponge,,3,,ARH: checked,4048,1
+H030-CA-V,28,0:22:50,15:15:35,15:14:49,Quillback rockfish,137,1,FALSE,M,M,bare,sponge,,3,,,4049,1
+H030-CA-V,30,0:23:35,15:16:20,15:15:34,Quillback rockfish,126,1,FALSE,R,R,bare,bare,,3,,,4050,1
+H030-CA-V,30,0:23:53,15:16:38,15:15:52,Yelloweye rockfish,122,1,FALSE,R,B,bare,bare,,3,,,4051,1
+H030-CA-V,31,0:24:13,15:16:58,15:16:12,Greenstriped rockfish,120,1,FALSE,M,B,bare,bare,,3,,ARH: checked,4052,1
+H030-CA-V,34,0:25:49,15:18:34,15:17:48,Greenstriped rockfish,116,1,FALSE,M,B,bare,bare,,2,,,4053,1
+H030-CA-V,34,0:25:50,15:18:35,15:17:49,Yelloweye rockfish,116,1,FALSE,M,B,bare,bare,,2,,,4054,1
+H030-CA-V,34,0:25:55,15:18:40,15:17:54,Quillback rockfish,116,1,FALSE,M,B,bare,bare,,2,,,4055,1
+H030-CA-V,36,0:26:37,15:19:22,15:18:36,Greenstriped rockfish,113,1,FALSE,M,C,bare,debris,,2,Dead Sponge,,4056,1
+H030-CA-V,37,0:27:04,15:19:49,15:19:03,Quillback rockfish,109,1,FALSE,M,M,debris,bare,,1,Dead Sponge,,4057,1
+H030-CA-V,37,0:27:14,15:19:59,15:19:13,Rockfish uniden.,108,1,FALSE,M,M,debris,bare,,1,Dead Sponge,"ARH: checked, changed from greenstriped",4058,1
+H030-CA-V,37,0:27:29,15:20:14,15:19:28,Rockfish uniden.,108,1,FALSE,M,M,debris,bare,,1,Dead Sponge,IDC:changed from QB,4060,1
+H030-CA-V,39,0:28:19,15:21:04,15:20:18,Greenstriped rockfish,106,1,FALSE,M,M,bare,debris,,1,Dead Sponge,Hiding in dead sponge; ARH: checked,4061,1
+H030-CA-V,46,0:31:28,15:24:13,15:23:27,Quillback rockfish,93,1,FALSE,R,R,bare,bare,,2,,,5752,3
+H030-CA-V,47,0:32:00,15:24:45,15:23:59,Quillback rockfish,84,1,FALSE,R,R,bare,sponge,,2,,,4062,1
+H030-CA-V,49,0:33:23,15:26:08,15:25:22,Yelloweye rockfish,99,1,FALSE,R,R,bare,sponge,,2,,,4063,1
+H030-CA-V,58,0:37:36,15:30:21,15:29:35,Greenstriped rockfish,134,1,FALSE,M,R,bare,bare,,3,,,4064,1
+H030-CA-V,58,0:37:49,15:30:34,15:29:48,Quillback rockfish,132,1,FALSE,M,M,bare,bare,,2,,,4065,1
+H032-CA-V,1,0:00:45,13:31:46,13:30:59,Greenstriped rockfish,112,1,FALSE,M,P,bare,bare,,1,,,4067,1
+H032-CA-V,4,0:02:05,13:33:06,13:32:19,Quillback rockfish,112,1,FALSE,R,R,bare,bare,,2,,,4068,1
+H032-CA-V,5,0:02:41,13:33:42,13:32:55,Greenstriped rockfish,112,1,FALSE,M,B,bare,bare,,1,,IDC: fixed timestamp,4069,1
+H032-CA-V,6,0:03:24,13:34:25,13:33:38,Yelloweye rockfish,113,1,FALSE,R,M,bare,bare,,3,,,4070,1
+H032-CA-V,7,0:03:42,13:34:43,13:33:56,Greenstriped rockfish,111,1,FALSE,R,M,bare,bare,,2,,,5753,3
+H032-CA-V,21,0:10:47,13:41:48,13:41:01,Greenstriped rockfish,101,1,FALSE,R,R,bare,bare,,1,,,4071,1
+H032-CA-V,26,0:13:21,13:44:22,13:43:35,Yelloweye rockfish,92,1,FALSE,M,M,bare,bare,,1,,,4072,1
+H032-CA-V,26,0:13:22,13:44:23,13:43:36,Yelloweye rockfish,93,1,FALSE,M,M,bare,bare,,1,,,4073,1
+H032-CA-V,27,0:13:32,13:44:33,13:43:46,Greenstriped rockfish,95,1,FALSE,M,M,bare,bare,,1,,IDC: fixed timestamp,4074,1
+H032-CA-V,37,0:18:46,13:49:47,13:49:00,Quillback rockfish,88,1,FALSE,R,R,bare,bare,,2,,,4075,1
+H032-CA-V,37,0:18:50,13:49:51,13:49:04,Quillback rockfish,88,1,FALSE,R,R,bare,bare,,2,,,4076,1
+H032-CA-V,37,0:18:54,13:49:55,13:49:08,Quillback rockfish,88,1,FALSE,R,R,bare,bare,,2,,,4077,1
+H032-CA-V,42,0:21:21,13:52:22,13:51:35,Greenstriped rockfish,83,1,FALSE,R,R,bare,bare,,1,,,4079,1
+H032-CA-V,53,0:27:01,13:58:02,13:57:15,Quillback rockfish,85,1,FALSE,R,M,bare,bare,,2,,IDC: Moved to correct segment; fixed timestamp,4080,1
+H032-CA-V,55,0:27:50,13:58:51,13:58:04,Yelloweye rockfish,90,1,FALSE,R,R,bare,bare,,1,,,4081,1
+H032-CA-V,56,0:28:07,13:59:08,13:58:21,Greenstriped rockfish,90,1,FALSE,R,R,bare,bare,,1,,,4082,1
+H032-CA-V,62,0:31:09,14:02:10,14:01:23,Greenstriped rockfish,76,1,FALSE,M,P,bare,bare,,1,,ARH: checked,4083,1
+H032-CA-V,63,0:31:49,14:02:50,14:02:03,Yelloweye rockfish,69,1,FALSE,R,C,bare,bare,,3,,,4084,1
+H032-CA-V,63,0:31:49,14:02:50,14:02:03,Quillback rockfish,69,2,FALSE,R,C,bare,bare,,3,,,4085,1
+H032-CA-V,63,0:31:50,14:02:51,14:02:04,Quillback rockfish,69,1,FALSE,R,C,bare,bare,,3,,,4086,1
+H034-CA-V,1,0:00:41,12:30:35,12:29:47,Lingcod,92,1,FALSE,M,M,bare,bare,,1,,,4433,1
+H034-CA-V,1,0:00:42,12:30:36,12:29:48,Greenstriped rockfish,92,1,FALSE,M,M,bare,bare,,1,,,4434,1
+H034-CA-V,1,0:00:58,12:30:52,12:30:04,Greenstriped rockfish,92,1,FALSE,M,M,bare,bare,,1,,,4435,1
+H034-CA-V,2,0:01:15,12:31:09,12:30:21,Greenstriped rockfish,92,1,FALSE,M,M,bare,bare,,1,,,4436,1
+H034-CA-V,6,0:03:13,12:33:07,12:32:19,Greenstriped rockfish,91,1,FALSE,M,M,bare,bare,,1,,,4437,1
+H034-CA-V,22,0:11:07,12:41:01,12:40:13,Quillback rockfish,71,1,FALSE,R,R,bare,bare,,2,,,4438,1
+H034-CA-V,22,0:11:23,12:41:17,12:40:29,Quillback rockfish,71,1,FALSE,M,R,bare,bare,,1,,,4439,1
+H034-CA-V,22,0:11:28,12:41:22,12:40:34,Rockfish uniden.,71,1,FALSE,M,R,bare,bare,,2,,ARH: possible greenstriped,4440,1
+H034-CA-V,23,0:11:32,12:41:26,12:40:38,Greenstriped rockfish,71,1,FALSE,M,R,bare,bare,,2,,IDC: Fixed Timestamp,4442,1
+H034-CA-V,27,0:13:58,12:43:52,12:43:04,Yelloweye rockfish,64,1,FALSE,R,M,bare,bare,,2,,ARH: checked,4443,1
+H034-CA-V,36,0:18:05,12:47:59,12:47:11,Quillback rockfish,64,2,FALSE,M,R,bare,bare,,2,,,4444,1
+H034-CA-V,38,0:19:16,12:49:10,12:48:22,Greenstriped rockfish,64,1,FALSE,M,R,bare,bare,,2,,,4445,1
+H034-CA-V,39,0:19:31,12:49:25,12:48:37,Quillback rockfish,66,1,FALSE,M,B,bare,bare,,1,,,4446,1
+H034-CA-V,39,0:19:37,12:49:31,12:48:43,Greenstriped rockfish,66,1,FALSE,M,B,bare,bare,,1,,,4447,1
+H034-CA-V,39,0:19:39,12:49:33,12:48:45,Greenstriped rockfish,66,1,FALSE,R,R,bare,bare,,2,,,4448,1
+H034-CA-V,41,0:20:59,12:50:53,12:50:05,Quillback rockfish,64,1,FALSE,M,C,bare,bare,,1,,,4449,1
+H034-CA-V,41,0:20:49,12:50:43,12:49:55,Greenstriped rockfish,65,1,FALSE,M,C,bare,anemone,,1,,,5754,3
+H034-CA-V,43,0:21:36,12:51:30,12:50:42,Quillback rockfish,64,1,FALSE,M,B,bare,bare,,1,,,4450,1
+H034-CA-V,43,0:21:45,12:51:39,12:50:51,Lingcod,64,1,FALSE,R,M,bare,bare,,1,,,4451,1
+H034-CA-V,44,0:22:09,12:52:03,12:51:15,Yelloweye rockfish,64,1,FALSE,R,B,bare,anemone,,2,,,4452,1
+H034-CA-V,59,0:29:47,12:59:41,12:58:53,Lingcod,47,1,FALSE,R,M,bare,bare,,2,,juvenile; ARH: checked,4454,1
+H035-CA-V,2,0:01:01,15:37:04,15:36:19,Quillback rockfish,109,1,FALSE,M,M,bare,bare,,1,,,4087,1
+H035-CA-V,2,0:01:11,15:37:14,15:36:29,Quillback rockfish,108,1,FALSE,M,M,bare,bare,,1,,,4088,1
+H035-CA-V,4,0:02:16,15:38:19,15:37:34,Greenstriped rockfish,112,1,FALSE,R,M,bare,bare,,2,,,4089,1
+H035-CA-V,5,0:02:45,15:38:48,15:38:03,Quillback rockfish,110,1,FALSE,R,R,bare,bare,,2,,just appears in bottom left,4090,1
+H035-CA-V,7,0:03:59,15:40:02,15:39:17,Greenstriped rockfish,104,1,FALSE,M,M,bare,Rhabdocalyptus spp.,,2,,,4091,1
+H035-CA-V,12,0:06:20,15:42:23,15:41:38,Quillback rockfish,82,1,FALSE,R,M,bare,sponge,,1,,,4092,1
+H035-CA-V,17,0:08:45,15:44:48,15:44:03,Yelloweye rockfish,64,1,FALSE,M,R,bare,bare,,1,,,4093,1
+H035-CA-V,17,0:08:47,15:44:50,15:44:05,Quillback rockfish,64,1,FALSE,M,R,bare,bare,,2,,,4094,1
+H035-CA-V,17,0:08:52,15:44:55,15:44:10,Greenstriped rockfish,63,1,FALSE,M,R,bare,bare,,2,,,4095,1
+H035-CA-V,18,0:09:16,15:45:19,15:44:34,Quillback rockfish,59,1,FALSE,M,R,bare,bare,,1,,,4097,1
+H035-CA-V,18,0:09:28,15:45:31,15:44:46,Quillback rockfish,57,1,FALSE,M,R,bare,bare,,1,,,4098,1
+H035-CA-V,19,0:09:43,15:45:46,15:45:01,Yelloweye rockfish,56,1,FALSE,M,B,bare,bare,,3,,,4099,1
+H035-CA-V,21,0:10:59,15:47:02,15:46:17,Rockfish uniden.,56,1,FALSE,M,B,bare,bare,,2,,,4100,1
+H035-CA-V,22,0:11:06,15:47:09,15:46:24,Yelloweye rockfish,55,1,FALSE,M,B,bare,bare,,3,,,4101,1
+H035-CA-V,22,0:11:08,15:47:11,15:46:26,Greenstriped rockfish,55,1,FALSE,M,B,bare,bare,,3,,,4102,1
+H035-CA-V,22,0:11:08,15:47:11,15:46:26,Yelloweye rockfish,55,1,FALSE,M,B,bare,bare,,3,,,4103,1
+H035-CA-V,22,0:11:14,15:47:17,15:46:32,Quillback rockfish,54,3,FALSE,M,B,bare,bare,,3,,,4104,1
+H035-CA-V,23,0:11:36,15:47:39,15:46:54,Greenstriped rockfish,56,1,FALSE,M,B,bare,bare,,3,,,4105,1
+H035-CA-V,23,0:11:58,15:48:01,15:47:16,Rockfish uniden.,57,1,FALSE,M,R,bare,bare,,2,,,4106,1
+H035-CA-V,24,0:12:12,15:48:15,15:47:30,Greenstriped rockfish,57,2,FALSE,M,B,bare,bare,,3,,,4107,1
+H035-CA-V,24,0:12:19,15:48:22,15:47:37,Rockfish uniden.,58,1,FALSE,M,B,bare,bare,,3,,,4108,1
+H035-CA-V,24,0:12:22,15:48:25,15:47:40,Rockfish uniden.,58,1,FALSE,M,M,bare,bare,,1,,"ARH: checked, changed from greenstriped",4109,1
+H035-CA-V,25,0:12:50,15:48:53,15:48:08,Rockfish uniden.,59,1,FALSE,R,M,bare,bare,,1,,,5755,3
+H035-CA-V,28,0:14:01,15:50:04,15:49:19,Quillback rockfish,61,1,FALSE,M,M,bare,bare,,1,,,4110,1
+H035-CA-V,28,0:14:07,15:50:10,15:49:25,Quillback rockfish,61,1,FALSE,M,M,bare,bare,,1,,,4111,1
+H035-CA-V,29,0:14:30,15:50:33,15:49:48,Quillback rockfish,63,1,FALSE,R,R,bare,bare,,2,,,4113,1
+H035-CA-V,31,0:15:45,15:51:48,15:51:03,Quillback rockfish,73,1,FALSE,R,R,bare,sponge,,3,,,4114,1
+H035-CA-V,31,0:15:52,15:51:55,15:51:10,Yelloweye rockfish,74,1,FALSE,R,R,bare,sponge,,3,,ARH: checked,4115,1
+H035-CA-V,32,0:16:00,15:52:03,15:51:18,Yelloweye rockfish,76,2,FALSE,R,R,sponge,bare,,3,,under rock above the one right in front,4116,1
+H035-CA-V,35,0:17:51,15:53:54,15:53:09,Yelloweye rockfish,88,1,FALSE,B,M,bare,Rhabdocalyptus spp.,,4,,,4118,1
+H035-CA-V,36,0:18:02,15:54:05,15:53:20,Greenstriped rockfish,89,1,FALSE,M,M,Rhabdocalyptus spp.,bare,,1,,,4119,1
+H035-CA-V,36,0:18:11,15:54:14,15:53:29,Quillback rockfish,89,1,FALSE,M,M,bare,Rhabdocalyptus spp.,,1,,,4120,1
+H035-CA-V,40,0:20:21,15:56:24,15:55:39,Quillback rockfish,84,1,FALSE,M,R,bare,bare,,1,,,4121,1
+H035-CA-V,43,0:21:38,15:57:41,15:56:56,Yelloweye rockfish,79,1,FALSE,M,M,bare,bare,,1,,ARH: checked,4122,1
+H035-CA-V,45,0:22:48,15:58:51,15:58:06,Greenstriped rockfish,81,1,FALSE,M,M,bare,Rhabdocalyptus spp.,,1,,,4123,1
+H035-CA-V,46,0:23:06,15:59:09,15:58:24,Greenstriped rockfish,80,1,FALSE,M,M,bare,Rhabdocalyptus spp.,,1,,,4124,1
+H035-CA-V,47,0:23:41,15:59:44,15:58:59,Greenstriped rockfish,83,1,FALSE,M,M,bare,Rhabdocalyptus spp.,,1,,,5804,1
+H035-CA-V,49,0:24:48,16:00:51,16:00:06,Quillback rockfish,87,1,FALSE,B,M,bare,bare,,3,,,5805,1
+H035-CA-V,52,0:26:06,16:02:09,16:01:24,Greenstriped rockfish,100,1,FALSE,M,M,bare,bare,,1,,,5806,1
+H035-CA-V,52,0:26:22,16:02:25,16:01:40,Greenstriped rockfish,102,1,FALSE,M,M,bare,bare,,1,,,5807,1
+H035-CA-V,54,0:27:27,16:03:30,16:02:45,Yelloweye rockfish,113,1,FALSE,R,R,bare,bare,,3,,,5808,1
+H035-CA-V,60,0:30:01,16:06:04,16:05:19,Yelloweye rockfish,123,1,FALSE,R,R,bare,sponge,,2,,,5809,1
+H039-CA-V,1,0:00:35,8:49:05,8:48:17,Greenstriped rockfish,98,1,FALSE,M,M,bare,bare,,1,,,4455,1
+H039-CA-V,2,0:01:28,8:49:58,8:49:10,Yelloweye rockfish,95,1,FALSE,M,B,bare,bare,,2,,ARH: checked,4456,1
+H039-CA-V,4,0:02:08,8:50:38,8:49:50,Yelloweye rockfish,93,1,FALSE,R,R,bare,bare,,1,,ARH: checked,4457,1
+H039-CA-V,20,0:10:06,8:58:36,8:57:48,Quillback rockfish,74,1,FALSE,M,R,bare,sponge,,1,,,4458,1
+H039-CA-V,38,0:19:29,9:07:59,9:07:11,Greenstriped rockfish,82,1,FALSE,M,R,bare,bare,,1,,,4459,1
+H039-CA-V,54,0:27:18,9:15:48,9:15:00,Greenstriped rockfish,118,1,FALSE,M,M,bare,bare,,1,,ARH: checked,4460,1
+H039-CA-V,55,0:27:33,9:16:03,9:15:15,Greenstriped rockfish,118,1,FALSE,R,M,bare,bare,,2,,,4461,1
+H039-CA-V,55,0:27:50,9:16:20,9:15:32,Greenstriped rockfish,117,1,FALSE,M,B,bare,bare,,2,,,4462,1
+H039-CA-V,56,0:28:04,9:16:34,9:15:46,Yelloweye rockfish,115,1,FALSE,M,B,bare,bare,,2,,ARH: checked,4463,1
+H039-CA-V,57,0:28:42,9:17:12,9:16:24,Greenstriped rockfish,116,1,FALSE,M,B,bare,bare,,1,,,4464,1
+H039-CA-V,57,0:28:51,9:17:21,9:16:33,Quillback rockfish,118,1,FALSE,M,B,bare,bare,,2,,,4465,1
+H039-CA-V,57,0:28:56,9:17:26,9:16:38,Yelloweye rockfish,117,1,FALSE,M,B,bare,bare,,2,,IDC: Fixed timestamp and segment,4466,1
+H039-CA-V,58,0:29:08,9:17:38,9:16:50,Quillback rockfish,118,1,FALSE,M,C,bare,bare,,1,,,4467,1
+H039-CA-V,59,0:29:34,9:18:04,9:17:16,Greenstriped rockfish,119,1,FALSE,M,C,bare,bare,,1,,IDC:Fixed timstamp,4468,1
+H039-CA-V,60,0:30:11,9:18:41,9:17:53,Greenstriped rockfish,118,1,FALSE,M,C,bare,bare,,1,,IDC: Fixed timestamp,4469,1
+H039-CA-V,64,0:32:27,9:20:57,9:20:09,Quillback rockfish,112,1,FALSE,B,M,bare,bare,,3,,,4470,1
+H043-CA-V,9,0:05:12,7:54:28,7:53:45,Greenstriped rockfish,88,1,FALSE,M,B,bare,bare,,2,,,4471,1
+H043-CA-V,16,0:08:37,7:57:53,7:57:10,Greenstriped rockfish,92,1,FALSE,M,M,bare,bare,,1,,ARH: checked,4472,1
+H045-CA-V,1,0:00:19,16:33:58,16:33:07,Greenstriped rockfish,115,1,FALSE,R,R,bare,debris,,1,debris is dead sponge,,4473,1
+H045-CA-V,2,0:00:34,16:34:13,16:33:22,Greenstriped rockfish,109,1,FALSE,R,R,bare,bare,,2,,Corrected timestamp,4474,1
+H045-CA-V,6,0:02:51,16:36:30,16:35:39,Quillback rockfish,89,1,FALSE,R,R,bare,sponge,,3,,,4475,1
+H045-CA-V,13,0:06:22,16:40:01,16:39:10,Greenstriped rockfish,72,1,FALSE,R,R,bare,bare,,2,,,4476,1
+H045-CA-V,21,0:10:28,16:44:07,16:43:16,Greenstriped rockfish,72,1,FALSE,M,M,bare,bare,,1,,,4477,1
+H045-CA-V,48,0:23:51,16:57:30,16:56:39,Greenstriped rockfish,84,1,FALSE,M,M,bare,bare,,2,,,5931,1
+H045-CA-V,48,0:23:56,16:57:35,16:56:44,Yelloweye rockfish,84,1,FALSE,R,M,bare,bare,,3,,IDC: Fixed timestamp and segment; ARH: checked,5932,1
+H045-CA-V,54,0:26:53,17:00:32,16:59:41,Yelloweye rockfish,94,1,FALSE,R,R,bare,sponge,,3,,ARH: checked,5933,1
+H046-CA-V,1,0:01:25,15:12:00,15:11:11,Greenstriped rockfish,126,1,FALSE,M,M,bare,debris,,1,Dead Sponge?,,4482,1
+H046-CA-V,2,0:01:42,15:12:17,15:11:28,Yelloweye rockfish,127,1,FALSE,M,M,bare,debris,,3,Dead Sponge,,4483,1
+H046-CA-V,9,0:05:09,15:15:44,15:14:55,Yelloweye rockfish,115,1,FALSE,R,R,bare,bare,,2,,,4484,1
+H046-CA-V,10,0:05:53,15:16:28,15:15:39,Greenstriped rockfish,110,1,FALSE,R,R,bare,bare,,1,,IDC: Fixed Time stamp; ARH: checked,4485,1
+H046-CA-V,25,0:13:28,15:24:03,15:23:14,Quillback rockfish,125,1,FALSE,R,R,bare,bare,,2,,,4486,1
+H046-CA-V,29,0:15:28,15:26:03,15:25:14,Yelloweye rockfish,125,1,FALSE,B,M,bare,bare,,3,,,4487,1
+H046-CA-V,32,0:16:33,15:27:08,15:26:19,Quillback rockfish,116,1,FALSE,R,M,sponge,bare,,2,,,4488,1
+H046-CA-V,39,0:20:23,15:30:58,15:30:09,Yelloweye rockfish,124,1,FALSE,R,R,bare,sponge,,2,,,4489,1
+H046-CA-V,48,0:24:39,15:35:14,15:34:25,Greenstriped rockfish,143,1,FALSE,M,M,bare,bare,,1,,,4490,1
+H046-CA-V,54,0:27:35,15:38:10,15:37:21,Yelloweye rockfish,138,1,FALSE,R,M,bare,bare,,3,,,4491,1
+H046-CA-V,61,0:31:25,15:42:00,15:41:11,Yelloweye rockfish,128,1,FALSE,M,M,bare,debris,,1,Dead Sponge,Nestled in dead sponge,4492,1
+H046-CA-V,64,0:32:44,15:43:19,15:42:30,Yelloweye rockfish,126,1,FALSE,M,R,bare,bare,,2,,,4493,1
+H046-CA-V,70,0:35:39,15:46:14,15:45:25,Greenstriped rockfish,124,1,FALSE,R,M,bare,bare,,1,,,4494,1
+H052-CA-V,44,0:22:08,11:33:11,11:32:25,Quillback rockfish,82,1,FALSE,R,M,bare,bare,,2,,,4496,1
+H052-CA-V,51,0:25:59,11:37:02,11:36:16,Quillback rockfish,93,1,FALSE,R,M,bare,bare,,3,,,4497,1
+H052-CA-V,52,0:26:25,11:37:28,11:36:42,Quillback rockfish,90,1,FALSE,R,R,bare,bare,,2,,,4498,1
+H052-CA-V,53,0:26:46,11:37:49,11:37:03,Quillback rockfish,89,1,FALSE,B,M,bare,bare,,3,,,4500,1
+H055-CA-V,4,0:02:26,16:47:48,16:47:51,Rockfish uniden.,89,1,FALSE,M,M,bare,bare,,1,,"ARH: checked, changed from greenstriped",4502,1
+H055-CA-V,31,0:15:40,17:01:02,17:01:05,Greenstriped rockfish,92,1,FALSE,M,M,bare,bare,,1,,,4503,1
+H055-CA-V,32,0:16:04,17:01:26,17:01:29,Greenstriped rockfish,91,1,FALSE,M,M,bare,bare,,1,,,4504,1
+H055-CA-V,32,0:16:23,17:01:45,17:01:48,Greenstriped rockfish,91,1,FALSE,M,M,bare,bare,,1,,,4505,1
+H055-CA-V,34,0:17:28,17:02:50,17:02:53,Greenstriped rockfish,92,1,FALSE,M,M,bare,bare,,1,,,4506,1
+H056-CA-V,1,0:00:46,14:35:21,14:35:24,Greenstriped rockfish,78,1,FALSE,M,M,bare,bare,,1,,,4507,1
+H056-CA-V,1,0:00:54,14:35:29,14:35:32,Greenstriped rockfish,78,3,FALSE,M,B,bare,bare,,2,,,4508,1
+H056-CA-V,2,0:01:17,14:35:52,14:35:55,Greenstriped rockfish,76,1,FALSE,M,B,bare,bare,,2,,,4509,1
+H056-CA-V,2,0:01:26,14:36:01,14:36:04,Greenstriped rockfish,76,1,FALSE,M,C,bare,bare,,2,,,4510,1
+H056-CA-V,4,0:02:01,14:36:36,14:36:39,Quillback rockfish,74,1,FALSE,M,R,bare,bare,,1,,,4511,1
+H056-CA-V,20,0:10:23,14:44:58,14:45:01,Lingcod,85,1,FALSE,R,M,bare,bare,,1,,,4512,1
+H056-CA-V,26,0:13:12,14:47:47,14:47:50,Greenstriped rockfish,81,1,FALSE,M,M,bare,Rhabdocalyptus spp.,,1,,,4513,1
+H056-CA-V,29,0:14:47,14:49:22,14:49:25,Lingcod,81,1,FALSE,M,M,sponge,debris,,1,,IDC: Fixed time stamp; dead sponge,4514,1
+H056-CA-V,33,0:16:37,14:51:12,14:51:15,Lingcod,83,1,FALSE,M,R,bare,bare,,2,,,4515,1
+H056-CA-V,33,0:16:43,14:51:18,14:51:21,Greenstriped rockfish,81,1,FALSE,M,C,bare,bare,,2,,,4516,1
+H056-CA-V,33,0:16:55,14:51:30,14:51:33,Greenstriped rockfish,79,1,FALSE,M,M,bare,bare,,1,,,4517,1
+H056-CA-V,35,0:17:33,14:52:08,14:52:11,Quillback rockfish,80,1,FALSE,M,M,bare,sponge,,1,,IDC: fixed time stamp,4518,1
+H056-CA-V,36,0:18:21,14:52:56,14:52:59,Greenstriped rockfish,82,1,FALSE,M,B,debris,sponge,,1,,,4519,1
+H056-CA-V,37,0:18:34,14:53:09,14:53:12,Greenstriped rockfish,79,1,FALSE,R,M,bare,sponge,,1,,,4520,1
+H057-CA-V,4,0:02:55,15:41:39,15:41:43,Yelloweye rockfish,92,1,FALSE,R,M,bare,bare,,3,,,4521,1
+H057-CA-V,7,0:04:10,15:42:54,15:42:58,Quillback rockfish,85,1,FALSE,R,M,bare,sponge,,1,,,4522,1
+H057-CA-V,7,0:04:21,15:43:05,15:43:09,Greenstriped rockfish,85,1,FALSE,M,B,bare,bare,,2,,,4523,1
+H057-CA-V,8,0:04:33,15:43:17,15:43:21,Quillback rockfish,86,1,FALSE,B,M,bare,sponge,,2,,,4524,1
+H057-CA-V,8,0:04:47,15:43:31,15:43:35,Yelloweye rockfish,85,1,FALSE,B,M,bare,bare,,3,,,4525,1
+H057-CA-V,8,0:04:59,15:43:43,15:43:47,Greenstriped rockfish,84,1,FALSE,M,M,bare,bare,,1,,,4526,1
+H057-CA-V,19,0:10:17,15:49:01,15:49:05,Greenstriped rockfish,79,1,FALSE,M,M,bare,bare,,1,,ARH: checked,4527,1
+H057-CA-V,20,0:10:32,15:49:16,15:49:20,Greenstriped rockfish,79,1,FALSE,M,M,bare,bare,,1,,,4528,1
+H057-CA-V,23,0:12:04,15:50:48,15:50:52,Greenstriped rockfish,81,1,FALSE,M,M,bare,bare,,1,,"ARH: checked, changed from uniden. fish",5759,3
+H057-CA-V,44,0:22:47,16:01:31,16:01:35,Greenstriped rockfish,91,1,FALSE,M,M,bare,bare,,1,,,4529,1
+H057-CA-V,51,0:26:24,16:05:08,16:05:12,Quillback rockfish,100,1,FALSE,M,M,bare,bare,,1,,,4530,1
+H058-CA-V,39,0:19:45,9:21:49,9:21:02,Lingcod,98,1,FALSE,M,B,bare,bare,,2,,,4536,1
+H059-CA-V,25,0:12:45,8:41:10,8:40:27,Greenstriped rockfish,78,1,FALSE,M,M,bare,bare,,1,,,4537,1
+H059-CA-V,32,0:16:15,8:44:40,8:43:57,Greenstriped rockfish,77,1,FALSE,M,M,bare,bare,,1,,IDC: Fixed timestamp,4538,1
+H059-CA-V,44,0:22:26,8:50:51,8:50:08,Greenstriped rockfish,79,1,FALSE,M,M,bare,Rhabdocalyptus spp.,,1,,IDC: could not see fish; entered habitat data for timestamp,4539,1
+H059-CA-V,46,0:23:18,8:51:43,8:51:00,Quillback rockfish,80,1,FALSE,M,M,bare,bare,,1,,,4540,1
+H059-CA-V,52,0:26:22,8:54:47,8:54:04,Lingcod,86,1,FALSE,M,M,Rhabdocalyptus spp.,bare,,1,,very small. Possibly not lingcod?; ARH: checked,4541,1
+H060-CA-V,1,0:02:28,8:26:00,8:25:19,Greenstriped rockfish,118,1,FALSE,R,M,bare,sponge,,2,scattered Aphrocallistes and dead sponge,,4542,1
+H060-CA-V,2,0:02:47,8:26:19,8:25:38,Quillback rockfish,118,1,FALSE,R,M,bare,bare,,1,,,4543,1
+H060-CA-V,3,0:03:19,8:26:51,8:26:10,Greenstriped rockfish,117,1,FALSE,R,M,bare,sponge,,1,,,4544,1
+H060-CA-V,6,0:04:54,8:28:26,8:27:45,Quillback rockfish,113,1,FALSE,R,M,bare,bare,,1,,,4545,1
+H060-CA-V,6,0:04:42,08:28:14,08:27:33,Rockfish uniden.,112,1,FALSE,R,M,bare,bare,,1,,possible redstripe or greenstriped,,3
+H060-CA-V,9,0:06:02,8:29:34,8:28:53,crab/shrimp pot,111,1,FALSE,R,M,debris,bare,,2,,debris is sponge,5761,3
+H060-CA-V,12,0:07:37,8:31:09,8:30:28,Greenstriped rockfish,108,1,FALSE,R,M,bare,bare,,1,,,4546,1
+H060-CA-V,12,0:07:44,8:31:16,8:30:35,Greenstriped rockfish,107,1,FALSE,R,M,bare,bare,,1,,,4547,1
+H060-CA-V,12,0:07:49,8:31:21,8:30:40,Redstripe rockfish,107,2,FALSE,R,R,bare,debris,,3,,debris is dead sponge,4548,1
+H060-CA-V,13,0:08:21,8:31:53,8:31:12,Canary rockfish,109,1,FALSE,R,B,bare,sponge,,4,,ARH: changed from yelloweye,4549,1
+H060-CA-V,14,0:08:32,8:32:04,8:31:23,Lingcod,110,1,FALSE,R,B,bare,sponge,,4,,ARH: checked,4550,1
+H060-CA-V,14,0:08:41,8:32:13,8:31:32,Yelloweye rockfish,109,1,FALSE,R,B,bare,sponge,,4,,,4551,1
+H060-CA-V,14,0:08:40,08:32:12,08:31:31,Canary rockfish,113,2,FALSE,R,B,bare,sponge,,4,,,4553,1
+H060-CA-V,15,0:09:13,8:32:45,8:32:04,Canary rockfish,113,2,FALSE,R,R,bare,bare,,4,,IDC: combined entries; ARH; changed from yelloweye,4554,1
+H060-CA-V,15,0:09:27,8:32:59,8:32:18,Quillback rockfish,112,1,FALSE,R,B,bare,bare,,3,,,4556,1
+H060-CA-V,15,0:09:29,8:33:01,8:32:20,Canary rockfish,112,2,FALSE,B,R,bare,bare,,4,,,4557,1
+H060-CA-V,16,0:09:37,8:33:09,8:32:28,Greenstriped rockfish,111,1,FALSE,B,B,bare,bare,,3,,scattered sponge,4559,1
+H060-CA-V,16,0:09:43,8:33:15,8:32:34,Canary rockfish,111,1,FALSE,R,B,bare,sponge,,3,,ARH: changed from yelloweye,4560,1
+H060-CA-V,16,0:09:44,8:33:16,8:32:35,Redstripe rockfish,111,1,FALSE,R,B,bare,sponge,,3,,,4561,1
+H060-CA-V,16,0:09:49,8:33:21,8:32:40,Canary rockfish,112,1,FALSE,R,R,bare,sponge,,3,,ARH: changed from yelloweye,4562,1
+H060-CA-V,17,0:10:10,08:33:42,08:33:01,Canary rockfish,116,1,FALSE,M,M,debris,bare,,1,,sponge debris; canary highly attracted to ROV,4563,1
+H060-CA-V,20,0:11:46,8:35:18,8:34:37,Quillback rockfish,114,1,FALSE,R,R,bare,bare,,2,,,4564,1
+H060-CA-V,21,0:12:12,8:35:44,8:35:03,Redstripe rockfish,110,1,FALSE,R,R,bare,bare,,1,,,4565,1
+H060-CA-V,22,0:12:45,8:36:17,8:35:36,Redstripe rockfish,108,1,FALSE,R,R,bare,sponge,,1,,,4566,1
+H060-CA-V,23,0:13:11,8:36:43,8:36:02,Quillback rockfish,106,1,FALSE,R,M,sponge,bare,,1,,,4567,1
+H060-CA-V,23,0:13:13,8:36:45,8:36:04,Redstripe rockfish,106,1,FALSE,R,M,bare,sponge,,1,,,4568,1
+H060-CA-V,23,0:13:23,8:36:55,8:36:14,Quillback rockfish,105,1,FALSE,R,R,bare,bare,,1,,,4569,1
+H060-CA-V,24,0:13:49,8:37:21,8:36:40,Rockfish uniden.,104,1,FALSE,R,R,bare,sponge,,2,,possible greenstriped,4570,1
+H060-CA-V,25,0:14:27,8:37:59,8:37:18,Quillback rockfish,107,1,FALSE,R,R,bare,bare,,2,,,4571,1
+H060-CA-V,26,0:14:44,8:38:16,8:37:35,Greenstriped rockfish,107,1,FALSE,M,R,bare,debris,,2,,,4572,1
+H060-CA-V,28,0:15:53,8:39:25,8:38:44,Quillback rockfish,102,1,FALSE,R,R,bare,bare,,2,,,4573,1
+H060-CA-V,28,0:15:53,08:39:25,08:38:44,Unidentified fish,102,1,FALSE,R,R,bare,bare,,2,,ARH: possible small rockfish - greenstriped?,,3
+H060-CA-V,31,0:17:12,8:40:44,8:40:03,Greenstriped rockfish,101,1,FALSE,R,C,bare,bare,,2,,gravid,4574,1
+H060-CA-V,34,0:18:47,8:42:19,8:41:38,Greenstriped rockfish,98,1,FALSE,M,M,debris,bare,,1,,,4575,1
+H060-CA-V,40,0:21:52,8:45:24,8:44:43,Quillback rockfish,93,1,FALSE,R,R,bare,bare,,2,,,4576,1
+H060-CA-V,41,0:22:10,8:45:42,8:45:01,Lingcod,93,1,FALSE,R,M,bare,debris,,2,scattered sponge,either female or just ate something,4577,1
+H060-CA-V,42,0:22:32,8:46:04,8:45:23,Quillback rockfish,93,1,FALSE,R,B,bare,bare,,3,,,4578,1
+H060-CA-V,46,0:24:57,8:48:29,8:47:48,Greenstriped rockfish,98,1,FALSE,M,M,bare,debris,,1,,,4580,1
+H060-CA-V,53,0:28:09,8:51:41,8:51:00,Greenstriped rockfish,90,1,FALSE,M,M,debris,bare,,1,,,4581,1
+H060-CA-V,58,0:30:55,08:54:27,08:53:46,Quillback rockfish,80,1,FALSE,R,B,bare,sponge,,3,,,,3
+H062-CA-V,23,0:11:13,14:00:59,14:00:13,Greenstriped rockfish,73,1,FALSE,M,M,bare,bare,,1,,,4582,1
+H062-CA-V,23,0:11:27,14:01:13,14:00:27,Greenstriped rockfish,72,1,FALSE,M,B,bare,bare,,2,,,4583,1
+H062-CA-V,30,0:14:59,14:04:45,14:03:59,Greenstriped rockfish,77,1,FALSE,M,M,bare,bare,,1,,,4584,1
+H062-CA-V,32,0:15:30,14:05:16,14:04:30,Quillback rockfish,77,1,FALSE,M,M,bare,bare,,1,,,4585,1
+H062-CA-V,46,0:22:52,14:12:38,14:11:52,Kelp greenling,75,1,FALSE,M,B,bare,bare,,1,,,4586,1
+H062-CA-V,57,0:28:08,14:17:54,14:17:08,Lingcod,76,1,FALSE,M,M,bare,sponge,,1,,,4587,1
+H063-CA-P2,6,0:08:40,17:56:04,17:55:21,Greenstriped rockfish,88,1,FALSE,M,H,bare,scallops,,1,,,4589,1
+H063-CA-P2,9,0:10:27,17:57:51,17:57:08,Lingcod,84,1,FALSE,R,H,bare,sponge,,3,,IDC: Fixed Timestamp and segment; ARH: checked,4590,1
+H063-CA-P2,10,0:10:31,17:57:55,17:57:12,Yelloweye rockfish,84,1,FALSE,R,M,bare,scallops,,1,,ARH: checked,4591,1
+H063-CA-P2,10,0:10:50,17:58:14,17:57:31,Quillback rockfish,84,1,FALSE,R,M,bare,bare,,4,,,4592,1
+H063-CA-P2,10,0:10:54,17:58:18,17:57:35,Canary rockfish,83,1,FALSE,M,R,bare,bare,,2,,,4593,1
+H063-CA-P2,11,0:11:15,17:58:39,17:57:56,Greenstriped rockfish,82,1,FALSE,M,H,bare,bare,,1,,ARH: checked,5818,1
+H063-CA-P2,13,0:12:29,17:59:53,17:59:10,Canary rockfish,82,1,FALSE,R,B,bare,bare,,4,,,5813,1
+H063-CA-P2,17,0:14:09,18:01:33,18:00:50,Lingcod,80,1,FALSE,M,R,bare,scallops,,1,,,5814,1
+H063-CA-P2,20,0:15:53,18:03:17,18:02:34,Greenstriped rockfish,80,1,FALSE,H,C,bare,bare,,2,,,5815,1
+H063-CA-P2,21,0:16:05,18:03:29,18:02:46,Quillback rockfish,79,1,FALSE,M,H,bare,bare,,1,,,5816,1
+H063-CA-P2,21,0:16:08,18:03:32,18:02:49,Yelloweye rockfish,79,1,FALSE,M,R,bare,bare,,2,,,5817,1
+H063-CA-P2,24,0:17:40,18:05:04,18:04:21,Kelp greenling,76,1,FALSE,C,H,bare,bare,,2,,,5819,1
+H063-CA-P2,25,0:18:11,18:05:35,18:04:52,Greenstriped rockfish,76,1,FALSE,M,H,bare,bare,,2,,IDC: Changed Timestamp,5820,1
+H063-CA-P2,25,0:18:19,18:05:43,18:05:00,Greenstriped rockfish,76,1,FALSE,M,R,bare,bare,,1,,,5821,1
+H063-CA-P2,27,0:19:07,18:06:31,18:05:48,Lingcod,75,1,FALSE,M,H,bare,bare,,1,,ARH: checked,5822,1
+H063-CA-P2,31,0:21:18,18:08:42,18:07:59,Greenstriped rockfish,78,2,FALSE,M,M,scallops,bare,,1,,ARH: checked,5823,1
+H063-CA-P2,31,0:21:20,18:08:44,18:08:01,Greenstriped rockfish,78,2,FALSE,M,M,scallops,bare,,1,,ARH: checked,5824,1
+H063-CA-P2,31,0:21:22,18:08:46,18:08:03,Greenstriped rockfish,78,1,FALSE,M,M,scallops,bare,,1,,ARH: checked,5825,1
+H063-CA-P2,31,0:21:26,18:08:50,18:08:07,Greenstriped rockfish,78,1,FALSE,M,M,scallops,bare,,1,,ARH: checked,5826,1
+H063-CA-P2,38,0:24:58,18:12:22,18:11:39,Quillback rockfish,69,1,FALSE,M,M,bare,bare,,1,,,5827,1
+H066-CA-V,1,0:00:13,16:29:05,16:28:15,Quillback rockfish,76,2,FALSE,M,B,bare,encrusting organism complex,,3,,,4610,1
+H066-CA-V,2,0:00:39,16:29:31,16:28:41,Greenstriped rockfish,75,1,FALSE,M,M,bare,bare,,1,,,4611,1
+H066-CA-V,38,0:18:33,16:47:25,16:46:35,Quillback rockfish,83,1,FALSE,M,M,bare,bare,,1,,,4613,1
+H066-CA-V,38,0:18:57,16:47:49,16:46:59,Lingcod,82,1,FALSE,M,M,bare,bare,,1,,,4615,1
+H066-CA-V,39,0:19:12,16:48:04,16:47:14,Quillback rockfish,81,1,FALSE,M,M,bare,bare,,1,,sitting beside a Sea Whip,4616,1
+H066-CA-V,43,0:21:14,16:50:06,16:49:16,Lingcod,78,1,FALSE,M,M,bare,bare,,1,,,4618,1
+H066-CA-V,61,0:30:20,16:59:12,16:58:22,Quillback rockfish,80,1,FALSE,M,B,bare,bare,,3,,,4619,1
+H072-CA-V,11,0:05:01,12:19:09,12:18:22,Rockfish uniden.,41,1,FALSE,M,P,bare,bare,,1,,ARH: possible small redstripe or greenstriped,4620,1
+H072-CA-V,23,0:11:27,12:25:35,12:24:48,Quillback rockfish,38,1,FALSE,M,R,Crinoids,bare,,1,,,4621,1
+H072-CA-V,24,0:11:58,12:26:06,12:25:19,Quillback rockfish,41,1,FALSE,R,R,Crinoids,bare,,2,,,4622,1
+H072-CA-V,27,0:13:00,12:27:08,12:26:21,Lingcod,42,1,FALSE,R,R,Crinoids,bare,,1,,IDC: Moved to on bottom segment,4623,1
+H072-CA-V,27,0:13:16,12:27:24,12:26:37,Quillback rockfish,43,1,FALSE,B,M,Crinoids,bare,,3,,,4624,1
+H072-CA-V,27,0:13:25,12:27:33,12:26:46,Yelloweye rockfish,43,1,FALSE,R,R,Crinoids,bare,,3,,ARH: checked,4625,1
+H072-CA-V,28,0:13:39,12:27:47,12:27:00,Quillback rockfish,42,1,FALSE,R,R,Crinoids,bare,,2,,,4626,1
+H072-CA-V,28,0:13:55,12:28:03,12:27:16,Quillback rockfish,42,3,FALSE,R,R,bare,Crinoids,,2,,,4627,1
+H072-CA-V,28,0:13:52,12:28:00,12:27:13,Tiger rockfish,43,1,FALSE,R,R,Crinoids,bare,,3,,IDC:Fixed timestamp and segment,4628,1
+H072-CA-V,29,0:14:08,12:28:16,12:27:29,Quillback rockfish,43,1,FALSE,R,R,bare,Crinoids,,3,,,4629,1
+H072-CA-V,29,0:14:16,12:28:24,12:27:37,Quillback rockfish,45,1,FALSE,R,R,Crinoids,bare,,3,,,4630,1
+H072-CA-V,30,0:14:31,12:28:39,12:27:52,Quillback rockfish,46,1,FALSE,R,M,bare,Crinoids,,1,,,4631,1
+H072-CA-V,38,0:18:44,12:32:52,12:32:05,Quillback rockfish,51,1,FALSE,R,R,bare,Crinoids,,3,,,4632,1
+H072-CA-V,40,0:19:54,12:34:02,12:33:15,Quillback rockfish,53,1,FALSE,M,B,bare,bare,,3,,,4633,1
+H072-CA-V,40,0:19:56,12:34:04,12:33:17,Copper rockfish,53,1,FALSE,M,B,bare,bare,,3,,,4634,1
+H072-CA-V,40,0:19:28,12:33:36,12:32:49,crab/shrimp pot,52,1,FALSE,R,M,Crinoids,bare,,1,,Crab pot,5763,1
+H072-CA-V,41,0:20:12,12:34:20,12:33:33,Quillback rockfish,53,3,FALSE,M,B,bare,bare,,3,,,4636,1
+H072-CA-V,47,0:23:20,12:37:28,12:36:41,Yelloweye rockfish,47,1,FALSE,R,R,Crinoids,Crinoids,,3,,underneath overhang. Can see eye,4637,1
+H072-CA-V,51,0:25:12,12:39:20,12:38:33,Quillback rockfish,52,1,FALSE,R,R,bare,bare,,4,,,4638,1
+H072-CA-V,54,0:26:31,12:40:39,12:39:52,Quillback rockfish,52,1,FALSE,B,R,Crinoids,bare,,4,,,4639,1
+H072-CA-V,54,0:26:38,12:40:46,12:39:59,Lingcod,53,1,FALSE,R,B,Crinoids,bare,,4,,,4640,1
+H072-CA-V,58,0:28:56,12:43:04,12:42:17,Quillback rockfish,59,1,FALSE,R,R,bare,Crinoids,,2,,,4641,1
+H072-CA-V,59,0:29:14,12:43:22,12:42:35,Yelloweye rockfish,62,1,FALSE,R,R,bare,bare,,2,,,4642,1
+H072-CA-V,60,0:29:43,12:43:51,12:43:04,Quillback rockfish,62,1,FALSE,R,M,bare,bare,,1,,,4643,1
+H072-CA-V,63,0:31:10,12:45:18,12:44:31,Quillback rockfish,58,1,FALSE,R,M,anemone,bare,,1,,,4644,1
+H072-CA-V,63,0:31:15,12:45:23,12:44:36,Quillback rockfish,58,1,FALSE,R,M,bare,anemone,,1,,,4645,1
+H078-CA-V,1,0:00:11,15:13:23,15:12:36,Lingcod,65,1,FALSE,M,M,Rhabdocalyptus spp.,bare,,1,,,4647,1
+H078-CA-V,27,0:13:19,15:26:31,15:25:44,Yelloweye rockfish,68,1,FALSE,B,M,bare,bare,,2,,,4648,1
+H078-CA-V,27,0:13:19,15:26:31,15:25:44,Quillback rockfish,68,1,FALSE,B,M,bare,bare,,2,,,4649,1
+H078-CA-V,43,0:21:23,15:34:35,15:33:48,Lingcod,77,1,FALSE,M,M,bare,bare,,1,,,4650,1
+H079-CA-V,2,0:01:01,14:40:32,14:39:49,Greenstriped rockfish,108,1,FALSE,M,B,Rhabdocalyptus spp.,bare,,2,,ARH: checked,4651,1
+H079-CA-V,5,0:02:49,14:42:20,14:41:37,Greenstriped rockfish,109,1,FALSE,M,M,bare,bare,,1,,,4652,1
+H079-CA-V,26,0:13:18,14:52:49,14:52:06,Greenstriped rockfish,90,1,FALSE,M,M,Rhabdocalyptus spp.,bare,,1,,,4654,1
+H079-CA-V,27,0:13:55,14:53:26,14:52:43,Quillback rockfish,89,1,FALSE,M,B,bare,bare,,2,,,4655,1
+H079-CA-V,34,0:17:12,14:56:43,14:56:00,Greenstriped rockfish,87,1,FALSE,M,B,bare,bare,,2,,ARH: checked,4656,1
+H079-CA-V,39,0:19:38,14:59:09,14:58:26,Greenstriped rockfish,89,1,FALSE,M,P,bare,sponge,,1,,,4657,1
+H079-CA-V,49,0:24:51,15:04:22,15:03:39,Greenstriped rockfish,80,1,FALSE,R,B,bare,Rhabdocalyptus spp.,,2,,,4658,1
+H079-CA-V,51,0:25:51,15:05:22,15:04:39,Yelloweye rockfish,78,1,FALSE,B,M,bare,sponge,,3,,ARH: checked,4659,1
+H085-CA-V,3,0:01:32,9:55:45,9:55:47,Quillback rockfish,72,1,FALSE,R,R,bare,bare,,3,,,4660,1
+H085-CA-V,3,0:01:57,9:56:10,9:56:12,Puget Sound rockfish,73,1,FALSE,R,P,sponge,bare,,2,,,4661,1
+H085-CA-V,6,0:03:12,9:57:25,9:57:27,Quillback rockfish,71,1,FALSE,R,P,bare,bare,,2,,,4662,1
+H085-CA-V,6,0:03:15,9:57:28,9:57:30,Quillback rockfish,71,1,FALSE,R,B,bare,bare,,3,,darted under rock at extreme right,4663,1
+H085-CA-V,9,0:04:59,9:59:12,9:59:14,Puget Sound rockfish,61,1,FALSE,R,P,bare,bare,,2,,,4665,1
+H085-CA-V,15,0:07:40,10:01:53,10:01:55,Puget Sound rockfish,74,1,FALSE,R,R,bare,bare,,2,,,4666,1
+H085-CA-V,15,0:07:55,10:02:08,10:02:10,Puget Sound rockfish,77,1,FALSE,R,R,bare,bare,,3,,,4667,1
+H085-CA-V,18,0:09:09,10:03:22,10:03:24,Quillback rockfish,80,1,FALSE,R,P,bare,bare,,2,,,4668,1
+H085-CA-V,21,0:10:57,10:05:10,10:05:12,Puget Sound rockfish,84,1,FALSE,R,R,bare,bare,,3,,,4669,1
+H085-CA-V,34,0:17:21,10:11:34,10:11:36,Great sculpin,95,1,FALSE,M,P,bare,bare,,1,,,4671,1
+H088-CA-V,1,0:00:29,13:46:42,13:45:58,Yelloweye rockfish,65,1,FALSE,R,M,bare,bare,,2,,,4672,1
+H088-CA-V,2,0:00:38,13:46:51,13:46:07,Yelloweye rockfish,64,1,FALSE,R,R,bare,bare,,2,,,4673,1
+H088-CA-V,2,0:00:49,13:47:02,13:46:18,Greenstriped rockfish,64,1,FALSE,R,R,bare,bare,,2,,,4674,1
+H088-CA-V,2,0:00:54,13:47:07,13:46:23,Greenstriped rockfish,64,1,FALSE,R,R,bare,bare,,2,,,4675,1
+H088-CA-V,9,0:04:23,13:50:36,13:49:52,Quillback rockfish,58,1,FALSE,R,B,bare,bare,,2,,,4676,1
+H088-CA-V,9,0:04:21,13:50:34,13:49:50,Yelloweye rockfish,58,1,FALSE,R,B,bare,bare,,3,,IDC:Fixed Time stamp,4677,1
+H088-CA-V,10,0:04:32,13:50:45,13:50:01,Rockfish uniden.,58,1,FALSE,R,B,bare,sponge,,3,,under rock,4678,1
+H088-CA-V,10,0:04:42,13:50:55,13:50:11,Greenstriped rockfish,59,1,FALSE,R,M,bare,bare,,2,,,4679,1
+H088-CA-V,48,0:23:47,14:10:00,14:09:16,Yelloweye rockfish,71,1,FALSE,M,B,bare,anemone,,2,,ARH: checked,4680,1
+H088-CA-V,50,0:24:39,14:10:52,14:10:08,Quillback rockfish,71,1,FALSE,M,B,bare,bare,,2,,,4682,1
+H088-CA-V,51,0:25:21,14:11:34,14:10:50,Yelloweye rockfish,75,1,FALSE,M,B,bare,bare,,3,,,4683,1
+H088-CA-V,52,0:25:38,14:11:51,14:11:07,Quillback rockfish,76,1,FALSE,R,R,bare,bare,,2,,,4684,1
+H088-CA-V,52,0:25:46,14:11:59,14:11:15,Greenstriped rockfish,77,1,FALSE,M,R,bare,bare,,2,,,4685,1
+H088-CA-V,60,0:29:54,14:16:07,14:15:23,Quillback rockfish,83,1,FALSE,M,B,bare,bare,,2,,,4686,1
+H088-CA-V,62,0:30:59,14:17:12,14:16:28,Greenstriped rockfish,84,1,FALSE,M,P,bare,bare,,1,,ARH: checked,4687,1
+H088-CA-V,67,0:33:25,14:19:38,14:18:54,Greenstriped rockfish,77,1,FALSE,M,P,bare,bare,,1,,,4688,1
+H088-CA-V,68,0:33:44,14:19:57,14:19:13,Greenstriped rockfish,75,5,FALSE,M,P,bare,bare,,1,,,4689,1
+H088-CA-V,68,0:33:53,14:20:06,14:19:22,Quillback rockfish,73,1,FALSE,M,B,bare,bare,,1,,,4690,1
+H090-CA-V,1,0:00:30,13:11:11,13:10:26,Lingcod,81,1,FALSE,M,P,bare,bare,,1,"Small, shallow depression",,4691,1
+H090-CA-V,2,0:01:05,13:11:46,13:11:01,Lingcod,79,1,FALSE,M,C,bare,bare,,1,,,4692,1
+H090-CA-V,2,0:01:29,13:12:10,13:11:25,Greenstriped rockfish,79,1,FALSE,M,M,bare,bare,,1,,,4693,1
+H090-CA-V,13,0:06:55,13:17:36,13:16:51,Greenstriped rockfish,77,1,FALSE,M,B,bare,bare,,3,,,4694,1
+H090-CA-V,14,0:07:18,13:17:59,13:17:14,Yelloweye rockfish,77,1,FALSE,M,C,bare,bare,,2,,,4695,1
+H090-CA-V,15,0:07:42,13:18:23,13:17:38,Quillback rockfish,77,1,FALSE,R,M,bare,bare,,3,,,4697,1
+H090-CA-V,16,0:08:12,13:18:53,13:18:08,Yelloweye rockfish,76,1,FALSE,B,M,bare,bare,,3,,hiding in holebeneath boulder,4698,1
+H090-CA-V,18,0:09:08,13:19:49,13:19:04,Greenstriped rockfish,76,1,FALSE,M,C,bare,bare,,1,,,4699,1
+H090-CA-V,18,0:09:12,13:19:53,13:19:08,Quillback rockfish,76,1,FALSE,M,B,bare,bare,,1,,,4700,1
+H090-CA-V,23,0:11:40,13:22:21,13:21:36,Yelloweye rockfish,73,1,FALSE,M,M,bare,sponge,,1,,hiding under sponge; ARH: checked,4701,1
+H090-CA-V,24,0:12:29,13:23:10,13:22:25,Greenstriped rockfish,74,1,FALSE,M,M,bare,bare,,1,,,4702,1
+H090-CA-V,28,0:14:03,13:24:44,13:23:59,Greenstriped rockfish,69,1,FALSE,M,R,bare,bare,,1,,,4703,1
+H090-CA-V,28,0:14:14,13:24:55,13:24:10,Greenstriped rockfish,67,1,FALSE,M,M,bare,bare,,1,,,4704,1
+H090-CA-V,29,0:14:38,13:25:19,13:24:34,Quillback rockfish,67,1,FALSE,M,B,bare,bare,,2,,,4706,1
+H090-CA-V,41,0:20:42,13:31:23,13:30:38,Greenstriped rockfish,57,1,FALSE,M,P,bare,bare,,1,,,4707,1
+H091-CA-V,2,0:01:29,8:37:11,8:36:21,Quillback rockfish,97,1,FALSE,M,M,bare,bare,,1,,,4132,1
+H091-CA-V,6,0:03:17,8:38:59,8:38:09,Quillback rockfish,85,1,FALSE,M,B,sponge,bare,,3,,,4133,1
+H091-CA-V,8,0:04:14,8:39:56,8:39:06,Quillback rockfish,80,1,FALSE,M,B,sponge,bare,,2,,inside sponge,4134,1
+H091-CA-V,13,0:06:49,8:42:31,8:41:41,Yelloweye rockfish,68,1,FALSE,R,M,sponge,bare,,3,,,4135,1
+H091-CA-V,13,0:06:49,8:42:31,8:41:41,Quillback rockfish,68,1,FALSE,R,M,sponge,bare,,3,,,4137,1
+H091-CA-V,14,0:07:20,8:43:02,8:42:12,Quillback rockfish,67,1,FALSE,R,R,sponge,bare,,2,,,4138,1
+H091-CA-V,15,0:07:43,8:43:25,8:42:35,Rockfish uniden.,66,1,FALSE,M,M,sponge,bare,,1,,ARH: possible QB or copper,6100,1
+H091-CA-V,17,0:08:45,8:44:27,8:43:37,Quillback rockfish,62,1,FALSE,M,M,sponge,bare,,1,,inside sponge,4139,1
+H091-CA-V,20,0:10:17,8:45:59,8:45:09,Quillback rockfish,56,1,FALSE,M,M,Rhabdocalyptus spp.,bare,,1,,,4140,1
+H091-CA-V,20,0:10:19,8:46:01,8:45:11,Quillback rockfish,56,1,FALSE,M,M,Rhabdocalyptus spp.,bare,,1,,,4141,1
+H091-CA-V,25,0:12:57,8:48:39,8:47:49,Quillback rockfish,52,4,FALSE,M,M,sponge,bare,,1,,all crowded around derelict shrimp pot,4142,1
+H091-CA-V,25,0:12:52,8:48:34,8:47:44,crab/shrimp pot,52,1,FALSE,M,M,Rhabdocalyptus spp.,bare,,1,,,6101,1
+H091-CA-V,26,0:13:07,8:48:49,8:47:59,Greenstriped rockfish,52,1,FALSE,M,M,sponge,bare,,1,,,4144,1
+H091-CA-V,28,0:14:09,8:49:51,8:49:01,Quillback rockfish,54,1,FALSE,M,M,Rhabdocalyptus spp.,bare,,1,,,4145,1
+H091-CA-V,31,0:15:50,8:51:32,8:50:42,Greenstriped rockfish,57,1,FALSE,M,M,Rhabdocalyptus spp.,bare,,1,,,4146,1
+H091-CA-V,33,0:16:41,8:52:23,8:51:33,Greenstriped rockfish,58,1,FALSE,M,M,Rhabdocalyptus spp.,bare,,1,,,4147,1
+H091-CA-V,35,0:17:31,8:53:13,8:52:23,Lingcod,61,1,FALSE,M,M,Rhabdocalyptus spp.,bare,,1,,,4148,1
+H091-CA-V,38,0:19:21,8:55:03,8:54:13,Sculpin uniden.,64,1,FALSE,M,M,Rhabdocalyptus spp.,bare,,1,,possible great or threadfin,4149,1
+H091-CA-V,39,0:19:40,8:55:22,8:54:32,Quillback rockfish,65,1,FALSE,M,M,bare,bare,,1,,,4150,1
+H091-CA-V,53,0:26:34,9:02:16,9:01:26,Quillback rockfish,78,1,FALSE,M,B,Rhabdocalyptus spp.,bare,,3,,,4151,1
+H091-CA-V,54,0:27:14,9:02:56,9:02:06,Quillback rockfish,74,1,FALSE,M,B,sponge,bare,,4,,,4152,1
+H091-CA-V,54,0:27:28,9:03:10,9:02:20,Quillback rockfish,74,1,FALSE,M,B,sponge,bare,,3,,,4153,1
+H091-CA-V,61,0:30:50,9:06:32,9:05:42,Greenstriped rockfish,80,1,FALSE,R,M,bare,bare,,2,,,5828,1
+H092-CA-P1,1,0:00:56,12:18:48,12:18:02,Red Irish Lord,64,1,FALSE,R,R,barnacles,bare,,2,,,7174,1
+H092-CA-P1,18,0:09:00,12:26:52,12:26:06,Rockfish uniden.,62,4,FALSE,R,M,bare,bryozoans,,1,,possible yellowtail or canary,7175,1
+H092-CA-P1,18,0:09:00,12:26:52,12:26:06,Canary rockfish,62,1,FALSE,R,M,bare,bryozoans,,1,,,7176,1
+H092-CA-P1,18,0:09:20,12:27:12,12:26:26,Canary rockfish,63,1,FALSE,R,H,bare,bryozoans,,1,,,7177,1
+H092-CA-P1,18,0:09:26,12:27:18,12:26:32,Canary rockfish,63,1,FALSE,R,M,bare,bryozoans,,1,,,7178,1
+H092-CA-P1,19,0:09:39,12:27:31,12:26:45,Yellowtail rockfish,63,1,FALSE,R,R,bare,barnacles,,1,,,7179,1
+H092-CA-P2,1,0:29:16,12:47:08,12:46:22,Quillback rockfish,59,1,FALSE,R,M,bryozoans,bare,,2,,,7180,1
+H092-CA-P2,1,0:29:28,12:47:20,12:46:34,Rockfish uniden.,60,1,FALSE,R,R,barnacles,bare,,2,,ARH: changed from canary,7181,1
+H092-CA-P2,1,0:29:27,12:47:19,12:46:33,Quillback rockfish,60,1,FALSE,R,M,bryozoans,bare,,2,,ARH: added on 3rd review,,1
+H092-CA-P2,3,0:30:12,12:48:04,12:47:18,Quillback rockfish,59,1,FALSE,R,R,encrusting organism complex,encrusting organism complex,,2,,,7182,1
+H092-CA-P2,7,0:32:23,12:50:15,12:49:29,Lingcod,62,1,FALSE,H,S,bare,sea pens/whips,,1,,ARH: checked,7183,1
+H092-CA-P2,7,0:32:28,12:50:20,12:49:34,Kelp greenling,61,1,FALSE,R,S,bare,bare,,3,,,7184,1
+H092-CA-P2,8,0:32:32,12:50:24,12:49:38,Quillback rockfish,61,1,FALSE,R,H,bare,bare,,2,,,7185,1
+H092-CA-P2,8,0:32:39,12:50:31,12:49:45,Puget Sound rockfish,61,3,FALSE,R,H,encrusting organism complex,encrusting organism complex,,2,,,7186,1
+H092-CA-P2,8,0:32:59,12:50:51,12:50:05,Puget Sound rockfish,58,1,FALSE,R,H,bare,encrusting organism complex,,3,,,7187,1
+H092-CA-P2,8,0:32:33,12:50:25,12:49:39,Puget Sound rockfish,61,2,FALSE,R,H,bare,encrusting organism complex,,3,,,,3
+H092-CA-P2,9,0:33:12,12:51:04,12:50:18,Puget Sound rockfish,57,1,FALSE,R,R,bare,encrusting organism complex,,2,,,7188,1
+H092-CA-P2,10,0:33:56,12:51:48,12:51:02,Puget Sound rockfish,54,1,FALSE,R,H,bare,barnacles,,3,,,7189,1
+H092-CA-P2,11,0:34:03,12:51:55,12:51:09,Puget Sound rockfish,53,1,FALSE,R,S,bare,encrusting organism complex,,3,,,7190,1
+H092-CA-P2,11,0:34:26,12:52:18,12:51:32,Puget Sound rockfish,52,1,FALSE,R,R,encrusting organism complex,encrusting organism complex,,3,,,7191,1
+H092-CA-P2,12,0:34:33,12:52:25,12:51:39,Puget Sound rockfish,52,2,FALSE,R,B,bare,barnacles,,3,,,7192,1
+H092-CA-P2,12,0:34:49,12:52:41,12:51:55,Quillback rockfish,52,1,FALSE,B,R,bare,encrusting organism complex,,3,,,7193,1
+H092-CA-P2,12,0:34:53,12:52:45,12:51:59,Puget Sound rockfish,53,6,FALSE,R,R,bare,encrusting organism complex,,2,,,7194,1
+H092-CA-P2,12,0:34:35,12:52:27,12:51:41,Yellowtail rockfish,52,1,FALSE,R,B,bare,barnacles,,3,,,,3
+H092-CA-P2,13,0:35:13,12:53:05,12:52:19,Puget Sound rockfish,52,1,FALSE,R,M,bare,encrusting organism complex,,3,,,7195,1
+H092-CA-P2,18,0:37:55,12:55:47,12:55:01,Puget Sound rockfish,54,3,FALSE,R,R,bare,encrusting organism complex,,3,,,7197,1
+H092-CA-P2,19,0:38:01,12:55:53,12:55:07,Kelp greenling,55,1,FALSE,R,R,encrusting organism complex,bryozoans,,2,,male,7198,1
+H092-CA-P2,19,0:38:10,12:56:02,12:55:16,Lingcod,55,1,FALSE,R,R,encrusting organism complex,bryozoans,,2,,,7199,1
+H092-CA-P2,20,0:38:33,12:56:25,12:55:39,Puget Sound rockfish,56,4,FALSE,R,R,encrusting organism complex,bryozoans,,2,,,7200,1
+H092-CA-P2,20,0:38:41,12:56:33,12:55:47,Puget Sound rockfish,57,12,FALSE,R,C,bare,encrusting organism complex,,3,,,7201,1
+H092-CA-P2,20,0:38:43,12:56:35,12:55:49,Quillback rockfish,58,1,FALSE,R,C,encrusting organism complex,bare,,2,,,7202,1
+H092-CA-P2,20,0:38:46,12:56:38,12:55:52,Puget Sound rockfish,58,4,FALSE,C,R,encrusting organism complex,bare,,2,,,7203,1
+H092-CA-P2,20,0:38:57,12:56:49,12:56:03,Quillback rockfish,58,1,FALSE,R,M,encrusting organism complex,bare,,3,,,7204,1
+H092-CA-P2,20,0:38:57,12:56:49,12:56:03,Yellowtail rockfish,58,1,FALSE,R,R,encrusting organism complex,bare,,3,,,,1
+H092-CA-P2,22,0:39:49,12:57:41,12:56:55,Yellowtail rockfish,55,10,FALSE,R,B,encrusting organism complex,bryozoans,,3,,,7206,1
+H092-CA-P2,22,0:39:35,12:57:27,12:56:41,Puget Sound rockfish,55,3,FALSE,R,R,encrusting organism complex,bryozoans,,2,,,7207,1
+H092-CA-P2,22,0:39:41,12:57:33,12:56:47,Puget Sound rockfish,55,1,FALSE,R,R,encrusting organism complex,bryozoans,,2,,,7208,1
+H092-CA-P2,22,0:39:41,12:57:33,12:56:47,Quillback rockfish,55,1,FALSE,R,R,encrusting organism complex,encrusting organism complex,,2,,,7209,1
+H092-CA-P2,22,0:39:49,12:57:41,12:56:55,Puget Sound rockfish,55,1,FALSE,R,B,encrusting organism complex,bryozoans,,3,,,7210,1
+H092-CA-P2,22,0:39:54,12:57:46,12:57:00,Quillback rockfish,55,1,FALSE,R,R,encrusting organism complex,encrusting organism complex,,2,,,,3
+H092-CA-P2,23,0:40:05,12:57:57,12:57:11,Yellowtail rockfish,55,3,FALSE,R,H,bare,encrusting organism complex,,2,,,7212,1
+H092-CA-P2,23,0:40:13,12:58:05,12:57:19,Yellowtail rockfish,54,2,FALSE,R,R,encrusting organism complex,encrusting organism complex,,2,,,7213,1
+H092-CA-P2,23,0:40:16,12:58:08,12:57:22,Red Irish Lord,53,1,FALSE,R,R,encrusting organism complex,encrusting organism complex,,2,,,7214,1
+H092-CA-P2,24,0:40:59,12:58:51,12:58:05,Quillback rockfish,51,1,FALSE,R,R,encrusting organism complex,encrusting organism complex,,2,,,7215,1
+H092-CA-P2,28,0:42:44,13:00:36,12:59:50,Red Irish Lord,58,1,FALSE,R,B,encrusting organism complex,bryozoans,,3,,,7218,1
+H092-CA-P2,29,0:43:20,13:01:12,13:00:26,Kelp greenling,59,1,FALSE,R,H,bare,bryozoans,,2,,female,,3
+H092-CA-P2,33,0:45:18,13:03:10,13:02:24,Yellowtail rockfish,66,1,FALSE,R,B,bryozoans,encrusting organism complex,,3,,,7219,1
+H092-CA-P2,34,0:45:40,13:03:32,13:02:46,Lingcod,67,1,FALSE,R,H,encrusting organism complex,bryozoans,,2,,,7220,1
+H092-CA-P2,34,0:45:56,13:03:48,13:03:02,Red Irish Lord,68,1,FALSE,R,H,bare,bryozoans,,2,,,,3
+H092-CA-P2,35,0:46:14,13:04:06,13:03:20,Puget Sound rockfish,69,1,FALSE,R,H,encrusting organism complex,bryozoans,,2,,,7221,3
+H093-CA-V,5,0:03:18,9:16:39,9:16:40,Greenstriped rockfish,94,1,FALSE,R,M,bare,bare,,1,,,4765,1
+H093-CA-V,8,0:04:54,9:18:15,9:18:16,Greenstriped rockfish,96,1,FALSE,M,M,bare,bare,,1,,,4766,1
+H093-CA-V,13,0:07:15,9:20:36,9:20:37,Greenstriped rockfish,97,1,FALSE,M,M,bare,bare,,1,,ARH: checked,4767,1
+H093-CA-V,18,0:09:56,9:23:17,9:23:18,Greenstriped rockfish,90,1,FALSE,M,M,bare,bare,,1,,,4768,1
+H093-CA-V,18,0:09:59,9:23:20,9:23:21,Greenstriped rockfish,90,1,FALSE,M,M,bare,bare,,1,,,4769,1
+H093-CA-V,19,0:10:06,9:23:27,9:23:28,Greenstriped rockfish,90,1,FALSE,M,M,bare,bare,,1,,,4770,1
+H093-CA-V,26,0:13:40,9:27:01,9:27:02,Greenstriped rockfish,87,1,FALSE,M,M,bare,bare,,1,,,4771,1
+H093-CA-V,30,0:15:42,9:29:03,9:29:04,Greenstriped rockfish,85,1,FALSE,M,M,bare,bare,,1,,,4772,1
+H093-CA-V,30,0:15:53,9:29:14,9:29:15,Greenstriped rockfish,85,1,FALSE,M,M,bare,bare,,1,,,4773,1
+H093-CA-V,43,0:22:17,9:35:38,9:35:39,Greenstriped rockfish,82,1,FALSE,M,M,bare,bare,,1,,,4774,1
+H093-CA-V,46,0:23:48,9:37:09,9:37:10,Copper rockfish,78,1,FALSE,M,B,bare,bare,,1,,,4775,1
+H093-CA-V,46,0:23:57,9:37:18,9:37:19,Lingcod,77,1,FALSE,M,C,bare,bare,,1,,,4776,1
+H093-CA-V,46,0:23:52,9:37:13,9:37:14,Unidentified fish,78,1,FALSE,M,M,bare,bare,,1,,off in distance to right; ARH: checked,4777,1
+H093-CA-V,47,0:24:15,9:37:36,9:37:37,Copper rockfish,77,1,FALSE,M,P,bare,bare,,1,,,4778,1
+H093-CA-V,47,0:24:28,9:37:49,9:37:50,Lingcod,76,1,FALSE,M,C,bare,bare,,1,,,4779,1
+H093-CA-V,48,0:24:35,9:37:56,9:37:57,Yelloweye rockfish,76,1,FALSE,M,B,bare,bare,,2,,ARH: checked,4780,1
+H093-CA-V,48,0:24:52,9:38:13,9:38:14,Lingcod,76,1,FALSE,M,B,bare,bare,,3,,,4781,1
+H093-CA-V,48,0:24:57,9:38:18,9:38:19,Copper rockfish,76,1,FALSE,M,M,bare,bare,,1,,,4782,1
+H093-CA-V,48,0:24:56,9:38:17,9:38:18,crab/shrimp pot,76,1,FALSE,M,M,bare,bare,,1,,,5764,3
+H093-CA-V,49,0:25:00,9:38:21,9:38:22,Quillback rockfish,76,1,FALSE,M,M,bare,bare,,1,,,4783,1
+H093-CA-V,49,0:25:00,9:38:21,9:38:22,Copper rockfish,76,2,FALSE,M,M,bare,bare,,1,,,4784,1
+H093-CA-V,49,0:25:04,9:38:25,9:38:26,Copper rockfish,76,1,FALSE,M,M,bare,bare,,1,,,4785,1
+H093-CA-V,49,0:25:08,9:38:29,9:38:30,Lingcod,76,1,FALSE,M,M,bare,bare,,1,,,4786,1
+H093-CA-V,49,0:25:14,9:38:35,9:38:36,Quillback rockfish,75,1,FALSE,M,B,bare,bare,,1,,,4787,1
+H093-CA-V,50,0:25:49,9:39:10,9:39:11,Lingcod,74,1,FALSE,M,C,bare,bare,,1,,,4788,1
+H093-CA-V,51,0:26:12,9:39:33,9:39:34,Lingcod,73,1,FALSE,M,M,bare,bare,,1,,,4789,1
+H099-CA-V,2,0:01:12,10:36:51,10:36:07,Rockfish uniden.,76,1,FALSE,M,R,bare,bare,,3,,under rock; ARH: changed from QB,4790,1
+H101-CA-V,1,0:01:12,12:25:58,12:25:19,Greenstriped rockfish,88,1,FALSE,M,M,bare,bare,,1,,ARH: checked,6105,1
+H101-CA-V,4,0:02:37,12:27:23,12:26:44,Greenstriped rockfish,85,1,FALSE,M,M,bare,bare,,1,,,6106,1
+H101-CA-V,4,0:02:51,12:27:37,12:26:58,Greenstriped rockfish,85,1,FALSE,B,B,bare,bare,,1,,,6107,1
+H101-CA-V,13,0:07:15,12:32:01,12:31:22,Greenstriped rockfish,77,1,FALSE,M,M,bare,bare,,1,,,6108,1
+H101-CA-V,14,0:07:54,12:32:40,12:32:01,Quillback rockfish,76,1,FALSE,M,M,bare,bare,,1,,,6109,1
+H101-CA-V,14,0:07:59,12:32:45,12:32:06,Greenstriped rockfish,76,1,FALSE,M,M,bare,bare,,1,,,6110,1
+H101-CA-V,19,0:10:07,12:34:53,12:34:14,Greenstriped rockfish,77,1,FALSE,M,M,bare,bare,,1,,,6111,1
+H101-CA-V,19,0:10:12,12:34:58,12:34:19,Greenstriped rockfish,76,1,FALSE,M,M,bare,bare,,1,,,6112,1
+H101-CA-V,19,0:10:26,12:35:12,12:34:33,Greenstriped rockfish,76,1,FALSE,M,M,bare,bare,,1,,Off in distance,6113,1
+H101-CA-V,21,0:11:00,12:35:46,12:35:07,Unidentified fish,74,1,FALSE,M,M,bare,bare,,1,,ARH: changed from greenstriped rockfish - didn't feel comfortable with ID,6114,1
+H101-CA-V,26,0:13:32,12:38:18,12:37:39,Greenstriped rockfish,78,1,FALSE,M,M,bare,bare,,1,,,6115,1
+H101-CA-V,26,0:13:41,12:38:27,12:37:48,Greenstriped rockfish,78,1,FALSE,M,M,bare,bare,,1,,,6116,1
+H101-CA-V,26,0:13:46,12:38:32,12:37:53,Greenstriped rockfish,78,1,FALSE,M,M,bare,bare,,1,,ARH: checked,6117,1
+H101-CA-V,29,0:15:26,12:40:12,12:39:33,Greenstriped rockfish,80,1,FALSE,M,M,bare,bare,,1,,,6119,1
+H101-CA-V,32,0:16:34,12:41:20,12:40:41,Greenstriped rockfish,83,1,FALSE,M,M,bare,bare,,1,,,6120,1
+H101-CA-V,36,0:18:32,12:43:18,12:42:39,Greenstriped rockfish,84,1,FALSE,M,M,bare,bare,,1,,,6121,1
+H101-CA-V,36,0:18:52,12:43:38,12:42:59,Greenstriped rockfish,85,1,FALSE,M,M,bare,bare,,1,,,6122,1
+H101-CA-V,39,0:20:20,12:45:06,12:44:27,Greenstriped rockfish,88,1,FALSE,M,M,bare,bare,,1,,,6123,1
+H101-CA-V,43,0:22:14,12:47:00,12:46:21,Greenstriped rockfish,90,1,FALSE,M,M,bare,bare,,1,,,6124,1
+H101-CA-V,51,0:26:18,12:51:04,12:50:25,Greenstriped rockfish,89,1,FALSE,M,M,bare,bare,,1,,,6125,1
+H101-CA-V,51,0:26:19,12:51:05,12:50:26,Greenstriped rockfish,87,2,FALSE,M,M,bare,bare,,1,,,6126,1
+H101-CA-V,52,0:26:50,12:51:36,12:50:57,Greenstriped rockfish,89,1,FALSE,M,M,bare,bare,,1,,,6127,1
+H101-CA-V,53,0:27:01,12:51:47,12:51:08,Greenstriped rockfish,89,1,FALSE,B,M,bare,bare,,2,,,6128,1
+H107-CA-V,4,0:02:27,15:57:37,15:56:51,Lingcod,44,1,FALSE,M,R,Crinoids,Crinoids,,2,,,6129,1
+H107-CA-V,4,0:02:28,15:57:38,15:56:52,Lingcod,44,1,FALSE,M,R,Crinoids,Crinoids,,2,,,6130,1
+H107-CA-V,5,0:02:53,15:58:03,15:57:17,Lingcod,43,1,FALSE,M,R,Crinoids,bare,,2,,possible duplicate?,6131,1
+H107-CA-V,6,0:03:08,15:58:18,15:57:32,Rockfish uniden.,42,1,FALSE,M,R,Crinoids,bare,,2,,Likely Quillback - chased by lingcod,6132,1
+H107-CA-V,9,0:04:59,16:00:09,15:59:23,Quillback rockfish,47,1,FALSE,R,R,bare,Crinoids,,1,,,6133,1
+H107-CA-V,10,0:04:59,16:00:09,15:59:23,Quillback rockfish,47,1,FALSE,M,H,bare,Crinoids,,1,,,6134,1
+H107-CA-V,12,0:06:03,16:01:13,16:00:27,Quillback rockfish,46,1,FALSE,M,M,bare,Crinoids,,2,,,6135,1
+H107-CA-V,12,0:06:27,16:01:37,16:00:51,Rockfish uniden.,47,3,FALSE,M,M,bare,Crinoids,,2,,ARH: possible PSRF,6136,1
+H107-CA-V,13,0:06:33,16:01:43,16:00:57,Yellowtail rockfish,46,1,FALSE,R,M,bare,Crinoids,,2,,ARH: checked,6137,1
+H107-CA-V,13,0:06:35,16:01:45,16:00:59,Puget Sound rockfish,46,1,FALSE,R,M,bare,anemone,,2,,,6138,1
+H107-CA-V,13,0:06:35,16:01:45,16:00:59,Quillback rockfish,46,1,FALSE,R,M,bare,anemone,,2,,,6139,1
+H107-CA-V,13,0:06:41,16:01:51,16:01:05,Puget Sound rockfish,45,5,FALSE,R,R,bare,anemone,,2,scattered scallops and crinoids; anemone are Metridium,,6140,1
+H107-CA-V,13,0:06:51,16:02:01,16:01:15,Yelloweye rockfish,45,2,FALSE,R,B,bare,anemone,,3,,,6141,1
+H107-CA-V,13,0:06:57,16:02:07,16:01:21,Quillback rockfish,45,1,FALSE,R,B,bare,anemone,,3,,,6142,1
+H107-CA-V,14,0:07:08,16:02:18,16:01:32,Quillback rockfish,43,1,FALSE,R,B,bare,bare,,3,,,6143,1
+H107-CA-V,14,0:07:18,16:02:28,16:01:42,Kelp greenling,44,1,FALSE,R,B,bare,bare,,3,,male,6144,1
+H107-CA-V,14,0:07:20,16:02:30,16:01:44,Quillback rockfish,44,1,FALSE,R,B,bare,bare,,3,,,6145,1
+H107-CA-V,14,0:07:28,16:02:38,16:01:52,Quillback rockfish,44,1,FALSE,R,B,bare,bare,,3,,possible duplicate?,6146,1
+H107-CA-V,15,0:07:33,16:02:43,16:01:57,Quillback rockfish,44,1,FALSE,R,H,bare,Crinoids,,3,,,6147,2
+H107-CA-V,15,0:07:44,16:02:54,16:02:08,Unidentified fish,44,7,FALSE,R,H,bare,bare,,2,,large school off to right off wall - possible yellowtail; ARH: checked,6148,1
+H107-CA-V,15,0:07:50,16:03:00,16:02:14,Quillback rockfish,45,1,FALSE,R,H,bare,bare,,2,,,6149,1
+H107-CA-V,16,0:08:16,16:03:26,16:02:40,Quillback rockfish,46,1,FALSE,R,M,bare,bare,,2,,,6150,1
+H107-CA-V,16,0:08:22,16:03:32,16:02:46,Unidentified fish,46,1,FALSE,R,M,bare,bare,,2,,"ARH: checked, changed from lingcod - possible lingcod or kelp greenling",6151,1
+H107-CA-V,16,0:08:24,16:03:34,16:02:48,Quillback rockfish,46,1,FALSE,R,M,bare,bare,,2,,,6152,1
+H107-CA-V,17,0:08:52,16:04:02,16:03:16,Kelp greenling,49,1,FALSE,R,M,bare,bare,,3,,female,6153,1
+H107-CA-V,17,0:08:58,16:04:08,16:03:22,Yelloweye rockfish,50,1,FALSE,R,M,bare,bare,,3,,ARH: checked,6154,1
+H107-CA-V,18,0:09:13,16:04:23,16:03:37,Quillback rockfish,51,1,FALSE,R,M,bare,bare,,3,,,6155,1
+H107-CA-V,19,0:09:30,16:04:40,16:03:54,Quillback rockfish,52,1,FALSE,R,M,bare,bare,,3,,possible duplicate?,6156,1
+H107-CA-V,19,0:09:32,16:04:42,16:03:56,Quillback rockfish,53,1,FALSE,R,M,bare,bare,,3,,,6157,1
+H107-CA-V,19,0:09:57,16:05:07,16:04:21,Quillback rockfish,53,1,FALSE,R,M,bare,bare,,3,,,6158,1
+H107-CA-V,20,0:10:07,16:05:17,16:04:31,Quillback rockfish,51,1,FALSE,R,M,bare,bare,,2,,,6159,1
+H107-CA-V,22,0:11:20,16:06:30,16:05:44,Quillback rockfish,47,1,FALSE,R,M,bare,bare,,2,,,6160,1
+H107-CA-V,23,0:11:44,16:06:54,16:06:08,Yellowtail rockfish,49,1,FALSE,R,M,bare,anemone,,2,,ARH: checked,6161,1
+H107-CA-V,24,0:12:06,16:07:16,16:06:30,Yellowtail rockfish,50,20,FALSE,R,M,bare,bare,,2,,"ARH: checked, count appears to be a close estimate",6162,1
+H107-CA-V,24,0:12:21,16:07:31,16:06:45,Quillback rockfish,50,1,FALSE,R,M,bare,anemone,,2,,MAYBE duplicate? Hard to tell,6163,1
+H107-CA-V,24,0:12:28,16:07:38,16:06:52,Quillback rockfish,49,1,FALSE,R,M,bare,anemone,,2,,,6164,1
+H107-CA-V,26,0:13:10,16:08:20,16:07:34,Kelp greenling,43,1,FALSE,R,R,bare,anemone,,2,,male,6166,1
+H107-CA-V,26,0:13:26,16:08:36,16:07:50,Quillback rockfish,44,1,FALSE,R,R,bare,anemone,,2,,,6167,1
+H107-CA-V,26,0:13:27,16:08:37,16:07:51,Quillback rockfish,44,1,FALSE,R,R,bare,anemone,,2,,,6168,1
+H107-CA-V,28,0:14:29,16:09:39,16:08:53,Kelp greenling,49,1,FALSE,R,R,bare,anemone,,2,,male,6169,1
+H107-CA-V,29,0:14:40,16:09:50,16:09:04,Quillback rockfish,49,1,FALSE,R,M,bare,anemone,,1,,,6170,1
+H107-CA-V,29,0:14:53,16:10:03,16:09:17,Quillback rockfish,51,1,FALSE,R,M,bare,anemone,,1,,,6171,1
+H107-CA-V,29,0:14:59,16:10:09,16:09:23,Quillback rockfish,51,1,FALSE,R,M,bare,anemone,,1,,possible duplicate?,6172,1
+H107-CA-V,30,0:15:20,16:10:30,16:09:44,Copper rockfish,54,1,FALSE,R,M,bare,anemone,,1,,,6173,1
+H107-CA-V,31,0:15:48,16:10:58,16:10:12,Copper rockfish,57,1,FALSE,R,M,bare,anemone,,1,,,6174,1
+H107-CA-V,32,0:16:04,16:11:14,16:10:28,Lingcod,59,1,FALSE,R,B,bare,bare,,3,,,6175,1
+H107-CA-V,32,0:16:04,16:11:14,16:10:28,Yelloweye rockfish,59,1,FALSE,R,B,bare,bare,,4,,,6176,1
+H107-CA-V,32,0:16:13,16:11:23,16:10:37,Yelloweye rockfish,58,1,FALSE,B,B,bare,bare,,4,,,6177,1
+H107-CA-V,32,0:16:26,16:11:36,16:10:50,Rockfish uniden.,59,1,FALSE,R,B,bare,bare,,4,,under boulder; might be yelloweye or tiger,6178,1
+H107-CA-V,33,0:16:41,16:11:51,16:11:05,Rockfish uniden.,59,1,FALSE,B,M,bare,bare,,3,,under rock,6179,2
+H107-CA-V,33,0:16:41,16:11:51,16:11:05,Puget Sound rockfish,59,1,FALSE,B,M,bare,bare,,3,,,6180,2
+H107-CA-V,33,0:16:53,16:12:03,16:11:17,Quillback rockfish,60,1,FALSE,B,M,bare,bare,,3,,,6181,1
+H107-CA-V,36,0:18:22,16:13:32,16:12:46,Quillback rockfish,60,1,FALSE,B,H,bare,bare,,2,,,6182,1
+H107-CA-V,36,0:18:28,16:13:38,16:12:52,Quillback rockfish,60,2,FALSE,B,H,bare,bare,,2,,,6183,1
+H107-CA-V,37,0:18:34,16:13:44,16:12:58,Quillback rockfish,59,2,FALSE,B,H,bare,bare,,4,,,6184,1
+H107-CA-V,37,0:18:34,16:13:44,16:12:58,Yelloweye rockfish,59,1,FALSE,B,H,bare,bare,,4,,"left in shawdows, seen again @ 18:49",6185,1
+H107-CA-V,37,0:18:43,16:13:53,16:13:07,Quillback rockfish,58,1,FALSE,B,H,bare,Aphrocallistes vastus,,4,,,6186,1
+H107-CA-V,37,0:18:46,16:13:56,16:13:10,Puget Sound rockfish,58,1,FALSE,B,H,bare,Aphrocallistes vastus,,4,,,6187,1
+H107-CA-V,37,0:18:49,16:13:59,16:13:13,Quillback rockfish,58,2,FALSE,B,H,bare,Aphrocallistes vastus,,4,,,6188,1
+H107-CA-V,37,0:18:55,16:14:05,16:13:19,Tiger rockfish,58,1,FALSE,B,H,bare,anemone,,4,,,6189,1
+H107-CA-V,37,0:18:55,16:14:05,16:13:19,Quillback rockfish,58,1,FALSE,B,H,bare,anemone,,4,,,6190,1
+H107-CA-V,38,0:19:08,16:14:18,16:13:32,Quillback rockfish,58,1,FALSE,B,M,bare,bare,,3,,,6191,1
+H107-CA-V,38,0:19:24,16:14:34,16:13:48,Lingcod,58,1,FALSE,B,M,bare,bare,,3,,,6192,1
+H107-CA-V,39,0:19:34,16:14:44,16:13:58,Puget Sound rockfish,59,1,FALSE,M,C,bare,bare,,2,,,6193,1
+H109-CA-V,48,0:24:19,15:19:51,15:19:05,Lingcod,58,1,FALSE,P,M,bare,bare,,1,,,6194,1
+H109-CA-V,49,0:24:51,15:20:23,15:19:37,Lingcod,59,1,FALSE,P,M,bare,bare,,2,,,6195,1
+H109-CA-V,58,0:29:23,15:24:55,15:24:09,Lingcod,55,1,FALSE,M,M,bare,barnacles,,2,,,6196,1
+H112-CA-V,2,0:01:13,12:38:49,12:38:52,Canary rockfish,77,1,FALSE,H,C,bare,bare,,1,,,6197,1
+H112-CA-V,3,0:01:57,12:39:33,12:39:36,Unidentified fish,76,2,FALSE,H,B,bare,barnacles,,2,,ARH: possible Puget Sound rockfish,6198,1
+H112-CA-V,4,0:02:05,12:39:41,12:39:44,Quillback rockfish,75,1,FALSE,B,R,bare,barnacles,,3,,,6199,1
+H112-CA-V,4,0:02:08,12:39:44,12:39:47,cable/line,75,1,FALSE,B,P,bare,barnacles,,3,,line,6200,1
+H112-CA-V,4,0:02:14,12:39:50,12:39:53,Quillback rockfish,75,1,FALSE,P,B,bare,barnacles,,2,,,6201,1
+H112-CA-V,5,0:02:52,12:40:28,12:40:31,Quillback rockfish,75,1,FALSE,R,H,bare,encrusting organism complex,,2,,,6202,1
+H112-CA-V,5,0:02:54,12:40:30,12:40:33,Puget Sound rockfish,75,2,FALSE,R,P,bare,encrusting organism complex,,2,,,6203,1
+H112-CA-V,9,0:04:55,12:42:31,12:42:34,Quillback rockfish,77,1,FALSE,R,H,bare,barnacles,,2,,,6208,1
+H112-CA-V,10,0:05:19,12:42:55,12:42:58,cable/line,76,1,FALSE,C,H,bare,barnacles,,1,,,6209,1
+H112-CA-V,14,0:07:00,12:44:36,12:44:39,Puget Sound rockfish,74,2,FALSE,R,R,bare,encrusting organism complex,,3,,,6210,1
+H112-CA-V,14,0:07:04,12:44:40,12:44:43,Yelloweye rockfish,73,1,FALSE,R,R,bare,encrusting organism complex,,3,,,6211,1
+H112-CA-V,14,0:07:06,12:44:42,12:44:45,Puget Sound rockfish,73,4,FALSE,R,R,bare,encrusting organism complex,,3,,,6212,1
+H112-CA-V,14,0:07:11,12:44:47,12:44:50,Quillback rockfish,72,1,FALSE,R,R,bare,encrusting organism complex,,3,,,6213,1
+H112-CA-V,14,0:07:11,12:44:47,12:44:50,Puget Sound rockfish,72,1,FALSE,R,R,bare,encrusting organism complex,,3,,,6214,1
+H112-CA-V,14,0:07:17,12:44:53,12:44:56,Puget Sound rockfish,71,1,FALSE,R,R,bare,encrusting organism complex,,3,,,6215,1
+H112-CA-V,14,0:07:28,12:45:04,12:45:07,Puget Sound rockfish,70,1,FALSE,R,R,bare,encrusting organism complex,,2,,,6216,1
+H112-CA-V,21,0:10:43,12:48:19,12:48:22,crab/shrimp pot,73,1,FALSE,R,H,bare,bare,,2,,shrimp pot on groundline,6217,1
+H112-CA-V,21,0:10:44,12:48:20,12:48:23,cable/line,73,1,FALSE,R,H,bare,bare,,2,,line attached to shrimp pot,6218,1
+H112-CA-V,22,0:11:27,12:49:03,12:49:06,Quillback rockfish,75,1,FALSE,C,H,bare,bare,,1,,,6219,1
+H112-CA-V,23,0:11:36,12:49:12,12:49:15,Canary rockfish,75,1,FALSE,C,H,bare,barnacles,,2,,,6220,1
+H112-CA-V,25,0:12:52,12:50:28,12:50:31,Quillback rockfish,73,1,FALSE,R,R,bare,encrusting organism complex,,2,,,6221,1
+H112-CA-V,26,0:13:04,12:50:40,12:50:43,Copper rockfish,72,1,FALSE,R,R,bare,encrusting organism complex,,2,,,6222,1
+H112-CA-V,27,0:13:31,12:51:07,12:51:10,cable/line,70,1,FALSE,R,R,bare,encrusting organism complex,,2,,line,6223,1
+H112-CA-V,28,0:14:09,12:51:45,12:51:48,Rockfish uniden.,67,1,FALSE,R,R,bare,encrusting organism complex,,2,,possible Puget Sound,6224,1
+H112-CA-V,28,0:14:23,12:51:59,12:52:02,Puget Sound rockfish,65,2,FALSE,R,R,bare,encrusting organism complex,,2,,,6225,1
+H112-CA-V,30,0:15:15,12:52:51,12:52:54,Unidentified fish,66,1,FALSE,R,R,bare,encrusting organism complex,,2,,possible Puget Sound rockfish,6226,1
+H112-CA-V,30,0:15:18,12:52:54,12:52:57,Quillback rockfish,67,1,FALSE,R,S,bare,bare,,2,,,6227,1
+H112-CA-V,30,0:15:18,12:52:54,12:52:57,Unidentified fish,67,1,FALSE,R,S,bare,bare,,2,,possible Puget Sound rockfish,6228,1
+H112-CA-V,30,0:15:22,12:52:58,12:53:01,cable/line,68,1,FALSE,R,R,bare,encrusting organism complex,,2,,line,6229,1
+H112-CA-V,37,0:18:35,12:56:11,12:56:14,Puget Sound rockfish,81,1,FALSE,B,C,bare,encrusting organism complex,,3,,,6232,1
+H112-CA-V,41,0:20:43,12:58:19,12:58:22,Puget Sound rockfish,81,3,FALSE,C,H,bare,bare,,2,,,6233,1
+H112-CA-V,43,0:21:54,12:59:30,12:59:33,Quillback rockfish,79,1,FALSE,C,H,bare,bare,,2,,,6234,1
+H112-CA-V,44,0:22:14,12:59:50,12:59:53,Copper rockfish,79,1,FALSE,C,H,bare,encrusting organism complex,,2,,,6235,1
+H112-CA-V,44,0:22:23,12:59:59,13:00:02,crab/shrimp pot,78,1,FALSE,R,H,bare,encrusting organism complex,,3,,shrimp pot,6236,1
+H112-CA-V,44,0:22:25,13:00:01,13:00:04,Unidentified fish,77,3,FALSE,R,B,bare,encrusting organism complex,,3,,possible PSRF,6237,1
+H112-CA-V,45,0:22:34,13:00:10,13:00:13,Puget Sound rockfish,77,1,FALSE,R,B,bare,encrusting organism complex,,3,,,6238,1
+H112-CA-V,45,0:22:40,13:00:16,13:00:19,Puget Sound rockfish,76,1,FALSE,R,R,bare,encrusting organism complex,,2,,,6239,1
+H112-CA-V,45,0:22:49,13:00:25,13:00:28,Puget Sound rockfish,75,2,FALSE,R,R,bare,encrusting organism complex,,3,,,6240,1
+H112-CA-V,45,0:22:54,13:00:30,13:00:33,Quillback rockfish,76,1,FALSE,R,R,bare,encrusting organism complex,,3,,,6241,1
+H112-CA-V,45,0:22:57,13:00:33,13:00:36,Puget Sound rockfish,76,1,FALSE,R,R,bare,encrusting organism complex,,3,,,6242,1
+H112-CA-V,46,0:23:04,13:00:40,13:00:43,Puget Sound rockfish,75,3,FALSE,R,R,bare,encrusting organism complex,,2,,,6243,1
+H112-CA-V,46,0:23:04,13:00:40,13:00:43,cable/line,75,1,FALSE,R,R,bare,encrusting organism complex,,2,,line,6244,1
+H112-CA-V,46,0:23:13,13:00:49,13:00:52,Puget Sound rockfish,74,1,FALSE,R,R,bare,encrusting organism complex,,2,,,6245,1
+H112-CA-V,46,0:23:23,13:00:59,13:01:02,Quillback rockfish,73,1,FALSE,R,R,bare,encrusting organism complex,,3,,,6246,1
+H112-CA-V,46,0:23:24,13:01:00,13:01:03,Yelloweye rockfish,73,1,FALSE,R,R,bare,encrusting organism complex,,4,,,6247,1
+H112-CA-V,46,0:23:27,13:01:03,13:01:06,cable/line,73,1,FALSE,R,R,bare,encrusting organism complex,,3,,line; Might be same line from 23:04,6248,1
+H112-CA-V,46,0:23:28,13:01:04,13:01:07,Rockfish uniden.,73,1,FALSE,R,R,bare,encrusting organism complex,,4,,possible tiger or yelloweye in hole,6249,1
+H112-CA-V,47,0:23:33,13:01:09,13:01:12,Puget Sound rockfish,73,3,FALSE,R,R,bare,encrusting organism complex,,3,,,6250,1
+H112-CA-V,47,0:23:37,13:01:13,13:01:16,Quillback rockfish,72,1,FALSE,R,R,bare,encrusting organism complex,,3,,,6251,1
+H112-CA-V,47,0:23:43,13:01:19,13:01:22,Puget Sound rockfish,71,1,FALSE,R,R,bare,bare,,3,,,6252,1
+H112-CA-V,47,0:23:54,13:01:30,13:01:33,Puget Sound rockfish,70,2,FALSE,R,R,encrusting organism complex,encrusting organism complex,,3,,,6253,1
+H112-CA-V,48,0:24:05,13:01:41,13:01:44,cable/line,69,1,FALSE,R,R,encrusting organism complex,encrusting organism complex,,3,,line; might be same line from previous segment,6254,1
+H112-CA-V,48,0:24:07,13:01:43,13:01:46,Puget Sound rockfish,69,2,FALSE,R,R,encrusting organism complex,encrusting organism complex,,3,,,6255,1
+H112-CA-V,48,0:24:24,13:02:00,13:02:03,Puget Sound rockfish,66,1,FALSE,R,R,bare,bare,,3,,,6256,1
+H112-CA-V,48,0:24:28,13:02:04,13:02:07,Puget Sound rockfish,67,1,FALSE,R,R,encrusting organism complex,encrusting organism complex,,3,,,6257,1
+H112-CA-V,49,0:24:32,13:02:08,13:02:11,Quillback rockfish,66,1,FALSE,R,R,encrusting organism complex,encrusting organism complex,,3,,,6258,1
+H112-CA-V,49,0:24:33,13:02:09,13:02:12,Puget Sound rockfish,66,1,FALSE,R,R,encrusting organism complex,encrusting organism complex,,3,,,6259,1
+H112-CA-V,49,0:24:44,13:02:20,13:02:23,Puget Sound rockfish,66,4,FALSE,R,R,encrusting organism complex,encrusting organism complex,,3,,,6260,1
+H112-CA-V,49,0:24:48,13:02:24,13:02:27,Puget Sound rockfish,66,2,FALSE,R,R,encrusting organism complex,encrusting organism complex,,3,,,6261,1
+H112-CA-V,49,0:24:52,13:02:28,13:02:31,cable/line,65,1,FALSE,R,R,encrusting organism complex,bare,,3,,line; might be same line from previous transect,6262,1
+H112-CA-V,49,0:24:54,13:02:30,13:02:33,Puget Sound rockfish,65,1,FALSE,R,R,bare,encrusting organism complex,,3,,,6263,1
+H112-CA-V,49,0:24:58,13:02:34,13:02:37,Puget Sound rockfish,68,1,FALSE,R,R,bare,encrusting organism complex,,2,,,6264,1
+H112-CA-V,50,0:25:02,13:02:38,13:02:41,Kelp greenling,64,1,FALSE,R,R,encrusting organism complex,encrusting organism complex,,2,,female,6265,1
+H112-CA-V,50,0:25:08,13:02:44,13:02:47,Puget Sound rockfish,64,6,FALSE,R,R,encrusting organism complex,encrusting organism complex,,3,,,6266,1
+H112-CA-V,50,0:25:11,13:02:47,13:02:50,Puget Sound rockfish,64,4,FALSE,R,R,bare,encrusting organism complex,,3,,,6267,1
+H112-CA-V,50,0:25:16,13:02:52,13:02:55,Puget Sound rockfish,63,7,FALSE,R,R,bare,encrusting organism complex,,3,,,6268,1
+H112-CA-V,50,0:25:25,13:03:01,13:03:04,Puget Sound rockfish,63,2,FALSE,R,R,bare,encrusting organism complex,,3,,,6269,1
+H112-CA-V,51,0:25:31,13:03:07,13:03:10,Puget Sound rockfish,62,1,FALSE,R,R,bare,encrusting organism complex,,3,,,6270,1
+H112-CA-V,55,0:27:32,13:05:08,13:05:11,Canary rockfish,56,1,FALSE,R,H,bare,bare,,1,,,6271,1
+H112-CA-V,56,0:28:12,13:05:48,13:05:51,Quillback rockfish,56,1,FALSE,C,H,bare,encrusting organism complex,,2,,,6272,1
+H112-CA-V,56,0:28:17,13:05:53,13:05:56,Puget Sound rockfish,55,2,FALSE,R,C,bare,encrusting organism complex,,3,,,6273,1
+H112-CA-V,56,0:28:22,13:05:58,13:06:01,Canary rockfish,54,1,FALSE,R,R,encrusting organism complex,encrusting organism complex,,3,,,6274,1
+H112-CA-V,57,0:28:35,13:06:11,13:06:14,Lingcod,53,1,FALSE,R,C,bare,encrusting organism complex,,3,,ARH: checked,6275,1
+H113-CA-V,29,0:14:39,16:02:15,16:02:17,Puget Sound rockfish,58,1,FALSE,C,M,bare,bare,,3,,,6276,1
+H113-CA-V,29,0:14:43,16:02:19,16:02:21,Puget Sound rockfish,58,1,FALSE,C,H,bare,bare,,2,,,6277,1
+H113-CA-V,30,0:15:05,16:02:41,16:02:43,Puget Sound rockfish,60,1,FALSE,C,M,bare,bare,,3,,,6278,1
+H113-CA-V,31,0:15:33,16:03:09,16:03:11,Rockfish uniden.,59,1,FALSE,M,B,bare,bare,,3,,puget? Right,6279,1
+H113-CA-V,31,0:15:39,16:03:15,16:03:17,Puget Sound rockfish,58,1,FALSE,M,B,bare,bare,,2,,,6280,1
+H113-CA-V,31,0:15:40,16:03:16,16:03:18,Rockfish uniden.,58,1,FALSE,M,R,bare,bare,,2,,possible puget,6281,1
+H113-CA-V,31,0:15:43,16:03:19,16:03:21,Rockfish uniden.,58,1,FALSE,M,R,bare,bare,,2,,,6282,1
+H113-CA-V,31,0:15:49,16:03:25,16:03:27,Rockfish uniden.,58,1,FALSE,M,R,bare,bare,,2,,,6283,1
+H113-CA-V,33,0:16:45,16:04:21,16:04:23,Copper rockfish,54,1,FALSE,M,C,bare,bare,,2,,,6284,1
+H113-CA-V,33,0:16:48,16:04:24,16:04:26,Puget Sound rockfish,54,2,FALSE,M,R,bare,bare,,2,,,6285,1
+H113-CA-V,33,0:16:52,16:04:28,16:04:30,Quillback rockfish,53,1,FALSE,M,B,bare,bare,,2,,,6286,1
+H113-CA-V,33,0:17:00,16:04:36,16:04:38,Puget Sound rockfish,53,2,FALSE,M,B,bare,bare,,2,,,6287,1
+H113-CA-V,34,0:17:03,16:04:39,16:04:41,Puget Sound rockfish,53,3,FALSE,B,B,bare,encrusting organism complex,,4,,,6288,1
+H113-CA-V,34,0:17:05,16:04:41,16:04:43,Puget Sound rockfish,53,1,FALSE,C,H,bare,bare,,2,,,6289,1
+H113-CA-V,34,0:17:10,16:04:46,16:04:48,Puget Sound rockfish,53,1,FALSE,R,C,bare,encrusting organism complex,,2,,,6290,1
+H113-CA-V,37,0:18:59,16:06:35,16:06:37,Puget Sound rockfish,52,1,FALSE,C,H,bare,bare,,2,,,6291,1
+H113-CA-V,39,0:19:49,16:07:25,16:07:27,Puget Sound rockfish,53,1,FALSE,C,M,bare,bare,,2,,,6292,1
+H113-CA-V,40,0:20:19,16:07:55,16:07:57,Puget Sound rockfish,55,1,FALSE,H,M,bare,bare,,2,,,6293,1
+H113-CA-V,41,0:20:43,16:08:19,16:08:21,Quillback rockfish,56,1,FALSE,H,C,bare,bare,,2,,,6294,1
+H113-CA-V,43,0:21:32,16:09:08,16:09:10,Puget Sound rockfish,59,1,FALSE,H,C,bare,bare,,2,,,6295,1
+H113-CA-V,43,0:21:39,16:09:15,16:09:17,Puget Sound rockfish,59,2,FALSE,H,B,bare,bare,,2,,,6296,1
+H113-CA-V,43,0:21:54,16:09:30,16:09:32,Copper rockfish,59,1,FALSE,R,M,bare,bare,,2,,,6298,1
+H113-CA-V,44,0:22:06,16:09:42,16:09:44,Quillback rockfish,60,1,FALSE,M,C,bare,bare,,2,,,6299,1
+H113-CA-V,44,0:22:07,16:09:43,16:09:45,Puget Sound rockfish,60,2,FALSE,M,C,bare,bare,,2,,,6300,1
+H113-CA-V,44,0:22:12,16:09:48,16:09:50,Yellowtail rockfish,61,1,FALSE,M,C,bare,bare,,2,,ARH: checked,6301,1
+H113-CA-V,45,0:22:37,16:10:13,16:10:15,Puget Sound rockfish,61,1,FALSE,H,B,bare,barnacles,,2,,,6302,1
+H113-CA-V,45,0:22:59,16:10:35,16:10:37,Puget Sound rockfish,58,1,FALSE,H,M,bare,barnacles,,2,,,6303,1
+H113-CA-V,46,0:23:05,16:10:41,16:10:43,Yellowtail rockfish,57,1,FALSE,H,M,bare,barnacles,,2,,ARH: checked,6304,1
+H113-CA-V,46,0:23:07,16:10:43,16:10:45,Puget Sound rockfish,57,2,FALSE,H,M,bare,barnacles,,2,,,6305,1
+H113-CA-V,46,0:23:10,16:10:46,16:10:48,Puget Sound rockfish,57,1,FALSE,B,H,bare,barnacles,,2,,,6306,1
+H113-CA-V,46,0:23:13,16:10:49,16:10:51,Puget Sound rockfish,56,1,FALSE,B,H,bare,barnacles,,2,,,6307,1
+H113-CA-V,46,0:23:18,16:10:54,16:10:56,Quillback rockfish,56,1,FALSE,B,H,bare,barnacles,,2,,,6308,1
+H113-CA-V,47,0:23:36,16:11:12,16:11:14,Quillback rockfish,54,1,FALSE,R,R,bare,barnacles,,2,,,6309,1
+H113-CA-V,47,0:23:46,16:11:22,16:11:24,Puget Sound rockfish,52,1,FALSE,R,R,bare,barnacles,,2,,,6310,1
+H113-CA-V,47,0:23:53,16:11:29,16:11:31,Puget Sound rockfish,52,1,FALSE,R,R,bare,barnacles,,2,,,6311,1
+H113-CA-V,51,0:25:35,16:13:11,16:13:13,Puget Sound rockfish,50,1,FALSE,R,C,bare,barnacles,,3,,,6312,1
+H113-CA-V,51,0:25:36,16:13:12,16:13:14,Yellowtail rockfish,50,2,FALSE,R,C,bare,barnacles,,3,,ARH: checked,6313,1
+H113-CA-V,51,0:25:47,16:13:23,16:13:25,Puget Sound rockfish,49,3,FALSE,R,C,bare,barnacles,,3,,,6314,1
+H113-CA-V,51,0:25:47,16:13:23,16:13:25,Quillback rockfish,49,1,FALSE,R,C,bare,barnacles,,3,,,6315,1
+H113-CA-V,51,0:25:51,16:13:27,16:13:29,Quillback rockfish,49,1,FALSE,R,C,bare,barnacles,,2,,,6316,1
+H113-CA-V,51,0:25:54,16:13:30,16:13:32,Lingcod,49,1,FALSE,R,C,bare,barnacles,,3,,,6317,1
+H113-CA-V,51,0:25:58,16:13:34,16:13:36,Yellowtail rockfish,49,1,FALSE,M,C,bare,barnacles,,3,,ARH: checked,6318,1
+H113-CA-V,57,0:28:41,16:16:17,16:16:19,Quillback rockfish,54,1,FALSE,B,R,bare,encrusting organism complex,,3,,,6319,1
+H114-CA-V,8,0:04:11,13:59:05,13:58:19,cable/line,54,1,FALSE,H,M,bare,bare,,1,,line,6320,1
+H114-CA-V,38,0:19:10,14:14:04,14:13:18,Quillback rockfish,41,1,FALSE,R,R,bare,barnacles,,2,,,6321,1
+H114-CA-V,42,0:21:13,14:16:07,14:15:21,Puget Sound rockfish,41,1,FALSE,H,R,bare,bare,,3,,,6322,1
+H114-CA-V,43,0:21:32,14:16:26,14:15:40,Quillback rockfish,42,1,FALSE,R,B,bare,bare,,3,,,6323,1
+H114-CA-V,43,0:21:45,14:16:39,14:15:53,Puget Sound rockfish,41,1,FALSE,R,B,bare,encrusting organism complex,,3,,,6324,1
+H114-CA-V,55,0:27:41,14:22:35,14:21:49,Quillback rockfish,45,1,FALSE,H,R,bare,bare,,3,,,6325,1
+H114-CA-V,55,0:27:54,14:22:48,14:22:02,Puget Sound rockfish,46,1,FALSE,H,R,bare,bare,,3,,,6326,1
+H114-CA-V,56,0:28:10,14:23:04,14:22:18,Quillback rockfish,48,1,FALSE,R,R,bare,bare,,3,,,6327,1
+H114-CA-V,56,0:28:16,14:23:10,14:22:24,Quillback rockfish,48,1,FALSE,R,B,bare,encrusting organism complex,,2,,,6328,1
+H114-CA-V,60,0:30:02,14:24:56,14:24:10,Rockfish uniden.,46,1,FALSE,B,R,bare,encrusting organism complex,,4,,possible QB or copper,7171,1
+H114-CA-V,60,0:30:16,14:25:10,14:24:24,Quillback rockfish,46,1,FALSE,R,R,bare,barnacles,,3,,,7172,1
+H114-CA-V,60,0:30:29,14:25:23,14:24:37,Yellowtail rockfish,44,1,FALSE,R,R,barnacles,barnacles,,3,,ARH: checked,7173,1
+H119-CA-V,1,0:00:33,7:41:21,7:40:32,Quillback rockfish,49,1,FALSE,M,M,bare,Rhabdocalyptus spp.,,1,,,6329,1
+H119-CA-V,1,0:00:45,7:41:33,7:40:44,Lingcod,49,1,FALSE,M,M,bare,Rhabdocalyptus spp.,,1,,,6330,1
+H119-CA-V,2,0:01:02,7:41:50,7:41:01,Quillback rockfish,49,1,FALSE,M,M,bare,Rhabdocalyptus spp.,,1,,,6331,1
+H119-CA-V,2,0:01:20,7:42:08,7:41:19,Quillback rockfish,49,1,FALSE,M,M,bare,Rhabdocalyptus spp.,,1,,,6332,1
+H119-CA-V,3,0:01:58,7:42:46,7:41:57,Quillback rockfish,50,1,FALSE,M,M,Rhabdocalyptus spp.,bare,,2,,,6333,1
+H119-CA-V,21,0:10:41,7:51:29,7:50:40,Quillback rockfish,53,1,FALSE,C,M,bare,sponge,,2,,,6334,1
+H119-CA-V,21,0:10:47,7:51:35,7:50:46,Quillback rockfish,53,1,FALSE,C,M,bare,sponge,,2,,,6335,1
+H119-CA-V,21,0:10:48,7:51:36,7:50:47,Quillback rockfish,53,1,FALSE,C,M,bare,sponge,,2,,,6336,1
+H119-CA-V,21,0:10:53,7:51:41,7:50:52,Quillback rockfish,52,1,FALSE,C,M,bare,sponge,,2,,,6337,1
+H119-CA-V,22,0:11:02,7:51:50,7:51:01,Quillback rockfish,51,1,FALSE,M,C,bare,sponge,,2,,,6338,1
+H119-CA-V,30,0:15:12,7:56:00,7:55:11,Greenstriped rockfish,58,1,FALSE,M,C,sponge,bare,,2,,,6339,1
+H119-CA-V,31,0:15:50,7:56:38,7:55:49,Quillback rockfish,60,1,FALSE,M,C,bare,sponge,,2,,,6340,1
+H119-CA-V,34,0:17:11,7:57:59,7:57:10,Lingcod,62,1,FALSE,M,C,bare,sponge,,2,,,6341,1
+H119-CA-V,35,0:17:53,7:58:41,7:57:52,Quillback rockfish,65,1,FALSE,M,C,bare,sponge,,2,,,6342,1
+H119-CA-V,35,0:17:59,7:58:47,7:57:58,Greenstriped rockfish,65,1,FALSE,M,C,bare,sponge,,2,,ARH: checked,6343,1
+H119-CA-V,36,0:18:02,7:58:50,7:58:01,Quillback rockfish,65,1,FALSE,M,C,bare,bare,,2,,,6344,1
+H119-CA-V,36,0:18:19,7:59:07,7:58:18,Quillback rockfish,66,2,FALSE,M,C,bare,bare,,2,,,6346,1
+H119-CA-V,36,0:18:26,7:59:14,7:58:25,Quillback rockfish,66,1,FALSE,M,C,bare,bare,,2,,,6347,1
+H119-CA-V,37,0:18:39,7:59:27,7:58:38,Greenstriped rockfish,67,1,FALSE,M,M,bare,bare,,1,,ARH: checked,6348,1
+H119-CA-V,39,0:19:38,8:00:26,7:59:37,Greenstriped rockfish,68,1,FALSE,C,M,bare,sponge,,2,,,6349,1
+H119-CA-V,39,0:19:40,8:00:28,7:59:39,Greenstriped rockfish,69,1,FALSE,C,M,bare,sponge,,2,,,6350,1
+H119-CA-V,40,0:20:00,8:00:48,7:59:59,Quillback rockfish,69,1,FALSE,C,M,bare,sponge,,2,,,6351,1
+H119-CA-V,40,0:20:21,8:01:09,8:00:20,Greenstriped rockfish,72,1,FALSE,C,M,bare,sponge,,2,,,6352,1
+H119-CA-V,40,0:20:28,8:01:16,8:00:27,Quillback rockfish,72,1,FALSE,C,M,bare,sponge,,2,,,6353,1
+H119-CA-V,40,0:20:29,8:01:17,8:00:28,Greenstriped rockfish,72,1,FALSE,C,M,bare,sponge,,2,,,6354,1
+H119-CA-V,42,0:21:13,8:02:01,8:01:12,Quillback rockfish,70,1,FALSE,C,M,bare,sponge,,2,,,6356,1
+H119-CA-V,42,0:21:18,8:02:06,8:01:17,Quillback rockfish,71,1,FALSE,C,M,bare,sponge,,2,,,6357,1
+H119-CA-V,42,0:21:29,8:02:17,8:01:28,Greenstriped rockfish,71,1,FALSE,C,M,bare,sponge,,2,,,6358,1
+H119-CA-V,46,0:23:03,8:03:51,8:03:02,Quillback rockfish,75,1,FALSE,R,R,bare,Aphrocallistes vastus,,2,,,6360,1
+H119-CA-V,47,0:23:58,8:04:46,8:03:57,Yelloweye rockfish,69,1,FALSE,R,R,bare,Aphrocallistes vastus,,3,,,6361,1
+H119-CA-V,48,0:24:15,8:05:03,8:04:14,Quillback rockfish,67,1,FALSE,R,R,bare,bare,,3,scattered sponge,,6363,1
+H119-CA-V,51,0:25:31,8:06:19,8:05:30,Yelloweye rockfish,66,1,FALSE,R,R,bare,Aphrocallistes vastus,,2,,,6364,1
+H119-CA-V,51,0:25:43,8:06:31,8:05:42,Quillback rockfish,66,1,FALSE,R,R,bare,Aphrocallistes vastus,,2,,,6365,1
+H119-CA-V,52,0:26:03,8:06:51,8:06:02,Yelloweye rockfish,65,1,FALSE,R,R,bare,Aphrocallistes vastus,,2,,,6366,1
+H119-CA-V,53,0:26:57,8:07:45,8:06:56,Quillback rockfish,62,1,FALSE,R,R,bare,Aphrocallistes vastus,,2,,,6367,1
+H119-CA-V,54,0:27:00,8:07:48,8:06:59,Quillback rockfish,62,1,FALSE,R,R,bare,Aphrocallistes vastus,,2,,,6368,1
+H119-CA-V,54,0:27:01,8:07:49,8:07:00,Quillback rockfish,62,1,FALSE,R,R,bare,Aphrocallistes vastus,,2,,,6369,1
+H119-CA-V,54,0:27:18,8:08:06,8:07:17,Quillback rockfish,61,1,FALSE,R,R,bare,Aphrocallistes vastus,,2,,,6370,1
+H119-CA-V,55,0:27:52,8:08:40,8:07:51,Quillback rockfish,61,1,FALSE,R,R,bare,Aphrocallistes vastus,,2,,,6371,1
+H119-CA-V,55,0:27:56,8:08:44,8:07:55,Quillback rockfish,61,1,FALSE,R,R,bare,Aphrocallistes vastus,,2,,,6372,1
+H119-CA-V,56,0:28:26,8:09:14,8:08:25,Lingcod,64,1,FALSE,R,R,bare,Aphrocallistes vastus,,2,,uper left under aphro. Sp,6373,1
+H119-CA-V,57,0:28:58,8:09:46,8:08:57,Yelloweye rockfish,66,2,FALSE,R,R,Aphrocallistes vastus,bare,,2,,,6374,1
+H119-CA-V,59,0:29:32,8:10:20,8:09:31,Rockfish uniden.,68,1,FALSE,R,R,bare,Aphrocallistes vastus,,2,,ARH: changed from Puget,6377,1
+H119-CA-V,59,0:29:37,8:10:25,8:09:36,Tiger rockfish,68,1,FALSE,R,R,bare,Aphrocallistes vastus,,2,,,6378,1
+H119-CA-V,60,0:30:29,8:11:17,8:10:28,Quillback rockfish,69,2,FALSE,R,R,bare,Aphrocallistes vastus,,2,,,6376,1
+H119-CA-V,60,0:30:29,8:11:17,8:10:28,Quillback rockfish,69,2,FALSE,R,R,bare,Aphrocallistes vastus,,2,,,6381,1
+H120-CA-V,1,0:00:30,13:51:34,13:50:44,Greenstriped rockfish,95,1,FALSE,M,M,bare,bare,,2,,,6383,1
+H120-CA-V,2,0:01:10,13:52:14,13:51:24,Greenstriped rockfish,93,1,FALSE,M,M,bare,bare,,1,,,6384,1
+H120-CA-V,2,0:01:13,13:52:17,13:51:27,Greenstriped rockfish,93,1,FALSE,M,M,bare,bare,,1,,,6385,1
+H120-CA-V,4,0:02:10,13:53:14,13:52:24,Rockfish uniden.,90,1,FALSE,M,M,bare,bare,,1,,"ARH: checked, changed from greenstriped",6387,1
+H120-CA-V,4,0:02:18,13:53:22,13:52:32,Greenstriped rockfish,89,1,FALSE,M,M,bare,bare,,1,,,6388,1
+H120-CA-V,4,0:02:19,13:53:23,13:52:33,Greenstriped rockfish,89,1,FALSE,M,M,bare,bare,,1,,,6389,1
+H120-CA-V,4,0:02:22,13:53:26,13:52:36,Greenstriped rockfish,89,1,FALSE,M,M,bare,bare,,1,,,6390,1
+H120-CA-V,8,0:04:08,13:55:12,13:54:22,Greenstriped rockfish,89,1,FALSE,M,M,bare,bare,,1,,,6391,1
+H120-CA-V,9,0:04:44,13:55:48,13:54:58,Greenstriped rockfish,89,1,FALSE,M,M,bare,bare,,1,,,6392,1
+H120-CA-V,11,0:05:47,13:56:51,13:56:01,Quillback rockfish,90,1,FALSE,R,M,bare,bare,,2,,,6393,1
+H120-CA-V,12,0:06:12,13:57:16,13:56:26,Yelloweye rockfish,92,1,FALSE,R,M,bare,bare,,2,,,6394,1
+H120-CA-V,22,0:11:14,14:02:18,14:01:28,Greenstriped rockfish,100,1,FALSE,M,M,bare,bare,,1,,,6395,1
+H120-CA-V,29,0:14:45,14:05:49,14:04:59,Greenstriped rockfish,99,1,FALSE,M,M,bare,bare,,1,,,6396,1
+H120-CA-V,31,0:15:49,14:06:53,14:06:03,Greenstriped rockfish,98,1,FALSE,M,B,bare,bare,,2,,,6397,1
+H120-CA-V,32,0:16:18,14:07:22,14:06:32,Greenstriped rockfish,100,1,FALSE,R,M,bare,sponge,,1,,,6398,1
+H120-CA-V,33,0:16:42,14:07:46,14:06:56,Greenstriped rockfish,99,1,FALSE,M,M,bare,bare,,1,,Might be a second GS far right margin,6399,1
+H120-CA-V,36,0:18:08,14:09:12,14:08:22,Greenstriped rockfish,106,1,FALSE,M,R,bare,bare,,2,,,6400,1
+H120-CA-V,36,0:18:15,14:09:19,14:08:29,Greenstriped rockfish,106,1,FALSE,M,R,bare,bare,,2,,,6401,1
+H120-CA-V,37,0:18:43,14:09:47,14:08:57,Greenstriped rockfish,107,1,FALSE,R,M,bare,bare,,1,,,6402,1
+H120-CA-V,39,0:19:56,14:11:00,14:10:10,Yelloweye rockfish,104,1,FALSE,R,M,bare,bare,,2,,,6404,1
+H120-CA-V,40,0:20:02,14:11:06,14:10:16,Greenstriped rockfish,104,1,FALSE,R,M,bare,bare,,2,,,6405,1
+H120-CA-V,42,0:21:19,14:12:23,14:11:33,Rockfish uniden.,102,1,FALSE,M,R,bare,bare,,2,,,6406,1
+H120-CA-V,43,0:21:39,14:12:43,14:11:53,Greenstriped rockfish,98,1,FALSE,R,M,bare,bare,,3,,,6407,1
+H120-CA-V,44,0:22:23,14:13:27,14:12:37,Greenstriped rockfish,89,1,FALSE,R,M,bare,bare,,2,,,6408,1
+H120-CA-V,45,0:22:37,14:13:41,14:12:51,Greenstriped rockfish,86,2,FALSE,R,M,bare,bare,,2,,,6409,1
+H120-CA-V,45,0:22:52,14:13:56,14:13:06,Greenstriped rockfish,84,1,FALSE,R,M,bare,bare,,2,,,6410,1
+H120-CA-V,49,0:24:39,14:15:43,14:14:53,Unidentified fish,81,2,FALSE,R,M,bare,bare,,2,,ARH: changed from greenstriped,6411,1
+H120-CA-V,50,0:25:19,14:16:23,14:15:33,Greenstriped rockfish,87,1,FALSE,M,M,bare,bare,,1,,,6412,1
+H120-CA-V,50,0:25:28,14:16:32,14:15:42,Greenstriped rockfish,87,2,FALSE,M,R,bare,bare,,1,,,6413,1
+H120-CA-V,51,0:25:48,14:16:52,14:16:02,Greenstriped rockfish,87,1,FALSE,M,M,bare,bare,,1,,,6414,1
+H120-CA-V,54,0:27:15,14:18:19,14:17:29,Greenstriped rockfish,86,1,FALSE,R,R,bare,bare,,2,,,6415,1
+H120-CA-V,54,0:27:17,14:18:21,14:17:31,Rockfish uniden.,86,1,FALSE,R,M,bare,bare,,2,,,6416,1
+H120-CA-V,55,0:27:35,14:18:39,14:17:49,Greenstriped rockfish,87,1,FALSE,R,M,bare,bare,,2,,,6417,1
+H120-CA-V,56,0:28:06,14:19:10,14:18:20,Greenstriped rockfish,84,1,FALSE,R,R,bare,bare,,2,,,6418,1
+H120-CA-V,57,0:28:45,14:19:49,14:18:59,Greenstriped rockfish,81,1,FALSE,R,M,bare,bare,,2,,ARH: checked,6421,1
+H120-CA-V,58,0:29:10,14:20:14,14:19:24,Greenstriped rockfish,78,1,FALSE,R,R,bare,bare,,2,,,6422,1
+H121-CA-V,19,0:09:49,16:51:44,16:50:58,Great sculpin,47,1,FALSE,M,H,bare,bare,,1,,,6423,1
+H121-CA-V,43,0:21:43,17:03:38,17:02:52,Lingcod,48,1,FALSE,M,H,bare,bare,,1,,,6424,1
+H121-CA-V,45,0:22:34,17:04:29,17:03:43,cable/line,48,1,FALSE,M,H,bare,bare,,1,,line,6425,1
+H121-CA-V,47,0:23:49,17:05:44,17:04:58,Quillback rockfish,46,1,FALSE,M,R,bare,encrusting organism complex,,2,,,6426,1
+H121-CA-V,48,0:24:17,17:06:12,17:05:26,Puget Sound rockfish,48,1,FALSE,M,R,bare,encrusting organism complex,,2,,,6427,1
+H121-CA-V,48,0:24:24,17:06:19,17:05:33,Canary rockfish,48,1,FALSE,M,R,bare,encrusting organism complex,,2,,,6428,1
+H121-CA-V,50,0:25:10,17:07:05,17:06:19,Yellowtail rockfish,49,1,FALSE,M,R,bare,bare,,2,,ARH: checked,6429,1
+H121-CA-V,51,0:25:41,17:07:36,17:06:50,Yellowtail rockfish,49,1,FALSE,M,H,bare,bare,,1,,ARH: checked,6430,1
+H121-CA-V,52,0:26:22,17:08:17,17:07:31,Rockfish uniden.,49,1,FALSE,M,C,bare,bare,,2,,"ARH: checked, changed from yellowtail",6431,1
+H121-CA-V,52,0:26:22,17:08:17,17:07:31,Quillback rockfish,49,1,FALSE,H,C,bare,bare,,2,,,6432,1
+H121-CA-V,53,0:26:50,17:08:45,17:07:59,Puget Sound rockfish,49,2,FALSE,M,H,bare,bare,,2,,,6433,1
+H125-CA-V,8,0:04:10,11:05:55,11:05:58,Greenstriped rockfish,85,1,FALSE,R,M,bare,bare,,3,,,6434,1
+H125-CA-V,10,0:05:27,11:07:12,11:07:15,Greenstriped rockfish,91,1,FALSE,M,M,bare,bare,,1,,,6435,1
+H125-CA-V,11,0:05:30,11:07:15,11:07:18,Yelloweye rockfish,91,1,FALSE,M,B,bare,bare,,2,,ARH: checked,6436,1
+H125-CA-V,11,0:05:39,11:07:24,11:07:27,Greenstriped rockfish,91,1,FALSE,M,B,bare,bare,,2,,,6437,1
+H125-CA-V,15,0:07:42,11:09:27,11:09:30,Lingcod,90,1,FALSE,M,M,bare,bare,,1,,,6438,1
+H125-CA-V,28,0:14:16,11:16:01,11:16:04,Quillback rockfish,90,2,FALSE,M,M,bare,bare,,1,,,6439,1
+H125-CA-V,43,0:21:39,11:23:24,11:23:27,Quillback rockfish,91,1,FALSE,R,R,bare,bare,,2,,brief appearance at bottom of screen,6440,1
+H125-CA-V,44,0:22:20,11:24:05,11:24:08,Quillback rockfish,84,2,FALSE,M,M,bare,bare,,1,,,6441,1
+H125-CA-V,45,0:22:40,11:24:25,11:24:28,Quillback rockfish,82,1,FALSE,M,R,bare,bare,,2,,,6442,1
+H125-CA-V,50,0:25:12,11:26:57,11:27:00,Quillback rockfish,82,1,FALSE,R,B,bare,bare,,2,,,6444,1
+H125-CA-V,50,0:25:28,11:27:13,11:27:16,Quillback rockfish,81,1,FALSE,R,R,bare,bare,,2,,,6445,1
+H125-CA-V,51,0:25:38,11:27:23,11:27:26,Lingcod,81,1,FALSE,R,M,bare,bare,,2,,,6446,1
+H125-CA-V,51,0:25:42,11:27:27,11:27:30,Greenstriped rockfish,81,1,FALSE,M,R,bare,bare,,2,,,6447,1
+H125-CA-V,51,0:25:55,11:27:40,11:27:43,Greenstriped rockfish,82,1,FALSE,M,M,bare,bare,,1,,,6448,1
+H125-CA-V,61,0:30:37,11:32:22,11:32:25,Lingcod,78,1,FALSE,M,M,bare,bare,,1,,,6449,1
+H126-CA-V,1,0:00:31,11:05:11,11:04:26,Greenstriped rockfish,62,1,FALSE,R,R,bare,bare,,3,,,6450,1
+H126-CA-V,2,0:01:17,11:05:57,11:05:12,Greenstriped rockfish,61,1,FALSE,M,M,bare,tube worms/worm tubes,,1,,,6451,1
+H126-CA-V,2,0:01:24,11:06:04,11:05:19,Greenstriped rockfish,61,1,FALSE,M,M,bare,tube worms/worm tubes,,1,,,6452,1
+H126-CA-V,3,0:01:46,11:06:26,11:05:41,cable/line,59,1,FALSE,R,M,bare,bare,,2,,line,6453,1
+H126-CA-V,3,0:01:55,11:06:35,11:05:50,marine debris,59,1,FALSE,R,M,bare,bare,,2,,pipe,6454,1
+H126-CA-V,10,0:05:24,11:10:04,11:09:19,Quillback rockfish,64,1,FALSE,R,M,bare,bare,,2,,,6455,1
+H126-CA-V,12,0:06:24,11:11:04,11:10:19,Greenstriped rockfish,62,1,FALSE,R,M,bare,bare,,2,,,6456,1
+H126-CA-V,13,0:06:48,11:11:28,11:10:43,Greenstriped rockfish,61,1,FALSE,M,R,bare,bare,,1,,,6457,1
+H126-CA-V,13,0:06:57,11:11:37,11:10:52,Greenstriped rockfish,61,1,FALSE,R,M,bare,bare,,1,,,6458,1
+H126-CA-V,15,0:07:34,11:12:14,11:11:29,Greenstriped rockfish,64,1,FALSE,R,M,bare,bare,,1,,,6459,1
+H126-CA-V,15,0:07:59,11:12:39,11:11:54,Greenstriped rockfish,65,1,FALSE,R,M,bare,bare,,1,,,6460,1
+H126-CA-V,17,0:08:30,11:13:10,11:12:25,Greenstriped rockfish,67,1,FALSE,M,M,bare,bare,,1,,,6461,1
+H126-CA-V,17,0:08:40,11:13:20,11:12:35,Lingcod,68,1,FALSE,M,A,bare,bare,,2,small boat,ARH: checked,6462,1
+H126-CA-V,17,0:08:45,11:13:25,11:12:40,marine debris,68,1,FALSE,M,M,bare,bare,,2,,small boat,6463,1
+H126-CA-V,17,0:08:45,11:13:25,11:12:40,Quillback rockfish,68,1,FALSE,A,M,bare,bare,,2,small boat,QB more visible @ 8:53,6464,1
+H126-CA-V,17,0:08:45,11:13:25,11:12:40,Quillback rockfish,68,1,FALSE,A,M,bare,bare,,2,small boat,,6465,1
+H126-CA-V,17,0:08:46,11:13:26,11:12:41,Lingcod,68,1,FALSE,A,M,bare,bare,,2,small boat,,6466,1
+H126-CA-V,17,0:08:55,11:13:35,11:12:50,Quillback rockfish,68,1,FALSE,A,M,bare,bare,,2,,bottom right,6467,1
+H126-CA-V,18,0:09:21,11:14:01,11:13:16,Lingcod,69,1,FALSE,M,R,bare,bare,,1,,,6468,1
+H126-CA-V,19,0:09:57,11:14:37,11:13:52,marine debris,70,1,FALSE,M,M,bare,bare,,1,,metal housing?,6469,1
+H126-CA-V,20,0:10:09,11:14:49,11:14:04,marine debris,70,1,FALSE,R,M,bare,bare,,1,,metal housing?,6470,1
+H126-CA-V,20,0:10:12,11:14:52,11:14:07,Quillback rockfish,70,1,FALSE,R,M,bare,bare,,1,,,6471,1
+H126-CA-V,20,0:10:13,11:14:53,11:14:08,Greenstriped rockfish,70,1,FALSE,R,M,bare,bare,,1,,ARH: checked,6472,1
+H126-CA-V,20,0:10:21,11:15:01,11:14:16,Greenstriped rockfish,71,1,FALSE,M,R,bare,bare,,1,,,6473,1
+H126-CA-V,20,0:10:27,11:15:07,11:14:22,Quillback rockfish,71,1,FALSE,M,R,bare,bare,,1,,,6474,1
+H126-CA-V,22,0:11:11,11:15:51,11:15:06,Yelloweye rockfish,74,1,FALSE,R,M,bare,bare,,1,,,6475,1
+H126-CA-V,23,0:11:49,11:16:29,11:15:44,Greenstriped rockfish,78,1,FALSE,M,M,bare,bare,,1,,,6476,1
+H126-CA-V,23,0:11:58,11:16:38,11:15:53,Greenstriped rockfish,78,2,FALSE,M,M,bare,bare,,1,,,6477,1
+H126-CA-V,24,0:12:04,11:16:44,11:15:59,Greenstriped rockfish,79,1,FALSE,M,M,bare,bare,,2,,ARH: checked,6478,1
+H126-CA-V,25,0:12:56,11:17:36,11:16:51,Greenstriped rockfish,81,1,FALSE,M,M,bare,bare,,1,,,6479,1
+H126-CA-V,26,0:13:19,11:17:59,11:17:14,Quillback rockfish,80,1,FALSE,M,R,bare,bare,,2,,,6480,1
+H126-CA-V,26,0:13:25,11:18:05,11:17:20,Yelloweye rockfish,82,2,FALSE,M,R,bare,bare,,2,,,6481,1
+H126-CA-V,27,0:13:37,11:18:17,11:17:32,Quillback rockfish,82,1,FALSE,R,R,bare,bare,,2,,,6482,1
+H126-CA-V,29,0:14:54,11:19:34,11:18:49,Quillback rockfish,87,1,FALSE,R,R,bare,bare,,2,,,6483,1
+H126-CA-V,32,0:16:24,11:21:04,11:20:19,Quillback rockfish,88,1,FALSE,R,M,bare,bare,,2,,,6484,1
+H126-CA-V,32,0:16:27,11:21:07,11:20:22,Greenstriped rockfish,88,1,FALSE,R,M,bare,bare,,2,,,6485,1
+H126-CA-V,33,0:16:51,11:21:31,11:20:46,Greenstriped rockfish,87,1,FALSE,R,M,bare,bare,,1,,ARH: checked,6486,1
+H126-CA-V,34,0:17:23,11:22:03,11:21:18,Greenstriped rockfish,87,1,FALSE,R,M,bare,bare,,1,,,6487,1
+H126-CA-V,38,0:19:16,11:23:56,11:23:11,Greenstriped rockfish,83,1,FALSE,M,R,bare,bare,,1,,,6488,1
+H126-CA-V,38,0:19:29,11:24:09,11:23:24,Greenstriped rockfish,83,1,FALSE,M,R,bare,bare,,1,,,6489,1
+H126-CA-V,39,0:19:41,11:24:21,11:23:36,Greenstriped rockfish,82,1,FALSE,M,M,bare,bare,,1,,,6490,1
+H126-CA-V,40,0:20:04,11:24:44,11:23:59,Greenstriped rockfish,82,1,FALSE,M,M,bare,bare,,1,,,6491,1
+H126-CA-V,40,0:20:13,11:24:53,11:24:08,Greenstriped rockfish,82,1,FALSE,M,M,bare,bare,,1,,,6492,1
+H126-CA-V,41,0:20:46,11:25:26,11:24:41,Greenstriped rockfish,81,1,FALSE,M,M,bare,bare,,1,,,6493,1
+H126-CA-V,44,0:22:26,11:27:06,11:26:21,Greenstriped rockfish,75,1,FALSE,M,M,bare,bare,,1,,,6494,1
+H126-CA-V,46,0:23:16,11:27:56,11:27:11,Quillback rockfish,71,1,FALSE,R,M,bare,bare,,1,,,6496,1
+H126-CA-V,48,0:24:00,11:28:40,11:27:55,Quillback rockfish,68,1,FALSE,R,R,bare,bare,,1,,,6497,1
+H126-CA-V,48,0:24:25,11:29:05,11:28:20,Greenstriped rockfish,71,1,FALSE,R,R,bare,bare,,2,,,6498,1
+H126-CA-V,52,0:26:25,11:31:05,11:30:20,Greenstriped rockfish,86,1,FALSE,M,M,bare,bare,,1,,,6499,1
+H126-CA-V,55,0:27:34,11:32:14,11:31:29,Greenstriped rockfish,89,1,FALSE,M,M,bare,bare,,1,,,6500,1
+H126-CA-V,55,0:27:47,11:32:27,11:31:42,Greenstriped rockfish,89,1,FALSE,M,M,bare,bare,,1,,,6501,1
+H126-CA-V,55,0:27:57,11:32:37,11:31:52,Greenstriped rockfish,89,1,FALSE,R,M,bare,bare,,1,,,6502,1
+H126-CA-V,56,0:28:18,11:32:58,11:32:13,Greenstriped rockfish,90,1,FALSE,R,M,bare,bare,,2,,,6503,1
+H126-CA-V,58,0:29:01,11:33:41,11:32:56,Quillback rockfish,87,1,FALSE,M,R,bare,bare,,1,,,6504,1
+H126-CA-V,58,0:29:25,11:34:05,11:33:20,Quillback rockfish,84,1,FALSE,R,M,bare,bare,,1,,,6505,1
+H126-CA-V,59,0:29:45,11:34:25,11:33:40,Quillback rockfish,84,1,FALSE,M,R,bare,bare,,2,,right in crevice,6506,1
+H126-CA-V,59,0:29:57,11:34:37,11:33:52,Greenstriped rockfish,80,1,FALSE,M,R,bare,bare,,1,,,6507,1
+H126-CA-V,60,0:30:15,11:34:55,11:34:10,cable/line,77,1,FALSE,M,R,bare,bare,,2,,cable,6508,1
+H127-CA-V,18,0:08:32,17:04:25,17:03:38,Greenstriped rockfish,76,1,FALSE,M,C,sponge,bare,,2,,,6509,1
+H127-CA-V,18,0:08:37,17:04:30,17:03:43,Yelloweye rockfish,75,1,FALSE,C,B,sponge,bare,,3,,,6510,1
+H127-CA-V,18,0:08:37,17:04:30,17:03:43,Quillback rockfish,75,1,FALSE,C,B,sponge,bare,,2,,,6511,1
+H127-CA-V,19,0:09:01,17:04:54,17:04:07,Quillback rockfish,74,1,FALSE,M,C,sponge,bare,,2,,,6512,1
+H127-CA-V,20,0:09:33,17:05:26,17:04:39,Greenstriped rockfish,74,1,FALSE,M,C,Rhabdocalyptus spp.,bare,,2,,,6513,1
+H127-CA-V,22,0:10:56,17:06:49,17:06:02,Greenstriped rockfish,72,1,FALSE,M,R,bare,Rhabdocalyptus spp.,,1,,,6514,1
+H127-CA-V,26,0:12:33,17:08:26,17:07:39,Rockfish uniden.,75,1,FALSE,R,R,bare,sponge,,3,,,6515,1
+H127-CA-V,26,0:12:44,17:08:37,17:07:50,Quillback rockfish,76,1,FALSE,M,M,bare,bare,,1,,,6516,1
+H127-CA-V,26,0:12:50,17:08:43,17:07:56,Greenstriped rockfish,77,2,FALSE,M,M,bare,bare,,1,,,6517,1
+H127-CA-V,28,0:13:37,17:09:30,17:08:43,Greenstriped rockfish,78,1,FALSE,M,M,bare,bare,,1,,,6518,1
+H127-CA-V,31,0:15:10,17:11:03,17:10:16,Greenstriped rockfish,79,1,FALSE,M,M,bare,bare,,1,,,6519,1
+H127-CA-V,31,0:15:15,17:11:08,17:10:21,Greenstriped rockfish,79,1,FALSE,M,M,bare,bare,,1,,,6520,1
+H127-CA-V,32,0:15:35,17:11:28,17:10:41,Lingcod,79,1,FALSE,M,C,bare,sponge,,2,,,6521,1
+H127-CA-V,32,0:15:49,17:11:42,17:10:55,Greenstriped rockfish,78,1,FALSE,M,C,bare,sponge,,1,,,6522,1
+H127-CA-V,34,0:16:51,17:12:44,17:11:57,Greenstriped rockfish,78,1,FALSE,M,M,bare,bare,,1,,,6523,1
+H127-CA-V,34,0:16:54,17:12:47,17:12:00,Greenstriped rockfish,78,1,FALSE,M,C,bare,bare,,2,,,6524,1
+H127-CA-V,34,0:16:54,17:12:47,17:12:00,Quillback rockfish,78,1,FALSE,M,C,bare,bare,,2,,,6525,1
+H127-CA-V,34,0:16:57,17:12:50,17:12:03,Quillback rockfish,78,1,FALSE,M,C,bare,bare,,2,,,6526,1
+H127-CA-V,35,0:17:20,17:13:13,17:12:26,Lingcod,76,1,FALSE,M,C,bare,sponge,,2,,,6527,1
+H127-CA-V,38,0:18:30,17:14:23,17:13:36,Greenstriped rockfish,80,1,FALSE,M,B,bare,bare,,2,,,6528,1
+H127-CA-V,38,0:18:42,17:14:35,17:13:48,Greenstriped rockfish,80,1,FALSE,R,M,bare,bare,,2,,,6529,1
+H127-CA-V,38,0:18:48,17:14:41,17:13:54,Greenstriped rockfish,79,1,FALSE,M,C,bare,bare,,1,,,6530,1
+H127-CA-V,42,0:20:41,17:16:34,17:15:47,Quillback rockfish,75,1,FALSE,R,M,bare,bare,,2,,,6531,1
+H127-CA-V,42,0:20:43,17:16:36,17:15:49,Greenstriped rockfish,75,1,FALSE,R,M,bare,bare,,2,,,6532,1
+H127-CA-V,42,0:20:52,17:16:45,17:15:58,Quillback rockfish,76,1,FALSE,R,R,bare,bare,,2,,,6533,1
+H127-CA-V,43,0:21:14,17:17:07,17:16:20,Greenstriped rockfish,78,1,FALSE,M,M,bare,bare,,1,,,6534,1
+H127-CA-V,44,0:21:31,17:17:24,17:16:37,Greenstriped rockfish,79,1,FALSE,M,B,bare,bare,,3,,,6535,1
+H127-CA-V,44,0:21:34,17:17:27,17:16:40,Quillback rockfish,79,1,FALSE,M,B,bare,bare,,3,,,6536,1
+H127-CA-V,44,0:21:37,17:17:30,17:16:43,Greenstriped rockfish,79,1,FALSE,M,B,bare,bare,,3,,,6537,1
+H127-CA-V,44,0:21:39,17:17:32,17:16:45,Greenstriped rockfish,79,1,FALSE,M,B,bare,bare,,3,,ARH: checked,6538,1
+H127-CA-V,44,0:21:48,17:17:41,17:16:54,Greenstriped rockfish,79,1,FALSE,M,M,bare,bare,,1,,,6539,1
+H127-CA-V,49,0:24:22,17:20:15,17:19:28,Greenstriped rockfish,74,1,FALSE,M,M,bare,bare,,1,,left margin,6540,1
+H127-CA-V,50,0:24:34,17:20:27,17:19:40,Rockfish uniden.,73,1,FALSE,M,P,bare,bare,,2,,orange tail behind boulder,6541,1
+H127-CA-V,51,0:25:03,17:20:56,17:20:09,Greenstriped rockfish,71,1,FALSE,M,P,bare,bare,,1,,,6542,1
+H127-CA-V,51,0:25:07,17:21:00,17:20:13,Greenstriped rockfish,70,1,FALSE,M,P,bare,bare,,1,,,6543,1
+H127-CA-V,52,0:25:34,17:21:27,17:20:40,Greenstriped rockfish,66,1,FALSE,M,P,bare,bare,,1,,ARH: checked,6544,1
+H127-CA-V,54,0:26:45,17:22:38,17:21:51,Greenstriped rockfish,71,1,FALSE,M,M,bare,bare,,1,,,6545,1
+H127-CA-V,56,0:27:52,17:23:45,17:22:58,Greenstriped rockfish,76,1,FALSE,M,C,bare,bare,,2,,,6546,1
+H127-CA-V,57,0:28:21,17:24:14,17:23:27,Greenstriped rockfish,77,1,FALSE,M,M,bare,bare,,1,,,6547,1
+H127-CA-V,57,0:28:23,17:24:16,17:23:29,Quillback rockfish,77,1,FALSE,M,C,bare,bare,,1,,,6548,1
+H127-CA-V,57,0:28:29,17:24:22,17:23:35,Greenstriped rockfish,76,2,FALSE,M,B,bare,bare,,3,,ARH: checked,6549,1
+H127-CA-V,58,0:28:38,17:24:31,17:23:44,Greenstriped rockfish,76,1,FALSE,M,B,bare,bare,,2,,center on rock,6550,1
+H127-CA-V,58,0:28:44,17:24:37,17:23:50,Greenstriped rockfish,76,1,FALSE,M,B,bare,bare,,2,,,6551,1
+H129-CA-V,7,0:03:52,8:13:27,8:12:39,Yelloweye rockfish,96,1,FALSE,R,R,Aphrocallistes vastus,debris,,2,,,6553,1
+H129-CA-V,7,0:03:53,8:13:28,8:12:40,Greenstriped rockfish,96,1,FALSE,R,R,debris,Aphrocallistes vastus,,2,,,6554,1
+H129-CA-V,9,0:04:58,8:14:33,8:13:45,Yelloweye rockfish,97,1,FALSE,R,R,debris,debris,,2,dead sponge,,6555,1
+H129-CA-V,15,0:07:54,8:17:29,8:16:41,Greenstriped rockfish,96,1,FALSE,R,R,debris,Aphrocallistes vastus,,2,,,6556,1
+H129-CA-V,16,0:08:09,8:17:44,8:16:56,Greenstriped rockfish,95,1,FALSE,M,R,debris,bare,,1,,ARH: checked,6557,1
+H129-CA-V,16,0:08:16,8:17:51,8:17:03,Greenstriped rockfish,93,1,FALSE,M,P,debris,bare,,1,,,6559,1
+H129-CA-V,18,0:09:22,8:18:57,8:18:09,Greenstriped rockfish,81,1,FALSE,M,M,debris,sponge,,2,,,6560,1
+H129-CA-V,18,0:09:29,8:19:04,8:18:16,Yelloweye rockfish,80,1,FALSE,M,M,debris,sponge,,2,,ARH: checked,6561,1
+H129-CA-V,20,0:10:23,8:19:58,8:19:10,Yelloweye rockfish,86,1,FALSE,M,M,debris,sponge,,2,,,6562,1
+H129-CA-V,20,0:10:27,8:20:02,8:19:14,Lingcod,86,1,FALSE,M,M,debris,sponge,,2,,ARH: checked,6563,1
+H129-CA-V,22,0:11:01,8:20:36,8:19:48,Greenstriped rockfish,90,1,FALSE,R,M,debris,Aphrocallistes vastus,,1,,,6564,1
+H129-CA-V,22,0:11:21,8:20:56,8:20:08,Yelloweye rockfish,92,1,FALSE,R,M,debris,Aphrocallistes vastus,,1,,,6565,1
+H129-CA-V,22,0:11:29,8:21:04,8:20:16,Quillback rockfish,91,1,FALSE,R,M,debris,Aphrocallistes vastus,,1,,,6566,1
+H129-CA-V,23,0:11:32,8:21:07,8:20:19,Greenstriped rockfish,91,1,FALSE,R,M,debris,Aphrocallistes vastus,,1,,,6567,1
+H129-CA-V,23,0:11:40,8:21:15,8:20:27,Greenstriped rockfish,92,1,FALSE,R,M,debris,Aphrocallistes vastus,,1,,,6568,1
+H129-CA-V,24,0:12:09,8:21:44,8:20:56,Greenstriped rockfish,95,1,FALSE,R,M,debris,sponge,,1,,,6569,1
+H129-CA-V,26,0:13:02,8:22:37,8:21:49,Greenstriped rockfish,94,1,FALSE,M,R,debris,Aphrocallistes vastus,,1,,,6570,1
+H129-CA-V,26,0:13:07,8:22:42,8:21:54,Greenstriped rockfish,94,2,FALSE,M,R,debris,Aphrocallistes vastus,,1,,,6571,1
+H129-CA-V,26,0:13:28,8:23:03,8:22:15,Yelloweye rockfish,94,1,FALSE,R,M,debris,Aphrocallistes vastus,,1,,ARH: checked,6572,1
+H129-CA-V,27,0:13:32,8:23:07,8:22:19,Greenstriped rockfish,93,1,FALSE,M,R,debris,sponge,,1,sponge debris,ARH: checked,6573,1
+H129-CA-V,27,0:13:46,8:23:21,8:22:33,Greenstriped rockfish,94,1,FALSE,M,R,debris,bare,,1,,,6574,1
+H129-CA-V,28,0:14:14,8:23:49,8:23:01,Greenstriped rockfish,93,1,FALSE,M,P,debris,sponge,,1,,,6575,1
+H129-CA-V,29,0:14:59,8:24:34,8:23:46,Greenstriped rockfish,94,2,FALSE,P,M,bare,sponge,,1,,,6576,1
+H129-CA-V,30,0:15:01,8:24:36,8:23:48,Quillback rockfish,94,1,FALSE,P,M,bare,sponge,,1,,,6577,1
+H129-CA-V,37,0:18:37,8:28:12,8:27:24,Yelloweye rockfish,108,1,FALSE,R,R,debris,Aphrocallistes vastus,,2,,,6578,1
+H129-CA-V,38,0:19:29,8:29:04,8:28:16,Quillback rockfish,104,1,FALSE,R,R,debris,Aphrocallistes vastus,,2,,,6579,1
+H129-CA-V,41,0:20:46,8:30:21,8:29:33,Yelloweye rockfish,84,1,FALSE,R,R,debris,sponge,,2,,,6580,1
+H129-CA-V,43,0:21:36,8:31:11,8:30:23,Quillback rockfish,80,1,FALSE,R,R,debris,sponge,,2,,,6581,1
+H129-CA-V,43,0:21:54,8:31:29,8:30:41,Greenstriped rockfish,78,1,FALSE,R,R,bare,Aphrocallistes vastus,,2,,,6582,1
+H129-CA-V,48,0:24:09,8:33:44,8:32:56,Quillback rockfish,64,1,FALSE,R,R,debris,Aphrocallistes vastus,,1,,,6583,1
+H129-CA-V,48,0:24:09,8:33:44,8:32:56,Greenstriped rockfish,64,1,FALSE,R,R,debris,Aphrocallistes vastus,,1,,,6584,1
+H129-CA-V,48,0:24:16,8:33:51,8:33:03,Quillback rockfish,63,1,FALSE,R,R,debris,Aphrocallistes vastus,,1,,,6585,1
+H129-CA-V,49,0:24:56,8:34:31,8:33:43,Greenstriped rockfish,64,1,FALSE,R,R,debris,Aphrocallistes vastus,,2,,,6586,1
+H129-CA-V,50,0:25:27,8:35:02,8:34:14,Quillback rockfish,63,1,FALSE,R,R,Aphrocallistes vastus,debris,,2,,,6587,1
+H129-CA-V,50,0:25:29,8:35:04,8:34:16,Quillback rockfish,63,2,FALSE,R,R,Aphrocallistes vastus,debris,,2,,,6588,1
+H129-CA-V,51,0:25:52,8:35:27,8:34:39,Quillback rockfish,62,1,FALSE,R,R,Aphrocallistes vastus,debris,,2,,,6589,1
+H129-CA-V,51,0:25:59,8:35:34,8:34:46,cable/line,61,1,FALSE,R,R,Aphrocallistes vastus,bare,,2,,line,6590,1
+H129-CA-V,51,0:25:59,8:35:34,8:34:46,Quillback rockfish,63,1,FALSE,R,R,Aphrocallistes vastus,bare,,2,,,6591,1
+H129-CA-V,51,0:25:59,8:35:34,8:34:46,Yelloweye rockfish,61,1,FALSE,R,R,Aphrocallistes vastus,bare,,2,,,6592,1
+H129-CA-V,52,0:26:02,8:35:37,8:34:49,Quillback rockfish,60,1,FALSE,R,R,bare,sponge,,2,,,6593,1
+H129-CA-V,52,0:26:12,8:35:47,8:34:59,Quillback rockfish,61,1,FALSE,R,R,bare,sponge,,2,,,6594,1
+H129-CA-V,53,0:26:38,8:36:13,8:35:25,Yelloweye rockfish,62,1,FALSE,R,R,bare,Rhabdocalyptus spp.,,2,,,6595,1
+H129-CA-V,53,0:26:43,8:36:18,8:35:30,Greenstriped rockfish,62,1,FALSE,R,R,bare,Rhabdocalyptus spp.,,2,,ARH: checked,6596,1
+H129-CA-V,59,0:29:53,8:39:28,8:38:40,Quillback rockfish,69,1,FALSE,R,R,bare,sponge,,2,,,6597,1
+H130-CA-V,9,0:04:58,10:02:15,10:01:27,Lingcod,55,1,FALSE,R,M,bare,encrusting organism complex,,1,,,6598,1
+H130-CA-V,16,0:08:11,10:05:28,10:04:40,Quillback rockfish,64,1,FALSE,R,M,bare,encrusting organism complex,,2,,,6599,1
+H130-CA-V,19,0:09:33,10:06:50,10:06:02,Quillback rockfish,65,1,FALSE,R,M,bare,bare,,1,,,6600,1
+H130-CA-V,20,0:10:18,10:07:35,10:06:47,Yelloweye rockfish,66,1,FALSE,R,R,bare,bare,,2,,,6601,1
+H130-CA-V,26,0:13:25,10:10:42,10:09:54,Quillback rockfish,65,1,FALSE,M,R,bare,bare,,1,,,6602,1
+H130-CA-V,26,0:13:27,10:10:44,10:09:56,Quillback rockfish,65,1,FALSE,R,M,bare,bare,,2,,,6603,1
+H130-CA-V,26,0:13:27,10:10:44,10:09:56,Yelloweye rockfish,65,1,FALSE,M,R,bare,bare,,2,,,6604,1
+H130-CA-V,27,0:13:34,10:10:51,10:10:03,Quillback rockfish,65,1,FALSE,R,M,bare,bare,,2,,,6605,1
+H130-CA-V,27,0:13:55,10:11:12,10:10:24,Yelloweye rockfish,67,1,FALSE,M,M,bare,bare,,2,,,6606,1
+H130-CA-V,29,0:14:35,10:11:52,10:11:04,Quillback rockfish,67,1,FALSE,R,M,bare,Rhabdocalyptus spp.,,2,,,6607,1
+H130-CA-V,30,0:15:07,10:12:24,10:11:36,Yelloweye rockfish,69,1,FALSE,R,M,bare,bare,,2,,,6608,1
+H130-CA-V,30,0:15:07,10:12:24,10:11:36,Quillback rockfish,69,1,FALSE,R,M,bare,bare,,2,,,6609,1
+H130-CA-V,31,0:15:49,10:13:06,10:12:18,Quillback rockfish,69,1,FALSE,M,M,bare,bare,,2,,,6610,1
+H130-CA-V,31,0:15:51,10:13:08,10:12:20,Quillback rockfish,69,1,FALSE,R,M,bare,bare,,2,,,6611,1
+H130-CA-V,31,0:15:51,10:13:08,10:12:20,Greenstriped rockfish,69,1,FALSE,M,R,bare,bare,,2,,,6612,1
+H130-CA-V,31,0:15:53,10:13:10,10:12:22,Greenstriped rockfish,69,1,FALSE,R,M,bare,bare,,2,,,6613,1
+H130-CA-V,31,0:15:53,10:13:10,10:12:22,Quillback rockfish,69,1,FALSE,R,M,bare,bare,,2,,,6614,1
+H130-CA-V,35,0:17:47,10:15:04,10:14:16,Rockfish uniden.,60,1,FALSE,R,R,bare,bare,,3,,Greenstripe?,6615,1
+H130-CA-V,35,0:17:48,10:15:05,10:14:17,Quillback rockfish,60,1,FALSE,R,R,bare,bare,,3,,,6616,1
+H130-CA-V,35,0:17:51,10:15:08,10:14:20,Quillback rockfish,60,1,FALSE,R,R,bare,bare,,3,,,6617,1
+H130-CA-V,36,0:18:10,10:15:27,10:14:39,Yelloweye rockfish,60,1,FALSE,R,M,bare,bare,,2,,,6618,1
+H130-CA-V,36,0:18:21,10:15:38,10:14:50,Quillback rockfish,62,2,FALSE,R,C,bare,bare,,3,,might be a double count from previous segments,6619,1
+H130-CA-V,37,0:18:47,10:16:04,10:15:16,Greenstriped rockfish,59,1,FALSE,R,R,bare,bare,,2,,,6620,1
+H130-CA-V,41,0:20:59,10:18:16,10:17:28,Quillback rockfish,65,1,FALSE,M,R,bare,bare,,2,,,6621,1
+H130-CA-V,54,0:27:28,10:24:45,10:23:57,Quillback rockfish,77,1,FALSE,R,M,bare,bare,,1,,,6622,1
+H130-CA-V,58,0:29:01,10:26:18,10:25:30,Quillback rockfish,83,1,FALSE,R,M,bare,sponge,,2,,,6623,1
+H130-CA-V,59,0:29:35,10:26:52,10:26:04,Greenstriped rockfish,85,1,FALSE,M,M,bare,bare,,2,,,6624,1
+H133-CA-V,17,0:08:25,10:03:53,10:03:10,Lingcod,70,1,FALSE,M,M,bare,bare,,1,,,6625,1
+H133-CA-V,18,0:08:44,10:04:12,10:03:29,Lingcod,68,1,FALSE,M,M,bare,bare,,1,,,6626,1
+H133-CA-V,18,0:08:50,10:04:18,10:03:35,Lingcod,68,1,FALSE,M,M,bare,bare,,1,,,6627,1
+H133-CA-V,24,0:11:50,10:07:18,10:06:35,Greenstriped rockfish,58,1,FALSE,M,M,bare,bare,,1,,,6628,1
+H133-CA-V,25,0:12:25,10:07:53,10:07:10,Greenstriped rockfish,57,1,FALSE,M,M,bare,bare,,1,,,6629,1
+H133-CA-V,31,0:15:14,10:10:42,10:09:59,Greenstriped rockfish,61,1,FALSE,M,M,bare,bare,,1,,,6631,1
+H133-CA-V,32,0:15:55,10:11:23,10:10:40,Lingcod,59,1,FALSE,M,M,bare,bare,,2,,,6632,1
+H133-CA-V,34,0:16:58,10:12:26,10:11:43,Yelloweye rockfish,55,1,FALSE,M,M,bare,bare,,1,,,6633,1
+H133-CA-V,35,0:17:10,10:12:38,10:11:55,Quillback rockfish,55,1,FALSE,M,M,bare,bare,,1,boulder,,6634,1
+H133-CA-V,38,0:18:39,10:14:07,10:13:24,Greenstriped rockfish,53,1,FALSE,M,B,bare,bare,,2,,,6635,1
+H133-CA-V,39,0:19:07,10:14:35,10:13:52,Quillback rockfish,53,1,FALSE,M,M,bare,bare,,1,,,6636,1
+H133-CA-V,46,0:22:30,10:17:58,10:17:15,Lingcod,50,1,FALSE,M,M,bare,bare,,1,,,6637,1
+H135-CA-V,1,0:00:56,13:46:55,13:46:06,Quillback rockfish,73,1,FALSE,R,R,debris,Aphrocallistes vastus,,2,,,6638,1
+H135-CA-V,1,0:00:57,13:46:56,13:46:07,Rockfish uniden.,73,1,FALSE,R,R,debris,Aphrocallistes vastus,,2,,,6639,1
+H135-CA-V,2,0:01:16,13:47:15,13:46:26,Quillback rockfish,72,1,FALSE,R,R,bare,Heterochone calyx,,2,,,6640,1
+H135-CA-V,2,0:01:17,13:47:16,13:46:27,Greenstriped rockfish,71,1,FALSE,R,R,bare,Heterochone calyx,,2,,,6641,1
+H135-CA-V,2,0:01:26,13:47:25,13:46:36,Greenstriped rockfish,71,1,FALSE,R,R,bare,Heterochone calyx,,2,,,6642,1
+H135-CA-V,4,0:02:09,13:48:08,13:47:19,Greenstriped rockfish,71,1,FALSE,R,R,bare,sponge,,2,,,6643,1
+H135-CA-V,5,0:02:58,13:48:57,13:48:08,Yelloweye rockfish,71,1,FALSE,R,R,debris,sponge,,2,,,6644,1
+H135-CA-V,10,0:05:03,13:51:02,13:50:13,Rockfish uniden.,72,1,FALSE,R,R,sponge,debris,,2,,Greenstripe?,6645,1
+H135-CA-V,10,0:05:05,13:51:04,13:50:15,Quillback rockfish,72,1,FALSE,R,R,sponge,debris,,2,,,6646,1
+H135-CA-V,10,0:05:21,13:51:20,13:50:31,Yelloweye rockfish,70,1,FALSE,R,R,sponge,debris,,2,,ARH: checked,6647,1
+H135-CA-V,11,0:05:41,13:51:40,13:50:51,Yelloweye rockfish,71,1,FALSE,R,R,sponge,debris,,2,,,6648,1
+H135-CA-V,13,0:06:53,13:52:52,13:52:03,Yelloweye rockfish,69,1,FALSE,R,R,Heterochone calyx,debris,,2,,ARH: checked,6649,1
+H135-CA-V,17,0:08:36,13:54:35,13:53:46,Quillback rockfish,65,1,FALSE,R,R,debris,sponge,,2,,,6650,1
+H135-CA-V,19,0:09:43,13:55:42,13:54:53,Quillback rockfish,61,1,FALSE,R,R,sponge,debris,,2,,,6651,1
+H135-CA-V,20,0:10:14,13:56:13,13:55:24,Quillback rockfish,58,2,FALSE,R,R,sponge,debris,,2,,,6652,1
+H135-CA-V,20,0:10:20,13:56:19,13:55:30,Quillback rockfish,58,2,FALSE,R,R,sponge,debris,,2,,,6653,1
+H135-CA-V,21,0:10:46,13:56:45,13:55:56,Yelloweye rockfish,55,1,FALSE,R,R,sponge,debris,,2,,,6654,1
+H135-CA-V,21,0:10:58,13:56:57,13:56:08,Quillback rockfish,54,1,FALSE,R,R,sponge,debris,,2,,,6655,1
+H135-CA-V,22,0:11:09,13:57:08,13:56:19,Quillback rockfish,53,1,FALSE,R,R,sponge,debris,,2,,,6656,1
+H135-CA-V,23,0:11:43,13:57:42,13:56:53,Quillback rockfish,53,1,FALSE,R,R,sponge,debris,,2,,,6657,1
+H135-CA-V,23,0:11:55,13:57:54,13:57:05,Yelloweye rockfish,52,1,FALSE,R,R,sponge,debris,,2,,,6658,1
+H135-CA-V,24,0:12:26,13:58:25,13:57:36,Yelloweye rockfish,50,1,FALSE,R,R,sponge,debris,,2,,,6659,1
+H135-CA-V,25,0:12:31,13:58:30,13:57:41,Quillback rockfish,49,1,FALSE,R,R,sponge,debris,,2,,,6660,1
+H135-CA-V,30,0:15:06,14:01:05,14:00:16,Yelloweye rockfish,53,1,FALSE,R,R,sponge,bare,,2,,,6661,1
+H135-CA-V,33,0:16:41,14:02:40,14:01:51,Quillback rockfish,52,1,FALSE,R,R,sponge,bare,,2,,,6662,1
+H135-CA-V,34,0:17:23,14:03:22,14:02:33,Quillback rockfish,58,1,FALSE,R,R,sponge,bare,,2,,,6663,1
+H135-CA-V,35,0:17:46,14:03:45,14:02:56,Quillback rockfish,60,1,FALSE,R,R,sponge,bare,,2,,,6664,1
+H135-CA-V,37,0:18:52,14:04:51,14:04:02,Quillback rockfish,64,1,FALSE,R,R,sponge,debris,,2,,,6665,1
+H135-CA-V,37,0:18:58,14:04:57,14:04:08,Yelloweye rockfish,64,1,FALSE,R,R,sponge,debris,,2,,,6666,1
+H135-CA-V,39,0:19:58,14:05:57,14:05:08,Yelloweye rockfish,57,1,FALSE,R,R,sponge,debris,,2,,,6667,1
+H135-CA-V,40,0:20:15,14:06:14,14:05:25,Quillback rockfish,56,1,FALSE,R,R,sponge,debris,,2,,,6668,1
+H135-CA-V,43,0:21:53,14:07:52,14:07:03,Yelloweye rockfish,75,2,FALSE,R,R,debris,sponge,,2,,,6669,1
+H135-CA-V,49,0:24:44,14:10:43,14:09:54,Yelloweye rockfish,93,1,FALSE,R,R,debris,sponge,,2,,,6670,1
+H135-CA-V,49,0:24:57,14:10:56,14:10:07,Quillback rockfish,92,1,FALSE,R,R,debris,sponge,,2,,,6671,1
+H135-CA-V,49,0:24:59,14:10:58,14:10:09,Yelloweye rockfish,92,1,FALSE,R,R,debris,sponge,,2,,,6672,1
+H135-CA-V,52,0:26:04,14:12:03,14:11:14,Quillback rockfish,92,1,FALSE,R,R,debris,sponge,,2,,,6673,1
+H135-CA-V,53,0:26:47,14:12:46,14:11:57,Rockfish uniden.,102,1,FALSE,R,R,debris,sponge,,2,,,6674,1
+H135-CA-V,56,0:28:27,14:14:26,14:13:37,Yelloweye rockfish,104,1,FALSE,R,R,debris,sponge,,2,,,6676,1
+H135-CA-V,59,0:29:58,14:15:57,14:15:08,cable/line,99,1,FALSE,R,R,sponge,debris,,2,,line,6677,1
+H136-CA-V,8,0:03:37,18:03:41,18:02:52,Greenstriped rockfish,111,1,FALSE,R,R,bare,sponge,,1,,,6678,1
+H136-CA-V,12,0:05:38,18:05:42,18:04:53,Greenstriped rockfish,100,1,FALSE,R,R,bare,Rhabdocalyptus spp.,,1,,,6679,1
+H136-CA-V,25,0:12:26,18:12:30,18:11:41,Greenstriped rockfish,99,1,FALSE,M,R,bare,bare,,1,,,6680,2
+H136-CA-V,26,0:12:38,18:12:42,18:11:53,Greenstriped rockfish,98,1,FALSE,M,M,bare,Rhabdocalyptus spp.,,1,,,6681,2
+H136-CA-V,30,0:14:35,18:14:39,18:13:50,Rockfish uniden.,90,1,FALSE,M,M,bare,Rhabdocalyptus spp.,,1,,"ARH: checked, changed from greenstriped",6682,2
+H136-CA-V,43,0:21:28,18:21:32,18:20:43,crab/shrimp pot,87,1,FALSE,R,R,sponge,debris,,2,,shrimp pot,6683,1
+H136-CA-V,46,0:22:44,18:22:48,18:21:59,Greenstriped rockfish,90,1,FALSE,M,M,bare,Rhabdocalyptus spp.,,1,,,6684,1
+H136-CA-V,46,0:22:56,18:23:00,18:22:11,Greenstriped rockfish,90,1,FALSE,M,M,bare,Rhabdocalyptus spp.,,1,,,6685,2
+H136-CA-V,47,0:23:03,18:23:07,18:22:18,Lingcod,89,1,FALSE,M,M,debris,Rhabdocalyptus spp.,,1,,,6686,2
+H136-CA-V,48,0:23:34,18:23:38,18:22:49,Greenstriped rockfish,87,1,FALSE,M,M,debris,Rhabdocalyptus spp.,,1,,,6687,1
+H136-CA-V,53,0:26:05,18:26:09,18:25:20,Lingcod,86,1,FALSE,M,M,bare,Rhabdocalyptus spp.,,1,,,6688,1
+H136-CA-V,53,0:26:22,18:26:26,18:25:37,Greenstriped rockfish,85,1,FALSE,M,M,bare,Rhabdocalyptus spp.,,1,,,6689,1
+H136-CA-V,53,0:26:28,18:26:32,18:25:43,Greenstriped rockfish,86,1,FALSE,M,M,bare,Rhabdocalyptus spp.,,1,,,6690,2
+H136-CA-V,55,0:27:05,18:27:09,18:26:20,Quillback rockfish,86,2,FALSE,M,B,bare,debris,,3,,,6691,1
+H136-CA-V,55,0:27:27,18:27:31,18:26:42,Greenstriped rockfish,86,1,FALSE,M,B,bare,debris,,2,,,6692,1
+H136-CA-V,56,0:27:31,18:27:35,18:26:46,Quillback rockfish,86,1,FALSE,M,M,bare,debris,,2,,,6693,1
+H136-CA-V,56,0:27:50,18:27:54,18:27:05,Greenstriped rockfish,86,1,FALSE,M,M,bare,debris,,1,,,6694,1
+H136-CA-V,56,0:27:57,18:28:01,18:27:12,Greenstriped rockfish,86,1,FALSE,M,M,bare,bare,,1,,,6695,1
+H136-CA-V,57,0:28:18,18:28:22,18:27:33,Lingcod,86,1,FALSE,M,M,bare,sponge,,1,,,6696,1
+H136-CA-V,58,0:28:52,18:28:56,18:28:07,Greenstriped rockfish,86,1,FALSE,M,M,bare,sponge,,1,,,6697,1
+H136-CA-V,59,0:29:05,18:29:09,18:28:20,Greenstriped rockfish,86,1,FALSE,M,M,bare,Rhabdocalyptus spp.,,1,,,6698,1
+H136-CA-V,59,0:29:29,18:29:33,18:28:44,Greenstriped rockfish,87,1,FALSE,M,M,bare,Rhabdocalyptus spp.,,1,,,6699,1
+H141-CA-V,42,0:20:57,15:45:34,15:44:49,Rockfish uniden.,39,1,FALSE,R,R,bare,bare,,2,,ARH: possible PSRF,6700,1
+H141-CA-V,43,0:21:18,15:45:55,15:45:10,Quillback rockfish,39,2,FALSE,R,M,bare,bare,,2,,'Kissing' rockfish :),6701,1
+H142-CA-V,2,0:01:27,9:20:09,9:19:25,Quillback rockfish,37,1,FALSE,R,R,bare,bare,,2,,,6702,1
+H142-CA-V,14,0:07:25,9:26:07,9:25:23,cable/line,72,1,FALSE,M,M,bare,bare,,1,,line,6703,1
+H143-CA-V,2,0:00:40,12:33:50,12:33:05,Greenstriped rockfish,135,1,FALSE,M,M,debris,debris,,1,,,6704,2
+H143-CA-V,3,0:01:02,12:34:12,12:33:27,Greenstriped rockfish,134,1,FALSE,M,M,debris,debris,,1,,,6705,1
+H143-CA-V,3,0:01:17,12:34:27,12:33:42,Yelloweye rockfish,132,1,FALSE,M,M,debris,debris,,2,,,6706,1
+H143-CA-V,8,0:03:57,12:37:07,12:36:22,Greenstriped rockfish,126,1,FALSE,M,M,debris,sponge,,2,,,6707,2
+H143-CA-V,12,0:05:46,12:38:56,12:38:11,Greenstriped rockfish,112,1,FALSE,M,M,debris,bare,,1,,,6708,2
+H143-CA-V,15,0:07:14,12:40:24,12:39:39,Quillback rockfish,103,1,FALSE,R,R,debris,bare,,2,,,6709,1
+H143-CA-V,15,0:07:28,12:40:38,12:39:53,Quillback rockfish,101,1,FALSE,R,R,bare,bare,,2,,,6710,1
+H143-CA-V,19,0:09:26,12:42:36,12:41:51,Quillback rockfish,96,1,FALSE,R,R,bare,Heterochone calyx,,2,,,6711,2
+H143-CA-V,20,0:09:48,12:42:58,12:42:13,Quillback rockfish,85,1,FALSE,R,R,Heterochone calyx,debris,,2,,,6712,2
+H143-CA-V,21,0:10:19,12:43:29,12:42:44,Yelloweye rockfish,73,1,FALSE,R,R,Heterochone calyx,debris,,2,,ARH: checked,6713,1
+H143-CA-V,22,0:10:55,12:44:05,12:43:20,Quillback rockfish,67,2,FALSE,R,R,Heterochone calyx,debris,,2,,additional QB - KLK,6714,2
+H143-CA-V,22,0:10:59,12:44:09,12:43:24,Yelloweye rockfish,65,1,FALSE,R,R,Heterochone calyx,debris,,2,,,6715,1
+H143-CA-V,27,0:13:09,12:46:19,12:45:34,Quillback rockfish,55,1,FALSE,R,R,bare,Heterochone calyx,,2,,,6716,1
+H143-CA-V,27,0:13:09,12:46:19,12:45:34,Rockfish uniden.,55,1,FALSE,R,R,bare,Heterochone calyx,,2,,behind quilback - yelloweye?,6717,2
+H143-CA-V,27,0:13:25,12:46:35,12:45:50,Quillback rockfish,53,1,FALSE,R,R,Heterochone calyx,bare,,3,,,6718,1
+H143-CA-V,28,0:13:34,12:46:44,12:45:59,Quillback rockfish,52,2,FALSE,R,R,bare,sponge,,3,,,6719,1
+H143-CA-V,28,0:13:54,12:47:04,12:46:19,cable/line,51,1,FALSE,R,R,bare,Heterochone calyx,,3,,line,6720,2
+H143-CA-V,28,0:13:55,12:47:05,12:46:20,Quillback rockfish,51,1,FALSE,R,R,bare,Heterochone calyx,,2,,,6721,1
+H143-CA-V,28,0:13:58,12:47:08,12:46:23,Yelloweye rockfish,50,1,FALSE,R,R,bare,bare,,3,,,6722,1
+H143-CA-V,29,0:14:01,12:47:11,12:46:26,Quillback rockfish,50,1,FALSE,R,B,bare,sponge,,3,,,6723,1
+H143-CA-V,29,0:14:03,12:47:13,12:46:28,Quillback rockfish,50,1,FALSE,R,B,bare,sponge,,3,,,6724,1
+H143-CA-V,41,0:20:22,12:53:32,12:52:47,Yelloweye rockfish,52,1,FALSE,R,R,Heterochone calyx,debris,,4,,,6725,1
+H143-CA-V,42,0:20:31,12:53:41,12:52:56,Yelloweye rockfish,52,1,FALSE,R,R,Heterochone calyx,bare,,2,,,6726,1
+H143-CA-V,42,0:20:41,12:53:51,12:53:06,Lingcod,53,1,FALSE,R,R,Heterochone calyx,bare,,2,,,6727,1
+H143-CA-V,42,0:20:49,12:53:59,12:53:14,Yelloweye rockfish,52,1,FALSE,R,R,bare,Heterochone calyx,,2,,,6728,1
+H143-CA-V,44,0:21:40,12:54:50,12:54:05,Quillback rockfish,51,2,FALSE,R,B,bare,bare,,3,,,6729,1
+H143-CA-V,44,0:21:41,12:54:51,12:54:06,Quillback rockfish,51,1,FALSE,R,B,bare,bare,,3,,,6730,2
+H143-CA-V,44,0:21:53,12:55:03,12:54:18,Quillback rockfish,52,1,FALSE,R,B,bare,bare,,3,,,6731,1
+H143-CA-V,45,0:22:15,12:55:25,12:54:40,Quillback rockfish,52,1,FALSE,R,R,bare,bare,,2,,More visible @ 22:20,6732,2
+H143-CA-V,50,0:24:35,12:57:45,12:57:00,Rockfish uniden.,51,1,FALSE,R,M,bare,bare,,2,,,6733,2
+H143-CA-V,64,0:31:45,13:04:55,13:04:10,Quillback rockfish,47,1,FALSE,R,M,bare,bare,,2,,,6734,2
+H143-CA-V,64,0:31:49,13:04:59,13:04:14,Quillback rockfish,46,1,FALSE,R,M,bare,bare,,2,,,6735,2
+H143-CA-V,65,0:32:14,13:05:24,13:04:39,Quillback rockfish,44,1,FALSE,R,M,bare,encrusting organism complex,,2,,,6736,2
+H143-CA-V,65,0:32:28,13:05:38,13:04:53,Lingcod,45,1,FALSE,R,M,bare,encrusting organism complex,,2,,ARH: checked,6737,1
+H143-CA-V,69,0:34:19,13:07:29,13:06:44,Quillback rockfish,46,1,FALSE,R,M,bare,bare,,2,,,6738,1
+H143-CA-V,69,0:34:23,13:07:33,13:06:48,Quillback rockfish,45,1,FALSE,R,M,bare,bare,,2,,,6739,1
+H143-CA-V,69,0:34:25,13:07:35,13:06:50,Quillback rockfish,45,1,FALSE,R,M,bare,bare,,2,,,6740,1
+H143-CA-V,69,0:34:28,13:07:38,13:06:53,Greenstriped rockfish,46,1,FALSE,R,M,bare,bare,,2,,,6741,1
+H143-CA-V,72,0:35:36,13:08:46,13:08:01,Quillback rockfish,40,1,FALSE,R,M,bare,bare,,2,,,6742,1
+H143-CA-V,72,0:35:49,13:08:59,13:08:14,Quillback rockfish,39,2,FALSE,R,M,bare,bare,,2,,,6743,1
+H143-CA-V,72,0:35:50,13:09:00,13:08:15,Copper rockfish,39,1,FALSE,R,M,bare,bare,,2,,Changed a QB to a copper - KLK,6744,2
+H144-CA-V,1,0:00:41,13:19:41,13:19:42,Yelloweye rockfish,118,1,,R,R,debris,sponge,,2,debris is dead sponge,,,1
+H144-CA-V,4,0:02:26,13:21:26,13:21:27,Yelloweye rockfish,110,1,,R,R,debris,sponge,,2,debris is dead sponge,ARH: checked,,1
+H144-CA-V,7,0:03:47,13:22:47,13:22:48,Lingcod,111,1,,R,R,bare,bare,,2,,,,1
+H144-CA-V,12,0:06:02,13:25:02,13:25:03,Quillback rockfish,115,1,,R,R,debris,sponge,,2,debris is dead sponge,,,1
+H144-CA-V,17,0:08:33,13:27:33,13:27:34,Yelloweye rockfish,104,1,,R,R,debris,sponge,,2,debris is dead sponge,,,1
+H144-CA-V,23,0:11:42,13:30:42,13:30:43,Quillback rockfish,96,1,,R,R,debris,sponge,,2,debris is dead sponge,,,2
+H144-CA-V,23,0:11:52,13:30:52,13:30:53,Quillback rockfish,96,1,,R,R,debris,sponge,,2,debris is dead sponge,,,1
+H144-CA-V,24,0:12:08,13:31:08,13:31:09,Quillback rockfish,96,1,,R,R,debris,sponge,,2,debris is dead sponge,,,1
+H144-CA-V,25,0:12:59,13:31:59,13:32:00,Quillback rockfish,97,1,,R,R,debris,Heterochone calyx,,2,debris is dead sponge,,,1
+H144-CA-V,27,0:13:49,13:32:49,13:32:50,Yelloweye rockfish,100,1,,R,R,debris,Heterochone calyx,,2,debris is dead sponge,,,1
+H144-CA-V,29,0:14:42,13:33:42,13:33:43,Yelloweye rockfish,101,1,,R,R,debris,sponge,,2,debris is dead sponge,,,1
+H144-CA-V,29,0:14:54,13:33:54,13:33:55,Quillback rockfish,102,1,,R,R,debris,sponge,,2,debris is dead sponge,,,1
+H144-CA-V,32,0:16:01,13:35:01,13:35:02,Greenstriped rockfish,100,1,,R,R,Heterochone calyx,debris,,2,debris is dead sponge,,,1
+H144-CA-V,34,0:17:29,13:36:29,13:36:30,Quillback rockfish,103,1,,R,R,Heterochone calyx,debris,,2,debris is dead sponge,,,1
+H144-CA-V,34,0:17:29,13:36:29,13:36:30,Yelloweye rockfish,103,2,,R,R,Heterochone calyx,debris,,2,debris is dead sponge,,,1
+H144-CA-V,43,0:21:43,13:40:43,13:40:44,Yelloweye rockfish,96,1,,R,R,debris,Heterochone calyx,,2,debris is dead sponge,,,1
+H144-CA-V,45,0:22:31,13:41:31,13:41:32,Quillback rockfish,99,1,,R,R,debris,Heterochone calyx,,2,debris is dead sponge,,,1
+H144-CA-V,45,0:22:52,13:41:52,13:41:53,Yelloweye rockfish,98,1,,R,R,debris,Heterochone calyx,,2,debris is dead sponge,ARH: checked,,1
+H144-CA-V,47,0:23:36,13:42:36,13:42:37,Yelloweye rockfish,93,1,,R,R,debris,Heterochone calyx,,2,debris is dead sponge,,,1
+H144-CA-V,47,0:23:56,13:42:56,13:42:57,Yelloweye rockfish,91,1,,R,R,Heterochone calyx,debris,,2,debris is dead sponge,,,1
+H144-CA-V,48,0:24:26,13:43:26,13:43:27,Quillback rockfish,87,1,,R,R,debris,Heterochone calyx,,2,debris is dead sponge,,,1
+H144-CA-V,49,0:24:56,13:43:56,13:43:57,Quillback rockfish,83,1,,R,R,debris,sponge,,2,debris is dead sponge,,,1
+H144-CA-V,50,0:25:03,13:44:03,13:44:04,Yelloweye rockfish,81,1,,R,R,debris,Heterochone calyx,,2,debris is dead sponge,,,1
+H144-CA-V,50,0:25:09,13:44:09,13:44:10,Quillback rockfish,80,1,,R,R,debris,bare,,2,debris is dead sponge,,,1
+H144-CA-V,50,0:25:10,13:44:10,13:44:11,Quillback rockfish,79,1,,R,R,debris,Heterochone calyx,,2,debris is dead sponge,,,1
+H144-CA-V,56,0:28:08,13:47:08,13:47:09,Yelloweye rockfish,74,1,,M,M,debris,sponge,,2,debris is dead sponge,,,1
+H144-CA-V,56,0:28:21,13:47:21,13:47:22,Quillback rockfish,74,1,,R,M,debris,sponge,,2,debris is dead sponge,,,1
+H144-CA-V,56,0:28:27,13:47:27,13:47:28,Yelloweye rockfish,74,1,,R,M,debris,sponge,,2,debris is dead sponge,,,1
+H144-CA-V,56,0:28:27,13:47:27,13:47:28,Quillback rockfish,75,3,,R,M,debris,sponge,,2,debris is dead sponge,,,1
+H144-CA-V,56,0:28:26,13:47:26,13:47:27,Yelloweye rockfish,74,1,,M,R,debris,sponge,,2,debris is dead sponge,,,1
+H144-CA-V,57,0:28:44,13:47:44,13:47:45,Quillback rockfish,73,1,,R,M,debris,Heterochone calyx,,2,debris is dead sponge,,,1
+H144-CA-V,57,0:28:50,13:47:50,13:47:51,Quillback rockfish,72,1,,R,R,Heterochone calyx,debris,,2,debris is dead sponge,,,1
+H144-CA-V,57,0:28:53,13:47:53,13:47:54,Yelloweye rockfish,71,2,,R,M,Heterochone calyx,debris,,2,debris is dead sponge,,,2
+H144-CA-V,59,0:29:46,13:48:46,13:48:47,Yelloweye rockfish,68,1,,R,R,debris,Heterochone calyx,,2,debris is dead sponge,,,1
+H144-CA-V,59,0:29:51,13:48:51,13:48:52,Quillback rockfish,66,1,,R,R,debris,Heterochone calyx,,2,debris is dead sponge,,,1
+H145-CA-V,21,0:10:15,13:59:06,13:58:17,Quillback rockfish,96,1,FALSE,M,M,bare,bare,,1,,,6780,1
+H145-CA-V,21,0:10:17,13:59:08,13:58:19,Quillback rockfish,96,1,FALSE,M,M,bare,bare,,1,,,6781,1
+H145-CA-V,22,0:10:47,13:59:38,13:58:49,Lingcod,96,1,FALSE,M,M,bare,bare,,1,,ARH: checked,6782,1
+H145-CA-V,57,0:28:00,14:16:51,14:16:02,fishing debris,102,1,FALSE,M,M,bare,bare,,1,,piece of net,6783,1
+H146-CA-V,2,0:01:17,10:50:36,10:49:48,Rockfish uniden.,77,1,FALSE,M,R,bare,sponge,,1,,Greenstriped?,6784,1
+H146-CA-V,8,0:04:04,10:53:23,10:52:35,Quillback rockfish,75,1,FALSE,M,C,sponge,debris,,2,,,6785,1
+H146-CA-V,8,0:04:08,10:53:27,10:52:39,Greenstriped rockfish,75,1,FALSE,M,C,sponge,debris,,2,,ARH: checked,6786,1
+H146-CA-V,16,0:08:23,10:57:42,10:56:54,Quillback rockfish,77,1,FALSE,R,M,bare,sponge,,2,,,6787,1
+H146-CA-V,17,0:08:51,10:58:10,10:57:22,Greenstriped rockfish,78,1,FALSE,M,M,bare,sponge,,2,,,6788,1
+H146-CA-V,19,0:09:55,10:59:14,10:58:26,Quillback rockfish,80,1,FALSE,R,M,bare,sponge,,2,,,6789,1
+H146-CA-V,34,0:17:19,11:06:38,11:05:50,Quillback rockfish,80,1,FALSE,M,P,bare,bare,,1,,,6790,1
+H146-CA-V,34,0:17:20,11:06:39,11:05:51,Quillback rockfish,79,1,FALSE,M,P,bare,bare,,1,,,6791,1
+H146-CA-V,34,0:17:25,11:06:44,11:05:56,Yelloweye rockfish,79,1,FALSE,M,P,bare,bare,,1,,,6792,1
+H146-CA-V,34,0:17:29,11:06:48,11:06:00,Quillback rockfish,79,2,FALSE,M,P,bare,bare,,1,,additional QB - KLK,6793,2
+H146-CA-V,35,0:17:39,11:06:58,11:06:10,Greenstriped rockfish,79,1,FALSE,R,R,debris,sponge,,2,,,6794,1
+H146-CA-V,35,0:17:40,11:06:59,11:06:11,Quillback rockfish,79,1,FALSE,R,R,debris,sponge,,2,,,6795,1
+H146-CA-V,36,0:18:03,11:07:22,11:06:34,Yelloweye rockfish,76,1,FALSE,R,R,sponge,debris,,2,,,6796,1
+H146-CA-V,36,0:18:04,11:07:23,11:06:35,Yelloweye rockfish,76,1,FALSE,R,R,sponge,debris,,2,,,6797,1
+H146-CA-V,36,0:18:23,11:07:42,11:06:54,Quillback rockfish,75,1,FALSE,R,R,sponge,debris,,2,,,6798,2
+H146-CA-V,37,0:18:45,11:08:04,11:07:16,Quillback rockfish,76,1,FALSE,R,R,sponge,debris,,2,,,6799,1
+H146-CA-V,48,0:24:00,11:13:19,11:12:31,Quillback rockfish,90,1,FALSE,M,M,debris,sponge,,2,,,6803,1
+H146-CA-V,48,0:24:05,11:13:24,11:12:36,Quillback rockfish,90,1,FALSE,M,M,debris,sponge,,2,,bottom,6804,1
+H146-CA-V,48,0:24:07,11:13:26,11:12:38,Quillback rockfish,90,1,FALSE,M,R,debris,sponge,,2,,,6805,1
+H146-CA-V,48,0:24:08,11:13:27,11:12:39,Quillback rockfish,90,2,FALSE,M,R,debris,sponge,,2,,,6806,1
+H146-CA-V,48,0:24:16,11:13:35,11:12:47,Quillback rockfish,90,1,FALSE,M,M,debris,sponge,,2,,,6807,1
+H146-CA-V,50,0:25:00,11:14:19,11:13:31,Lingcod,91,1,FALSE,M,M,debris,sponge,,2,,,6808,1
+H146-CA-V,51,0:25:44,11:15:03,11:14:15,Quillback rockfish,91,1,FALSE,M,P,debris,sponge,,2,,,6809,1
+H146-CA-V,51,0:25:58,11:15:17,11:14:29,Lingcod,90,1,FALSE,M,P,debris,sponge,,2,,,6810,1
+H146-CA-V,53,0:26:39,11:15:58,11:15:10,Greenstriped rockfish,90,1,FALSE,M,P,debris,bare,,2,,,6811,2
+H146-CA-V,55,0:27:52,11:17:11,11:16:23,Rockfish uniden.,86,1,FALSE,M,M,debris,sponge,,2,,puget?,6812,2
+H147-CA-V,5,0:02:19,10:18:25,10:17:39,Quillback rockfish,72,1,FALSE,M,R,bare,sponge,,2,,,6813,1
+H147-CA-V,9,0:04:09,10:20:15,10:19:29,Quillback rockfish,74,1,FALSE,R,R,bare,sponge,,2,,in heterochone sponge,6814,1
+H147-CA-V,9,0:04:27,10:20:33,10:19:47,Quillback rockfish,75,1,FALSE,R,R,bare,sponge,,2,,,6815,1
+H147-CA-V,13,0:06:09,10:22:15,10:21:29,Quillback rockfish,78,1,FALSE,R,M,bare,bare,,2,,,6816,1
+H147-CA-V,13,0:06:13,10:22:19,10:21:33,Greenstriped rockfish,79,1,FALSE,R,M,bare,bare,,2,,,6817,2
+H147-CA-V,14,0:06:33,10:22:39,10:21:53,Rockfish uniden.,82,1,FALSE,R,R,bare,bare,,2,,greenstripe?,6818,1
+H147-CA-V,14,0:06:38,10:22:44,10:21:58,Greenstriped rockfish,81,1,FALSE,R,R,bare,bare,,2,,,6819,1
+H147-CA-V,14,0:06:53,10:22:59,10:22:13,Greenstriped rockfish,82,2,FALSE,R,R,bare,bare,,2,,,6820,1
+H147-CA-V,27,0:13:09,10:29:15,10:28:29,Yelloweye rockfish,88,1,FALSE,R,R,bare,Aphrocallistes vastus,,2,,,6821,1
+H147-CA-V,27,0:13:21,10:29:27,10:28:41,Yelloweye rockfish,87,1,FALSE,R,R,bare,Aphrocallistes vastus,,2,,,6822,1
+H147-CA-V,29,0:14:02,10:30:08,10:29:22,Greenstriped rockfish,81,1,FALSE,M,R,bare,Rhabdocalyptus spp.,,2,,ARH: checked,6823,1
+H147-CA-V,30,0:14:34,10:30:40,10:29:54,Quillback rockfish,78,1,FALSE,R,M,bare,sponge,,2,,,6824,1
+H147-CA-V,30,0:14:48,10:30:54,10:30:08,Greenstriped rockfish,77,1,FALSE,R,M,bare,sponge,,2,,,6825,1
+H147-CA-V,38,0:18:57,10:35:03,10:34:17,Quillback rockfish,76,1,FALSE,M,M,bare,Rhabdocalyptus spp.,,2,,,6826,1
+H147-CA-V,46,0:22:46,10:38:52,10:38:06,Lingcod,80,1,FALSE,M,R,bare,sponge,,1,,,6827,1
+H147-CA-V,59,0:29:11,10:45:17,10:44:31,Yelloweye rockfish,82,1,FALSE,M,R,bare,sponge,,2,,2 yelloweye left; one outside capture zone; ARH: checked,6828,2
+H147-CA-V,59,0:29:17,10:45:23,10:44:37,Yelloweye rockfish,82,1,FALSE,M,R,bare,sponge,,2,,ARH: checked,6829,1
+H147-CA-V,60,0:29:50,10:45:56,10:45:10,Greenstriped rockfish,81,1,FALSE,M,R,bare,sponge,,2,,,6830,2
+H148-CA-V,1,0:00:38,11:04:27,11:03:39,Greenstriped rockfish,115,1,FALSE,M,M,bare,bare,,1,,,6831,1
+H148-CA-V,3,0:01:50,11:05:39,11:04:51,Quillback rockfish,114,1,FALSE,M,M,bare,bare,,1,,,6832,1
+H148-CA-V,10,0:05:15,11:09:04,11:08:16,Greenstriped rockfish,118,1,FALSE,M,M,bare,bare,,1,,,6833,1
+H148-CA-V,12,0:06:19,11:10:08,11:09:20,Rockfish uniden.,122,1,FALSE,M,M,debris,bare,,2,,"Changed to Puget - KLK; ARH: changed from PSRF, possible sharpchin",6834,2
+H148-CA-V,12,0:06:21,11:10:10,11:09:22,Quillback rockfish,122,1,FALSE,M,M,debris,bare,,2,,,6835,1
+H148-CA-V,12,0:06:21,11:10:10,11:09:22,Yelloweye rockfish,122,1,FALSE,M,M,debris,bare,,2,,,6836,1
+H148-CA-V,13,0:06:36,11:10:25,11:09:37,Greenstriped rockfish,123,1,FALSE,M,M,debris,bare,,2,,,6837,2
+H148-CA-V,18,0:09:07,11:12:56,11:12:08,Yelloweye rockfish,122,1,FALSE,R,R,bare,debris,,2,,,6838,1
+H148-CA-V,23,0:11:59,11:15:48,11:15:00,Quillback rockfish,125,1,FALSE,R,R,bare,bare,,2,,,6839,1
+H148-CA-V,26,0:13:10,11:16:59,11:16:11,Yelloweye rockfish,127,1,FALSE,R,R,bare,bare,,2,,,6840,1
+H148-CA-V,27,0:13:40,11:17:29,11:16:41,Rockfish uniden.,127,1,FALSE,R,R,bare,bare,,2,,,6841,2
+H148-CA-V,28,0:14:04,11:17:53,11:17:05,Quillback rockfish,127,1,FALSE,R,R,bare,bare,,2,,,6842,1
+H148-CA-V,28,0:14:19,11:18:08,11:17:20,Yelloweye rockfish,127,1,FALSE,M,R,bare,debris,,2,,ARH: checked,6843,1
+H148-CA-V,29,0:14:55,11:18:44,11:17:56,Yelloweye rockfish,128,1,FALSE,M,R,bare,debris,,2,,,6844,1
+H148-CA-V,30,0:15:18,11:19:07,11:18:19,Greenstriped rockfish,129,1,FALSE,M,R,bare,bare,,2,,,6845,1
+H148-CA-V,31,0:15:49,11:19:38,11:18:50,Greenstriped rockfish,130,1,FALSE,M,M,bare,bare,,1,,,6846,1
+H148-CA-V,34,0:17:14,11:21:03,11:20:15,Quillback rockfish,138,1,FALSE,M,M,bare,bare,,2,,,6847,1
+H149-CA-V,3,0:01:49,13:00:35,12:59:50,Greenstriped rockfish,91,1,FALSE,M,M,bare,bare,,1,,,6848,1
+H149-CA-V,9,0:04:44,13:03:30,13:02:45,Greenstriped rockfish,91,1,FALSE,M,M,bare,bare,,1,,,6849,1
+H149-CA-V,11,0:05:39,13:04:25,13:03:40,Greenstriped rockfish,92,1,FALSE,M,M,bare,bare,,1,,,6850,1
+H149-CA-V,12,0:06:26,13:05:12,13:04:27,Greenstriped rockfish,93,1,FALSE,M,M,bare,bare,,1,,,6851,1
+H149-CA-V,16,0:08:17,13:07:03,13:06:18,Yelloweye rockfish,90,1,FALSE,M,B,bare,bare,,2,,,6852,1
+H149-CA-V,18,0:09:06,13:07:52,13:07:07,Greenstriped rockfish,89,1,FALSE,M,M,bare,bare,,2,,,6853,1
+H149-CA-V,19,0:09:49,13:08:35,13:07:50,Lingcod,87,1,FALSE,M,M,bare,bare,,1,,,6854,1
+H149-CA-V,19,0:09:52,13:08:38,13:07:53,Unidentified fish,87,1,FALSE,M,M,bare,bare,,1,,ARH: checked,6855,1
+H149-CA-V,20,0:10:25,13:09:11,13:08:26,Lingcod,85,1,FALSE,M,M,bare,bare,,1,,ARH: checked,6856,1
+H149-CA-V,22,0:11:00,13:09:46,13:09:01,Greenstriped rockfish,81,1,FALSE,M,M,bare,bare,,1,,,6857,1
+H149-CA-V,22,0:11:10,13:09:56,13:09:11,Greenstriped rockfish,81,2,FALSE,M,M,bare,bare,,1,,,6858,1
+H149-CA-V,22,0:11:25,13:10:11,13:09:26,Greenstriped rockfish,80,1,FALSE,M,M,bare,bare,,2,,,6859,1
+H149-CA-V,23,0:11:46,13:10:32,13:09:47,Greenstriped rockfish,80,1,FALSE,M,M,bare,bare,,1,,ARH: checked,6860,1
+H149-CA-V,23,0:11:49,13:10:35,13:09:50,Greenstriped rockfish,80,1,FALSE,M,M,bare,bare,,2,,,6861,1
+H149-CA-V,23,0:11:56,13:10:42,13:09:57,Greenstriped rockfish,80,2,FALSE,M,M,bare,bare,,1,,,6862,1
+H149-CA-V,26,0:13:26,13:12:12,13:11:27,Greenstriped rockfish,75,1,FALSE,M,M,bare,Rhabdocalyptus spp.,,1,,,6863,1
+H149-CA-V,27,0:13:49,13:12:35,13:11:50,Sculpin uniden.,74,1,FALSE,M,M,bare,bare,,1,,possible threadfin,6864,1
+H149-CA-V,28,0:14:09,13:12:55,13:12:10,Greenstriped rockfish,73,1,FALSE,M,M,bare,Rhabdocalyptus spp.,,1,,,6865,1
+H149-CA-V,30,0:15:09,13:13:55,13:13:10,Greenstriped rockfish,70,1,FALSE,M,M,bare,bare,,1,,,6866,1
+H149-CA-V,35,0:17:30,13:16:16,13:15:31,Greenstriped rockfish,66,1,FALSE,M,M,bare,bare,,1,,,6867,1
+H149-CA-V,39,0:19:40,13:18:26,13:17:41,Yelloweye rockfish,67,1,FALSE,M,R,bare,Rhabdocalyptus spp.,,2,,,6868,1
+H149-CA-V,41,0:20:30,13:19:16,13:18:31,Quillback rockfish,68,1,FALSE,R,M,bare,bare,,2,,,6869,1
+H149-CA-V,44,0:22:29,13:21:15,13:20:30,Rockfish uniden.,70,1,FALSE,M,R,bare,debris,,2,,ARH: possible greenstriped,6870,1
+H149-CA-V,45,0:22:36,13:21:22,13:20:37,Quillback rockfish,70,1,FALSE,M,M,bare,bare,,1,,,6871,1
+H149-CA-V,49,0:24:48,13:23:34,13:22:49,Greenstriped rockfish,75,1,FALSE,M,M,bare,bare,,1,,,6872,1
+H149-CA-V,50,0:25:25,13:24:11,13:23:26,Greenstriped rockfish,77,1,FALSE,R,R,bare,bare,,1,,,6874,1
+H149-CA-V,53,0:26:38,13:25:24,13:24:39,Greenstriped rockfish,80,2,FALSE,M,R,bare,bare,,1,,,6875,1
+H149-CA-V,53,0:26:48,13:25:34,13:24:49,Greenstriped rockfish,80,1,FALSE,M,M,bare,bare,,1,,,6876,1
+H149-CA-V,54,0:27:11,13:25:57,13:25:12,Greenstriped rockfish,81,1,FALSE,M,M,bare,bare,,1,,,6877,1
+H149-CA-V,54,0:27:19,13:26:05,13:25:20,Greenstriped rockfish,82,1,FALSE,M,M,bare,bare,,1,,,6878,1
+H149-CA-V,54,0:27:29,13:26:15,13:25:30,Quillback rockfish,83,1,FALSE,M,M,bare,bare,,1,,,6879,1
+H149-CA-V,55,0:27:37,13:26:23,13:25:38,Greenstriped rockfish,83,1,FALSE,M,M,bare,bare,,1,,,6880,1
+H153-CA-V,13,0:06:03,9:13:16,9:12:27,Quillback rockfish,70,1,FALSE,M,M,bare,bare,,1,,,6882,1
+H153-CA-V,13,0:06:05,9:13:18,9:12:29,Quillback rockfish,70,2,FALSE,M,M,bare,bare,,1,,,6883,1
+H153-CA-V,13,0:06:05,9:13:18,9:12:29,Copper rockfish,70,1,FALSE,M,M,bare,bare,,1,,,6884,1
+H153-CA-V,13,0:06:16,9:13:29,9:12:40,Quillback rockfish,70,4,FALSE,M,M,bare,bare,,1,,,6885,1
+H153-CA-V,13,0:06:19,9:13:32,9:12:43,Greenstriped rockfish,71,1,FALSE,M,M,bare,bare,,1,,,6886,1
+H153-CA-V,14,0:06:35,9:13:48,9:12:59,Greenstriped rockfish,72,1,FALSE,M,M,bare,bare,,2,,,6887,1
+H153-CA-V,15,0:07:00,9:14:13,9:13:24,Copper rockfish,71,1,FALSE,M,M,bare,bare,,1,,,6888,1
+H153-CA-V,15,0:07:07,9:14:20,9:13:31,Quillback rockfish,70,4,FALSE,M,M,bare,bare,,1,,,6889,1
+H153-CA-V,15,0:07:12,9:14:25,9:13:36,Quillback rockfish,70,1,FALSE,M,M,bare,bare,,1,,,6890,1
+H153-CA-V,25,0:12:08,9:19:21,9:18:32,Greenstriped rockfish,79,1,FALSE,M,M,bare,bare,,1,,,6891,2
+H153-CA-V,36,0:17:35,9:24:48,9:23:59,Lingcod,85,1,FALSE,M,M,bare,bare,,1,,,6892,1
+H153-CA-V,36,0:17:55,9:25:08,9:24:19,Quillback rockfish,85,2,FALSE,M,M,bare,bare,,1,,,6893,1
+H153-CA-V,37,0:18:10,9:25:23,9:24:34,Greenstriped rockfish,86,1,FALSE,M,B,bare,bare,,1,,,6894,1
+H153-CA-V,37,0:18:24,9:25:37,9:24:48,Quillback rockfish,88,1,FALSE,M,B,bare,bare,,2,,,6895,1
+H153-CA-V,38,0:18:37,9:25:50,9:25:01,Quillback rockfish,90,1,FALSE,M,M,bare,bare,,2,,,6896,1
+H153-CA-V,38,0:18:43,9:25:56,9:25:07,Lingcod,91,1,FALSE,M,M,bare,bare,,1,,ARH: checked,6897,1
+H153-CA-V,55,0:27:02,9:34:15,9:33:26,Yelloweye rockfish,111,1,FALSE,M,B,bare,bare,,2,,,6898,1
+H153-CA-V,61,0:30:15,9:37:28,9:36:39,Yelloweye rockfish,123,1,FALSE,M,M,bare,bare,,2,,,6899,1
+H153-CA-V,61,0:30:27,9:37:40,9:36:51,Greenstriped rockfish,124,1,FALSE,M,B,bare,sponge,,2,,,6900,1
+H153-CA-V,72,0:35:55,9:43:08,9:42:19,Greenstriped rockfish,146,1,FALSE,M,M,bare,bare,,1,,,6901,1
+H155-CA-V,2,0:01:13,10:22:39,10:21:52,cable/line,49,1,FALSE,M,M,bare,bare,,1,,line,6903,1
+H155-CA-V,2,0:01:16,10:22:42,10:21:55,cable/line,49,1,FALSE,M,M,bare,bare,,1,,line,6904,1
+H155-CA-V,6,0:03:29,10:24:55,10:24:08,Lingcod,51,1,FALSE,M,M,bare,bare,,1,,,6905,1
+H155-CA-V,27,0:13:44,10:35:10,10:34:23,Greenstriped rockfish,56,1,FALSE,M,M,bare,bare,,1,,,6906,1
+H155-CA-V,27,0:13:56,10:35:22,10:34:35,Rockfish uniden.,57,1,FALSE,M,M,bare,bare,,1,,,6907,1
+H155-CA-V,30,0:15:09,10:36:35,10:35:48,Lingcod,56,2,FALSE,M,M,bare,bare,,1,,,6908,1
+H155-CA-V,46,0:23:22,10:44:48,10:44:01,Greenstriped rockfish,69,1,FALSE,M,M,bare,bare,,2,1 boulder,,6909,1
+H155-CA-V,46,0:23:23,10:44:49,10:44:02,Greenstriped rockfish,68,1,FALSE,M,M,bare,bare,,2,1 boulder,,6910,1
+H155-CA-V,47,0:23:37,10:45:03,10:44:16,Greenstriped rockfish,69,4,FALSE,M,M,bare,bare,,1,,,6911,1
+H155-CA-V,59,0:29:47,10:51:13,10:50:26,Greenstriped rockfish,76,1,FALSE,M,M,bare,Rhabdocalyptus spp.,,1,,,6912,1
+H155-CA-V,59,0:29:54,10:51:20,10:50:33,Greenstriped rockfish,76,1,FALSE,M,R,bare,bare,,1,scattered sponge debris,,6913,1
+H157-CA-V,2,0:01:22,9:48:28,9:47:43,Greenstriped rockfish,78,1,FALSE,R,R,bare,bare,,3,,ARH: checked,6914,1
+H157-CA-V,8,0:04:11,9:51:17,9:50:32,Quillback rockfish,77,1,FALSE,R,R,bare,bare,,2,,,6915,1
+H157-CA-V,11,0:05:44,9:52:50,9:52:05,Greenstriped rockfish,78,1,FALSE,R,R,bare,bare,,2,,,6916,2
+H157-CA-V,12,0:06:00,9:53:06,9:52:21,Quillback rockfish,77,1,FALSE,R,R,bare,bare,,2,,,6917,1
+H157-CA-V,12,0:06:10,9:53:16,9:52:31,Yelloweye rockfish,77,1,FALSE,R,R,bare,bare,,2,,,6918,1
+H157-CA-V,23,0:11:31,9:58:37,9:57:52,Quillback rockfish,76,1,FALSE,R,M,bare,bare,,1,,,6919,1
+H157-CA-V,25,0:12:33,9:59:39,9:58:54,Quillback rockfish,81,1,FALSE,R,M,bare,bare,,1,,,6920,1
+H157-CA-V,26,0:13:01,10:00:07,9:59:22,Quillback rockfish,81,1,FALSE,M,M,bare,bare,,1,,,6921,1
+H157-CA-V,26,0:13:05,10:00:11,9:59:26,Greenstriped rockfish,81,1,FALSE,M,M,bare,bare,,1,,,6922,1
+H157-CA-V,26,0:13:19,10:00:25,9:59:40,Quillback rockfish,80,1,FALSE,M,M,bare,bare,,1,,,6923,1
+H157-CA-V,28,0:14:01,10:01:07,10:00:22,Greenstriped rockfish,79,1,FALSE,M,M,bare,bare,,1,,,6924,2
+H157-CA-V,30,0:15:19,10:02:25,10:01:40,Quillback rockfish,77,1,FALSE,M,M,bare,bare,,1,,,6925,1
+H157-CA-V,39,0:19:58,10:07:04,10:06:19,Lingcod,76,1,FALSE,M,M,bare,bare,,1,,ARH: checked,6926,1
+H157-CA-V,40,0:20:25,10:07:31,10:06:46,Quillback rockfish,75,1,FALSE,R,M,bare,anemone,,2,,,6927,1
+H157-CA-V,42,0:21:16,10:08:22,10:07:37,Greenstriped rockfish,74,1,FALSE,R,M,bare,bare,,3,,,6928,1
+H157-CA-V,42,0:21:23,10:08:29,10:07:44,Greenstriped rockfish,74,1,FALSE,R,M,bare,bare,,3,,,6929,1
+H157-CA-V,44,0:22:08,10:09:14,10:08:29,Greenstriped rockfish,75,1,FALSE,M,M,bare,bare,,1,,,6930,1
+H157-CA-V,53,0:26:35,10:13:41,10:12:56,Quillback rockfish,68,2,FALSE,M,R,bare,bare,,2,,,6931,1
+H157-CA-V,53,0:26:45,10:13:51,10:13:06,Quillback rockfish,68,1,FALSE,M,R,bare,bare,,2,,,6932,1
+H157-CA-V,53,0:26:51,10:13:57,10:13:12,Canary rockfish,69,1,FALSE,M,M,bare,bare,,2,,,6933,1
+H157-CA-V,53,0:26:57,10:14:03,10:13:18,Quillback rockfish,69,1,FALSE,M,R,bare,debris,,1,scattered sponge debris,,6934,1
+H157-CA-V,53,0:26:59,10:14:05,10:13:20,Greenstriped rockfish,70,3,FALSE,M,M,bare,bare,,1,,Seen better @ 27:12,6935,1
+H157-CA-V,55,0:27:41,10:14:47,10:14:02,Greenstriped rockfish,68,1,FALSE,M,R,bare,bare,,2,,,6936,2
+H157-CA-V,55,0:27:58,10:15:04,10:14:19,Rockfish uniden.,67,1,FALSE,M,R,bare,bare,,3,,"ARH: checked, changed from greenstriped",6937,2
+H157-CA-V,56,0:28:08,10:15:14,10:14:29,Greenstriped rockfish,66,1,FALSE,M,R,bare,bare,,3,,ARH: checked,6938,1
+H158-CA-V,2,0:01:06,13:38:04,13:37:19,Quillback rockfish,33,1,FALSE,R,M,Crinoids,bare,,3,,,6939,1
+H158-CA-V,8,0:04:05,13:41:03,13:40:18,Kelp greenling,28,1,FALSE,R,R,Crinoids,bare,,2,,Female,6940,2
+H158-CA-V,8,0:04:12,13:41:10,13:40:25,Quillback rockfish,28,1,FALSE,R,R,Crinoids,bare,,2,,,6941,1
+H158-CA-V,9,0:04:33,13:41:31,13:40:46,Lingcod,28,1,FALSE,R,R,Crinoids,bare,,2,,,6942,1
+H158-CA-V,9,0:04:35,13:41:33,13:40:48,Quillback rockfish,28,4,FALSE,R,R,Crinoids,bare,,2,,,6943,1
+H158-CA-V,9,0:04:43,13:41:41,13:40:56,Quillback rockfish,28,1,FALSE,R,R,Crinoids,bare,,2,,,6944,1
+H158-CA-V,10,0:05:01,13:41:59,13:41:14,Quillback rockfish,28,1,FALSE,R,R,Crinoids,bare,,2,,,6945,1
+H158-CA-V,21,0:10:50,13:47:48,13:47:03,Lingcod,37,1,FALSE,M,C,bare,bare,,1,,,6946,1
+H158-CA-V,23,0:11:31,13:48:29,13:47:44,Lingcod,36,1,FALSE,M,C,bare,bare,,1,,ARH: checked,6947,1
+H158-CA-V,23,0:11:59,13:48:57,13:48:12,Quillback rockfish,35,2,FALSE,M,C,bare,bare,,1,,,6948,1
+H158-CA-V,24,0:12:25,13:49:23,13:48:38,Quillback rockfish,34,1,FALSE,M,C,bare,bare,,2,,,6949,1
+H158-CA-V,24,0:12:27,13:49:25,13:48:40,Quillback rockfish,34,1,FALSE,M,C,bare,bare,,2,,,6950,1
+H158-CA-V,25,0:12:49,13:49:47,13:49:02,Quillback rockfish,32,1,FALSE,R,M,bare,bare,,2,,,6951,1
+H158-CA-V,26,0:13:02,13:50:00,13:49:15,Yelloweye rockfish,30,1,FALSE,R,R,bare,bare,,2,,same one that appears in 10 seconds closer,6953,1
+H158-CA-V,26,0:13:15,13:50:13,13:49:28,Quillback rockfish,27,1,FALSE,R,R,bare,bare,,2,,,6954,1
+H158-CA-V,26,0:13:18,13:50:16,13:49:31,Quillback rockfish,28,2,FALSE,R,R,bare,bare,,2,,,6955,1
+H158-CA-V,26,0:13:00,13:49:58,13:49:13,Quillback rockfish,29,2,FALSE,R,M,bare,bare,,2,,,6952,1
+H158-CA-V,29,0:14:58,13:51:56,13:51:11,Quillback rockfish,25,5,FALSE,M,C,bare,bare,,2,,,6956,1
+H158-CA-V,30,0:15:15,13:52:13,13:51:28,Quillback rockfish,26,1,FALSE,M,C,bare,bare,,2,,,6957,1
+H158-CA-V,31,0:15:40,13:52:38,13:51:53,Quillback rockfish,25,3,FALSE,C,B,bare,bare,,3,,,6958,1
+H158-CA-V,31,0:15:47,13:52:45,13:52:00,Quillback rockfish,25,1,FALSE,R,B,bare,bare,,2,,,6959,1
+H158-CA-V,32,0:16:07,13:53:05,13:52:20,Quillback rockfish,26,3,FALSE,R,B,bare,bare,,2,,,6960,1
+H158-CA-V,32,0:16:16,13:53:14,13:52:29,Quillback rockfish,25,1,FALSE,R,B,bare,bare,,2,,possible duplicate,6961,1
+H158-CA-V,32,0:16:25,13:53:23,13:52:38,Quillback rockfish,25,1,FALSE,R,B,bare,bare,,2,,,6962,1
+H158-CA-V,33,0:16:33,13:53:31,13:52:46,Quillback rockfish,25,5,FALSE,R,R,bare,bare,,2,,,6963,1
+H158-CA-V,33,0:16:35,13:53:33,13:52:48,Quillback rockfish,25,2,FALSE,R,R,bare,bare,,3,,,6964,1
+H158-CA-V,33,0:16:47,13:53:45,13:53:00,Quillback rockfish,25,1,FALSE,R,R,bare,bare,,2,,,6965,1
+H158-CA-V,33,0:16:48,13:53:46,13:53:01,Quillback rockfish,25,1,FALSE,R,R,bare,bare,,2,,,6966,1
+H158-CA-V,33,0:16:50,13:53:48,13:53:03,Quillback rockfish,25,1,FALSE,R,R,bare,bare,,2,,,6967,1
+H158-CA-V,34,0:17:05,13:54:03,13:53:18,Quillback rockfish,26,11,FALSE,R,B,bare,bare,,4,,,6968,1
+H158-CA-V,34,0:17:06,13:54:04,13:53:19,Copper rockfish,26,2,FALSE,R,B,bare,bare,,4,,,6969,1
+H158-CA-V,34,0:17:07,13:54:05,13:53:20,Tiger rockfish,26,1,FALSE,R,B,bare,bare,,4,,,6970,1
+H158-CA-V,34,0:17:08,13:54:06,13:53:21,Lingcod,26,1,FALSE,R,B,bare,bare,,4,,,6971,1
+H158-CA-V,35,0:17:36,13:54:34,13:53:49,Lingcod,28,1,FALSE,R,B,bare,bare,,4,,,6972,1
+H158-CA-V,35,0:17:50,13:54:48,13:54:03,Quillback rockfish,30,1,FALSE,R,B,bare,bare,,4,,,6973,1
+H158-CA-V,35,0:17:59,13:54:57,13:54:12,Lingcod,30,1,FALSE,R,R,encrusting organism complex,Crinoids,,3,,,6974,1
+H158-CA-V,36,0:18:03,13:55:01,13:54:16,Quillback rockfish,31,1,FALSE,R,H,bare,Crinoids,,2,,,6975,1
+H158-CA-V,36,0:18:22,13:55:20,13:54:35,Lingcod,32,1,FALSE,R,H,bare,Crinoids,,2,,,6976,1
+H158-CA-V,37,0:18:40,13:55:38,13:54:53,Unidentified fish,33,1,FALSE,M,C,bare,bare,,1,,ARH: changed from kelp greenling,6977,1
+H158-CA-V,45,0:22:51,13:59:49,13:59:04,Quillback rockfish,40,1,FALSE,B,R,bare,bare,,3,,,6978,1
+H158-CA-V,48,0:24:05,14:01:03,14:00:18,Quillback rockfish,39,1,FALSE,R,M,bare,Crinoids,,2,,,6979,1
+H158-CA-V,48,0:24:07,14:01:05,14:00:20,Lingcod,39,1,FALSE,R,M,bare,Crinoids,,2,,,6980,1
+H158-CA-V,48,0:24:16,14:01:14,14:00:29,Quillback rockfish,39,1,FALSE,R,M,bare,Crinoids,,2,,caught it briefly under lasers in distance,6981,1
+H158-CA-V,49,0:24:35,14:01:33,14:00:48,Tiger rockfish,41,1,FALSE,R,M,bare,bare,,2,,,6982,1
+H158-CA-V,49,0:24:57,14:01:55,14:01:10,Quillback rockfish,41,1,FALSE,R,M,bare,Crinoids,,2,,,6983,1
+H158-CA-V,55,0:27:46,14:04:44,14:03:59,Lingcod,44,1,FALSE,M,M,bare,tube worms/worm tubes,,1,,ARH: checked,6984,1
+H158-CA-V,55,0:27:59,14:04:57,14:04:12,Lingcod,44,1,FALSE,M,M,bare,tube worms/worm tubes,,1,,,6985,1
+H158-CA-V,56,0:28:11,14:05:09,14:04:24,Lingcod,44,1,FALSE,M,M,bare,tube worms/worm tubes,,1,,ARH: checked,6986,1
+H159-CA-V,1,0:00:39,16:21:26,16:20:45,Greenstriped rockfish,85,1,FALSE,M,M,bare,bare,,1,,,6990,1
+H159-CA-V,5,0:02:54,16:23:41,16:23:00,Greenstriped rockfish,83,1,FALSE,M,M,bare,bare,,1,,,6991,1
+H159-CA-V,6,0:03:29,16:24:16,16:23:35,Greenstriped rockfish,84,1,FALSE,M,M,bare,bare,,1,,,6992,1
+H159-CA-V,8,0:04:02,16:24:49,16:24:08,Greenstriped rockfish,85,1,FALSE,M,M,bare,bare,,1,,,6993,1
+H159-CA-V,13,0:06:33,16:27:20,16:26:39,Greenstriped rockfish,89,3,FALSE,M,M,bare,bare,,1,,,6994,1
+H159-CA-V,13,0:06:35,16:27:22,16:26:41,Greenstriped rockfish,89,1,FALSE,M,M,bare,bare,,1,,,6995,1
+H159-CA-V,13,0:06:36,16:27:23,16:26:42,Greenstriped rockfish,89,1,FALSE,M,M,bare,bare,,1,,,6996,1
+H159-CA-V,13,0:06:40,16:27:27,16:26:46,Quillback rockfish,88,1,FALSE,M,M,bare,bare,,1,,,6997,1
+H159-CA-V,13,0:06:40,16:27:27,16:26:46,Greenstriped rockfish,88,1,FALSE,M,M,bare,bare,,1,,,6998,1
+H159-CA-V,13,0:06:45,16:27:32,16:26:51,Greenstriped rockfish,90,1,FALSE,M,M,bare,bare,,1,,,6999,1
+H159-CA-V,13,0:06:50,16:27:37,16:26:56,Greenstriped rockfish,89,1,FALSE,M,M,bare,bare,,1,,,7000,1
+H159-CA-V,13,0:06:55,16:27:42,16:27:01,Greenstriped rockfish,89,2,FALSE,M,M,bare,bare,,1,,,7001,1
+H159-CA-V,13,0:06:57,16:27:44,16:27:03,Quillback rockfish,89,2,FALSE,M,M,bare,bare,,1,,,7002,1
+H159-CA-V,13,0:06:57,16:27:44,16:27:03,Greenstriped rockfish,89,2,FALSE,M,M,bare,bare,,1,,,7003,1
+H159-CA-V,14,0:07:05,16:27:52,16:27:11,Greenstriped rockfish,89,1,FALSE,M,M,bare,bare,,1,,,7004,1
+H159-CA-V,14,0:07:11,16:27:58,16:27:17,Quillback rockfish,89,2,FALSE,M,M,bare,bare,,1,,,7005,1
+H159-CA-V,20,0:10:09,16:30:56,16:30:15,cable/line,96,1,FALSE,M,M,bare,bare,,1,,line,7006,1
+H159-CA-V,20,0:10:16,16:31:03,16:30:22,cable/line,96,1,FALSE,M,M,bare,bare,,1,,line?,7007,1
+H159-CA-V,24,0:12:09,16:32:56,16:32:15,Greenstriped rockfish,99,1,FALSE,M,M,bare,bare,,1,,,7008,1
+H159-CA-V,25,0:12:33,16:33:20,16:32:39,Quillback rockfish,97,1,FALSE,M,M,bare,bare,,2,,,7009,1
+H159-CA-V,25,0:12:37,16:33:24,16:32:43,Quillback rockfish,97,1,FALSE,M,R,bare,bare,,2,,,7010,1
+H159-CA-V,30,0:15:08,16:35:55,16:35:14,Greenstriped rockfish,95,1,FALSE,M,M,bare,bare,,1,,,7011,1
+H159-CA-V,30,0:15:26,16:36:13,16:35:32,Greenstriped rockfish,95,1,FALSE,M,M,bare,bare,,1,,,7012,1
+H159-CA-V,31,0:15:52,16:36:39,16:35:58,Greenstriped rockfish,94,1,FALSE,M,M,bare,bare,,1,,,7013,1
+H159-CA-V,31,0:15:54,16:36:41,16:36:00,Greenstriped rockfish,94,2,FALSE,M,M,bare,bare,,1,,,7014,1
+H159-CA-V,35,0:17:51,16:38:38,16:37:57,Greenstriped rockfish,89,1,FALSE,M,M,bare,bare,,1,,,7015,2
+H159-CA-V,39,0:19:52,16:40:39,16:39:58,Yelloweye rockfish,87,1,FALSE,M,B,bare,bare,,2,,,7016,1
+H159-CA-V,40,0:20:17,16:41:04,16:40:23,Greenstriped rockfish,87,2,FALSE,M,M,bare,bare,,1,,,7017,1
+H159-CA-V,40,0:20:23,16:41:10,16:40:29,Greenstriped rockfish,87,1,FALSE,M,M,bare,bare,,1,,,7018,1
+H159-CA-V,41,0:20:39,16:41:26,16:40:45,Greenstriped rockfish,87,1,FALSE,M,M,bare,bare,,2,,,7019,1
+H159-CA-V,41,0:20:51,16:41:38,16:40:57,Greenstriped rockfish,87,1,FALSE,M,M,bare,bare,,1,,,7020,1
+H159-CA-V,43,0:21:33,16:42:20,16:41:39,Greenstriped rockfish,88,3,FALSE,M,M,bare,bare,,1,,,7021,1
+H159-CA-V,43,0:21:57,16:42:44,16:42:03,Greenstriped rockfish,88,1,FALSE,M,M,bare,bare,,1,,,7022,1
+H159-CA-V,43,0:21:59,16:42:46,16:42:05,Greenstriped rockfish,88,1,FALSE,M,M,bare,bare,,1,,,7023,1
+H159-CA-V,44,0:22:03,16:42:50,16:42:09,Greenstriped rockfish,88,1,FALSE,M,M,bare,bare,,1,,,7024,1
+H159-CA-V,44,0:22:13,16:43:00,16:42:19,Greenstriped rockfish,88,1,FALSE,M,M,bare,bare,,1,,,7025,1
+H159-CA-V,45,0:22:30,16:43:17,16:42:36,Greenstriped rockfish,88,1,FALSE,M,M,bare,bare,,1,,,7026,1
+H159-CA-V,45,0:22:49,16:43:36,16:42:55,Greenstriped rockfish,88,1,FALSE,M,M,bare,bare,,1,,seen again @ 22:59,7027,1
+H159-CA-V,46,0:23:08,16:43:55,16:43:14,Quillback rockfish,89,1,FALSE,M,M,bare,bare,,1,,,7028,1
+H159-CA-V,46,0:23:09,16:43:56,16:43:15,Greenstriped rockfish,89,1,FALSE,M,M,bare,bare,,1,,,7029,1
+H159-CA-V,46,0:23:21,16:44:08,16:43:27,Greenstriped rockfish,90,2,FALSE,M,M,bare,bare,,2,,,7030,1
+H159-CA-V,46,0:23:23,16:44:10,16:43:29,Quillback rockfish,90,2,FALSE,M,M,bare,bare,,2,,,7031,1
+H159-CA-V,46,0:23:27,16:44:14,16:43:33,Quillback rockfish,90,1,FALSE,M,M,bare,bare,,2,,,7032,1
+H159-CA-V,46,0:23:29,16:44:16,16:43:35,Yelloweye rockfish,90,1,FALSE,M,M,bare,bare,,2,,ARH: checked,7033,1
+H159-CA-V,47,0:23:37,16:44:24,16:43:43,Yelloweye rockfish,91,1,FALSE,M,M,bare,bare,,2,,,7034,1
+H159-CA-V,48,0:24:26,16:45:13,16:44:32,Greenstriped rockfish,92,1,FALSE,M,M,bare,bare,,1,,,7035,2
+H159-CA-V,54,0:27:27,16:48:14,16:47:33,Greenstriped rockfish,94,1,FALSE,M,M,bare,bare,,1,,,7036,1
+H159-CA-V,56,0:28:29,16:49:16,16:48:35,Greenstriped rockfish,91,1,FALSE,M,M,bare,bare,,1,,,7037,1
+H159-CA-V,57,0:28:58,16:49:45,16:49:04,Greenstriped rockfish,90,1,FALSE,M,M,bare,bare,,1,,,7038,2
+H160-CA-V,3,0:01:53,16:55:46,16:54:57,Greenstriped rockfish,86,1,FALSE,M,M,bare,bare,,1,,,7039,1
+H160-CA-V,10,0:05:04,16:58:57,16:58:08,Greenstriped rockfish,82,1,FALSE,M,M,bare,Rhabdocalyptus spp.,,1,,,7040,1
+H160-CA-V,14,0:07:06,17:00:59,17:00:10,Greenstriped rockfish,83,1,FALSE,M,M,bare,Rhabdocalyptus spp.,,1,,,7041,1
+H160-CA-V,23,0:11:30,17:05:23,17:04:34,Greenstriped rockfish,82,1,FALSE,M,M,bare,bare,,1,,,7042,1
+H160-CA-V,23,0:11:39,17:05:32,17:04:43,Greenstriped rockfish,82,1,FALSE,M,M,bare,bare,,1,,,7043,1
+H160-CA-V,23,0:11:49,17:05:42,17:04:53,Greenstriped rockfish,82,1,FALSE,M,M,bare,bare,,1,,,7044,1
+H160-CA-V,24,0:12:29,17:06:22,17:05:33,Greenstriped rockfish,80,1,FALSE,M,M,bare,bare,,1,,,7045,1
+H160-CA-V,27,0:13:42,17:07:35,17:06:46,Greenstriped rockfish,81,1,FALSE,M,M,bare,bare,,1,,,7046,1
+H160-CA-V,33,0:16:33,17:10:26,17:09:37,Greenstriped rockfish,83,1,FALSE,M,M,bare,bare,,1,,,7047,1
+H160-CA-V,52,0:26:21,17:20:14,17:19:25,Greenstriped rockfish,78,1,FALSE,M,M,bare,Rhabdocalyptus spp.,,1,,,7048,1
+H160-CA-V,54,0:27:22,17:21:15,17:20:26,Yelloweye rockfish,75,1,FALSE,M,R,bare,bare,,2,,,7049,1
+H160-CA-V,55,0:27:33,17:21:26,17:20:37,Quillback rockfish,75,1,FALSE,M,R,bare,bare,,2,,,7050,1
+H160-CA-V,59,0:29:42,17:23:35,17:22:46,Quillback rockfish,73,1,FALSE,M,R,bare,bare,,2,,,7051,1
+H160-CA-V,60,0:30:18,17:24:11,17:23:22,Yelloweye rockfish,73,1,FALSE,M,C,bare,bare,,2,,,7052,1
+H163-CA-V,3,0:01:23,8:28:19,8:27:33,Pacific staghorn sculpin,67,1,FALSE,M,M,bare,bare,,1,,,7053,1
+H163-CA-V,50,0:24:54,8:51:50,8:51:04,crab/shrimp pot,71,1,FALSE,M,M,bare,bare,,1,,crab pot,7054,1
+H165-CA-V,14,0:07:22,11:18:58,11:18:58,Quillback rockfish,69,1,FALSE,C,R,anemone,bare,,2,,,7056,1
+H165-CA-V,15,0:07:51,11:19:27,11:19:27,Quillback rockfish,67,1,FALSE,R,R,bare,anemone,,2,,,7057,1
+H165-CA-V,15,0:07:58,11:19:34,11:19:34,Quillback rockfish,68,1,FALSE,C,R,bare,bare,,3,,,7058,1
+H165-CA-V,17,0:08:30,11:20:06,11:20:06,Puget Sound rockfish,67,4,FALSE,R,C,bare,bare,,3,,,7059,1
+H165-CA-V,17,0:08:33,11:20:09,11:20:09,Quillback rockfish,67,1,FALSE,R,B,bare,bare,,3,,,7060,1
+H165-CA-V,17,0:08:42,11:20:18,11:20:18,Puget Sound rockfish,66,1,FALSE,R,B,bare,bare,,3,,,7061,1
+H165-CA-V,17,0:08:49,11:20:25,11:20:25,Puget Sound rockfish,65,1,FALSE,R,B,bare,bare,,3,,,7062,1
+H165-CA-V,28,0:14:15,11:25:51,11:25:51,Kelp greenling,61,1,FALSE,C,B,bare,bare,,1,,female,7063,1
+H165-CA-V,31,0:15:35,11:27:11,11:27:11,Kelp greenling,64,1,FALSE,C,H,bare,bare,,1,,possibly duplicate of last one; female,7064,1
+H165-CA-V,31,0:15:51,11:27:27,11:27:27,Lingcod,65,1,FALSE,C,H,bare,bare,,1,,,7065,1
+H165-CA-V,34,0:17:21,11:28:57,11:28:57,Quillback rockfish,64,1,FALSE,C,H,bare,bare,,2,,,7066,1
+H165-CA-V,34,0:17:27,11:29:03,11:29:03,Quillback rockfish,63,1,FALSE,R,H,bare,bare,,2,,,7067,1
+H165-CA-V,43,0:21:38,11:33:14,11:33:14,Puget Sound rockfish,62,1,FALSE,R,R,bare,bare,,2,,,7068,1
+H165-CA-V,50,0:25:28,11:37:04,11:37:04,Lingcod,60,1,FALSE,R,M,bare,bare,,2,,,7069,1
+H165-CA-V,54,0:27:29,11:39:05,11:39:05,Lingcod,63,1,FALSE,C,H,bare,bare,,1,,,7070,1
+H165-CA-V,55,0:27:38,11:39:14,11:39:14,Lingcod,63,1,FALSE,C,H,bare,bare,,1,,ARH: checked,7071,1
+H165-CA-V,58,0:29:07,11:40:43,11:40:43,Lingcod,60,1,FALSE,C,H,bare,bare,,1,,juvenile,7072,2
+H167-CA-V,4,0:01:57,15:06:19,15:05:35,Kelp greenling,42,1,FALSE,R,M,bare,tube worms/worm tubes,,2,,female,7073,1
+H167-CA-V,9,0:04:24,15:08:46,15:08:02,Greenstriped rockfish,39,1,FALSE,M,M,bare,bare,,1,,ARH: checked,7074,1
+H167-CA-V,18,0:08:58,15:13:20,15:12:36,Quillback rockfish,45,1,FALSE,M,B,bare,bare,,2,,,7075,1
+H167-CA-V,24,0:11:44,15:16:06,15:15:22,Quillback rockfish,46,1,FALSE,M,R,bare,bare,,1,,,7076,1
+H167-CA-V,26,0:12:43,15:17:05,15:16:21,Quillback rockfish,45,1,FALSE,M,M,bare,bare,,1,,,7077,1
+H167-CA-V,26,0:12:49,15:17:11,15:16:27,Quillback rockfish,45,1,FALSE,M,M,bare,bare,,1,,,7078,1
+H167-CA-V,26,0:12:49,15:17:11,15:16:27,Lingcod,45,1,FALSE,M,M,bare,bare,,1,,,7079,1
+H167-CA-V,26,0:12:53,15:17:15,15:16:31,Quillback rockfish,45,6,FALSE,M,M,bare,bare,,1,,,7080,1
+H167-CA-V,26,0:12:58,15:17:20,15:16:36,Quillback rockfish,45,5,FALSE,M,M,bare,bare,,1,,,7081,1
+H167-CA-V,27,0:13:15,15:17:37,15:16:53,Quillback rockfish,44,2,FALSE,M,C,bare,bare,,1,,"Maybe more quillback, but hard to count accurately",7082,1
+H167-CA-V,32,0:15:52,15:20:14,15:19:30,Kelp greenling,44,1,FALSE,M,R,bare,bare,,2,,female,7083,1
+H167-CA-V,33,0:16:03,15:20:25,15:19:41,Quillback rockfish,43,1,FALSE,M,C,bare,bare,,2,,,7084,1
+H167-CA-V,33,0:16:29,15:20:51,15:20:07,Lingcod,42,1,FALSE,M,C,bare,bare,,2,,ARH: checked,7085,1
+H167-CA-V,36,0:17:55,15:22:17,15:21:33,Quillback rockfish,43,1,FALSE,M,C,bare,bare,,2,,,7086,1
+H167-CA-V,56,0:27:53,15:32:15,15:31:31,Kelp greenling,47,1,FALSE,M,C,bare,bare,,1,,female,7087,1
+H167-CA-V,57,0:28:01,15:32:23,15:31:39,Yelloweye rockfish,47,1,FALSE,M,B,bare,bare,,2,,,7088,1
+H167-CA-V,57,0:28:04,15:32:26,15:31:42,Quillback rockfish,47,1,FALSE,M,B,bare,bare,,2,,,7089,1
+H167-CA-V,57,0:28:22,15:32:44,15:32:00,Quillback rockfish,47,1,FALSE,M,C,bare,bare,,2,,,7090,1
+H167-CA-V,58,0:28:54,15:33:16,15:32:32,Quillback rockfish,47,1,FALSE,M,B,bare,bare,,2,,,7091,1
+H167-CA-V,59,0:29:04,15:33:26,15:32:42,Greenstriped rockfish,47,1,FALSE,M,C,bare,bare,,1,,,7092,1
+H169-CA-V,1,0:00:30,11:41:34,11:40:48,Yelloweye rockfish,65,1,FALSE,B,B,bare,bare,,4,,ARH: checked,7093,1
+H169-CA-V,14,0:07:05,11:48:09,11:47:23,crab/shrimp pot,74,1,FALSE,M,M,bare,bare,,1,,shrimp pot with line,7094,1
+H169-CA-V,17,0:08:36,11:49:40,11:48:54,Greenstriped rockfish,75,1,FALSE,M,R,bare,bare,,1,,,7095,1
+H169-CA-V,21,0:10:32,11:51:36,11:50:50,cable/line,74,1,FALSE,M,P,bare,bare,,1,,line,7096,1
+H169-CA-V,27,0:13:44,11:54:48,11:54:02,Greenstriped rockfish,76,1,FALSE,M,C,bare,bare,,1,,ARH: checked,7097,2
+H169-CA-V,28,0:14:25,11:55:29,11:54:43,Lingcod,75,1,FALSE,M,C,bare,bare,,1,,,7098,1
+H169-CA-V,34,0:17:19,11:58:23,11:57:37,Greenstriped rockfish,69,1,FALSE,S,H,bare,bare,,1,,,7099,1
+H169-CA-V,36,0:18:02,11:59:06,11:58:20,Puget Sound rockfish,68,1,FALSE,R,H,bare,bare,,2,,,7100,2
+H169-CA-V,36,0:18:03,11:59:07,11:58:21,Yelloweye rockfish,68,1,FALSE,R,H,bare,bare,,2,,,7101,1
+H169-CA-V,36,0:18:24,11:59:28,11:58:42,Quillback rockfish,67,1,FALSE,S,H,bare,bare,,2,,,7102,1
+H169-CA-V,40,0:20:06,12:01:10,12:00:24,Quillback rockfish,61,1,FALSE,R,R,bare,bare,,2,,,7103,1
+H169-CA-V,40,0:20:17,12:01:21,12:00:35,Yellowtail rockfish,62,4,FALSE,R,R,bare,bare,,2,,ARH: checked,7104,1
+H169-CA-V,40,0:20:18,12:01:22,12:00:36,Quillback rockfish,62,1,FALSE,R,R,bare,bare,,2,,,7105,1
+H169-CA-V,40,0:20:20,12:01:24,12:00:38,Yellowtail rockfish,62,1,FALSE,R,R,bare,bare,,2,,ARH: checked,7106,1
+H169-CA-V,40,0:20:29,12:01:33,12:00:47,Rockfish uniden.,62,1,FALSE,R,R,bare,bare,,2,,bottom right,7107,1
+H169-CA-V,41,0:20:34,12:01:38,12:00:52,Rockfish uniden.,62,1,FALSE,R,R,bare,bare,,2,,"ARH: checked, changed from yellowtail",7108,1
+H169-CA-V,41,0:20:35,12:01:39,12:00:53,Greenstriped rockfish,62,1,FALSE,R,R,bare,bare,,2,,,7109,1
+H169-CA-V,41,0:20:41,12:01:45,12:00:59,Canary rockfish,62,1,FALSE,R,R,bare,bare,,2,,,7110,1
+H169-CA-V,41,0:20:46,12:01:50,12:01:04,Copper rockfish,62,1,FALSE,R,R,bare,bare,,2,,,7111,1
+H169-CA-V,41,0:20:50,12:01:54,12:01:08,Quillback rockfish,62,1,FALSE,R,R,bare,bare,,2,,,7112,1
+H169-CA-V,42,0:21:06,12:02:10,12:01:24,Yelloweye rockfish,62,1,FALSE,R,R,bare,bare,,2,,,7113,1
+H169-CA-V,42,0:21:14,12:02:18,12:01:32,Kelp greenling,62,1,FALSE,R,B,bare,bare,,3,,female,7114,1
+H169-CA-V,43,0:21:44,12:02:48,12:02:02,Quillback rockfish,62,1,FALSE,R,R,bare,bare,,2,,,7115,1
+H169-CA-V,44,0:22:14,12:03:18,12:02:32,Greenstriped rockfish,63,1,FALSE,R,R,bare,bare,,2,,,7116,2
+H169-CA-V,44,0:22:14,12:03:18,12:02:32,Yelloweye rockfish,63,1,FALSE,R,R,bare,bare,,2,,,7117,1
+H169-CA-V,44,0:22:25,12:03:29,12:02:43,Quillback rockfish,63,1,FALSE,R,B,bare,bare,,2,,,7118,1
+H169-CA-V,45,0:22:46,12:03:50,12:03:04,Greenstriped rockfish,64,2,FALSE,C,B,bare,bare,,3,,,7119,1
+H169-CA-V,51,0:25:44,12:06:48,12:06:02,Quillback rockfish,62,1,FALSE,B,C,bare,bare,,4,,,7120,1
+H169-CA-V,51,0:25:45,12:06:49,12:06:03,Yellowtail rockfish,62,1,FALSE,R,B,bare,bare,,4,,ARH: checked,7121,1
+H169-CA-V,52,0:26:07,12:07:11,12:06:25,cable/line,63,1,FALSE,R,R,bare,bare,,2,,line - fishing line?,7122,1
+H169-CA-V,53,0:26:52,12:07:56,12:07:10,Rockfish uniden.,64,1,FALSE,R,C,bare,bare,,2,,,7123,2
+H169-CA-V,54,0:27:00,12:08:04,12:07:18,Quillback rockfish,64,1,FALSE,R,C,bare,bare,,3,,,7124,1
+H169-CA-V,54,0:27:23,12:08:27,12:07:41,Greenstriped rockfish,64,1,FALSE,R,R,bare,bare,,2,,,7125,1
+H169-CA-V,54,0:27:25,12:08:29,12:07:43,cable/line,65,1,FALSE,R,R,bare,bare,,2,,line,7126,1
+H169-CA-V,55,0:27:42,12:08:46,12:08:00,Quillback rockfish,66,1,FALSE,C,R,bare,bare,,2,,,7127,1
+H169-CA-V,55,0:27:48,12:08:52,12:08:06,Lingcod,66,2,FALSE,C,R,bare,bare,,2,,,7128,1
+H169-CA-V,56,0:28:09,12:09:13,12:08:27,Greenstriped rockfish,68,1,FALSE,C,C,bare,bare,,2,,ARH: checked,7129,1
+H169-CA-V,56,0:28:11,12:09:15,12:08:29,Greenstriped rockfish,68,2,FALSE,C,C,bare,bare,,2,,,7130,1
+H169-CA-V,56,0:28:13,12:09:17,12:08:31,Greenstriped rockfish,68,1,FALSE,C,C,bare,bare,,3,,,7131,1
+H169-CA-V,57,0:28:48,12:09:52,12:09:06,Greenstriped rockfish,70,1,FALSE,C,H,bare,bare,,2,,,7132,1
+H169-CA-V,58,0:29:17,12:10:21,12:09:35,Lingcod,71,1,FALSE,C,H,bare,bare,,2,,,7134,1
+H169-CA-V,59,0:29:53,12:10:57,12:10:11,Greenstriped rockfish,72,1,FALSE,H,C,bare,bare,,2,,,7135,1
+H170-CA-V,10,0:05:14,12:40:42,12:39:58,Lingcod,47,1,FALSE,M,C,bare,bare,,2,,,7136,1
+H170-CA-V,15,0:07:30,12:42:58,12:42:14,Quillback rockfish,42,1,FALSE,B,M,bare,bare,,3,,,7137,1
+H170-CA-V,15,0:07:51,12:43:19,12:42:35,Quillback rockfish,42,1,FALSE,B,M,bare,bare,,3,,,7138,1
+H170-CA-V,15,0:07:52,12:43:20,12:42:36,Quillback rockfish,42,1,FALSE,B,M,bare,bare,,3,,,7139,1
+H170-CA-V,21,0:10:44,12:46:12,12:45:28,Quillback rockfish,34,1,FALSE,M,C,bare,bare,,3,,,7140,1
+H170-CA-V,23,0:11:51,12:47:19,12:46:35,Quillback rockfish,39,1,FALSE,M,C,bare,bare,,2,,,7141,1
+H170-CA-V,24,0:12:04,12:47:32,12:46:48,Quillback rockfish,39,1,FALSE,M,C,bare,bare,,2,,,7142,1
+H170-CA-V,28,0:14:02,12:49:30,12:48:46,Quillback rockfish,35,1,FALSE,M,R,bare,bare,,2,,,7143,1
+H170-CA-V,46,0:23:17,12:58:45,12:58:01,Quillback rockfish,41,1,FALSE,M,M,bare,bare,,2,,,7144,1
+H170-CA-V,46,0:23:23,12:58:51,12:58:07,Quillback rockfish,41,1,FALSE,M,M,bare,bare,,2,,,7145,1
+H170-CA-V,55,0:27:48,13:03:16,13:02:32,Quillback rockfish,52,1,FALSE,R,M,bare,bare,,2,,,7146,1
+H170-CA-V,55,0:27:53,13:03:21,13:02:37,Quillback rockfish,52,1,FALSE,R,M,bare,bare,,2,,,7147,1
+H171-CA-V,16,0:08:28,13:18:07,13:17:23,Quillback rockfish,82,1,FALSE,R,M,bare,bare,,2,,,7148,1
+H171-CA-V,19,0:09:45,13:19:24,13:18:40,cable/line,77,1,FALSE,R,M,bare,bare,,3,,line,7149,1
+H171-CA-V,21,0:10:37,13:20:16,13:19:32,Quillback rockfish,80,1,FALSE,R,M,bare,bare,,2,,,7150,1
+H171-CA-V,25,0:12:36,13:22:15,13:21:31,cable/line,90,1,FALSE,M,M,bare,bare,,1,,line,7151,1
+H171-CA-V,33,0:16:59,13:26:38,13:25:54,cable/line,85,1,FALSE,M,M,bare,bare,,1,,line,7152,1
+H173-CA-V,3,0:01:51,9:26:53,9:26:03,Redstripe rockfish,115,1,FALSE,M,M,bare,bare,,1,,,7153,1
+H173-CA-V,8,0:04:10,9:29:12,9:28:22,Rockfish uniden.,112,1,FALSE,M,M,bare,bare,,1,,,7154,1
+H173-CA-V,8,0:04:22,9:29:24,9:28:34,Rockfish uniden.,112,1,FALSE,M,M,bare,bare,,1,,ARH: greenstriped or redstripe,7155,1
+H173-CA-V,17,0:08:52,9:33:54,9:33:04,Greenstriped rockfish,111,1,FALSE,M,M,bare,bare,,1,,,7156,1
+H173-CA-V,27,0:13:58,9:39:00,9:38:10,Greenstriped rockfish,103,1,FALSE,M,M,bare,bare,,1,,,7157,1
+H173-CA-V,31,0:15:50,9:40:52,9:40:02,Quillback rockfish,101,1,FALSE,M,M,debris,Heterochone calyx,,2,,,7158,1
+H173-CA-V,50,0:25:24,9:50:26,9:49:36,Quillback rockfish,99,1,FALSE,M,M,bare,debris,,1,debris is dead sponge,,7159,1
+H173-CA-V,57,0:28:31,9:53:33,9:52:43,Quillback rockfish,96,1,FALSE,M,C,bare,Heterochone calyx,,2,,,7160,1
+L029-CA-V,2,0:01:13,9:47:05,9:46:18,cable/line,117,1,FALSE,R,M,bare,bare,,2,,line,7161,1
+L029-CA-V,7,0:03:48,9:49:40,9:48:53,Quillback rockfish,106,1,FALSE,R,M,bare,bare,,3,,,7162,1
+L029-CA-V,11,0:05:43,9:51:35,9:50:48,Quillback rockfish,104,1,FALSE,R,M,bare,bare,,3,,,7163,1
+L029-CA-V,17,0:08:39,9:54:31,9:53:44,Quillback rockfish,105,1,FALSE,R,R,bare,bare,,2,single Metridium,,7164,1
+L029-CA-V,23,0:11:39,9:57:31,9:56:44,cable/line,106,1,FALSE,R,M,bare,bare,,2,,line,7165,1
+L029-CA-V,27,0:13:34,9:59:26,9:58:39,Quillback rockfish,106,1,FALSE,R,M,bare,anemone,,2,,,7166,1
+L029-CA-V,50,0:25:12,10:11:04,10:10:17,marine debris,165,1,FALSE,M,R,bare,bare,,3,,tire,7167,1

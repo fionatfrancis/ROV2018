@@ -1,0 +1,93 @@
+OBJECTID,Join_Count,TARGET_FID,Parent_ID,Survey_Dat,Station_ID,Other_Stat,Pilot,Other_Pilo,Co_pilot,Other_Co_p,Video_Star,Start_Lati,Start_Long,Multipart,Video_2_St,GoPro_Vide,Click_to_c,Stereo_Cam,Transect_A,Why_Transe,Station_Dr,Why_Statio,Notes,RCA,ID,NAME,YR_CREATED,HECTARES,SQ_KM
+2,0,1,S02,10/23/2018 0:00,H114_CA-V, ,Bob Pacunski, ,Dayv Lowry, ,13:55:00,0,0,NO, ,NO,0,YES,NO, ,NO, , ,OUT,470,"Brethour,Domville,Forrest,Gooch Islands",2006,1879.707114,18.79707114
+3,1,2,S02,10/23/2018 0:00,H011_CA-V, ,Dayv Lowry, ,Bob Pacunski, ,15:15:00,48.667852,-123.304732,NO, ,NO,0,YES,YES,Current.,NO, , ,IN,470,"Brethour,Domville,Forrest,Gooch Islands",2006,1879.707114,18.79707114
+4,1,3,S02,10/23/2018 0:00,H011_CA-V, ,Dayv Lowry, ,Bob Pacunski, ,15:20:00,48.668353,-123.304502,NO, ,NO,0,YES,YES,Caught float on rock and tore open umbilical.,NO, , ,IN,470,"Brethour,Domville,Forrest,Gooch Islands",2006,1879.707114,18.79707114
+5,1,4,S05,10/24/2018 0:00,H092_CA-V, ,Bob Pacunski, ,Dayv Lowry, ,12:36:00,48.464745,-123.215865,NO, ,NO,0,YES,NO, ,NO, ,Hung up after 10 mins. Got free and continued. Added 8 mins,OUT,488,D'Arcy Island to Beaumont Shoal,2006,5392.444405,53.92444405
+6,1,5,S05,10/24/2018 0:00,H022_CA-V, ,Dayv Lowry, ,Bob Pacunski, ,13:49:00,48.473485,-123.186853,NO, ,NO,0,NO,NO, ,NO, ,Maybe stereo images.,IN,488,D'Arcy Island to Beaumont Shoal,2006,5392.444405,53.92444405
+7,1,6,S05,10/24/2018 0:00,H025_CA-V, ,Dayv Lowry, ,Bob Pacunski, ,14:32:00,48.475123,-123.19358,NO, ,NO,0,YES,NO, ,NO, ,Stayed in water after h022.,IN,488,D'Arcy Island to Beaumont Shoal,2006,5392.444405,53.92444405
+8,1,7,S05,10/24/2018 0:00,H121_CA-V, ,Andrea Hennings, ,Bob Pacunski, ,16:42:00,48.529457,-123.271418,NO, ,NO,0,YES,NO, ,NO, , ,OUT,488,D'Arcy Island to Beaumont Shoal,2006,5392.444405,53.92444405
+9,1,8,S05,10/24/2018 0:00,H021_CA-V, ,Bob Pacunski, ,Andrea Hennings, ,18:29:00,48.538702,-123.234508,NO, ,NO,0,NO,YES,Could not hold position with vessel.,NO, ,May have started just outside the polygon,IN,488,D'Arcy Island to Beaumont Shoal,2006,5392.444405,53.92444405
+10,1,9,S08,10/25/2018 0:00,H163_CA-V, ,Bob Pacunski, ,Dayv Lowry, ,8:45:00,48.77654,-123.215365,NO, ,NO,0,YES,NO, ,NO, ,May not have stereocamera images.,OUT,468,South Saturna,2006,3091.601971,30.91601971
+11,1,10,S08,10/25/2018 0:00,H084_CA-V, ,Dayv Lowry, ,Andrea Hennings, ,11:28:00,48.777335,-123.080608,NO, ,NO,0,YES,YES,Too much current.,NO, , ,OUT,468,South Saturna,2006,3091.601971,30.91601971
+12,1,11,S08,10/25/2018 0:00,H104_CA-V, ,Dayv Lowry, ,Andrea Hennings, ,11:32:00,48.777243,-123.079328,NO, ,NO,0,YES,YES,Vessel too quick and couldn’t stay together.,NO, ,ROV had hard time staying on bottom. Abort,OUT,468,South Saturna,2006,3091.601971,30.91601971
+13,1,12,S08,10/25/2018 0:00,H062_CA-V, ,Dayv Lowry, ,Andrea Hennings, ,13:49:00,48.870523,-123.258413,NO, ,YES,0,YES,NO, ,NO, , ,IN,93,Mayne Island North,2004,706.3680039,7.06368004
+14,1,13,S08,10/25/2018 0:00,H109_CA-V, ,Andrea Hennings, ,Bob Pacunski, ,15:14:00,48.868105,-123.251615,NO, ,NO,0,YES,NO, ,NO, , ,OUT,93,Mayne Island North,2004,706.3680039,7.06368004
+15,1,14,S08,10/25/2018 0:00,H107_CA-V, ,Bob Pacunski, ,Dayv Lowry, ,16:14:00,48.858327,-123.240652,NO, ,NO,0,YES,NO, ,NO, ,No Hypack file. Will need to recreate transect from ArcGis. Bob recorded start and end coordinates.,OUT,93,Mayne Island North,2004,706.3680039,7.06368004
+16,1,15,S08,10/25/2018 0:00,H063_CA-V, ,Dayv Lowry, ,Andrea Hennings, ,17:37:00,48.861378,-123.243919,NO, ,YES,0,YES,NO, ,NO, , ,OUT,93,Mayne Island North,2004,706.3680039,7.06368004
+17,1,16,S11,10/26/2018 0:00,H043_CA-V, ,Andrea Hennings, ,Bob Pacunski, ,7:50:00,48.946092,-123.436273,NO, ,YES,0,YES,NO, ,NO, ,Only 23 mins - small polygon.,IN,5,Galiano Island North,2004,976.0127499,9.7601275
+18,1,17,S11,10/26/2018 0:00,H044_CA-V, ,Bob Pacunski, ,Dayv Lowry, ,8:53:00,48.96365,-123.49837,NO, ,YES,0,YES,NO, ,NO, ,Only 20 mins.,IN,5,Galiano Island North,2004,976.0127499,9.7601275
+19,0,18,S11,10/26/2018 0:00,H133_CA-V, ,Dayv Lowry, ,Andrea Hennings, ,9:55:00,48.97941,-123.517982,NO, ,YES,0,YES,NO, ,NO, ,Stereo did not flash on deployment and came up flashing just green. PISCES reads H044. NOTE: MOVED H090 OFFSHORE IN ARC AND DID NOT RECALCULATE GEOMETRY.,OUT,5,Galiano Island North,2004,976.0127499,9.7601275
+20,1,19,S11,10/26/2018 0:00,H169_CA-V, ,Andrea Hennings, ,Bob Pacunski, ,11:41:00,49.033988,-123.582407,NO, ,YES,0,YES,NO, ,NO, , ,OUT,460,Valdes Island East,2006,1006.421809,10.06421809
+21,1,20,S11,10/26/2018 0:00,H090_CA-V, ,Bob Pacunski, ,Dayv Lowry, ,13:10:00,49.04776,-123.592152,NO, ,YES,0,YES,NO, ,NO, ,Note that station was moved offshore of detwiller rock in gis project.,IN,460,Valdes Island East,2006,1006.421809,10.06421809
+22,1,21,S11,10/26/2018 0:00,H088_CA-V, ,Dayv Lowry, ,Andrea Hennings, ,13:46:00,49.041552,-123.588387,NO, ,YES,0,YES,NO, ,NO, , ,IN,460,Valdes Island East,2006,1006.421809,10.06421809
+23,1,22,S11,10/26/2018 0:00,H167_CA-V, ,Andrea Hennings, ,Bob Pacunski, ,15:04:00,49.082597,-123.631038,NO, ,YES,0,YES,NO, ,NO, , ,OUT,460,Valdes Island East,2006,1006.421809,10.06421809
+24,1,23,S14,10/27/2018 0:00,H142_CA-V, ,Bob Pacunski, ,Dayv Lowry, ,9:18:00,49.334112,-122.906708,NO, ,YES,1,YES,NO, ,NO, , ,OUT,478,Indian Arm - Twin Islands,2006,286.2087035,2.86208704
+25,1,24,S14,10/27/2018 0:00,H099_CA-V, ,Dayv Lowry, ,Andrea Hennings, ,10:36:00,49.33808,-122.911938,NO, ,YES,0,YES,NO, ,NO, , ,OUT,478,Indian Arm - Twin Islands,2006,286.2087035,2.86208704
+26,1,25,S14,10/27/2018 0:00,H170_CA_V ,was L015,Andrea Hennings, ,Bob Pacunski, ,12:35:00,49.343135,-122.892125,NO, ,NO,0,YES,NO, ,NO, , ,IN,478,Indian Arm - Twin Islands,2006,286.2087035,2.86208704
+27,1,26,S14,10/27/2018 0:00,H171_CA_V ,new station,Bob Pacunski, ,Dayv Lowry, ,13:09:00,49.346975,-122.894627,NO, ,NO,0,YES,NO, ,NO, ,Came out into the water column a minute or two early. Umbilical stuck on crab pot. Added shape to Arc project but didn’t fill in relevant attributes.,IN,478,Indian Arm - Twin Islands,2006,286.2087035,2.86208704
+28,1,27,S14,10/27/2018 0:00,H172_CA_V , was L030,Dayv Lowry, ,Andrea Hennings, ,14:31:00,49.32842,-122.900348,NO, ,YES,0,YES,YES,Very low vis,NO,Very low vis, ,OUT,478,Indian Arm - Twin Islands,2006,286.2087035,2.86208704
+29,0,28,S14,10/27/2018 0:00,H141_CA-V, ,Dayv Lowry, ,Andrea Hennings, ,15:24:00,49.323817,-122.9282,NO, ,NO,0,YES,NO, ,NO, ,Low vis,OUT,478,Indian Arm - Twin Islands,2006,286.2087035,2.86208704
+30,1,29,S17,10/28/2018 0:00,L029_CA-V, ,Andrea Hennings, ,Bob Pacunski, ,9:46:00,49.385932,-122.880368,NO, ,YES,1,YES,NO, ,NO, , ,OUT,86,Indian Arm - Crocker Island,2006,895.699604,8.95699604
+31,1,30,S17,10/28/2018 0:00,H052_CA-V, ,Bob Pacunski, ,Dayv Lowry, ,11:11:00,49.39282,-122.873032,NO, ,YES,1,YES,NO, ,NO, , ,IN,86,Indian Arm - Crocker Island,2006,895.699604,8.95699604
+32,1,31,S17,10/28/2018 0:00,Exploration 1,Exploration 1,Dayv Lowry, ,Andrea Hennings, ,12:45:00,49.452248,-122.877343,NO, ,NO,0,YES,NO, ,NO, ,Exploring an area that appears rugose on bathymetry and is in low probability.,OUT,86,Indian Arm - Crocker Island,2006,895.699604,8.95699604
+33,1,32,S17,10/28/2018 0:00,Exploration 2,Exploration 2,Andrea Hennings, ,Bob Pacunski, ,13:25:00,49.449777,-122.872597,NO, ,YES,0,YES,NO, ,NO, , ,IN,86,Indian Arm - Crocker Island,2006,895.699604,8.95699604
+34,1,33,S17,10/28/2018 0:00,Exploration 3,Exploration 3,Bob Pacunski, ,Dayv Lowry, ,14:31:00,49.427973,-122.867095,NO, ,YES,1,NO,NO, ,NO, , ,IN,86,Indian Arm - Crocker Island,2006,895.699604,8.95699604
+35,1,34,S20,10/29/2018 0:00,H157_CA-V, ,Dayv Lowry, ,Bob Pacunski, ,9:48:00,49.22583,-123.888198,NO, ,YES,0,YES,NO, ,NO, , ,OUT,448,Northumberland Channel,2006,1481.831414,14.81831414
+36,1,35,S20,10/29/2018 0:00,H155_CA-V, ,Bob Pacunski, ,Dayv Lowry, ,10:21:00,49.221537,-123.884648,NO, ,YES,0,YES,NO, ,NO, , ,OUT,448,Northumberland Channel,2006,1481.831414,14.81831414
+37,1,36,S20,10/29/2018 0:00,H072_CA-V, ,Dayv Lowry, ,Bob Pacunski, ,12:13:00,49.195798,-123.878838,NO, ,YES,0,YES,NO, ,NO, , ,IN,448,Northumberland Channel,2006,1481.831414,14.81831414
+38,1,37,S20,10/29/2018 0:00,H158_CA-V, ,Bob Pacunski, ,Dayv Lowry, ,13:37:00,49.2091,-123.890165,NO, ,YES,0,YES,NO, ,NO, , ,IN,448,Northumberland Channel,2006,1481.831414,14.81831414
+39,0,38,S20,10/29/2018 0:00,Exploration 4,Exploration 4,Dayv Lowry, ,Bob Pacunski, ,15:11:00,49.208495,-123.804667,NO, ,YES,0,YES,NO, ,NO, , ,OUT,448,Northumberland Channel,2006,1481.831414,14.81831414
+40,0,39,S20,10/29/2018 0:00,Exploration 5,Exploration 5,Bob Pacunski, ,Dayv Lowry, ,15:45:00,49.210448,-123.79967,NO, ,YES,0,YES,NO, ,NO, ,Land o’ lingcod and Yelloweye!,OUT,448,Northumberland Channel,2006,1481.831414,14.81831414
+41,1,40,S23,10/30/2018 0:00,H059_CA-V, ,Dayv Lowry, ,Bob Pacunski, ,8:28:00,49.435295,-124.1285,NO, ,YES,0,YES,NO, ,NO, , ,IN,476,Lasqueti South -Young Point,2006,927.1189917,9.27118992
+42,1,41,S23,10/30/2018 0:00,H058_CA-V, ,Bob Pacunski, ,Dayv Lowry, ,9:02:00,49.432127,-124.122293,NO, ,YES,0,YES,NO, ,NO, ,"Pisces number is wrong on recording. Strung stations together, forgot to update.",IN,476,Lasqueti South -Young Point,2006,927.1189917,9.27118992
+43,0,42,S23,10/30/2018 0:00,H147_CA-V, ,Jen Blaine, ,Dayv Lowry, ,10:16:00,49.426182,-124.155913,NO, ,YES,1,YES,NO, ,NO, , ,OUT,476,Lasqueti South -Young Point,2006,927.1189917,9.27118992
+44,0,43,S23,10/30/2018 0:00,H146_CA-V, ,Dayv Lowry, ,Bob Pacunski, ,10:50:00,49.421592,-124.154335,NO, ,YES,0,YES,NO, ,NO, , ,OUT,476,Lasqueti South -Young Point,2006,927.1189917,9.27118992
+45,1,44,S23,10/30/2018 0:00,H143_CA-V, ,Bob Pacunski, ,Jen Blaine, ,12:33:00,49.423952,-124.205332,NO, ,YES,1,YES,NO, ,NO, , ,OUT,3,Lasqueti Island South,2006,1852.035241,18.52035241
+46,1,45,S23,10/30/2018 0:00,H145_CA-V, ,Jen Blaine, ,Dayv Lowry, ,13:49:00,49.440308,-124.213307,NO, ,YES,1,YES,NO, ,NO, , ,OUT,3,Lasqueti Island South,2006,1852.035241,18.52035241
+47,1,46,S23,10/30/2018 0:00,H028_CA-V, ,Dayv Lowry, ,Bob Pacunski, ,16:30:00,49.573028,-124.338175,NO, ,YES,0,YES,NO, ,NO, , ,IN,440,Davie Bay,2006,1021.94096,10.2194096
+48,1,47,S26,10/31/2018 0:00,H060_CA-V, ,Bob Pacunski, ,Jen Blaine, ,8:24:00,49.60614,-124.149347,NO, ,YES,1,YES,NO, ,NO, , ,IN,496,Malaspina Strait,2006,2832.58014,28.3258014
+49,1,48,S26,10/31/2018 0:00,H173_CA-V ,was L020,Jen Blaine, ,Dayv Lowry, ,9:25:00,49.605848,-124.151807,NO, ,YES,1,YES,NO, ,NO, ,Moved station L020 into the high polygon and named it H172,IN,496,Malaspina Strait,2006,2832.58014,28.3258014
+50,1,49,S26,10/31/2018 0:00,H148_CA-V, ,Dayv Lowry, ,Bob Pacunski, ,11:04:00,49.621325,-124.10098,NO, ,YES,0,YES,NO, ,NO, , ,OUT,496,Malaspina Strait,2006,2832.58014,28.3258014
+51,1,50,S26,10/31/2018 0:00,H101_CA-V, ,Bob Pacunski, ,Jen Blaine, ,12:25:00,49.640833,-124.143622,NO, ,YES,1,YES,NO, ,NO, , ,OUT,496,Malaspina Strait,2006,2832.58014,28.3258014
+52,1,51,S26,10/31/2018 0:00,H149_CA-V, ,Jen Blaine, ,Dayv Lowry, ,12:58:00,49.642395,-124.149803,NO, ,YES,1,YES,NO, ,NO, , ,OUT,496,Malaspina Strait,2006,2832.58014,28.3258014
+53,1,52,S26,10/31/2018 0:00,H079_CA-V, ,Dayv Lowry, ,Bob Pacunski, ,14:38:00,49.690952,-124.284973,NO, ,YES,0,YES,NO, ,NO, , ,IN,436,Sinclair Bank,2006,1922.174939,19.22174939
+54,1,53,S26,10/31/2018 0:00,H078_CA-V, ,Bob Pacunski, ,Jen Blaine, ,15:13:00,49.694877,-124.282628,NO, ,YES,1,YES,NO, ,NO, , ,IN,436,Sinclair Bank,2006,1922.174939,19.22174939
+55,1,54,S26,10/31/2018 0:00,H159_CA-V, ,Jen Blaine, ,Dayv Lowry, ,16:21:00,49.734979,-124.290609,NO, ,YES,1,YES,NO, ,NO, , ,OUT,436,Sinclair Bank,2006,1922.174939,19.22174939
+56,1,55,S26,10/31/2018 0:00,H160_CA-V, ,Dayv Lowry, ,Bob Pacunski, ,16:53:00,49.735537,-124.295842,NO, ,YES,1,YES,NO, ,NO, , ,OUT,436,Sinclair Bank,2006,1922.174939,19.22174939
+57,1,56,S29,11/1/2018 0:00,H129_CA-V, ,Bob Pacunski, ,Jen Blaine, ,8:09:00,50.077168,-124.844538,NO, ,YES,1,YES,NO, ,NO, , ,OUT,498,Desolation Sound,2006,6003.302228,60.03302228
+58,1,57,S29,11/1/2018 0:00,H039_CA-V, ,Jen Blaine, ,Dayv Lowry, ,8:48:00,50.079197,-124.837882,NO, ,YES,1,YES,NO, ,NO, , ,IN,498,Desolation Sound,2006,6003.302228,60.03302228
+59,1,58,S29,11/1/2018 0:00,H130_CA-V, ,Dayv Lowry, ,Bob Pacunski, ,9:57:00,50.094627,-124.855948,NO, ,YES,0,YES,NO, ,NO, , ,OUT,498,Desolation Sound,2006,6003.302228,60.03302228
+60,1,59,S29,11/1/2018 0:00,H126_CA-V, ,Bob Pacunski, ,Jen Blaine, ,11:04:00,50.11409,-124.849857,NO, ,YES,1,YES,NO, ,NO, , ,OUT,498,Desolation Sound,2006,6003.302228,60.03302228
+61,1,60,S29,11/1/2018 0:00,H034_CA-V, ,Jen Blaine, ,Dayv Lowry, ,12:27:00,50.077415,-124.780435,NO, ,YES,1,YES,NO, ,NO, , ,IN,498,Desolation Sound,2006,6003.302228,60.03302228
+62,1,61,S29,11/1/2018 0:00,H032_CA-V, ,Dayv Lowry, ,Bob Pacunski, ,13:31:00,50.08392,-124.752507,NO, ,YES,0,YES,NO, ,NO, , ,IN,498,Desolation Sound,2006,6003.302228,60.03302228
+63,1,62,S29,11/1/2018 0:00,H030_CA-V, ,Bob Pacunski, ,Jen Blaine, ,14:52:00,50.11609,-124.734057,NO, ,YES,1,YES,NO, ,NO, , ,IN,498,Desolation Sound,2006,6003.302228,60.03302228
+64,1,63,S29,11/1/2018 0:00,H035_CA-V, ,Jen Blaine, ,Dayv Lowry, ,15:36:00,50.11332,-124.738652,NO, ,YES,1,YES,NO, ,NO, , ,IN,498,Desolation Sound,2006,6003.302228,60.03302228
+65,1,64,S29,11/1/2018 0:00,H127_CA-V, ,Dayv Lowry, ,Bob Pacunski, ,16:56:00,50.06706,-124.821912,NO, ,YES,0,YES,NO, ,NO, , ,OUT,498,Desolation Sound,2006,6003.302228,60.03302228
+66,0,65,S32,11/2/2018 0:00,H119_CA-V, ,Bob Pacunski, ,Jen Blaine, ,7:40:00,49.97502,-124.776488,NO, ,YES,1,YES,NO, ,NO, , ,OUT,145,Copeland Islands,2004,1690.020225,16.90020225
+67,1,66,S32,11/2/2018 0:00,H091_CA-V, ,Jen Blaine, ,Dayv Lowry, ,8:35:00,49.983988,-124.788833,NO, ,YES,1,YES,NO, ,NO, , ,OUT,145,Copeland Islands,2004,1690.020225,16.90020225
+68,1,67,S32,11/2/2018 0:00,H018_CA-V, ,Dayv Lowry, ,Bob Pacunski, ,9:41:00,49.992462,-124.80339,NO, ,YES,0,YES,NO, ,NO, , ,IN,145,Copeland Islands,2004,1690.020225,16.90020225
+69,1,68,S32,11/2/2018 0:00,H017_CA-V, ,Bob Pacunski, ,Jen Blaine, ,10:35:00,49.994257,-124.812367,NO, ,YES,1,YES,NO, ,NO, , ,IN,145,Copeland Islands,2004,1690.020225,16.90020225
+70,1,69,S32,11/2/2018 0:00,H016_CA-V, ,Jen Blaine, ,Dayv Lowry, ,12:09:00,50.020587,-124.834905,NO, ,YES,1,YES,NO, ,NO, , ,IN,145,Copeland Islands,2004,1690.020225,16.90020225
+71,1,70,S32,11/2/2018 0:00,H015_CA-V, ,Dayv Lowry, ,Bob Pacunski, ,12:46:00,50.024642,-124.836443,NO, ,YES,0,YES,NO, ,NO, , ,IN,145,Copeland Islands,2004,1690.020225,16.90020225
+72,1,71,S32,11/2/2018 0:00,H120_CA-V, ,Bob Pacunski, ,Jen Blaine, ,13:51:00,50.036005,-124.825047,NO, ,YES,1,YES,NO, ,NO, , ,OUT,145,Copeland Islands,2004,1690.020225,16.90020225
+73,1,72,S32,11/2/2018 0:00,H069_CA-V, ,Jen Blaine, ,Dayv Lowry, ,15:48:00,49.957122,-125.015035,NO, ,YES,1,YES,NO, ,NO, , ,IN,426,Mitlenatch Island,2006,2491.824737,24.91824737
+74,1,73,S32,11/2/2018 0:00,H066_CA-V, ,Dayv Lowry, ,Bob Pacunski, ,16:29:00,49.961182,-125.013407,NO, ,YES,0,YES,NO, ,NO, , ,IN,426,Mitlenatch Island,2006,2491.824737,24.91824737
+75,1,74,S35,11/3/2018 0:00,H153_CA-V, ,Bob Pacunski, ,Jen Blaine, ,9:07:00,49.964313,-125.014641,NO, ,YES,1,YES,NO, ,NO, ,Video started early. Boat and ROV not together. Transect started at video time 0600,IN,426,Mitlenatch Island,2006,2491.824737,24.91824737
+76,1,75,S35,11/3/2018 0:00,H135_CA-V, ,Jen Blaine, ,Dayv Lowry, ,13:46:00,49.747435,-124.229267,NO, ,YES,1,YES,NO, ,NO, , ,OUT,497,Hardy Island,2006,1597.033872,15.97033872
+77,1,76,S35,11/3/2018 0:00,H046_CA-V, ,Dayv Lowry, ,Bob Pacunski, ,15:11:00,49.756668,-124.172588,NO, ,YES,1,YES,NO, ,NO, , ,IN,497,Hardy Island,2006,1597.033872,15.97033872
+78,1,77,S35,11/3/2018 0:00,H045_CA-V, ,Bob Pacunski, ,Jen Blaine, ,16:33:00,49.767585,-124.099113,NO, ,YES,1,YES,NO, ,NO, , ,IN,497,Hardy Island,2006,1597.033872,15.97033872
+79,1,78,S35,11/3/2018 0:00,H136_CA-V, ,Jen Blaine, ,Dayv Lowry, ,18:00:00,49.775303,-124.087102,NO, ,YES,1,YES,NO, ,NO, , ,OUT,497,Hardy Island,2006,1597.033872,15.97033872
+80,0,79,S38,11/4/2018 0:00,H093_CA-V, ,Dayv Lowry, ,Bob Pacunski, ,9:13:00,49.566322,-124.31452,NO, ,YES,1,YES,NO, ,NO, , ,OUT,440,Davie Bay,2006,1021.94096,10.2194096
+81,1,80,S38,11/4/2018 0:00,H029_CA-V, ,Bob Pacunski, ,Jen Blaine, ,10:30:00,49.597148,-124.395085,NO, ,YES,1,YES,NO, ,NO, , ,IN,440,Davie Bay,2006,1021.94096,10.2194096
+82,1,81,S38,11/4/2018 0:00,H125_CA-V, ,Jen Blaine, ,Dayv Lowry, ,11:02:00,49.600775,-124.400148,NO, ,YES,1,YES,NO, ,NO, , ,OUT,440,Davie Bay,2006,1021.94096,10.2194096
+83,1,82,S38,11/4/2018 0:00,H144_CA-V, ,Dayv Lowry, ,Bob Pacunski, ,13:19:00,49.448945,-124.30613,NO, ,YES,0,YES,NO, ,NO, , ,OUT,3,Lasqueti Island South,2006,1852.035241,18.52035241
+84,1,83,S38,11/4/2018 0:00,H056_CA-V, ,Bob Pacunski, ,Jen Blaine, ,14:34:00,49.449702,-124.277885,NO, ,YES,1,YES,NO, ,NO, , ,IN,3,Lasqueti Island South,2006,1852.035241,18.52035241
+85,1,84,S38,11/4/2018 0:00,H057_CA-V, ,Jen Blaine, ,Dayv Lowry, ,15:39:00,49.452953,-124.25766,NO, ,YES,1,YES,NO, ,NO, , ,IN,3,Lasqueti Island South,2006,1852.035241,18.52035241
+86,1,85,S38,11/4/2018 0:00,H055_CA-V, ,Dayv Lowry, ,Bob Pacunski, ,16:44:00,49.444965,-124.229048,NO, ,YES,0,YES,NO, ,NO, , ,IN,3,Lasqueti Island South,2006,1852.035241,18.52035241
+87,1,86,S41,11/5/2018 0:00,H085_CA-V, ,Bob Pacunski, ,Jen Blaine, ,8:58:00,48.762195,-123.1248,NO, ,YES,1,YES,YES,Tidy,NO, , ,IN,468,South Saturna,2006,3091.601971,30.91601971
+88,1,87,S41,11/5/2018 0:00,H085_CA-V, ,Bob Pacunski, ,Jen Blaine, ,9:54:00,48.761842,-123.126635,NO, ,YES,1,YES,NO, ,NO, , ,IN,468,South Saturna,2006,3091.601971,30.91601971
+89,1,88,S41,11/5/2018 0:00,H165_CA-V, ,Jen Blaine, ,Dayv Lowry, ,11:11:00,48.734385,-123.181368,NO, ,YES,1,YES,NO, ,NO, ,Current was too much toward the end.,OUT,468,South Saturna,2006,3091.601971,30.91601971
+90,1,89,S41,11/5/2018 0:00,H112_CA-V, ,Dayv Lowry, ,Bob Pacunski, ,12:18:00,48.689598,-123.280698,NO, ,YES,1,YES,NO, ,NO, , ,OUT,470,"Brethour,Domville,Forrest,Gooch Islands",2006,1879.707114,18.79707114
+91,1,90,S41,11/5/2018 0:00,H010_CA-V, ,Bob Pacunski, ,Jen Blaine, ,13:09:00,48.68523,-123.287003,NO, ,YES,1,YES,NO, ,NO, , ,IN,470,"Brethour,Domville,Forrest,Gooch Islands",2006,1879.707114,18.79707114
+92,1,91,S41,11/5/2018 0:00,H011_CA-V, ,Jen Blaine, ,Dayv Lowry, ,14:46:00,48.666703,-123.304678,NO, ,YES,1,YES,NO, ,NO, , ,IN,470,"Brethour,Domville,Forrest,Gooch Islands",2006,1879.707114,18.79707114
+93,1,92,S41,11/5/2018 0:00,H113_CA-V, ,Dayv Lowry, ,Bob Pacunski, ,15:47:00,48.640775,-123.291325,NO, ,YES,0,YES,NO, ,NO, , ,OUT,470,"Brethour,Domville,Forrest,Gooch Islands",2006,1879.707114,18.79707114
