@@ -3,11 +3,10 @@ title: "ROV fish densities"
 author: "Fiona Francis"
 date: "2/2/2021"
 output: github_document
-
 ---
 # Preliminary Analysis of Vector ROV surveys from 2018
 
-This includes both data cleaning and calculating abundances of fish species and their densities using the area of transects. The goal of this analysis is to determine if there is an effect of RCA status or habitat type on fish densities. I think that I will need to calculate a PCA analysis to pair down habitat characterisitics into fewer catagories. 
+This includes both data cleaning and calculating abundances of fish species and their densities using the area of transects. The goal of this analysis is to determine if there is an effect of RCA status or habitat type on fish densities. I think that I will need to calculate a PCA analysis to pair down habitat characteristics into fewer categories. 
 
 ```{r setup, include = FALSE}
 
@@ -17,6 +16,7 @@ This includes both data cleaning and calculating abundances of fish species and 
 #install.packages("janitor")
 library(janitor)
 library(tidyverse)
+library(fishualize)
 
 # read in csvs
 fish <- read_csv("2018_Vector_fish_with_coords.csv")
@@ -129,6 +129,54 @@ new <- distinct(new)
 all.data <- rbind(new,new2)
 
 all.data
+# Transects with no fish -----------------------------
+# from looking at transect lines and fish observations in qgis there are 4 transects that don't seem to have fish  but a couple of them are listed in this dataset namely H113, H052, and L029. H044 is also showing no fish but it isn't in this dataset so maybe it is acutally the only one with no fish?
+
+all.data %>% filter(SurveyID == "H113-CA-V")
+
+all.data %>% filter(SurveyID == "H052-CA-V")
+
+all.data %>% filter(SurveyID == "L029-CA-V")
+```
+
+SUMMARY STATS
+
+``` {r warnings = FALSE}
+
+# counts of species
+fish.counts <- all.data %>% group_by(Species) %>% summarise(total = sum(Count)) %>% arrange(desc(total))
+
+#counts of species in and out of RCAs
+
+all.data %>% group_by(RCA) %>% summarise(totalfish = sum(Count))
+
+
+# types of primary substrate
+all.data %>% group_by(Substrate) %>% summarise(total = sum(Count))
+
+
+#summary of species counts by transect
+all.data %>% group_by(SurveyID) %>% summarise(total = sum(Count))
+
+# counts of species
+fish.counts <- all.data %>% group_by(Species) %>% summarize(total = sum(Count)) %>% arrange(desc(total))
+fish.counts
+```
+
+EXPLORATORY PLOTTING
+
+``` {r echo = FALSE}
+#the fct_infreq was to order species by count from forcats
+ggplot(all.data) + geom_point(aes(fct_infreq(factor(Species)), Count, colour = Count, alpha = 1.4)) + 
+  scale_color_fish(option = "Gramma_loreto", direction = -1) +  
+  theme(axis.text.x = element_text(angle = 90)) +
+  xlab("Species")
+
+
+ggplot(fish.counts) + geom_point(aes(fct_inorder(factor(Species)), total, colour = total)) + 
+  scale_color_fish(option = "Gramma_loreto", direction = -1) +  
+  theme(axis.text.x = element_text(angle = 90)) +
+  xlab("Species")
 
 ```
 
