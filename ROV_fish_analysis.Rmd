@@ -163,17 +163,17 @@ fish.counts <- all.data %>% group_by(Species) %>% summarize(total = sum(Count)) 
 fish.counts
 ```
 
-EXPLORATORY PLOTTING
+EXPLORATORY PLOTTING OF ABUNDANCES
 
 ``` {r echo = FALSE}
 #the fct_infreq was to order species by count from forcats
-ggplot(all.data) + geom_point(aes(fct_infreq(factor(Species)), Count, colour = Count, alpha = 1.4)) + 
+ggplot(all.data) + geom_point(aes(fct_infreq(factor(Species)), Count, colour = Count, alpha = 1.4), size = 3, show.legend = F) + 
   scale_color_fish(option = "Gramma_loreto", direction = -1) +  
   theme(axis.text.x = element_text(angle = 90)) +
   xlab("Species")
 
 
-ggplot(fish.counts) + geom_point(aes(fct_inorder(factor(Species)), total, colour = total)) + 
+ggplot(fish.counts) + geom_point(aes(fct_inorder(factor(Species)), total, colour = total), size = 3) + 
   scale_color_fish(option = "Gramma_loreto", direction = -1) +  
   theme(axis.text.x = element_text(angle = 90)) +
   xlab("Species")
