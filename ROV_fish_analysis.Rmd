@@ -4,9 +4,9 @@ author: "Fiona Francis"
 date: "2/2/2021"
 output: github_document
 ---
-# Preliminary Analysis of Vector ROV surveys from 2018
+# Preliminary analysis o ROV VECTOR surveys from 2018
 
-This includes both data cleaning and calculating abundances of fish species and their densities using the area of transects. The goal of this analysis is to determine if there is an effect of RCA status or habitat type on fish densities. I think that I will need to calculate a PCA analysis to pair down habitat characteristics into fewer categories. 
+Mostly data cleaning and calculating abundances of fish species and their densities using the area of transects. The goal of this analysis is to determine if there is an effect of RCA status or habitat type on fish densities. I think that I will need to calculate a PCA analysis to pair down habitat characteristics into fewer categories. 
 
 ```{r setup, include = FALSE}
 
@@ -130,13 +130,15 @@ all.data <- rbind(new,new2)
 
 all.data
 # Transects with no fish -----------------------------
-# from looking at transect lines and fish observations in qgis there are 4 transects that don't seem to have fish  but a couple of them are listed in this dataset namely H113, H052, and L029. H044 is also showing no fish but it isn't in this dataset so maybe it is acutally the only one with no fish?
+# from looking at transect lines and fish observations in qgis there are 4 transects that don't seem to have fish  but a couple of them are listed in this dataset namely H113, H052, and L029. H044 is also showing no fish but it isn't in this dataset so maybe it is acutally the only one with no fish? What about H063_P1? I don't think that that has any fish in qgis? oh it is just P1 that has no fish but P2 does and so the overall H063 has fish. Need to deal with this in the widths then? Where is the info for H107?? I can't find the transect in QGIS either??
 
 all.data %>% filter(SurveyID == "H113-CA-V")
 
 all.data %>% filter(SurveyID == "H052-CA-V")
 
 all.data %>% filter(SurveyID == "L029-CA-V")
+
+all.data %>% filter(SurveyID == "H063-CA-V")
 ```
 
 SUMMARY STATS
@@ -180,3 +182,157 @@ ggplot(fish.counts) + geom_point(aes(fct_inorder(factor(Species)), total, colour
 
 ```
 
+TRANSECT WIDTHS
+
+``` {r, include = FALSE}
+
+width <- read_csv("ROV2018_Vector_TransectSegmentData.csv")
+transects <-read_csv("2018_Vector_pass2_points_clipped.csv")
+lengths <- read_csv("2018_Vector_transect_length.csv")
+
+
+# I need to calculate the area of each transect so that I can calculate a density of fish on each one. The simple way to do this would be to take the total distance of the transect and multiple it by the average width pf the lasers (width was measured every 20 seconds). However, it would be nice to be able to calculate the areas every 30 seconds instead. This requires knowing the trackline for that 30 seconds and then drawing a polygon of the appropriate width around that thrack line and summing all of the track line 30 segments up. We know the position of the track every 1 second so should be able to draw a line over these using the sp and rgeos packages according to J. Nephin. The plan is to give each segment of 30 second GPS coordinate an individual ID that we then turn into a line segment using sp. Then I can use the glength funtion in rgeos to calculate the length of this line and can multiply it by the appropriate width. In theory I should be able to make a loop that runs through the ID column, loop through and add a 1 every time that I hit a new date
+
+
+# Let's first see how similar the widths are across a transect ----------------------------
+width
+
+# add a column of the actual width
+width <- width %>% mutate(actual.width = (Screen_width*(10/Laser_width)))
+
+glimpse(width)
+summary(width)
+# look at average width and SD around that for each transect
+avg.width <- width %>% filter(!is.na(actual.width)) %>%  group_by(SurveyID) %>% summarise(mean.width = mean(actual.width), sd.width = (sd(actual.width))) #ugh I feel like there is a lot of variation
+
+# let's just plot all of the widths over a transect, there is quite a lot of variation 
+
+ggplot(width) + geom_point(aes(SurveyID, actual.width),alpha = 0.4)
+
+# hmm but there are 400 missing widths so what do I do with those? There is a lot of variation within a transect but ALL the transects have a lot of variation so maybe it's just worth taking the overall distance and widths for now and worry about this later if I need to?
+
+# okay let's combine average widths with the distance of the transects ----------------------------------
+#not all of the lengths have matching widths
+
+# look at the lengths
+lengths
+
+# okay remove first two rows and fix the headings
+
+lengths <- lengths %>% slice(-(1:2)) %>% 
+  rename(Transect = "X1",SurveyID = "X2", pass2_5m = "pass2", pass2_10m = "pass2_1", pass2_50m = "pass2_2" ) %>%
+  select(!(X6)) %>%
+mutate(pass2_5m = as.numeric(pass2_5m), pass2_10m = as.numeric(pass2_10m), pass2_50m = as.numeric(pass2_50m))
+lengths
+
+# okay make a column with the average length based on pass 2 (average of 2, 5, and 10 m smoothing)
+
+lengths <- lengths %>% rowwise() %>% mutate(mean.length = mean(c(pass2_5m, pass2_10m, pass2_50m))) # needed to add rowwise because mean will just generate one number
+lengths
+
+#change the length surveyID to match width ones
+
+unique(lengths$SurveyID)
+unique(lengths$Transect)
+unique(width$SurveyID)
+unique(all.data$TranID_seg)
+
+# Merge average widths with lengths ----------------------------------------------------
+
+# need to change survey site names with P1 and P2 to V to match (need to check with Dana that this is okay but I think they are just seperate because of jumps in the ROV?)
+
+avg.width <- avg.width %>% mutate(SurveyID = sub("V", "P1", SurveyID))
+avg.width <- avg.width %>% mutate(SurveyID = sub("-CA-", "_", SurveyID))
+
+
+# change explore survey names to match 
+
+avg.width <- avg.width %>% mutate(SurveyID = sub("Explore", "Exp", SurveyID))
+avg.width <- avg.width %>% mutate(SurveyID = sub("Exp1", "Exp1_P1", SurveyID))
+avg.width <- avg.width %>% mutate(SurveyID = sub("Exp2", "Exp2_P1", SurveyID))
+avg.width <- avg.width %>% mutate(SurveyID = sub("Exp3", "Exp3_P1", SurveyID))
+avg.width <- avg.width %>% mutate(SurveyID = sub("Exp4", "Exp4_P1", SurveyID))
+avg.width <- avg.width %>% mutate(SurveyID = sub("Exp5", "Exp5_P1", SurveyID))
+
+avg.width <- avg.width %>% rename(Survey.abbrv = SurveyID)
+
+avg.width
+
+# make a column in lengths that matches the SurveyID in widths 
+
+lengths <- lengths %>% mutate(Survey.abbrv = substr(SurveyID,0,7))
+
+# join lengths and avg.width by that column
+
+transect.size <- left_join(lengths, avg.width, by = "Survey.abbrv")
+
+# remove unecessary columns from transect.size
+
+transect.size <- transect.size %>% select(Transect, SurveyID, Survey.abbrv, mean.length, mean.width)
+
+# add a column for transect area (need to divide mean width by 100 because I think it is in cm and the length is in m)
+
+transect.size <- transect.size %>% mutate(area = mean.length*(mean.width/100))
+
+# okay we need to summarize the areas for each indiviudal transect before we merge them with the fish data because some of the segments didn't have fish so if we merge if first the area that then gets totaled won't be the whole transect just the segments that have fish observations which is not correct. We need to add in the whole transect area as a column so that we can then calculate the fish density over the entire area searched. This is still not going to account for transects where no fish were seen though becuase those zeros are not in the fish dataset. 
+
+# 
+areas <- transect.size %>% group_by(Survey.abbrv) %>% 
+  summarize(transect.area = sum(area))
+```
+
+```{r}
+areas
+```
+
+```{r, include = FALSE}
+
+# merge transect.size dataframe with overall fish data set -------------------------------
+
+# urgh TranID_seg has a bunch of NAs for some reason so I'm going to do a hack job to fix that
+
+all.data <- all.data %>% mutate(newSID = SurveyID)
+
+all.data <- all.data %>% mutate(newSID = sub("Explore", "Exp", newSID))
+all.data <- all.data %>% mutate(newSID = sub("Exp1", "Exp1_P1", newSID ))
+all.data <- all.data %>% mutate(newSID = sub("Exp2", "Exp2_P1", newSID))
+all.data <- all.data %>% mutate(newSID = sub("Exp3", "Exp3_P1", newSID))
+all.data <- all.data %>% mutate(newSID = sub("Exp4", "Exp4_P1", newSID))
+all.data <- all.data %>% mutate(newSID = sub("Exp5", "Exp5_P1", newSID))
+
+all.data <- all.data %>% mutate(newSID = sub("-CA-V", "_P1", newSID))
+
+# replace all of the NAs in Tran_seg with the value in newSID
+
+all.data <- all.data %>% mutate(TranID_seg = coalesce(TranID_seg,newSID))
+
+# make a column in all.data that matches Survey.abbrv in areas
+
+all.data <- all.data %>% mutate(Survey.abbrv = substr(TranID_seg,0,7))
+
+
+# join areas and all.data by Survey.abbrv
+
+all.data <- left_join(all.data, areas, by = "Survey.abbrv")
+
+
+# summarize fish abundances by transect and species and divide by areas to get density of species per transect. NOTE: THERE ARE NAs BECAUSE THERE IS NO LENGTH DATA FOR TRANSECTS H107 and H022 FOR SOME REASON. MAYBE I NEED TO CHECK IN WITH WDFW ABOUT THIS
+
+
+fish.density <- all.data %>% group_by(Survey.abbrv, Species) %>% summarise(total.fish = sum(Count), transect.area = mean(transect.area)) %>%
+  mutate(density = total.fish/transect.area)
+```
+
+Species densities from all transects
+
+```{r}
+
+# plot density against species
+
+ggplot(fish.density) + geom_point(aes(fct_infreq(factor(Species)), density, colour = Species), size = 2, show.legend = F) +
+    scale_color_fish_d(option = "Gramma_loreto", direction = -1) +  
+  theme(axis.text.x = element_text(angle = 90)) +
+  xlab("Species") +
+  ylab("Fish per m^2")
+
+```

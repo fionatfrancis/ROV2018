@@ -109,6 +109,43 @@ fish.counts
     ## 18 Pacific staghorn sculpin     1
     ## 19 Red brotula                  1
 
-EXPLORATORY PLOTTING
+EXPLORATORY PLOTTING OF ABUNDANCES
 
 ![](ROV_fish_analysis_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->![](ROV_fish_analysis_files/figure-gfm/unnamed-chunk-2-2.png)<!-- -->
+
+TRANSECT WIDTHS
+
+``` r
+areas
+```
+
+    ## # A tibble: 86 x 2
+    ##    Survey.abbrv transect.area
+    ##    <chr>                <dbl>
+    ##  1 Exp1_P1               681.
+    ##  2 Exp2_P1               838.
+    ##  3 Exp3_P1              1146.
+    ##  4 Exp4_P1              1239.
+    ##  5 Exp5_P1              1681.
+    ##  6 H010_P1              1372.
+    ##  7 H011_P1              1472.
+    ##  8 H015_P1               263.
+    ##  9 H015_P2               938.
+    ## 10 H016_P1              1253.
+    ## # ... with 76 more rows
+
+Species densities from all transects
+
+``` r
+# plot density against species
+
+ggplot(fish.density) + geom_point(aes(fct_infreq(factor(Species)), density, colour = Species), size = 2, show.legend = F) +
+    scale_color_fish_d(option = "Gramma_loreto", direction = -1) +  
+  theme(axis.text.x = element_text(angle = 90)) +
+  xlab("Species") +
+  ylab("Fish per m^2")
+```
+
+    ## Warning: Removed 15 rows containing missing values (geom_point).
+
+![](ROV_fish_analysis_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
