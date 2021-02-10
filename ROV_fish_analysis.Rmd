@@ -316,11 +316,15 @@ all.data <- all.data %>% mutate(Survey.abbrv = substr(TranID_seg,0,7))
 all.data <- left_join(all.data, areas, by = "Survey.abbrv")
 
 
-# summarize fish abundances by transect and species and divide by areas to get density of species per transect. NOTE: THERE ARE NAs BECAUSE THERE IS NO LENGTH DATA FOR TRANSECTS H107 and H022 FOR SOME REASON. MAYBE I NEED TO CHECK IN WITH WDFW ABOUT THIS
+# summarize fish abundances by transect and species and divide by areas to get density of species per transect. NOTE: THERE ARE NAs BECAUSE THERE IS NO LENGTH DATA FOR TRANSECTS H107 and H022 FOR SOME REASON. MAYBE I NEED TO CHECK IN WITH WDFW ABOUT THIS. Should sort this out at some point because there are fish on those transects
 
 
-fish.density <- all.data %>% group_by(Survey.abbrv, Species) %>% summarise(total.fish = sum(Count), transect.area = mean(transect.area)) %>%
+fish.density <- all.data %>% group_by(Survey.abbrv, Species, RCA) %>% summarise(total.fish = sum(Count), transect.area = mean(transect.area)) %>%
   mutate(density = total.fish/transect.area)
+
+rockfish.density <- all.data %>% filter(Species %in% c('Yelloweye rockfish', 'QUillback rockfish', 'Rockfish uniden.', 'Greenstriped rockfish', 'Puget Sound rockfish', 'Tiger rockfish', 'Canary rockfish', 'Redstripe rockfish', 'Copper rockfish', 'Yellowtail rockfish')) %>% group_by(Survey.abbrv, Species, RCA) %>% summarise(total.fish = sum(Count), transect.area = mean(transect.area)) %>%
+  mutate(density = total.fish/transect.area)
+
 ```
 
 Species densities from all transects
@@ -329,10 +333,49 @@ Species densities from all transects
 
 # plot density against species
 
-ggplot(fish.density) + geom_point(aes(fct_infreq(factor(Species)), density, colour = Species), size = 2, show.legend = F) +
-    scale_color_fish_d(option = "Gramma_loreto", direction = -1) +  
+ggplot(fish.density) + geom_point(aes(fct_infreq(factor(Species)), density, colour = Species), size = 3, show.legend = F) +
+    scale_color_fish_d(option = "Lepomis_megalotis", direction = -1) +  
   theme(axis.text.x = element_text(angle = 90)) +
   xlab("Species") +
   ylab("Fish per m^2")
 
+ggplot(fish.density) + geom_point(aes(fct_infreq(factor(Species)), density, colour = RCA), size = 3, show.legend = T) +
+    scale_color_fish_d(option = "Lepomis_megalotis", direction = -1) +  
+  theme(axis.text.x = element_text(angle = 90)) +
+  xlab("Species") +
+  ylab("Fish per m^2")
+
+ggplot(fish.density) + geom_point(aes(RCA, density, colour = RCA), alpha = 0.4, size = 3, position = position_jitter(width = 0.05)) +
+   scale_color_fish_d(option = "Lepomis_megalotis", direction = -1) +
+  ylab("Fish per m^2")
+
+ggplot(fish.density) + geom_point(aes(RCA, density, colour = Species), alpha = 0.8, size = 5, show.legend = F, position = position_jitter(width = 0.05)) +
+   scale_color_fish_d(option = "Lepomis_megalotis", direction = -1) +
+  ylab("Fish per m^2")
+
+
 ```
+
+Rcockfish only
+
+``` {r}
+ggplot(rockfish.density) + geom_point(aes(fct_infreq(factor(Species)), density, colour = Species), size = 3, show.legend = F) +
+    scale_color_fish_d(option = "Lepomis_megalotis", direction = -1) +  
+  theme(axis.text.x = element_text(angle = 90)) +
+  xlab("Species") +
+  ylab("Fish per m^2")
+
+ggplot(rockfish.density) + geom_point(aes(fct_infreq(factor(Species)), density, colour = RCA), size = 3, show.legend = T) +
+    scale_color_fish_d(option = "Lepomis_megalotis", direction = -1) +  
+  theme(axis.text.x = element_text(angle = 90)) +
+  xlab("Species") +
+  ylab("Fish per m^2")
+
+ggplot(rockfish.density) + geom_point(aes(RCA, density, colour = RCA), alpha = 0.4, size = 3, position = position_jitter(width = 0.05)) +
+   scale_color_fish_d(option = "Lepomis_megalotis", direction = -1) +
+  ylab("Fish per m^2")
+
+ggplot(rockfish.density) + geom_point(aes(RCA, density, colour = Species), alpha = 0.8, size = 5, show.legend = F, position = position_jitter(width = 0.05)) +
+   scale_color_fish_d(option = "Lepomis_megalotis", direction = -1) +
+  ylab("Fish per m^2")
+
