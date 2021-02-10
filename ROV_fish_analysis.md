@@ -3,13 +3,13 @@ ROV fish densities
 Fiona Francis
 2/2/2021
 
-# Preliminary Analysis of Vector ROV surveys from 2018
+# Preliminary analysis of ROV VECTOR surveys from 2018
 
-This includes both data cleaning and calculating abundances of fish
-species and their densities using the area of transects. The goal of
-this analysis is to determine if there is an effect of RCA status or
-habitat type on fish densities. I think that I will need to calculate a
-PCA analysis to pair down habitat characteristics into fewer categories.
+Mostly data cleaning and calculating abundances of fish species and
+their densities using the area of transects. The goal of this analysis
+is to determine if there is an effect of RCA status or habitat type on
+fish densities. I think that I will need to calculate a PCA analysis to
+pair down habitat characteristics into fewer categories.
 
 SUMMARY STATS
 
@@ -139,8 +139,8 @@ Species densities from all transects
 ``` r
 # plot density against species
 
-ggplot(fish.density) + geom_point(aes(fct_infreq(factor(Species)), density, colour = Species), size = 2, show.legend = F) +
-    scale_color_fish_d(option = "Gramma_loreto", direction = -1) +  
+ggplot(fish.density) + geom_point(aes(fct_infreq(factor(Species)), density, colour = Species), size = 3, show.legend = F) +
+    scale_color_fish_d(option = "Cirrhilabrus_solorensis", direction = -1) +  
   theme(axis.text.x = element_text(angle = 90)) +
   xlab("Species") +
   ylab("Fish per m^2")
@@ -149,3 +149,107 @@ ggplot(fish.density) + geom_point(aes(fct_infreq(factor(Species)), density, colo
     ## Warning: Removed 15 rows containing missing values (geom_point).
 
 ![](ROV_fish_analysis_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
+
+``` r
+ggplot(fish.density) + geom_point(aes(fct_infreq(factor(Species)), density, colour = RCA), size = 3, show.legend = T) +
+    scale_color_fish_d(option = "Cirrhilabrus_solorensis", direction = -1) +  
+  theme(axis.text.x = element_text(angle = 90)) +
+  xlab("Species") +
+  ylab("Fish per m^2")
+```
+
+    ## Warning: Removed 15 rows containing missing values (geom_point).
+
+![](ROV_fish_analysis_files/figure-gfm/unnamed-chunk-6-2.png)<!-- -->
+
+``` r
+ggplot(fish.density) + geom_point(aes(RCA, density, colour = RCA), alpha = 0.4, size = 3, position = position_jitter(width = 0.05)) +
+   scale_color_fish_d(option = "Cirrhilabrus_solorensis", direction = -1) +
+  ylab("Fish per m^2")
+```
+
+    ## Warning: Removed 15 rows containing missing values (geom_point).
+
+![](ROV_fish_analysis_files/figure-gfm/unnamed-chunk-6-3.png)<!-- -->
+
+``` r
+ggplot(fish.density) + geom_point(aes(RCA, density, colour = Species), alpha = 0.8, size = 5, show.legend = F, position = position_jitter(width = 0.05)) +
+   scale_color_fish_d(option = "Cirrhilabrus_solorensis", direction = -1) +
+  ylab("Fish per m^2")
+```
+
+    ## Warning: Removed 15 rows containing missing values (geom_point).
+
+![](ROV_fish_analysis_files/figure-gfm/unnamed-chunk-6-4.png)<!-- -->
+
+Rcockfish only
+
+``` r
+ggplot(rockfish.density) + geom_point(aes(fct_infreq(factor(Species)), density, colour = Species), size = 3, show.legend = F) +
+    scale_color_fish_d(option = "Cirrhilabrus_solorensis", direction = -1) +  
+  theme(axis.text.x = element_text(angle = 90)) +
+  xlab("Species") +
+  ylab("Rockfish per m^2")
+```
+
+    ## Warning: Removed 8 rows containing missing values (geom_point).
+
+![](ROV_fish_analysis_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
+
+``` r
+ggplot(rockfish.density) + geom_point(aes(fct_infreq(factor(Species)), density, colour = RCA), size = 3, show.legend = T) +
+    scale_color_fish_d(option = "Cirrhilabrus_solorensis", direction = -1) +  
+  theme(axis.text.x = element_text(angle = 90)) +
+  xlab("Species") +
+  ylab("Rockfish per m^2")
+```
+
+    ## Warning: Removed 8 rows containing missing values (geom_point).
+
+![](ROV_fish_analysis_files/figure-gfm/unnamed-chunk-7-2.png)<!-- -->
+
+``` r
+ggplot(rockfish.density) + geom_point(aes(RCA, density, colour = RCA), alpha = 0.4, size = 3, position = position_jitter(width = 0.05)) +
+   scale_color_fish_d(option = "Cirrhilabrus_solorensis", direction = -1) +
+  ylab("Rockfish per m^2")
+```
+
+    ## Warning: Removed 8 rows containing missing values (geom_point).
+
+![](ROV_fish_analysis_files/figure-gfm/unnamed-chunk-7-3.png)<!-- -->
+
+``` r
+ggplot(rockfish.density) + geom_point(aes(RCA, density, colour = Species), alpha = 0.8, size = 5, show.legend = T, position = position_jitter(width = 0.05)) +
+   scale_color_fish_d(option = "Cirrhilabrus_solorensis", direction = -1) +
+  ylab("Rockfish per m^2") +
+  theme_bw()
+```
+
+    ## Warning: Removed 8 rows containing missing values (geom_point).
+
+![](ROV_fish_analysis_files/figure-gfm/unnamed-chunk-7-4.png)<!-- -->
+
+Quillback
+
+``` r
+quillback <- all.data %>% filter(Species == "Quillback rockfish") %>% group_by(Survey.abbrv, Species, RCA) %>% summarise(total.fish = sum(Count), transect.area = mean(transect.area)) %>%
+  mutate(density = total.fish/transect.area)
+```
+
+    ## `summarise()` regrouping output by 'Survey.abbrv', 'Species' (override with `.groups` argument)
+
+``` r
+ggplot(quillback) + geom_point(aes(RCA, density, colour = RCA), alpha = 0.8, size = 5, show.legend = F, position = position_jitter(width = 0.05)) +
+   scale_color_fish_d(option = "Cirrhilabrus_solorensis", direction = -1) +
+  ylab("Rockfish per m^2") +
+  add_fishape(family = "Scorpaenidae",
+               option = "Sebastes_caurinus",
+               ymin = 0.1, ymax = 0.125,
+               fill = fish(option = "Gramma_loreto", n = 2)[1],
+               alpha = 0.8) +
+  theme_bw()
+```
+
+    ## Warning: Removed 2 rows containing missing values (geom_point).
+
+![](ROV_fish_analysis_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->

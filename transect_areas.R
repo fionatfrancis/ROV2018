@@ -31,7 +31,45 @@ ggplot(width) + geom_point(aes(SurveyID, actual.width),alpha = 0.4)
 
 # hmm but there are 400 missing widths so what do I do with those? There is a lot of variation within a transect but ALL the transects have a lot of variation so maybe it's just worth taking the overall distance and widths for now and worry about this later if I need to?
 
+# okay let's combine average widths with the distance of the transects ----------------------------------
 
+# look at the lengths
+lengths
+
+# okay remove first two rows and fix the headings
+
+lengths <- lengths %>% slice(-(1:2)) %>% 
+  rename(Transect = "X1",SurveyID = "X2", pass2_5m = "pass2", pass2_10m = "pass2_1", pass2_50m = "pass2_2" ) %>%
+  select(!(X6)) %>%
+mutate(pass2_5m = as.numeric(pass2_5m), pass2_10m = as.numeric(pass2_10m), pass2_50m = as.numeric(pass2_50m))
+
+
+# okay make a column with the average length based on pass 2 (average of 2, 5, and 10 m smoothing)
+
+lengths <- lengths %>% rowwise() %>% mutate(mean.length = mean(c(pass2_5m, pass2_10m, pass2_50m))) # needed to add rowwise because mean will just generate one number
+
+#change the length surveyID to match width ones
+
+unique(lengths$SurveyID)
+unique(lengths$Transect)
+unique(width$SurveyID)
+
+# need to change survey site names with P1 and P2 to V to match (need to check with Dana that this is okay but I think they are just seperate because of jumps in the ROV?)
+
+width <- width %>% mutate(SurveyID = sub("V", "P1", SurveyID))
+width <- width %>% mutate(SurveyID = sub("CA", "P1", SurveyID))
+
+# change explore survey names to match 
+
+width <- width %>% mutate(SurveyID = sub("Explore", "Exp", SurveyID))
+width <- width %>% mutate(SurveyID = sub("Explore", "Exp", SurveyID))
+# rename the explore ones
+
+width %>% 
+
+# change CA to P1
+
+#change V t0 1
 
 #########################
 #   Transect distance   # 
