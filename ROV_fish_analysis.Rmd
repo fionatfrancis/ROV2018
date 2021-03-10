@@ -66,7 +66,7 @@ summary(data)
 
 # add in RCA status from RCA csv
 
-# need to change survey site names with P1 and P2 to V to match (need to check with Dana that this is okay but I think they are just seperate because of jumps in the ROV?)
+# need to change survey site names with P1 and P2 to V to match (need to check with Dana that this is okay but I think they are just separate because of jumps in the ROV?)
 
 data <- data %>% mutate(SurveyID = sub("P1", "V", SurveyID))
 data <- data %>% mutate(SurveyID = sub("P2", "V", SurveyID))

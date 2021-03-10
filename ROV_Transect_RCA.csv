@@ -1,0 +1,93 @@
+Parent ID,Survey Date,Station ID,RCA
+S02,10/23/18,H011_CA-V,Brethour
+S02,10/23/18,H011_CA-V,Brethour
+S02,10/23/18,H114_CA-V,Brethour
+S02,10/23/18,Test,NA
+S05,10/24/18,H021_CA-V,Darcy
+S05,10/24/18,H022_CA-V,Darcy
+S05,10/24/18,H025_CA-V,Darcy
+S05,10/24/18,H092_CA-V,Darcy
+S05,10/24/18,H121_CA-V,Darcy
+S08,10/25/18,H062_CA-V,Mayne I. North
+S08,10/25/18,H063_CA-V,Mayne I. North
+S08,10/25/18,H084_CA-V,South Saturna
+S08,10/25/18,H104_CA-V,South Saturna
+S08,10/25/18,H107_CA-V,Mayne I. North
+S08,10/25/18,H109_CA-V,Mayne I. North
+S08,10/25/18,H163_CA-V,South Saturna
+S11,10/26/18,H043_CA-V,Galiano I. North
+S11,10/26/18,H044_CA-V,Galiano I. North
+S11,10/26/18,H088_CA-V,Valdes I. East
+S11,10/26/18,H090_CA-V,Valdes I. East
+S11,10/26/18,H133_CA-V,Galiano I. North
+S11,10/26/18,H167_CA-V,Valdes I. East
+S11,10/26/18,H169_CA-V,Valdes I. East
+S14,10/27/18,H099_CA-V,Indian Arm-Twin Island
+S14,10/27/18,H141_CA-V,Indian Arm-Twin Island
+S14,10/27/18,H142_CA-V,Indian Arm-Twin Island
+S14,10/27/18,H170 was L015,Indian Arm-Twin Island
+S14,10/27/18,H171 new station,Indian Arm-Twin Island
+S14,10/27/18,H172 was L030,Indian Arm-Twin Island
+S17,10/28/18,Exploration 1,Indian Arm-Crocker I. 
+S17,10/28/18,Exploration 2,Indian Arm-Crocker I. 
+S17,10/28/18,Exploration 3,Indian Arm-Crocker I. 
+S17,10/28/18,H052_CA-V,Indian Arm-Crocker I. 
+S17,10/28/18,L029_CA-V,Indian Arm-Crocker I. 
+S20,10/29/18,Exploration 4,Northumberland
+S20,10/29/18,Exploration 5,Northumberland
+S20,10/29/18,H072_CA-V,Northumberland
+S20,10/29/18,H155_CA-V,Northumberland 
+S20,10/29/18,H157_CA-V,Northumberland 
+S20,10/29/18,H158_CA-V,Northumberland
+S23,10/30/18,H028_CA-V,Lasqueti I South
+S23,10/30/18,H058_CA-V,Young Point
+S23,10/30/18,H143_CA-V,Lasqueti I South
+S23,10/30/18,H145_CA-V,Lasqueti I South
+S23,10/30/18,H146_CA-V,Young Point
+S23,10/30/18,H147_CA-V,Young Point
+S26,10/31/18,H060_CA-V,Malaspina St.
+S26,10/31/18,H078_CA-V,Sinclair Bank
+S26,10/31/18,H079_CA-V,Sinclair Bank
+S26,10/31/18,H101_CA-V,Malaspina St.
+S26,10/31/18,H148_CA-V,Malaspina St.
+S26,10/31/18,H149_CA-V,Malaspina St.
+S26,10/31/18,H159_CA-V,Sinclair Bank
+S26,10/31/18,H160_CA-V,Sinclair Bank
+S26,10/31/18,H173_CA-V was L020,Malaspina St.
+S29,11/01/18,H030_CA-V,Desolation Sound
+S29,11/01/18,H032_CA-V,Desolation Sound
+S29,11/01/18,H034_CA-V,Desolation Sound
+S29,11/01/18,H035_CA-V,Desolation Sound
+S29,11/01/18,H039_CA-V,Desolation Sound
+S29,11/01/18,H126_CA-V,Desolation Sound
+S29,11/01/18,H127_CA-V,Desolation Sound
+S29,11/01/18,H129_CA-V,Desolation Sound
+S29,11/01/18,H130_CA-V,Desolation Sound
+S32,11/02/18,H015_CA-V,Copeland
+S32,11/02/18,H016_CA-V,Copeland
+S32,11/02/18,H017_CA-V,Copeland
+S32,11/02/18,H018_CA-V,Copeland
+S32,11/02/18,H066_CA-V,Mitlenatch
+S32,11/02/18,H069_CA-V,Mitlenatch
+S32,11/02/18,H091_CA-V,Copeland
+S32,11/02/18,H119_CA-V,Copeland
+S32,11/02/18,H120_CA-V,Copeland
+S35,11/03/18,H045_CA-V,Hardy Island
+S35,11/03/18,H046_CA-V,Hardy Island
+S35,11/03/18,H135_CA-V,Hardy Island
+S35,11/03/18,H136_CA-V,Hardy Island
+S35,11/03/18,H153_CA-V,Mitlenatch
+S38,11/04/18,H029_CA-V,Davie Bay
+S38,11/04/18,H055_CA-V,Lasqueti I South
+S38,11/04/18,H056_CA-V,Davie Bay
+S38,11/04/18,H057_CA-V,Lasqueti I South
+S38,11/04/18,H093_CA-V,Davie Bay
+S38,11/04/18,H125_CA-V,Davie Bay
+S38,11/04/18,H144_CA-V,Davie Bay
+S41,11/05/18,H010_CA-V,Brethour
+S41,11/05/18,H011_CA-V,Brethour
+S41,11/05/18,H085_CA-V,South Saturna
+S41,11/05/18,H085_CA-V,South Saturna
+S41,11/05/18,H112_CA-V,Brethour
+S41,11/05/18,H113_CA-V,Brethour
+S41,11/05/18,H165_CA-V,South Saturna
