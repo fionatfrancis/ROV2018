@@ -7,15 +7,16 @@ Fiona Francis
 
 The goal of this analysis is to look at the distribution of fish (all
 species and specifically rockfish) along transects collected in
-targetted rockfish habitat inside and outside RCAs. We want to:  
-1\. determine if there is an effect of RCA status on fish densities 2.
-determine in there is an association between substrate types and fish
-occurrences
+targetted rockfish habitat inside and outside RCAs. We want to:
+
+1.  determine if there is an effect of RCA status on fish densities
+2.  determine in there is an association between substrate types and
+    fish occurrences
 
 We currently do not have size data for the fish observations from the
 stereo cameras. This data has been analyzed by WDFW but they are
 currently in the field and this data during our last email communication
-(Dec 2020) still needed some groundtruthing.
+(Dec 2020) still needed some ground truthing.
 
 An additional data set is in Biigle and consists of video grabs from SD,
 GoPro, and stereo cameras to compare detectability between the three
@@ -26,6 +27,8 @@ images so that they can be compared the the stereo data once we get it
 from WDFW.
 
 ## Basic Information from SD video and fish observations
+
+![map](transects.png)
 
 <div class="figure" style="text-align: center">
 

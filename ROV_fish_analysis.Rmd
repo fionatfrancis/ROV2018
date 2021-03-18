@@ -2,9 +2,7 @@
 title: "ROV fish densities"
 author: "Fiona Francis"
 date: "3/17/2021"
-output: 
-pdf_document:
-    toc: true
+output: github_document
 ---
 # Preliminary analysis of fish and substrate data from 2018 ROV VECTOR surveys
 
@@ -19,6 +17,8 @@ We currently do not have size data for the fish observations from the stereo cam
 An additional data set is in Biigle and consists of video grabs from SD, GoPro, and stereo cameras to compare detectability between the three types of video. These stills have been annotated but have not been sized using laser points. I am going to talk to Jessica about exporting the files cleanly but I (or someone) should also get sizes out of these images so that they can be compared the the stereo data once we get it from WDFW. 
 
 ## Basic Information from SD video and fish observations
+
+![map](transects.png)
 ```{r map, fig.align = 'center', out.width = "100%", fig.cap = "RCAs and 2018 Vector ROV transects from QGIS", echo = FALSE}
 # include a map image that I saved from QGIS 
 knitr::include_graphics(here::here("transects.png"))
