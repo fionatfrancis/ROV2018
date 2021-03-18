@@ -1,14 +1,27 @@
 ---
 title: "ROV fish densities"
 author: "Fiona Francis"
-date: "2/2/2021"
+date: "3/17/2021"
 output: github_document
 ---
-# Preliminary analysis of ROV VECTOR surveys from 2018
+# Preliminary analysis of fish and substrate data from 2018 ROV VECTOR surveys
 
-Mostly data cleaning and calculating abundances of fish species and their densities using the area of transects. The goal of this analysis is to determine if there is an effect of RCA status or habitat type on fish densities. I think that I will need to calculate a PCA analysis to pair down habitat characteristics into fewer categories. 
+The goal of this analysis is to look at the distribution of fish (all species and specifically rockfish) along transects collected in targetted rockfish habitat inside and outside RCAs.
+We want to:  
+1. determine if there is an effect of RCA status on fish densities
+2. determine in there is an association between substrate types and fish occurrences
 
-```{r setup, include = FALSE}
+We currently do not have size data for the fish observations from the stereo cameras. This data has been analyzed by WDFW but they are currently in the field and this data during our last email communication (Dec 2020) still needed some groundtruthing. 
+
+An additional data set is in Biigle and consists of video grabs from SD, GoPro, and stereo cameras to compare detectability between the three types of video. These stills have been annotated but have not been sized using laser points. I am going to talk to Jessica about exporting the files cleanly but I (or someone) should also get sizes out of these images so that they can be compared the the stereo data once we get it from WDFW. 
+
+## Basic Information from SD video and fish observations
+```{r map, fig.align = 'center', out.width = "100%", fig.cap = "RCAs and 2018 Vector ROV transects from QGIS", echo = FALSE}
+# include a map image that I saved from QGIS 
+knitr::include_graphics(here::here("transects.png"))
+```
+
+```{r setup and initial data cleaning, include = FALSE}
 
 ## SETUP -----------
 
@@ -130,7 +143,7 @@ all.data <- rbind(new,new2)
 
 all.data
 # Transects with no fish -----------------------------
-# from looking at transect lines and fish observations in qgis there are 4 transects that don't seem to have fish  but a couple of them are listed in this dataset namely H113, H052, and L029. H044 is also showing no fish but it isn't in this dataset so maybe it is acutally the only one with no fish? What about H063_P1? I don't think that that has any fish in qgis? oh it is just P1 that has no fish but P2 does and so the overall H063 has fish. Need to deal with this in the widths then? Where is the info for H107?? I can't find the transect in QGIS either??
+# from looking at transect lines and fish observations in qgis there are 4 transects that don't seem to have fish  but a couple of them are listed in this dataset namely H113, H052, and L029. H044 is also showing no fish but it isn't in this dataset so maybe it is acutally the only one with no fish? What about H063_P1? I don't think that that has any fish in qgis? oh it is just P1 that has no fish but P2 does and so the overall H063 has fish. Need to deal with this in the widths then? Where is the info for H107?? I can't find the transect in QGIS either?? Also H069 has no fish in qGIS. I think H044 and H069 both have data but had no fish. need to ask Dana how to add these in?
 
 all.data %>% filter(SurveyID == "H113-CA-V")
 
@@ -141,50 +154,7 @@ all.data %>% filter(SurveyID == "L029-CA-V")
 all.data %>% filter(SurveyID == "H063-CA-V")
 ```
 
-SUMMARY STATS
-
-``` {r summary-stats, warnings = FALSE}
-
-# counts of species
-fish.counts <- all.data %>% group_by(Species) %>% summarise(total = sum(Count)) %>% arrange(desc(total))
-
-#counts of species in and out of RCAs
-
-all.data %>% group_by(RCA) %>% summarise(totalfish = sum(Count))
-
-
-# types of primary substrate
-all.data %>% group_by(Substrate) %>% summarise(total = sum(Count))
-
-
-#summary of species counts by transect
-all.data %>% group_by(SurveyID) %>% summarise(total = sum(Count))
-
-# counts of species
-fish.counts <- all.data %>% group_by(Species) %>% summarize(total = sum(Count)) %>% arrange(desc(total))
-fish.counts
-```
-
-EXPLORATORY PLOTTING OF ABUNDANCES
-
-``` {r echo = FALSE}
-#the fct_infreq was to order species by count from forcats
-ggplot(all.data) + geom_point(aes(fct_infreq(factor(Species)), Count, colour = Count, alpha = 1.4), size = 3, show.legend = F) + 
-  scale_color_fish(option = "Gramma_loreto", direction = -1) +  
-  theme(axis.text.x = element_text(angle = 90)) +
-  xlab("Species")
-
-
-ggplot(fish.counts) + geom_point(aes(fct_inorder(factor(Species)), total, colour = total), size = 3) + 
-  scale_color_fish(option = "Gramma_loreto", direction = -1) +  
-  theme(axis.text.x = element_text(angle = 90)) +
-  xlab("Species")
-
-```
-
-TRANSECT WIDTHS TO CALCULATE FISH DENSITIES
-
-``` {r, include = FALSE}
+``` {r, Calculating transect area to get densities, include = FALSE}
 
 width <- read_csv("ROV2018_Vector_TransectSegmentData.csv")
 transects <-read_csv("2018_Vector_pass2_points_clipped.csv")
@@ -283,11 +253,7 @@ areas <- transect.size %>% group_by(Survey.abbrv) %>%
   summarize(transect.area = sum(area))
 ```
 
-```{r}
-areas
-```
-MERGING WIDTHS WITH FISH DATA
-```{r, include = FALSE}
+```{r, combining areas with fish data, include = FALSE}
 
 # merge transect.size dataframe with overall fish data set -------------------------------
 
@@ -331,7 +297,7 @@ all.data <- all.data %>%  mutate(simple.bio = case_when(Biocover == "bare" ~ "ba
 # summarize fish abundances by transect and species and divide by areas to get density of species per transect. NOTE: THERE ARE NAs BECAUSE THERE IS NO LENGTH DATA FOR TRANSECTS H107 and H022 FOR SOME REASON. MAYBE I NEED TO CHECK IN WITH WDFW ABOUT THIS. Should sort this out at some point because there are fish on those transects. Also need to add in teh one with no fish. ALSO I think there are lengths for but no fish on H044 and H069-------------------
 
 
-fish.density <- all.data %>% group_by(Survey.abbrv, Species, RCA, NAME, AREA, simple.sub, simple.bio) %>% summarise(total.fish = sum(Count), transect.area = mean(transect.area)) %>%
+fish.density <- all.data %>% group_by(Survey.abbrv, Species, RCA, NAME, AREA) %>% summarise(total.fish = sum(Count), transect.area = mean(transect.area)) %>%
   mutate(density = total.fish/transect.area)
 
 rockfish.density <- all.data %>% filter(Species %in% c('Yelloweye rockfish', 'QUillback rockfish', 'Rockfish uniden.', 'Greenstriped rockfish', 'Puget Sound rockfish', 'Tiger rockfish', 'Canary rockfish', 'Redstripe rockfish', 'Copper rockfish', 'Yellowtail rockfish')) %>% group_by(Survey.abbrv, Species, RCA, NAME, AREA) %>% summarise(total.fish = sum(Count), transect.area = mean(transect.area)) %>%
@@ -339,13 +305,13 @@ rockfish.density <- all.data %>% filter(Species %in% c('Yelloweye rockfish', 'QU
 
 ```
 
-SUBSTRATE
+```{r, calculating % substrates, include = FALSE}
+#SUBSTRATE
 
-DFO measured habitat continuously in their transects (so everytime the habitat changed they recorded that change you so you could calculate the area of each habitat type). The WDFW records the habitat every 30 seconds instead so you really only get these point measures (because habitat could have changed several times in each segment). So I am going to calucate the % habitat of each transect simply by treating each measure as a sample point (e.g. if there were 40, 30 second segments that is 40 habitat measures) and then dividing each type by the total (e.g. 3 records of rock would be 3/40 as the % of rock on that transect) Does this make sense?
+#DFO measured habitat continuously in their transects (so everytime the habitat changed they recorded that change you so you could calculate the area of each habitat type). The WDFW records the habitat every 30 seconds instead so you really only get these point measures (because habitat could have changed several times in each segment). So I am going to calucate the % habitat of each transect simply by treating each measure as a sample point (e.g. if there were 40, 30 second segments that is 40 habitat measures) and then dividing each type by the total (e.g. 3 records of rock would be 3/40 as the % of rock on that transect) Does this make sense?
 
-Count of substrate 1 per surveyID divided by the total number of records of substrate in that SurveyID but need to do this with the width data csv not the all.data dataframe (because that only has the habitats associated with fish)
+#Count of substrate 1 per surveyID divided by the total number of records of substrate in that SurveyID but need to do this with the width data csv not the all.data dataframe (because that only has the habitats associated with fish)
 
-```{r, include = FALSE}
 width 
 
 # rename so that don't mess us other code
@@ -371,6 +337,8 @@ substrate <- substrate %>% rename(Survey.abbrv = SurveyID)
 substrate
 
 substrate <- substrate %>% rename(biocover = "Biocover 1")
+
+# merge substrate with all data because all.data has all of the fish observations. There are two more transects in substrate than in all.data (H044, H069). 
 
 # need to remove all of the rows that don't have substrate recorded
 
@@ -402,34 +370,109 @@ substrate <- substrate %>% unite(sub.types, simple.sub:simple.bio, remove = FALS
 
 unique(substrate$sub.types)
 
+# add in RCA status 
+
+RCAS <- all.data %>% select(Survey.abbrv, RCA, NAME)
+
+# add rows for H044 and H069
+
+RCAS <- RCAS %>% add_row(Survey.abbrv = "H044_P1", RCA = "IN", NAME = "Galiano Island North")
+
+RCAS <- RCAS %>% add_row(Survey.abbrv = "H069_P1", RCA = "IN", NAME = "Mitlenatch Island")
+
+# merge RCAS with substrate
+
+substrate <- left_join(substrate, RCAS, by = "Survey.abbrv")
+
 # counts of those categories divided by total observations per transect (% of each type)
 
-percent.sub <- substrate %>% group_by(Survey.abbrv) %>% count(sub.types)
+percent.sub <- substrate %>% group_by(Survey.abbrv, RCA) %>% count(sub.types)
 
 percent.sub <- percent.sub %>% add_count(Survey.abbrv, wt = n)
 
 percent.sub <- percent.sub %>% mutate(percent = (n/nn))
 
+
 # mean and SD of each % of category over all surveys to plot
 
-percent.sub %>% group_by(sub.types) %>% summarise(mean.percent = mean(percent), sd.percent = sd(percent))
+all.types <- percent.sub %>% group_by(sub.types) %>% summarise(mean.percent = mean(percent), sd.percent = sd(percent))
+
+# divided out by IN and OUT status
+
+all.types.by.RCA <- percent.sub %>% group_by(RCA,sub.types) %>% summarise(mean.percent = mean(percent), sd.percent = sd(percent))
+
+```
+Data were collected around `r length(unique(status$NAME))` RCAS.
+
+```{r, echo = FALSE}
+list(unique(status$NAME))
+```
+
+There are  `r length(unique(all.data$SurveyID))` transects that have fish observations. There were (`r status %>% filter(RCA == "OUT") %>% count(RCA) `) outside of RCAs and (`r status %>% filter(RCA == "IN") %>% count(RCA) `) inside RCAs collected overall. From looking at data files such as the substrate data there are actually `r length(unique(substrate$Survey.abbrv))` transects total but I think that some of these were messed up so not used. There are two transects (H044 and H069) that I think were fine (there is width and lenght data) but there were zero fish on them sp they do not show up in the master fish observation csv. I have not yet put these in the dataset but I could just creat rows with zero variable so they get included in the model?  
+
+## BASIC DATA SUMMARIES
+
+Total fish seen in and out of RCAs
+``` {r, echo = FALSE}
+all.data %>% group_by(RCA) %>% summarise(total = sum(Count))
+```
+
+Types of primary substrate and how many times they were observed
+``` {r, echo = FALSE}
+all.data %>% group_by(Substrate) %>% summarise(total = sum(Count))
+```
+
+Number of fish seen by transect
+``` {r, echo = FALSE}
+all.data %>% group_by(SurveyID) %>% summarise(total = sum(Count))
+```
+Number of fish of each species across all transects
+
+``` {r, include = FALSE}
+fish.counts <- all.data %>% group_by(Species) %>% summarize(total = sum(Count)) %>% arrange(desc(total))
+```
+``` {r, echo = FALSE}
+fish.counts
+```
+
+## FISH ABUNDANCES
+
+Some basic plots pooling over all transects. You can see that certain species were seen in clusters and others were usually solitary.
+
+``` {r echo = FALSE}
+#the fct_infreq was to order species by count from forcats
+ggplot(all.data) + geom_point(aes(fct_infreq(factor(Species)), Count, colour = Count, alpha = 1.4), size = 3, show.legend = F) + 
+  scale_color_fish(option = "Gramma_loreto", direction = -1) +  
+  theme(axis.text.x = element_text(angle = 90)) +
+  xlab("Species") +
+  ylab("Counts")
+
+
+ggplot(fish.counts) + geom_point(aes(fct_inorder(factor(Species)), total, colour = total), size = 3, show.legend = F) + 
+  scale_color_fish(option = "Gramma_loreto", direction = -1) +  
+  theme(axis.text.x = element_text(angle = 90)) +
+  xlab("Species") + 
+  ylab("Total individuals observed")
 
 ```
 
 
-SPECIES DENSITIES
+## TRANSECT AREAS
 
-```{r}
+These were calculated so that we can determine fish densities per transect. I wanted to do this by creating segments along each transect using width measurements every 30 seconds however there were a lot of missing values so I have done this the simple way of taking the total distance of each transect and multiplying it by the average width pf the lasers (width was measured every 30 seconds). 
 
-#plot densities by RCA areas
+```{r, echo = F}
+print(areas, n = Inf)
+```
 
-all.data <- all.data %>% mutate(AREA = as.numeric(AREA))
+## DENSITIES 
 
-ggplot(fish.density) + geom_point(aes(AREA, density, colour = Species), size = 3, show.legend = F) +
-    scale_color_fish_d(option = "Cirrhilabrus_solorensis", direction = -1) +  
-  theme(axis.text.x = element_text(angle = 90)) +
-  xlab("RCA Area") +
-  ylab("Fish per m^2")
+### ALL SPECIES DENSITIES
+
+These were determined by combining transect areas with fish abundances and so we have one density per species per transect.
+
+Fish densities by RCA
+```{R, echo = F}
 
 # plot densities by RCA
 ggplot(fish.density) + geom_point(aes(fct_infreq(factor(NAME)), density, colour = AREA ), size = 3, show.legend = T) +
@@ -437,16 +480,36 @@ ggplot(fish.density) + geom_point(aes(fct_infreq(factor(NAME)), density, colour 
   theme(axis.text.x = element_text(angle = 90)) +
   xlab("RCA") +
   ylab("Fish per m^2")
+```
 
+
+Densities by RCA region coloured by species
+```{r, echo = FALSE}
+
+#plot densities by RCA areas
+
+all.data <- all.data %>% mutate(AREA = as.numeric(AREA))
+
+ggplot(fish.density) + geom_point(aes(fct_infreq(factor(AREA)), density, colour = Species), size = 3, show.legend = T) +
+    scale_color_fish_d(option = "Cirrhilabrus_solorensis", direction = -1) +  
+  theme(axis.text.x = element_text(angle = 90)) +
+  xlab("Region") +
+  ylab("Fish per m^2")
+``` 
+
+
+Fish densities by region coloured by RCA
+```{R, echo = F}
 ggplot(fish.density) + geom_point(aes(fct_infreq(factor(AREA)), density, colour = NAME), size = 3, show.legend = T) +
     scale_color_fish_d(option = "Cirrhilabrus_solorensis", direction = -1) +  
   theme(axis.text.x = element_text(angle = 90)) +
-  xlab("AREA") +
+  xlab("Region") +
   ylab("Fish per m^2")
 
 ```
 
-```{r}
+A series of denisity plots coloured by different variables
+```{r, echo = F}
 
 # plot density against species
 
@@ -472,23 +535,23 @@ ggplot(fish.density) + geom_point(aes(RCA, density, colour = Species), alpha = 0
   ylab("Fish per m^2")
 
 # density against substrate type #### I think I can't use this with density but need to change this to ABUNDACE
-ggplot(fish.density) + geom_point(aes(simple.sub, density), alpha = 0.3, size = 5, show.legend = F, position = position_jitter(width = 0.05)) +
-   scale_color_fish_d(option = "Cirrhilabrus_solorensis", direction = -1) +
-  ylab("Fish per m^2") +
-  xlab("Substrate type")
+#ggplot(fish.density) + geom_point(aes(simple.sub, density), alpha = 0.3, size = 5, show.legend = F, position = position_jitter(width = 0.05)) +
+ #  scale_color_fish_d(option = "Cirrhilabrus_solorensis", direction = -1) +
+ # ylab("Fish per m^2") +
+ # xlab("Substrate type")
 
-# density against biocover type
-ggplot(fish.density) + geom_point(aes(simple.bio, density), alpha = 0.3, size = 5, show.legend = F, position = position_jitter(width = 0.05)) +
-   scale_color_fish_d(option = "Cirrhilabrus_solorensis", direction = -1) +
-  ylab("Fish per m^2") +
-  xlab("Biocover type")
+# density against biocover type again I think this needs to be abundance
+#ggplot(fish.density) + geom_point(aes(simple.bio, density), alpha = 0.3, size = 5, show.legend = F, position = position_jitter(width = 0.05)) +
+ #  scale_color_fish_d(option = "Cirrhilabrus_solorensis", direction = -1) +
+  #ylab("Fish per m^2") +
+  #xlab("Biocover type")
 
 
 ```
 
-Rockfish only
+### Rockfish Densities
 
-``` {r}
+``` {r, echo = F}
 ggplot(rockfish.density) + geom_point(aes(fct_infreq(factor(Species)), density, colour = Species), size = 3, show.legend = F) +
     scale_color_fish_d(option = "Cirrhilabrus_solorensis", direction = -1) +  
   theme(axis.text.x = element_text(angle = 90)) +
@@ -511,9 +574,9 @@ ggplot(rockfish.density) + geom_point(aes(RCA, density, colour = Species), alpha
   theme_bw()
 ```
 
-Quillback
+### Quillback Densities
 
-``` {r}
+``` {r, echo = F}
 
 quillback <- all.data %>% filter(Species == "Quillback rockfish") %>% group_by(Survey.abbrv, Species, RCA) %>% summarise(total.fish = sum(Count), transect.area = mean(transect.area)) %>%
   mutate(density = total.fish/transect.area)
@@ -530,3 +593,127 @@ ggplot(quillback) + geom_point(aes(RCA, density, colour = RCA), alpha = 0.8, siz
 
 ```
 
+## SUBSTRATE
+
+DFO measured habitat continuously in their transects (so every time the habitat changed they recorded that change you so you could calculate the area of each habitat type). The WDFW records the habitat every 30 seconds instead so you really only get these point measures (because habitat could have changed several times in each segment). So I am going to calucate the % habitat of each transect simply by treating each measure as a sample point (e.g. if there were 40, 30 second segments that is 40 habitat measures) and then dividing each type by the total (e.g. 3 records of rock would be 3/40 as the % of rock on that transect) Does this make sense?
+
+Count of substrate 1 per surveyID divided by the total number of records of substrate in that SurveyID but need to do this with the width data csv not the all.data data frame (because that only has the habitats associated with fish)
+
+``` {r}
+
+# plot of the 9 substrate categories (bar plot of mean % and SD)
+all.types
+```
+```{r, echo = F}
+# plot of the 9 substrate categories (bar plot of mean % and SD)
+ggplot(all.types) + geom_col(aes(x = sub.types, y = mean.percent)) +
+    scale_color_fish_d(option = "Cirrhilabrus_solorensis", direction = -1) +  
+  theme(axis.text.x = element_text(angle = 90)) +
+  xlab("Substrate types") +
+  ylab("% of observations")
+       
+```
+
+``` {r}
+
+all.types.by.RCA
+
+```
+``` {r, echo = F}
+# plot of the 9 substrate categories (bar plot of mean % and SD) for IN and OUT RCAs
+
+ggplot(all.types.by.RCA) + geom_col(aes(x = sub.types, y = mean.percent, fill = RCA), position = "dodge") +
+    scale_color_fish_d(option = "Cirrhilabrus_solorensis", direction = -1) +  
+  theme(axis.text.x = element_text(angle = 90)) +
+  xlab("Substrate types") +
+  ylab("% of observations")
+
+
+```
+
+
+### FISH OCCURANCES IN RELATION TO SUBSTRATE
+
+``` {r, echo = F}
+
+#fish densities in relation to substrate types
+
+fish.sub <- all.data %>% group_by(Survey.abbrv, Species, RCA, NAME, AREA, simple.sub, simple.bio) %>% summarise(total.fish = sum(Count), transect.area = mean(transect.area))
+
+# make a column combining sub and bio columns
+fish.sub <- fish.sub %>% unite(sub.types, simple.sub:simple.bio, remove = FALSE)
+
+# total number of fish on each sub.type by transect
+fish.sub.types <- fish.sub %>% group_by(Survey.abbrv, RCA, sub.types) %>% summarise(all.fish = sum(total.fish))
+
+# proportion of total fish on a transect on each sub.type
+
+fish.sub.types <- fish.sub.types %>% add_count(Survey.abbrv, wt = all.fish)
+
+fish.sub.types
+
+fish.sub.types <- fish.sub.types %>% mutate(percent = (all.fish/n))
+
+# total % fish on different sup types across all transects
+
+all.fish.types <- fish.sub.types %>% group_by(sub.types) %>% summarise(fish.mean.percent = mean(percent), fish.sd.percent = sd(percent))
+
+# merge all.fish.types and all.types to plot % fish occurance against % substrate occurance
+
+fish.sub.use <- left_join(all.fish.types, all.types, by = "sub.types")
+
+# rename columns
+
+fish.sub.use <- fish.sub.use %>% rename(fish.occurance = fish.mean.percent, substrate.occurance = mean.percent)
+
+```
+
+### PLOTS OF FISH HABITAT USE
+
+```{r}
+
+# plot fish % occurrences across all transects
+
+ggplot(fish.sub.types) + geom_point(aes(sub.types,percent,  colour = sub.types), size = 5, show.legend = F) +
+    scale_color_fish_d(option = "Cirrhilabrus_solorensis", direction = -1) +  
+  theme(axis.text.x = element_text(angle = 90)) +
+  xlab("Substrates") +
+  ylab("% fish observed")
+
+# plot mean % fish occurances 
+
+ggplot(fish.sub.use) + geom_point(aes( sub.types,fish.occurance, colour = sub.types), size = 5, show.legend = F) +
+    scale_color_fish_d(option = "Cirrhilabrus_solorensis", direction = -1) +  
+  theme(axis.text.x = element_text(angle = 90)) +
+  xlab("% Substrate available") +
+  ylab("% fish observed") 
+
+# make into bar plot, first need to convert to long format
+fish.sub.compare <- fish.sub.use %>% select(sub.types, fish.occurance, substrate.occurance)
+fish.sub.compare <- gather(fish.sub.use, type, total,fish.occurance, substrate.occurance) #Create long format
+fish.sub.compare
+
+# bar plot of mean % fish occurances and mean % sub occurances over all transects
+ggplot(fish.sub.compare) + geom_col(aes(x = sub.types, y = total, fill = type), position = "dodge") +
+    scale_color_fish_d(option = "Cirrhilabrus_solorensis", direction = -1) +  
+  theme(axis.text.x = element_text(angle = 90)) +
+  xlab("Substrate types") +
+  ylab("% of observations")
+
+# plot substrate %s across all transects
+
+ggplot(percent.sub) + geom_point(aes(sub.types,percent,  colour = sub.types), size = 5, show.legend = T) +
+    scale_color_fish_d(option = "Cirrhilabrus_solorensis", direction = -1) +  
+  theme(axis.text.x = element_text(angle = 90)) +
+  xlab("Substrates") +
+  ylab("% observed")
+
+# plot mean fish sub use against mean sub availability (don't worry about error for now)
+
+ggplot(fish.sub.use) + geom_point(aes(fish.occurance, substrate.occurance, colour = sub.types), size = 5, show.legend = T) +
+    scale_color_fish_d(option = "Cirrhilabrus_solorensis", direction = -1) +  
+  theme(axis.text.x = element_text(angle = 90)) +
+  xlab("% Substrate available") +
+  ylab("% fish observed") 
+
+```
