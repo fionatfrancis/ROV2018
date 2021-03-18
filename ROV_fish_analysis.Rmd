@@ -2,7 +2,9 @@
 title: "ROV fish densities"
 author: "Fiona Francis"
 date: "3/17/2021"
-output: github_document
+output: 
+pdf_document:
+    toc: true
 ---
 # Preliminary analysis of fish and substrate data from 2018 ROV VECTOR surveys
 
@@ -155,7 +157,7 @@ all.data %>% filter(SurveyID == "L029-CA-V")
 all.data %>% filter(SurveyID == "H063-CA-V")
 ```
 
-``` {r, Calculating transect area to get densities, include = FALSE}
+``` {r, Calculating transect areas to get densities, include = FALSE}
 
 width <- read_csv("ROV2018_Vector_TransectSegmentData.csv")
 transects <-read_csv("2018_Vector_pass2_points_clipped.csv")
