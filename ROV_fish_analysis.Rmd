@@ -405,6 +405,7 @@ all.types <- percent.sub %>% group_by(sub.types) %>% summarise(mean.percent = me
 all.types.by.RCA <- percent.sub %>% group_by(RCA,sub.types) %>% summarise(mean.percent = mean(percent), sd.percent = sd(percent))
 
 ```
+
 Data were collected around `r length(unique(status$NAME))` RCAS.
 
 ```{r, echo = FALSE}
@@ -474,11 +475,11 @@ print(areas, n = Inf)
 
 These were determined by combining transect areas with fish abundances and so we have one density per species per transect.
 
-Fish densities by RCA
+Fish densities by RCA coloured by region
 ```{R, echo = F}
 
 # plot densities by RCA
-ggplot(fish.density) + geom_point(aes(fct_infreq(factor(NAME)), density, colour = AREA ), size = 3, show.legend = T) +
+ggplot(fish.density) + geom_point(aes(fct_infreq(factor(NAME)), density, colour = AREA ), size = 3, show.legend = F) +
     scale_color_fish(option = "Cirrhilabrus_solorensis", direction = -1) +  
   theme(axis.text.x = element_text(angle = 90)) +
   xlab("RCA") +
@@ -556,23 +557,23 @@ ggplot(fish.density) + geom_point(aes(RCA, density, colour = Species), alpha = 0
 
 ``` {r, echo = F}
 ggplot(rockfish.density) + geom_point(aes(fct_infreq(factor(Species)), density, colour = Species), size = 3, show.legend = F) +
-    scale_color_fish_d(option = "Cirrhilabrus_solorensis", direction = -1) +  
+    scale_color_fish_d(option = "Lepomis_megalotis", direction = -1) +  
   theme(axis.text.x = element_text(angle = 90)) +
   xlab("Species") +
   ylab("Rockfish per m^2")
 
 ggplot(rockfish.density) + geom_point(aes(fct_infreq(factor(Species)), density, colour = RCA), size = 3, show.legend = T) +
-    scale_color_fish_d(option = "Cirrhilabrus_solorensis", direction = -1) +  
+    scale_color_fish_d(option = "Lepomis_megalotis", direction = -1) +  
   theme(axis.text.x = element_text(angle = 90)) +
   xlab("Species") +
   ylab("Rockfish per m^2")
 
 ggplot(rockfish.density) + geom_point(aes(RCA, density, colour = RCA), alpha = 0.4, size = 3, position = position_jitter(width = 0.05)) +
-   scale_color_fish_d(option = "Cirrhilabrus_solorensis", direction = -1) +
+   scale_color_fish_d(option = "Lepomis_megalotis", direction = -1) +
   ylab("Rockfish per m^2")
 
 ggplot(rockfish.density) + geom_point(aes(RCA, density, colour = Species), alpha = 0.8, size = 5, show.legend = T, position = position_jitter(width = 0.05)) +
-   scale_color_fish_d(option = "Cirrhilabrus_solorensis", direction = -1) +
+   scale_color_fish_d(option = "Lepomis_megalotis", direction = -1) +
   ylab("Rockfish per m^2") +
   theme_bw()
 ```
@@ -585,7 +586,7 @@ quillback <- all.data %>% filter(Species == "Quillback rockfish") %>% group_by(S
   mutate(density = total.fish/transect.area)
 
 ggplot(quillback) + geom_point(aes(RCA, density, colour = RCA), alpha = 0.8, size = 5, show.legend = F, position = position_jitter(width = 0.05)) +
-   scale_color_fish_d(option = "Cirrhilabrus_solorensis", direction = -1) +
+   scale_color_fish_d(option = "Lepomis_megalotis", direction = -1) +
   ylab("Rockfish per m^2") +
   add_fishape(family = "Scorpaenidae",
                option = "Sebastes_caurinus",
@@ -626,7 +627,7 @@ all.types.by.RCA
 # plot of the 9 substrate categories (bar plot of mean % and SD) for IN and OUT RCAs
 
 ggplot(all.types.by.RCA) + geom_col(aes(x = sub.types, y = mean.percent, fill = RCA), position = "dodge") +
-    scale_color_fish_d(option = "Cirrhilabrus_solorensis", direction = -1) +  
+    scale_color_fish_d(option = "Ostracion_whitleyi", direction = -1) +  
   theme(axis.text.x = element_text(angle = 90)) +
   xlab("Substrate types") +
   ylab("% of observations")
@@ -673,12 +674,12 @@ fish.sub.use <- fish.sub.use %>% rename(fish.occurance = fish.mean.percent, subs
 
 ### PLOTS OF FISH HABITAT USE
 
-```{r}
+```{r, echo = F}
 
 # plot fish % occurrences across all transects
 
 ggplot(fish.sub.types) + geom_point(aes(sub.types,percent,  colour = sub.types), size = 5, show.legend = F) +
-    scale_color_fish_d(option = "Cirrhilabrus_solorensis", direction = -1) +  
+    scale_color_fish_d(option = "Coris_gaimard", direction = -1) +  
   theme(axis.text.x = element_text(angle = 90)) +
   xlab("Substrates") +
   ylab("% fish observed")
@@ -686,9 +687,8 @@ ggplot(fish.sub.types) + geom_point(aes(sub.types,percent,  colour = sub.types),
 # plot mean % fish occurances 
 
 ggplot(fish.sub.use) + geom_point(aes( sub.types,fish.occurance, colour = sub.types), size = 5, show.legend = F) +
-    scale_color_fish_d(option = "Cirrhilabrus_solorensis", direction = -1) +  
+    scale_color_fish_d(option = "Coris_gaimard", direction = -1) +  
   theme(axis.text.x = element_text(angle = 90)) +
-  xlab("% Substrate available") +
   ylab("% fish observed") 
 
 # make into bar plot, first need to convert to long format
@@ -698,7 +698,7 @@ fish.sub.compare
 
 # bar plot of mean % fish occurances and mean % sub occurances over all transects
 ggplot(fish.sub.compare) + geom_col(aes(x = sub.types, y = total, fill = type), position = "dodge") +
-    scale_color_fish_d(option = "Cirrhilabrus_solorensis", direction = -1) +  
+    scale_color_fish_d(option = "Coris_gaimard", direction = -1) +  
   theme(axis.text.x = element_text(angle = 90)) +
   xlab("Substrate types") +
   ylab("% of observations")
@@ -706,7 +706,7 @@ ggplot(fish.sub.compare) + geom_col(aes(x = sub.types, y = total, fill = type), 
 # plot substrate %s across all transects
 
 ggplot(percent.sub) + geom_point(aes(sub.types,percent,  colour = sub.types), size = 5, show.legend = T) +
-    scale_color_fish_d(option = "Cirrhilabrus_solorensis", direction = -1) +  
+    scale_color_fish_d(option = "Coris_gaimard", direction = -1) +  
   theme(axis.text.x = element_text(angle = 90)) +
   xlab("Substrates") +
   ylab("% observed")
@@ -714,7 +714,83 @@ ggplot(percent.sub) + geom_point(aes(sub.types,percent,  colour = sub.types), si
 # plot mean fish sub use against mean sub availability (don't worry about error for now)
 
 ggplot(fish.sub.use) + geom_point(aes(fish.occurance, substrate.occurance, colour = sub.types), size = 5, show.legend = T) +
-    scale_color_fish_d(option = "Cirrhilabrus_solorensis", direction = -1) +  
+    scale_color_fish_d(option = "Coris_gaimard", direction = -1) +  
+  theme(axis.text.x = element_text(angle = 90)) +
+  xlab("% Substrate available") +
+  ylab("% fish observed") 
+
+```
+
+### SUBSTRATE USE BY ROCKFISH ONLY
+
+``` {r, echo = F}
+
+rockfish <- all.data %>% filter(Species %in% c('Yelloweye rockfish', 'QUillback rockfish', 'Rockfish uniden.', 'Greenstriped rockfish', 'Puget Sound rockfish', 'Tiger rockfish', 'Canary rockfish', 'Redstripe rockfish', 'Copper rockfish', 'Yellowtail rockfish'))
+
+#fish densities in relation to substrate types
+
+rfish.sub <- rockfish %>% group_by(Survey.abbrv, Species, RCA, NAME, AREA, simple.sub, simple.bio) %>% summarise(total.fish = sum(Count), transect.area = mean(transect.area))
+
+# make a column combining sub and bio columns
+rfish.sub <- rfish.sub %>% unite(sub.types, simple.sub:simple.bio, remove = FALSE)
+
+# total number of fish on each sub.type by transect
+rfish.sub.types <- rfish.sub %>% group_by(Survey.abbrv, RCA, sub.types) %>% summarise(all.fish = sum(total.fish))
+
+# proportion of total fish on a transect on each sub.type
+
+rfish.sub.types <- rfish.sub.types %>% add_count(Survey.abbrv, wt = all.fish)
+
+rfish.sub.types <- rfish.sub.types %>% mutate(percent = (all.fish/n))
+
+# total % fish on different sup types across all transects
+
+rall.fish.types <- rfish.sub.types %>% group_by(sub.types) %>% summarise(fish.mean.percent = mean(percent), fish.sd.percent = sd(percent))
+
+# merge all.fish.types and all.types to plot % fish occurance against % substrate occurance
+
+rfish.sub.use <- left_join(rall.fish.types, all.types, by = "sub.types")
+
+# rename columns
+
+rfish.sub.use <- rfish.sub.use %>% rename(rfish.occurance = fish.mean.percent, substrate.occurance = mean.percent)
+```
+
+### PLOTS OF ROCKFISH HABITAT USE
+
+```{r, echo = F}
+
+# plot rockfish % occurrences across all transects
+
+ggplot(rfish.sub.types) + geom_point(aes(sub.types,percent,  colour = sub.types), size = 5, show.legend = F) +
+    scale_color_fish_d(option = "Coris_gaimard", direction = -1) +  
+  theme(axis.text.x = element_text(angle = 90)) +
+  xlab("Substrates") +
+  ylab("% fish observed")
+
+# plot mean % rockfish occurances 
+
+ggplot(rfish.sub.use) + geom_point(aes( sub.types,rfish.occurance, colour = sub.types), size = 5, show.legend = F) +
+    scale_color_fish_d(option = "Coris_gaimard", direction = -1) +  
+  theme(axis.text.x = element_text(angle = 90)) +
+  ylab("% fish observed") 
+
+# make into bar plot, first need to convert to long format
+rfish.sub.compare <- rfish.sub.use %>% select(sub.types, rfish.occurance, substrate.occurance)
+rfish.sub.compare <- gather(rfish.sub.use, type, total,rfish.occurance, substrate.occurance) #Create long format
+rfish.sub.compare
+
+# bar plot of mean % rockfish occurances and mean % sub occurances over all transects
+ggplot(rfish.sub.compare) + geom_col(aes(x = sub.types, y = total, fill = type), position = "dodge") +
+    scale_color_fish_d(option = "Coris_gaimard", direction = -1) +  
+  theme(axis.text.x = element_text(angle = 90)) +
+  xlab("Substrate types") +
+  ylab("% of observations")
+
+# plot mean rockfish sub use against mean sub availability (don't worry about error for now)
+
+ggplot(rfish.sub.use) + geom_point(aes(rfish.occurance, substrate.occurance, colour = sub.types), size = 5, show.legend = T) +
+    scale_color_fish_d(option = "Coris_gaimard", direction = -1) +  
   theme(axis.text.x = element_text(angle = 90)) +
   xlab("% Substrate available") +
   ylab("% fish observed") 

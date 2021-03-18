@@ -259,7 +259,7 @@ lasers (width was measured every 30 seconds).
 These were determined by combining transect areas with fish abundances
 and so we have one density per species per transect.
 
-Fish densities by RCA
+Fish densities by RCA coloured by region
 
     ## Warning: Removed 15 rows containing missing values (geom_point).
 
@@ -412,36 +412,7 @@ all.types.by.RCA
 
 ### PLOTS OF FISH HABITAT USE
 
-``` r
-# plot fish % occurrences across all transects
-
-ggplot(fish.sub.types) + geom_point(aes(sub.types,percent,  colour = sub.types), size = 5, show.legend = F) +
-    scale_color_fish_d(option = "Cirrhilabrus_solorensis", direction = -1) +  
-  theme(axis.text.x = element_text(angle = 90)) +
-  xlab("Substrates") +
-  ylab("% fish observed")
-```
-
-![](ROV_fish_analysis_files/figure-gfm/unnamed-chunk-20-1.png)<!-- -->
-
-``` r
-# plot mean % fish occurances 
-
-ggplot(fish.sub.use) + geom_point(aes( sub.types,fish.occurance, colour = sub.types), size = 5, show.legend = F) +
-    scale_color_fish_d(option = "Cirrhilabrus_solorensis", direction = -1) +  
-  theme(axis.text.x = element_text(angle = 90)) +
-  xlab("% Substrate available") +
-  ylab("% fish observed") 
-```
-
-![](ROV_fish_analysis_files/figure-gfm/unnamed-chunk-20-2.png)<!-- -->
-
-``` r
-# make into bar plot, first need to convert to long format
-fish.sub.compare <- fish.sub.use %>% select(sub.types, fish.occurance, substrate.occurance)
-fish.sub.compare <- gather(fish.sub.use, type, total,fish.occurance, substrate.occurance) #Create long format
-fish.sub.compare
-```
+![](ROV_fish_analysis_files/figure-gfm/unnamed-chunk-20-1.png)<!-- -->![](ROV_fish_analysis_files/figure-gfm/unnamed-chunk-20-2.png)<!-- -->
 
     ## # A tibble: 18 x 5
     ##    sub.types               fish.sd.percent sd.percent type                 total
@@ -465,37 +436,38 @@ fish.sub.compare
     ## 17 rock_emergent                     0.285    0.263   substrate.occurance 0.183 
     ## 18 rock_encrusting                   0.170    0.133   substrate.occurance 0.0948
 
-``` r
-# bar plot of mean % fish occurances and mean % sub occurances over all transects
-ggplot(fish.sub.compare) + geom_col(aes(x = sub.types, y = total, fill = type), position = "dodge") +
-    scale_color_fish_d(option = "Cirrhilabrus_solorensis", direction = -1) +  
-  theme(axis.text.x = element_text(angle = 90)) +
-  xlab("Substrate types") +
-  ylab("% of observations")
-```
+![](ROV_fish_analysis_files/figure-gfm/unnamed-chunk-20-3.png)<!-- -->![](ROV_fish_analysis_files/figure-gfm/unnamed-chunk-20-4.png)<!-- -->![](ROV_fish_analysis_files/figure-gfm/unnamed-chunk-20-5.png)<!-- -->
 
-![](ROV_fish_analysis_files/figure-gfm/unnamed-chunk-20-3.png)<!-- -->
+### SUBSTRATE USE BY ROCKFISH ONLY
 
-``` r
-# plot substrate %s across all transects
+    ## `summarise()` regrouping output by 'Survey.abbrv', 'Species', 'RCA', 'NAME', 'AREA', 'simple.sub' (override with `.groups` argument)
 
-ggplot(percent.sub) + geom_point(aes(sub.types,percent,  colour = sub.types), size = 5, show.legend = T) +
-    scale_color_fish_d(option = "Cirrhilabrus_solorensis", direction = -1) +  
-  theme(axis.text.x = element_text(angle = 90)) +
-  xlab("Substrates") +
-  ylab("% observed")
-```
+    ## `summarise()` regrouping output by 'Survey.abbrv', 'RCA' (override with `.groups` argument)
 
-![](ROV_fish_analysis_files/figure-gfm/unnamed-chunk-20-4.png)<!-- -->
+    ## `summarise()` ungrouping output (override with `.groups` argument)
 
-``` r
-# plot mean fish sub use against mean sub availability (don't worry about error for now)
+### PLOTS OF ROCKFISH HABITAT USE
 
-ggplot(fish.sub.use) + geom_point(aes(fish.occurance, substrate.occurance, colour = sub.types), size = 5, show.legend = T) +
-    scale_color_fish_d(option = "Cirrhilabrus_solorensis", direction = -1) +  
-  theme(axis.text.x = element_text(angle = 90)) +
-  xlab("% Substrate available") +
-  ylab("% fish observed") 
-```
+![](ROV_fish_analysis_files/figure-gfm/unnamed-chunk-22-1.png)<!-- -->![](ROV_fish_analysis_files/figure-gfm/unnamed-chunk-22-2.png)<!-- -->
 
-![](ROV_fish_analysis_files/figure-gfm/unnamed-chunk-20-5.png)<!-- -->
+    ## # A tibble: 16 x 5
+    ##    sub.types               fish.sd.percent sd.percent type                 total
+    ##    <chr>                             <dbl>      <dbl> <chr>                <dbl>
+    ##  1 mixed coarse_bare                 0.236    0.152   rfish.occurance     0.214 
+    ##  2 mixed coarse_emergent             0.382    0.00974 rfish.occurance     0.289 
+    ##  3 mixed coarse_encrusting           0.303   NA       rfish.occurance     0.346 
+    ##  4 mixed fine_bare                   0.332    0.290   rfish.occurance     0.636 
+    ##  5 mixed fine_emergent               0.172    0.181   rfish.occurance     0.191 
+    ##  6 rock_bare                         0.326    0.202   rfish.occurance     0.447 
+    ##  7 rock_emergent                     0.289    0.263   rfish.occurance     0.310 
+    ##  8 rock_encrusting                   0.143    0.133   rfish.occurance     0.305 
+    ##  9 mixed coarse_bare                 0.236    0.152   substrate.occurance 0.117 
+    ## 10 mixed coarse_emergent             0.382    0.00974 substrate.occurance 0.0260
+    ## 11 mixed coarse_encrusting           0.303   NA       substrate.occurance 0.0333
+    ## 12 mixed fine_bare                   0.332    0.290   substrate.occurance 0.625 
+    ## 13 mixed fine_emergent               0.172    0.181   substrate.occurance 0.208 
+    ## 14 rock_bare                         0.326    0.202   substrate.occurance 0.284 
+    ## 15 rock_emergent                     0.289    0.263   substrate.occurance 0.183 
+    ## 16 rock_encrusting                   0.143    0.133   substrate.occurance 0.0948
+
+![](ROV_fish_analysis_files/figure-gfm/unnamed-chunk-22-3.png)<!-- -->![](ROV_fish_analysis_files/figure-gfm/unnamed-chunk-22-4.png)<!-- -->
