@@ -32,12 +32,9 @@ from WDFW.
 
 <div class="figure" style="text-align: center">
 
-<img src="C:/Users/FrancisF/Documents/ROV analysis/ROV2018/transects.png" alt="RCAs and 2018 Vector ROV transects from QGIS" width="100%" />
-
+<img src="C:/Users/FrancisF/Documents/ROV2018/transects.png" alt="RCAs and 2018 Vector ROV transects from QGIS" width="100%" />
 <p class="caption">
-
 RCAs and 2018 Vector ROV transects from QGIS
-
 </p>
 
 </div>
@@ -78,8 +75,6 @@ included in the model?
 
 Total fish seen in and out of RCAs
 
-    ## `summarise()` ungrouping output (override with `.groups` argument)
-
     ## # A tibble: 2 x 2
     ##   RCA   total
     ##   <chr> <dbl>
@@ -87,8 +82,6 @@ Total fish seen in and out of RCAs
     ## 2 OUT    1479
 
 Types of primary substrate and how many times they were observed
-
-    ## `summarise()` ungrouping output (override with `.groups` argument)
 
     ## # A tibble: 8 x 2
     ##   Substrate total
@@ -103,8 +96,6 @@ Types of primary substrate and how many times they were observed
     ## 8 S             2
 
 Number of fish seen by transect
-
-    ## `summarise()` ungrouping output (override with `.groups` argument)
 
     ## # A tibble: 83 x 2
     ##    SurveyID  total
@@ -315,7 +306,7 @@ A series of denisity plots coloured by different variables
 
 ### Quillback Densities
 
-    ## `summarise()` regrouping output by 'Survey.abbrv', 'Species' (override with `.groups` argument)
+    ## `summarise()` has grouped output by 'Survey.abbrv', 'Species'. You can override using the `.groups` argument.
 
     ## Warning: Removed 2 rows containing missing values (geom_point).
 
@@ -388,9 +379,9 @@ all.types.by.RCA
 
 ### FISH OCCURANCES IN RELATION TO SUBSTRATE
 
-    ## `summarise()` regrouping output by 'Survey.abbrv', 'Species', 'RCA', 'NAME', 'AREA', 'simple.sub' (override with `.groups` argument)
+    ## `summarise()` has grouped output by 'Survey.abbrv', 'Species', 'RCA', 'NAME', 'AREA', 'simple.sub'. You can override using the `.groups` argument.
 
-    ## `summarise()` regrouping output by 'Survey.abbrv', 'RCA' (override with `.groups` argument)
+    ## `summarise()` has grouped output by 'Survey.abbrv', 'RCA'. You can override using the `.groups` argument.
 
     ## # A tibble: 219 x 5
     ## # Groups:   Survey.abbrv, RCA [86]
@@ -407,8 +398,6 @@ all.types.by.RCA
     ##  9 Exp5_P1      OUT   mixed fine_bare           11    84
     ## 10 Exp5_P1      OUT   mixed fine_emergent       12    84
     ## # ... with 209 more rows
-
-    ## `summarise()` ungrouping output (override with `.groups` argument)
 
 ### PLOTS OF FISH HABITAT USE
 
@@ -440,11 +429,9 @@ all.types.by.RCA
 
 ### SUBSTRATE USE BY ROCKFISH ONLY
 
-    ## `summarise()` regrouping output by 'Survey.abbrv', 'Species', 'RCA', 'NAME', 'AREA', 'simple.sub' (override with `.groups` argument)
+    ## `summarise()` has grouped output by 'Survey.abbrv', 'Species', 'RCA', 'NAME', 'AREA', 'simple.sub'. You can override using the `.groups` argument.
 
-    ## `summarise()` regrouping output by 'Survey.abbrv', 'RCA' (override with `.groups` argument)
-
-    ## `summarise()` ungrouping output (override with `.groups` argument)
+    ## `summarise()` has grouped output by 'Survey.abbrv', 'RCA'. You can override using the `.groups` argument.
 
 ### PLOTS OF ROCKFISH HABITAT USE
 

@@ -16,10 +16,12 @@ We currently do not have size data for the fish observations from the stereo cam
 
 An additional data set is in Biigle and consists of video grabs from SD, GoPro, and stereo cameras to compare detectability between the three types of video. These stills have been annotated but have not been sized using laser points. I am going to talk to Jessica about exporting the files cleanly but I (or someone) should also get sizes out of these images so that they can be compared the the stereo data once we get it from WDFW. 
 
+Dana noted that the non-indian arm explore transects around Northumberland channel were conducted quite far away from the RCA because there were a lot of nets in the water. They do seem to be about ~4 km from the RCA so might need to remove these from some of the analyses.
+
 ## Basic Information from SD video and fish observations
 
 ![map](transects.png)
-```{r map, fig.align = 'center', out.width = "100%", fig.cap = "RCAs and 2018 Vector ROV transects from QGIS", echo = FALSE}
+```{r map, fig.align = 'center', out.width = "100%", fig.cap = "RCAs and 2018 Vector ROV transects from QGIS", include = FALSE}
 # include a map image that I saved from QGIS 
 knitr::include_graphics(here::here("transects.png"))
 ```
@@ -33,6 +35,9 @@ knitr::include_graphics(here::here("transects.png"))
 library(janitor)
 library(tidyverse)
 library(fishualize)
+library(nlme)
+library(reshape2)
+library(vegan)
 
 # read in csvs
 fish <- read_csv("2018_Vector_fish_with_coords.csv")
@@ -176,7 +181,7 @@ width <- width %>% mutate(actual.width = (Screen_width*(10/Laser_width)))
 glimpse(width)
 summary(width)
 # look at average width and SD around that for each transect
-avg.width <- width %>% filter(!is.na(actual.width)) %>%  group_by(SurveyID) %>% summarise(mean.width = mean(actual.width), sd.width = (sd(actual.width))) #ugh I feel like there is a lot of variation
+avg.width <- width %>% filter(!is.na(actual.width)) %>%  group_by(SurveyID) %>% summarise(mean.width = mean(actual.width), sd.width = (sd(actual.width)), mean.depth = mean(Depth)) #ugh I feel like there is a lot of variation
 
 # let's just plot all of the widths over a transect, there is quite a lot of variation 
 
@@ -235,7 +240,13 @@ avg.width
 
 lengths <- lengths %>% mutate(Survey.abbrv = substr(SurveyID,0,7))
 
-# lengths is missing H022 because the track is missing I think and H0107
+lengths <- lengths %>% select(Transect, mean.length, SurveyID, Survey.abbrv)
+
+# add in a row for 107 because we know that the estimated length is 430 m according to the word doc "2018 Vector survey tracakline and video editing notes" even though there is no official NMEA for it
+
+lengths <- lengths %>% add_row(Transect = "H107", mean.length = 430, SurveyID = "H107_P1_1", Survey.abbrv = "H107_P1")
+
+# lengths is missing H022 because the track is missing I think and H0107 so we can't calculate densities for fish on these transects
 
 # join lengths and avg.width by that column
 
@@ -243,7 +254,7 @@ transect.size <- left_join(lengths, avg.width, by = "Survey.abbrv")
 
 # remove unecessary columns from transect.size
 
-transect.size <- transect.size %>% select(Transect, SurveyID, Survey.abbrv, mean.length, mean.width)
+transect.size <- transect.size %>% select(Transect, SurveyID, Survey.abbrv, mean.length, mean.width, mean.depth)
 
 # add a column for transect area (need to divide mean width by 100 because I think it is in cm and the length is in m)
 
@@ -253,7 +264,7 @@ transect.size <- transect.size %>% mutate(area = mean.length*(mean.width/100))
 
 # 
 areas <- transect.size %>% group_by(Survey.abbrv) %>% 
-  summarize(transect.area = sum(area))
+  summarize(transect.area = sum(area), depth = mean(mean.depth))
 ```
 
 ```{r, combining areas with fish data, include = FALSE}
@@ -300,10 +311,10 @@ all.data <- all.data %>%  mutate(simple.bio = case_when(Biocover == "bare" ~ "ba
 # summarize fish abundances by transect and species and divide by areas to get density of species per transect. NOTE: THERE ARE NAs BECAUSE THERE IS NO LENGTH DATA FOR TRANSECTS H107 and H022 FOR SOME REASON. MAYBE I NEED TO CHECK IN WITH WDFW ABOUT THIS. Should sort this out at some point because there are fish on those transects. Also need to add in teh one with no fish. ALSO I think there are lengths for but no fish on H044 and H069-------------------
 
 
-fish.density <- all.data %>% group_by(Survey.abbrv, Species, RCA, NAME, AREA) %>% summarise(total.fish = sum(Count), transect.area = mean(transect.area)) %>%
+fish.density <- all.data %>% group_by(Survey.abbrv, Species, RCA, NAME, AREA) %>% summarise(total.fish = sum(Count), transect.area = mean(transect.area), depth = mean(depth), complexity = mean(Complexity)) %>%
   mutate(density = total.fish/transect.area)
 
-rockfish.density <- all.data %>% filter(Species %in% c('Yelloweye rockfish', 'Quillback rockfish', 'Rockfish uniden.', 'Greenstriped rockfish', 'Puget Sound rockfish', 'Tiger rockfish', 'Canary rockfish', 'Redstripe rockfish', 'Copper rockfish', 'Yellowtail rockfish')) %>% group_by(Survey.abbrv, Species, RCA, NAME, AREA) %>% summarise(total.fish = sum(Count), transect.area = mean(transect.area)) %>%
+rockfish.density <- all.data %>% filter(Species %in% c('Yelloweye rockfish', 'Quillback rockfish', 'Rockfish uniden.', 'Greenstriped rockfish', 'Puget Sound rockfish', 'Tiger rockfish', 'Canary rockfish', 'Redstripe rockfish', 'Copper rockfish', 'Yellowtail rockfish')) %>% group_by(Survey.abbrv, Species, RCA, NAME, AREA) %>% summarise(total.fish = sum(Count), transect.area = mean(transect.area), depth = mean(depth), complexity = mean(Complexity)) %>%
   mutate(density = total.fish/transect.area)
 
 ```
@@ -383,6 +394,10 @@ RCAS <- RCAS %>% add_row(Survey.abbrv = "H044_P1", RCA = "IN", NAME = "Galiano I
 
 RCAS <- RCAS %>% add_row(Survey.abbrv = "H069_P1", RCA = "IN", NAME = "Mitlenatch Island")
 
+#remove duplicate rows
+
+RCAS <- unique(RCAS)
+
 # merge RCAS with substrate
 
 substrate <- left_join(substrate, RCAS, by = "Survey.abbrv")
@@ -394,6 +409,7 @@ percent.sub <- substrate %>% group_by(Survey.abbrv, RCA) %>% count(sub.types)
 percent.sub <- percent.sub %>% add_count(Survey.abbrv, wt = n)
 
 percent.sub <- percent.sub %>% mutate(percent = (n/nn))
+
 
 
 # mean and SD of each % of category over all surveys to plot
@@ -412,7 +428,7 @@ Data were collected around `r length(unique(status$NAME))` RCAS.
 list(unique(status$NAME))
 ```
 
-There are  `r length(unique(all.data$SurveyID))` transects that have fish observations. There were (`r status %>% filter(RCA == "OUT") %>% count(RCA) `) outside of RCAs and (`r status %>% filter(RCA == "IN") %>% count(RCA) `) inside RCAs collected overall. From looking at data files such as the substrate data there are actually `r length(unique(substrate$Survey.abbrv))` transects total but I think that some of these were messed up so not used. There are two transects (H044 and H069) that I think were fine (there is width and lenght data) but there were zero fish on them sp they do not show up in the master fish observation csv. I have not yet put these in the dataset but I could just creat rows with zero variable so they get included in the model?  
+There are  `r length(unique(all.data$SurveyID))` transects that have fish observations. There were (`r status %>% filter(RCA == "OUT") %>% count(RCA) `) outside of RCAs and (`r status %>% filter(RCA == "IN") %>% count(RCA) `) inside RCAs collected overall. From looking at data files such as the substrate data there are actually `r length(unique(substrate$Survey.abbrv))` transects total but I think that some of these were messed up so not used. There are two transects (H044 and H069) that I think were fine (there is width and length data) but there were zero fish on them sp they do not show up in the master fish observation csv. I have not yet put these in the dataset but I could just creat rows with zero variable so they get included in the model? We are also missing transect data fro two transects. Transect length is missing for H022 because the track is missing and H0107 has the same issue (although we are able to use an etimate from a line drawn in GIS) so we can't calculate densities for fish on these transects. So for densities we aren't using three of the explore transects as they are too far from the RCA (Northumberland channel) as well as H022 so we only have 79 transects for densities models.
 
 ## BASIC DATA SUMMARIES
 
@@ -583,7 +599,7 @@ ggplot(rockfish.density) + geom_point(aes(RCA, density, colour = Species), alpha
 
 ``` {r, echo = F}
 
-quillback <- all.data %>% filter(Species == "Quillback rockfish") %>% group_by(Survey.abbrv, Species, RCA, NAME, AREA) %>% summarise(total.fish = sum(Count), transect.area = mean(transect.area)) %>%
+quillback <- all.data %>% filter(Species == "Quillback rockfish") %>% group_by(Survey.abbrv, Species, RCA) %>% summarise(total.fish = sum(Count), transect.area = mean(transect.area)) %>%
   mutate(density = total.fish/transect.area)
 
 ggplot(quillback) + geom_point(aes(RCA, density, colour = RCA), alpha = 0.8, size = 5, show.legend = F, position = position_jitter(width = 0.05)) +
@@ -797,6 +813,7 @@ ggplot(rfish.sub.use) + geom_point(aes(rfish.occurance, substrate.occurance, col
   ylab("% fish observed") 
 
 ```
+
 # Prelminary models of fish and habitat
 
 We need to decide what to do with the habitat categories as there are a lot of them.I think I am going to focus on look at percent rock cover and percent emergent cover since everything is proportions and including too many will be problematic as they are related to each other. 
@@ -1165,6 +1182,37 @@ ggplot(zero.densities) + geom_histogram(aes(total.fish, fill = Species), show.le
   theme(axis.text.x = element_text(angle = 90)) +
   xlab("total fish seen on a transect") +
   ylab("count")
+```
+
+## Looking at yelloweye for Dana presentaion for SARA Oct 13 2021
+
+``` {r}
+
+zero.densities  %>% filter(grepl('rockfish', Species)) %>%
+  ggplot() + geom_point(aes(Species, density, colour = Species), alpha = 0.4, size = 3.5, show.legend = F) +
+    scale_color_fish_d(option = "Coris_gaimard", direction = -1) +  
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 90)) + 
+  xlab("Species") +
+  labs(y = bquote("Fish per"~m^2))
+
+zero.densities %>% filter(Species == "Yelloweye rockfish") %>%
+  ggplot() + geom_point(aes(RCA, density), alpha = 0.4, size = 3, show.legend = F) +
+  theme_classic() +
+    add_fishape(family = "Scorpaenidae",
+               option = "Sebastes_caurinus",
+               xmin = 0.5, xmax = 0.9, ymin = 0.009, ymax = 0.011,
+               fill = fish(option = "Coris_gaimard", n = 9)[2],
+               alpha = 0.8) +
+  xlab("Transect location") +
+   labs(y = bquote("Yelloweye per"~m^2))
+
+
+zero.densities %>% filter(Species == "Yelloweye rockfish") %>% summarize(mean(density), sd(density))
+
+
+```
+
 
 ## Community Composition MDS
 
